@@ -324,6 +324,131 @@
       : `<p class="note">Sem edições até 2017 no período selecionado.</p>`;
   }
 
+
+  // ------------------------------------------------------------ mapa das sedes
+  let worldReady = false;
+  const mapAnim = { timer: null, step: -1 };
+
+  async function loadWorld() {
+    const topo = await fetch("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((r) => r.json());
+    echarts.registerMap("world", topojson.feature(topo, topo.objects.countries));
+    worldReady = true;
+    renderMap();
+  }
+
+  function mix(a, b, t) {
+    const pa = a.match(/\w\w/g).map((h) => parseInt(h, 16));
+    const pb = b.match(/\w\w/g).map((h) => parseInt(h, 16));
+    return "#" + pa.map((v, i) => Math.round(v + (pb[i] - v) * t).toString(16).padStart(2, "0")).join("");
+  }
+
+  // trechos entre sedes consecutivas; a cor depende só do ano (estável ao filtrar)
+  function allLegs() {
+    const legs = [];
+    for (let i = 0; i + 1 < editions.length; i++) {
+      const a = editions[i], b = editions[i + 1];
+      if (a.city === b.city) continue;
+      legs.push({ from: a, to: b, t: (a.year - minYear) / Math.max(1, maxYear - 1 - minYear) });
+    }
+    return legs;
+  }
+  const LEGS = allLegs();
+
+  function periodLegs() {
+    return LEGS.filter((l) => l.from.year >= state.from && l.to.year <= state.to);
+  }
+
+  function legLabel(l) {
+    return `${l.from.year} → ${l.to.year}: ${l.from.city} (${l.from.country}) → ${l.to.city} (${l.to.country})`;
+  }
+
+  function renderMap() {
+    if (!worldReady) return;
+    const t = theme();
+    const rs = css("--ramp-start"), re = css("--ramp-end");
+    const legs = periodLegs();
+    const eds = editions.filter((e) => e.year >= state.from && e.year <= state.to);
+    const cities = new Map();
+    for (const e of eds) {
+      if (!cities.has(e.city)) cities.set(e.city, { name: e.city, country: e.country, coord: e.coord, years: [] });
+      cities.get(e.city).years.push(e.year + (e.virtual ? " (virtual)" : ""));
+    }
+    $("legendFrom").textContent = state.from;
+    $("legendTo").textContent = state.to;
+
+    const current = mapAnim.step >= 0 && mapAnim.step < legs.length ? [legs[mapAnim.step]] : [];
+    chart("chMap").setOption({
+      ...base(t),
+      tooltip: { ...base(t).tooltip, trigger: "item" },
+      geo: {
+        map: "world", roam: true, center: [-38, 4], zoom: 2.4, scaleLimit: { min: 1, max: 12 },
+        itemStyle: { areaColor: css("--land"), borderColor: css("--land-border"), borderWidth: 0.6 },
+        emphasis: { disabled: true }, select: { disabled: true }, silent: true,
+      },
+      series: [
+        {
+          id: "legs", type: "lines", coordinateSystem: "geo", zlevel: 1,
+          symbol: ["none", "arrow"], symbolSize: 9,
+          data: legs.map((l) => ({
+            coords: [l.from.coord, l.to.coord], leg: l,
+            lineStyle: { color: mix(rs, re, l.t), width: 2, curveness: 0.28,
+              type: l.from.virtual || l.to.virtual ? "dashed" : "solid",
+              opacity: current.length ? 0.25 : 0.85 },
+          })),
+          emphasis: { lineStyle: { width: 3.5, opacity: 1 } },
+          tooltip: { formatter: (x) => `<b>${x.data.leg.from.year} → ${x.data.leg.to.year}</b><br>${esc(x.data.leg.from.city)} → ${esc(x.data.leg.to.city)}` },
+        },
+        {
+          id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true,
+          effect: { show: true, period: 1.6, trailLength: 0.35, symbol: "arrow", symbolSize: 10, color: t.series[1], loop: true },
+          lineStyle: { color: t.series[1], width: 3, curveness: 0.28, opacity: 0.9 },
+          data: current.map((l) => ({ coords: [l.from.coord, l.to.coord] })),
+        },
+        {
+          id: "cities", type: "scatter", coordinateSystem: "geo", zlevel: 3,
+          data: [...cities.values()].map((c) => ({ name: c.name, value: [...c.coord, c.years.length], city: c })),
+          symbolSize: (v) => 7 + 4 * v[2],
+          itemStyle: { color: t.series[0], borderColor: t.surface, borderWidth: 2 },
+          label: { show: true, formatter: "{b}", position: "right", color: t.text2, fontSize: 11,
+            textBorderColor: t.surface, textBorderWidth: 3 },
+          labelLayout: { hideOverlap: true },
+          emphasis: { scale: 1.3, label: { color: t.text, fontWeight: 600 } },
+          tooltip: { formatter: (x) => { const c = x.data.city;
+            return `<b>${esc(c.name)}</b> · ${esc(c.country)}<br>${c.years.length} ediç${c.years.length > 1 ? "ões" : "ão"}: ${c.years.join(", ")}`; } },
+        },
+      ],
+    }, true);
+    if (mapAnim.step < 0) $("mapCaption").textContent = legs.length ? "" : "Sem deslocamentos no período selecionado.";
+  }
+
+  function stopMap(keepCaption) {
+    clearInterval(mapAnim.timer);
+    mapAnim.timer = null;
+    mapAnim.step = -1;
+    $("mapPlay").textContent = "▶ Reproduzir trajetória";
+    $("mapPlay").setAttribute("aria-pressed", "false");
+    if (!keepCaption) $("mapCaption").textContent = "";
+    renderMap();
+  }
+
+  function stepMap() {
+    const legs = periodLegs();
+    mapAnim.step += 1;
+    if (mapAnim.step >= legs.length) return stopMap(true);
+    $("mapCaption").textContent = `${mapAnim.step + 1}/${legs.length} · ${legLabel(legs[mapAnim.step])}`;
+    renderMap();
+  }
+
+  $("mapPlay").addEventListener("click", () => {
+    if (mapAnim.timer) return stopMap(false);
+    if (!periodLegs().length) return;
+    $("mapPlay").textContent = "■ Parar";
+    $("mapPlay").setAttribute("aria-pressed", "true");
+    mapAnim.step = -1;
+    stepMap();
+    mapAnim.timer = setInterval(stepMap, 2200);
+  });
+
   // ------------------------------------------------------------ ciclo
   function render() {
     aggregate();
@@ -331,12 +456,14 @@
     renderProduction();
     renderAuthorTable();
     renderEditions();
+    if (mapAnim.timer) stopMap(false); else renderMap();
     $("authorDetail").hidden = true;
   }
 
   $("generated").textContent = new Date(data.meta.generated + "T12:00:00").toLocaleDateString("pt-BR");
   setupFilters();
   render();
+  loadWorld().catch(() => { $("mapCaption").textContent = "Não foi possível carregar o mapa-múndi (sem conexão com o CDN)."; });
 
   window.addEventListener("resize", () => Object.values(charts).forEach((c) => c.resize()));
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);

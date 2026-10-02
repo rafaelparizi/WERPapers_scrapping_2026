@@ -75,6 +75,23 @@
     </section>
 
     <h2>Edições e trilhas</h2>
+    <figure class="card map-card">
+      <figcaption class="map-head">
+        <div>
+          <h3>A trajetória do WER pelas cidades-sede</h3>
+          <p class="note">Cada seta liga a sede de um ano à do ano seguinte. Pontos maiores = mais edições. Trechos tracejados envolvem edições virtuais.</p>
+        </div>
+        <div class="map-controls">
+          <button id="mapPlay" type="button" aria-pressed="false">▶ Reproduzir trajetória</button>
+        </div>
+      </figcaption>
+      <div class="map-legend" aria-hidden="true">
+        <span id="legendFrom"></span><span class="ramp"></span><span id="legendTo"></span>
+      </div>
+      <div class="chart" id="chMap"></div>
+      <p class="map-caption" id="mapCaption" aria-live="polite"></p>
+    </figure>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
     <div class="grid">
       <figure class="card">
         <figcaption><h3>Edições por país-sede</h3></figcaption>

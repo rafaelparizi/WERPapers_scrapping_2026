@@ -11,6 +11,16 @@ XLSX = ROOT / "data" / "wer_papers_normalized.xlsx"
 OUT = Path(__file__).resolve().parent / "site" / "data.json"
 
 COUNTRY_FIX = {"Equador": "Ecuador", "Espanha": "Spain", "Brasil": "Brazil"}
+# [longitude, latitude] das cidades-sede
+CITY_COORDS = {
+    "Maringá": [-51.94, -23.42], "Buenos Aires": [-58.38, -34.60], "Rio de Janeiro": [-43.17, -22.91],
+    "Valencia": [-0.38, 39.47], "Piracicaba": [-47.65, -22.73], "Tandil": [-59.13, -37.32],
+    "Porto": [-8.61, 41.15], "Toronto": [-79.38, 43.65], "Barcelona": [2.17, 41.39],
+    "Valparaíso": [-71.62, -33.05], "Cuenca": [-79.00, -2.90], "Montevideo": [-56.16, -34.90],
+    "Pucón": [-71.98, -39.28], "Lima": [-77.04, -12.05], "Quito": [-78.47, -0.18],
+    "Recife": [-34.88, -8.05], "São José dos Campos": [-45.89, -23.18], "Brasilia": [-47.88, -15.79],
+    "Natal": [-35.21, -5.79], "Porto Alegre": [-51.23, -30.03], "La Plata": [-57.95, -34.92],
+}
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|Octuber|November|December)"
 
 
@@ -64,6 +74,10 @@ def main():
         editions.append({"year": int(year), "edition": first.edition, "name": first.edition_name,
                          "location": first.location_date, **parse_location(first.location_date),
                          "n_papers": len(g)})
+        loc = editions[-1]
+        if loc["city"] not in CITY_COORDS:
+            raise SystemExit(f"Sem coordenadas para a sede de {year}: {loc['city']!r} (adicione em CITY_COORDS)")
+        loc["coord"] = CITY_COORDS[loc["city"]]
 
     data = {
         "meta": {"source": "WERpapers - https://werpapers.dimap.ufrn.br/",

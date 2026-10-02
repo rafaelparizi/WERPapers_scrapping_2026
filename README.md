@@ -94,7 +94,7 @@ Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com
 
 ## Dashboard
 
-Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, ranking e tabela pesquisável de autores, edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
+Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, ranking e tabela pesquisável de autores, **mapa da trajetória do WER entre as cidades-sede** (rotas animadas ano a ano), edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
 
 É um site estático (`dashboard/site/`: HTML, JS e `data.json`, com gráficos em Apache ECharts), pronto para o GitHub Pages.
 
