@@ -1,5 +1,7 @@
 # WERpapers: dataset para análise bibliométrica
 
+📊 **Dashboard:** https://rafaelparizi.github.io/WERPapers_scrapping_2026/
+
 Metadados de todos os artigos publicados no **WER – Workshop on Requirements Engineering** (Workshop em Engenharia de Requisitos), de 1998 a 2026, coletados do repositório de acesso aberto [WERpapers](https://werpapers.dimap.ufrn.br/) (ISSN 2675-0066).
 
 - **29 edições** (1998–2026)
@@ -96,9 +98,11 @@ Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com
 
 ## Dashboard
 
+**Online:** https://rafaelparizi.github.io/WERPapers_scrapping_2026/ (publicado pelo GitHub Pages a cada push que altere `dashboard/` ou `data/wer_papers_normalized.xlsx`).
+
 Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, ranking e tabela pesquisável de autores, **mapa da trajetória do WER entre as cidades-sede** (rotas animadas ano a ano, com zoom em cada trecho e velocidade ajustável), edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
 
-É um site estático (`dashboard/site/`: HTML, JS e `data.json`, com gráficos em Apache ECharts), pronto para o GitHub Pages.
+É um site estático (`dashboard/site/`: HTML, JS e `data.json`, com gráficos em Apache ECharts), publicado pelo workflow `.github/workflows/pages.yml`.
 
 **Rodar com Docker:**
 
