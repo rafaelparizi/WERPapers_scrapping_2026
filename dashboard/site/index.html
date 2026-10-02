@@ -7,155 +7,209 @@
   <meta name="description" content="Indicadores bibliométricos do WER - Workshop on Requirements Engineering (1998-2026)">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 </head>
 <body>
-  <header class="page-header">
-    <div>
-      <h1>WER em números</h1>
-      <p class="subtitle">Workshop on Requirements Engineering &middot; artigos publicados de 1998 a 2026</p>
+  <aside class="sidebar" id="sidebar" aria-label="Menu principal">
+    <div class="brand">
+      <div class="brand-title">WER em números</div>
+      <div class="brand-sub">Workshop on Requirements Engineering &middot; 1998–2026</div>
     </div>
-    <div class="filters" role="group" aria-label="Período">
-      <label>De <select id="yearFrom"></select></label>
-      <label>Até <select id="yearTo"></select></label>
-      <button id="resetPeriod" type="button">Todo o período</button>
+    <nav>
+      <a href="#dashboard" data-view="dashboard">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4zm0 7h6v-5H4zm10 0h6v-9h-6zm0-16v5h6V4z"/></svg>Dashboard</a>
+      <a href="#autores" data-view="autores">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0 2c-3.3 0-7 1.7-7 4v2h14v-2c0-2.3-3.7-4-7-4m8-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6m1 2h-1.2c1.3 1 2.2 2.3 2.2 4v2h4v-2c0-2-2.7-3.6-5-4"/></svg>Autores</a>
+      <a href="#edicoes" data-view="edicoes">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7m0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5"/></svg>Edições</a>
+      <a href="#trilhas" data-view="trilhas">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v3H4zm0 5.5h10v3H4zM4 16h13v3H4z"/></svg>Trilhas</a>
+      <a href="#dados" data-view="dados">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16l-5-5h3V4h4v7h3zm-8 2h16v2H4z"/></svg>Dados</a>
+    </nav>
+    <div class="sidebar-foot">
+      Fonte: <a href="https://werpapers.dimap.ufrn.br/" target="_blank" rel="noopener">WERpapers</a><br>
+      Dados de <span id="generated"></span><br>
+      <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026" target="_blank" rel="noopener">Repositório no GitHub</a>
     </div>
-  </header>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
 
-  <main>
-    <section class="kpis" id="kpis" aria-label="Resumo"></section>
+  <div class="app">
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false">☰</button>
+      <h1 id="viewTitle">Dashboard</h1>
+      <div class="filters" role="group" aria-label="Período">
+        <label>De <select id="yearFrom"></select></label>
+        <label>Até <select id="yearTo"></select></label>
+        <button id="resetPeriod" type="button">Todo o período</button>
+      </div>
+    </header>
 
-    <h2>Produção e autoria</h2>
-    <div class="grid">
-      <figure class="card">
-        <figcaption><h3>Artigos por ano</h3></figcaption>
-        <div class="chart" id="chPapers"></div>
-      </figure>
-      <figure class="card">
-        <figcaption><h3>Autores distintos por ano</h3></figcaption>
-        <div class="chart" id="chAuthorsYear"></div>
-      </figure>
-      <figure class="card">
-        <figcaption><h3>Média de autores por artigo</h3></figcaption>
-        <div class="chart" id="chAvgAuthors"></div>
-      </figure>
-      <figure class="card">
-        <figcaption><h3>Número de autores por artigo</h3></figcaption>
-        <div class="chart" id="chTeamSize"></div>
-      </figure>
-      <figure class="card wide">
-        <figcaption>
-          <h3>Produção por década</h3>
-          <p class="note">As décadas têm números diferentes de edições (1990: só 1998–1999; 2020: 2020–2026), por isso o gráfico compara a média de artigos por edição. O total está no rótulo de cada barra.</p>
-        </figcaption>
-        <div class="decades">
-          <div class="chart" id="chDecades"></div>
-          <div class="table-wrap decades-table">
-            <table id="decadeTable">
-              <thead><tr><th>Década</th><th class="num">Edições</th><th class="num">Artigos</th><th class="num">Artigos/edição</th>
-                <th class="num">Autores</th><th class="num">Estreantes</th><th class="num">Autores/artigo</th></tr></thead>
+    <main>
+      <!-- ============================================================ Dashboard -->
+      <section class="view" data-view="dashboard" aria-label="Dashboard">
+        <div class="kpis" id="kpis"></div>
+        <div class="grid">
+          <figure class="card">
+            <figcaption><h3>Artigos por ano</h3></figcaption>
+            <div class="chart" id="chPapers"></div>
+          </figure>
+          <figure class="card">
+            <figcaption><h3>Autores distintos por ano</h3></figcaption>
+            <div class="chart" id="chAuthorsYear"></div>
+          </figure>
+          <figure class="card">
+            <figcaption><h3>Média de autores por artigo</h3></figcaption>
+            <div class="chart" id="chAvgAuthors"></div>
+          </figure>
+          <figure class="card">
+            <figcaption><h3>Número de autores por artigo</h3></figcaption>
+            <div class="chart" id="chTeamSize"></div>
+          </figure>
+          <figure class="card wide">
+            <figcaption>
+              <h3>Produção por década</h3>
+              <p class="note">As décadas têm números diferentes de edições (1990: só 1998–1999; 2020: 2020–2026), por isso o gráfico compara a média de artigos por edição. O total está no rótulo de cada barra.</p>
+            </figcaption>
+            <div class="decades">
+              <div class="chart" id="chDecades"></div>
+              <div class="table-wrap decades-table">
+                <table id="decadeTable">
+                  <thead><tr><th>Década</th><th class="num">Edições</th><th class="num">Artigos</th><th class="num">Artigos/edição</th>
+                    <th class="num">Autores</th><th class="num">Estreantes</th><th class="num">Autores/artigo</th></tr></thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </figure>
+          <figure class="card wide">
+            <figcaption>
+              <h3>Autores novos e recorrentes por ano</h3>
+              <p class="note">Novo = primeira participação no WER naquele ano (considerando toda a série).</p>
+            </figcaption>
+            <div class="chart" id="chNewAuthors"></div>
+          </figure>
+          <figure class="card wide">
+            <figcaption><h3>Autores mais produtivos</h3><p class="note">Top 20 por número de artigos no período. Veja todos em <a href="#autores">Autores</a>.</p></figcaption>
+            <div class="chart" id="chTopAuthors"></div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ============================================================ Autores -->
+      <section class="view" data-view="autores" aria-label="Autores" hidden>
+        <div class="card table-card">
+          <div class="table-head">
+            <h3>Todos os autores</h3>
+            <input id="authorSearch" type="search" placeholder="Buscar autor..." aria-label="Buscar autor">
+          </div>
+          <div class="table-wrap">
+            <table id="authorTable">
+              <thead><tr>
+                <th data-sort="name">Autor</th><th data-sort="n" class="num">Artigos</th>
+                <th data-sort="first" class="num">Primeiro ano</th><th data-sort="last" class="num">Último ano</th>
+                <th data-sort="coauthors" class="num">Coautores</th>
+              </tr></thead>
               <tbody></tbody>
             </table>
           </div>
+          <p class="note" id="authorCount"></p>
+          <div id="authorDetail" class="detail" hidden></div>
         </div>
-      </figure>
-      <figure class="card wide">
-        <figcaption>
-          <h3>Autores novos e recorrentes por ano</h3>
-          <p class="note">Novo = primeira participação no WER naquele ano (considerando toda a série).</p>
-        </figcaption>
-        <div class="chart" id="chNewAuthors"></div>
-      </figure>
-      <figure class="card wide">
-        <figcaption><h3>Autores mais produtivos</h3><p class="note">Top 20 por número de artigos no período.</p></figcaption>
-        <div class="chart" id="chTopAuthors"></div>
-      </figure>
-    </div>
+      </section>
 
-    <section class="card table-card">
-      <div class="table-head">
-        <h3>Todos os autores</h3>
-        <input id="authorSearch" type="search" placeholder="Buscar autor..." aria-label="Buscar autor">
-      </div>
-      <div class="table-wrap">
-        <table id="authorTable">
-          <thead><tr>
-            <th data-sort="name">Autor</th><th data-sort="n" class="num">Artigos</th>
-            <th data-sort="first" class="num">Primeiro ano</th><th data-sort="last" class="num">Último ano</th>
-            <th data-sort="coauthors" class="num">Coautores</th>
-          </tr></thead>
-          <tbody></tbody>
-        </table>
-      </div>
-      <p class="note" id="authorCount"></p>
-      <div id="authorDetail" class="detail" hidden></div>
-    </section>
-
-    <h2>Edições e trilhas</h2>
-    <figure class="card map-card">
-      <figcaption class="map-head">
-        <div>
-          <h3>A trajetória do WER pelas cidades-sede</h3>
-          <p class="note">Cada seta liga a sede de um ano à do ano seguinte; o número junto à ponta é o ano da edição de chegada. Pontos maiores = mais edições. Trechos tracejados envolvem edições virtuais.</p>
+      <!-- ============================================================ Edições -->
+      <section class="view" data-view="edicoes" aria-label="Edições" hidden>
+        <figure class="card map-card">
+          <figcaption class="map-head">
+            <div>
+              <h3>A trajetória do WER pelas cidades-sede</h3>
+              <p class="note">Cada seta liga a sede de um ano à do ano seguinte; o número junto à ponta é o ano da edição de chegada. Pontos maiores = mais edições. Trechos tracejados envolvem edições virtuais.</p>
+            </div>
+            <div class="map-controls">
+              <label class="speed">Velocidade
+                <select id="mapSpeed">
+                  <option value="7000">Lenta (7 s por trecho)</option>
+                  <option value="4500" selected>Normal (4,5 s)</option>
+                  <option value="2500">Rápida (2,5 s)</option>
+                </select>
+              </label>
+              <button id="mapPlay" type="button" aria-pressed="false">▶ Reproduzir trajetória</button>
+            </div>
+          </figcaption>
+          <div class="map-legend" aria-hidden="true">
+            <span id="legendFrom"></span><span class="ramp"></span><span id="legendTo"></span>
+          </div>
+          <div class="map-wrap">
+            <div class="chart" id="chMap"></div>
+            <div class="map-flag" id="mapFlag" hidden>
+              <img id="mapFlagImg" alt="">
+              <div><div class="map-flag-ed" id="mapFlagEd"></div><div class="map-flag-city" id="mapFlagCity"></div></div>
+            </div>
+          </div>
+          <p class="map-caption" id="mapCaption" aria-live="polite"></p>
+        </figure>
+        <div class="grid">
+          <figure class="card">
+            <figcaption><h3>Edições por país-sede</h3></figcaption>
+            <div class="chart" id="chCountries"></div>
+          </figure>
+          <div class="card table-card flush">
+            <h3>Edições</h3>
+            <div class="table-wrap">
+              <table id="editionTable">
+                <thead><tr><th class="num">Ano</th><th>Edição</th><th>Sede</th><th>País</th><th class="num">Artigos</th></tr></thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <p class="note">Sede conforme a página de cada edição no WERpapers. Em 2010 a página inicial do site indica Montevidéu (Uruguai), mas a página da edição indica Cuenca (Equador).</p>
+          </div>
         </div>
-        <div class="map-controls">
-          <label class="speed">Velocidade
-            <select id="mapSpeed">
-              <option value="7000">Lenta (7 s por trecho)</option>
-              <option value="4500" selected>Normal (4,5 s)</option>
-              <option value="2500">Rápida (2,5 s)</option>
-            </select>
-          </label>
-          <button id="mapPlay" type="button" aria-pressed="false">▶ Reproduzir trajetória</button>
+      </section>
+
+      <!-- ============================================================ Trilhas -->
+      <section class="view" data-view="trilhas" aria-label="Trilhas" hidden>
+        <figure class="card">
+          <figcaption><h3>Artigos por trilha (2018 em diante)</h3>
+            <p class="note">A partir de 2018 os artigos são organizados por tipo de submissão. Até 2017 eram organizados em sessões temáticas (lista abaixo).</p></figcaption>
+          <div class="chart" id="chTracks"></div>
+        </figure>
+        <div class="card table-card">
+          <h3>Sessões temáticas (1998–2017)</h3>
+          <div id="sessions" class="sessions"></div>
         </div>
-      </figcaption>
-      <div class="map-legend" aria-hidden="true">
-        <span id="legendFrom"></span><span class="ramp"></span><span id="legendTo"></span>
-      </div>
-      <div class="map-wrap">
-        <div class="chart" id="chMap"></div>
-        <div class="map-flag" id="mapFlag" hidden>
-          <img id="mapFlagImg" alt="">
-          <div><div class="map-flag-ed" id="mapFlagEd"></div><div class="map-flag-city" id="mapFlagCity"></div></div>
+      </section>
+
+      <!-- ============================================================ Dados -->
+      <section class="view" data-view="dados" aria-label="Dados" hidden>
+        <div class="card prose">
+          <h3>Downloads</h3>
+          <ul class="downloads">
+            <li><a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/wer_papers_normalized.xlsx">wer_papers_normalized.xlsx</a>
+              <span>Planilha final: 554 artigos (sem prefácios) com autores normalizados; aba <code>authorships</code> com uma linha por artigo e autor.</span></li>
+            <li><a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/wer_papers.csv">wer_papers.csv</a>
+              <span>Todas as 562 entradas (inclui prefácios), com autores originais e normalizados, abstract, keywords e DOI.</span></li>
+            <li><a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/wer_authorships.csv">wer_authorships.csv</a>
+              <span>Formato longo (artigo × autor), pronto para análises de produtividade e coautoria.</span></li>
+            <li><a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/wer_papers.bib">wer_papers.bib</a>
+              <span>Entradas BibTeX fornecidas pelo WERpapers (Zotero, Mendeley).</span></li>
+            <li><a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/gephi/coauthorship.gexf">coauthorship.gexf</a>
+              <span>Rede de coautoria para o Gephi, com atributos e linha do tempo por ano. Também em CSV:
+                <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/gephi/coauthorship_nodes.csv">nós</a> e
+                <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026/raw/main/data/gephi/coauthorship_edges.csv">arestas</a>.</span></li>
+          </ul>
         </div>
-      </div>
-      <p class="map-caption" id="mapCaption" aria-live="polite"></p>
-    </figure>
-    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-    <div class="grid">
-      <figure class="card">
-        <figcaption><h3>Edições por país-sede</h3></figcaption>
-        <div class="chart" id="chCountries"></div>
-      </figure>
-      <figure class="card">
-        <figcaption><h3>Artigos por trilha (2018 em diante)</h3>
-          <p class="note">Até 2017 os artigos eram organizados em sessões temáticas (lista abaixo).</p></figcaption>
-        <div class="chart" id="chTracks"></div>
-      </figure>
-    </div>
-
-    <section class="card table-card">
-      <h3>Edições</h3>
-      <div class="table-wrap">
-        <table id="editionTable">
-          <thead><tr><th class="num">Ano</th><th>Edição</th><th>Sede</th><th>País</th><th class="num">Artigos</th></tr></thead>
-          <tbody></tbody>
-        </table>
-      </div>
-      <p class="note">Sede conforme a página de cada edição no WERpapers. Em 2010 a página inicial do site indica Montevidéu (Uruguai), mas a página da edição indica Cuenca (Equador).</p>
-    </section>
-
-    <section class="card table-card">
-      <h3>Sessões temáticas (1998–2017)</h3>
-      <div id="sessions" class="sessions"></div>
-    </section>
-  </main>
-
-  <footer class="page-footer">
-    <p>Fonte: <a href="https://werpapers.dimap.ufrn.br/" target="_blank" rel="noopener">WERpapers</a> (ISSN 2675-0066, Dimap/UFRN).
-      Nomes de autores normalizados e validados manualmente. Prefácios excluídos.
-      Dados gerados em <span id="generated"></span>.
-      <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026" target="_blank" rel="noopener">Repositório</a>.</p>
-  </footer>
+        <div class="card prose">
+          <h3>Metodologia</h3>
+          <p>Os metadados (título, autores, resumo, palavras-chave, DOI, trilha e sede) foram coletados de todas as edições do <a href="https://werpapers.dimap.ufrn.br/" target="_blank" rel="noopener">WERpapers</a> (ISSN 2675-0066), repositório de acesso aberto mantido pelo Dimap/UFRN.</p>
+          <p>Os nomes de autores foram normalizados automaticamente (grafias, abreviações, acentos, separação incorreta) e validados manualmente; homônimos foram separados por artigo. Os prefácios foram excluídos das análises.</p>
+          <p>Limitações: DOIs existem apenas a partir de 2018; o site não informa afiliação nem país dos autores; os indicadores contam artigos publicados no WER, não citações.</p>
+          <p>Código, dados e histórico de decisões: <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026" target="_blank" rel="noopener">github.com/rafaelparizi/WERPapers_scrapping_2026</a>.</p>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <script src="app.js"></script>
 </body>

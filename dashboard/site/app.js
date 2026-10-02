@@ -224,6 +224,8 @@
         itemStyle: { color: t.series[0], borderRadius: [0, 4, 4, 0] },
         label: { show: true, position: "right", color: t.text2, fontSize: 11 } }],
     }, true);
+    chart("chTopAuthors").off("click");
+    chart("chTopAuthors").on("click", (x) => openAuthor(x.name));
   }
 
 
@@ -320,6 +322,11 @@
       series: [{ type: "bar", data: perYear, itemStyle: barStyle(t.series[0]), barMaxWidth: 22 }],
     }, true);
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function openAuthor(name) {
+    if (location.hash !== "#autores") location.hash = "autores";
+    setTimeout(() => showAuthor(name), 50);
   }
 
   $("authorTable").addEventListener("click", (e) => {
@@ -628,6 +635,36 @@
     stepMap();
   });
 
+
+  // ------------------------------------------------------------ navegação (menu lateral)
+  const VIEWS = { dashboard: "Dashboard", autores: "Autores", edicoes: "Edições", trilhas: "Trilhas", dados: "Dados" };
+
+  function setMenu(open) {
+    document.body.classList.toggle("menu-open", open);
+    $("scrim").hidden = !open;
+    $("menuBtn").setAttribute("aria-expanded", String(open));
+  }
+
+  function route() {
+    const view = location.hash.slice(1) in VIEWS ? location.hash.slice(1) : "dashboard";
+    document.querySelectorAll("section.view").forEach((sec) => { sec.hidden = sec.dataset.view !== view; });
+    document.querySelectorAll(".sidebar nav a").forEach((a) => {
+      if (a.dataset.view === view) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    $("viewTitle").textContent = VIEWS[view];
+    document.title = `${VIEWS[view]} · WER Bibliometria`;
+    if (view !== "edicoes" && mapAnim.timer) stopMap(false);
+    setMenu(false);
+    window.scrollTo(0, 0);
+    // gráficos criados com a seção oculta precisam ser redimensionados ao aparecer
+    requestAnimationFrame(() => Object.values(charts).forEach((c) => c.resize()));
+  }
+
+  $("menuBtn").addEventListener("click", () => setMenu(!document.body.classList.contains("menu-open")));
+  $("scrim").addEventListener("click", () => setMenu(false));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
+  window.addEventListener("hashchange", route);
+
   // ------------------------------------------------------------ ciclo
   function render() {
     aggregate();
@@ -643,6 +680,7 @@
   $("generated").textContent = new Date(data.meta.generated + "T12:00:00").toLocaleDateString("pt-BR");
   setupFilters();
   render();
+  route();
   loadWorld().catch(() => { $("mapCaption").textContent = "Não foi possível carregar o mapa-múndi (sem conexão com o CDN)."; });
 
   window.addEventListener("resize", () => Object.values(charts).forEach((c) => c.resize()));
