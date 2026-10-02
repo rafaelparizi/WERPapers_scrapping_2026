@@ -21,6 +21,8 @@ CITY_COORDS = {
     "Recife": [-34.88, -8.05], "São José dos Campos": [-45.89, -23.18], "Brasilia": [-47.88, -15.79],
     "Natal": [-35.21, -5.79], "Porto Alegre": [-51.23, -30.03], "La Plata": [-57.95, -34.92],
 }
+COUNTRY_ISO = {"Brazil": "br", "Argentina": "ar", "Spain": "es", "Portugal": "pt", "Canada": "ca",
+               "Chile": "cl", "Ecuador": "ec", "Uruguay": "uy", "Peru": "pe"}
 MONTHS = r"(January|February|March|April|May|June|July|August|September|October|Octuber|November|December)"
 
 
@@ -78,6 +80,9 @@ def main():
         if loc["city"] not in CITY_COORDS:
             raise SystemExit(f"Sem coordenadas para a sede de {year}: {loc['city']!r} (adicione em CITY_COORDS)")
         loc["coord"] = CITY_COORDS[loc["city"]]
+        if loc["country"] not in COUNTRY_ISO:
+            raise SystemExit(f"Sem código ISO para o país de {year}: {loc['country']!r} (adicione em COUNTRY_ISO)")
+        loc["iso"] = COUNTRY_ISO[loc["country"]]
 
     data = {
         "meta": {"source": "WERpapers - https://werpapers.dimap.ufrn.br/",

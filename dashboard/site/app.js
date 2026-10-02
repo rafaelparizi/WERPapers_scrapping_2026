@@ -334,6 +334,7 @@
     echarts.registerMap("world", topojson.feature(topo, topo.objects.countries));
     worldReady = true;
     renderMap();
+    bindMapHover();
   }
 
   function mix(a, b, t) {
@@ -395,14 +396,19 @@
               type: l.from.virtual || l.to.virtual ? "dashed" : "solid",
               opacity: current.length ? 0.25 : 0.85 },
           })),
-          emphasis: { lineStyle: { width: 3.5, opacity: 1 } },
+          label: { show: !current.length, position: "insideEndTop", formatter: (x) => x.data.leg.to.year,
+            color: t.text2, fontSize: 10, fontWeight: 600, textBorderColor: t.surface, textBorderWidth: 3, distance: 4 },
+          labelLayout: { hideOverlap: true },
+          emphasis: { lineStyle: { width: 3.5, opacity: 1 }, label: { show: true, color: t.text, fontSize: 12 } },
           tooltip: { formatter: (x) => `<b>${x.data.leg.from.year} → ${x.data.leg.to.year}</b><br>${esc(x.data.leg.from.city)} → ${esc(x.data.leg.to.city)}` },
         },
         {
           id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true,
           effect: { show: true, period: 1.6, trailLength: 0.35, symbol: "arrow", symbolSize: 10, color: t.series[1], loop: true },
           lineStyle: { color: t.series[1], width: 3, curveness: 0.28, opacity: 0.9 },
-          data: current.map((l) => ({ coords: [l.from.coord, l.to.coord] })),
+          label: { show: true, position: "insideEndTop", formatter: (x) => x.data.year, distance: 6,
+            color: t.text, fontSize: 14, fontWeight: 700, textBorderColor: t.surface, textBorderWidth: 4 },
+          data: current.map((l) => ({ coords: [l.from.coord, l.to.coord], year: l.to.year })),
         },
         {
           id: "cities", type: "scatter", coordinateSystem: "geo", zlevel: 3,
@@ -418,7 +424,36 @@
         },
       ],
     }, true);
+    setFlag(current.length ? current[0].to : eds[eds.length - 1]);
     if (mapAnim.step < 0) $("mapCaption").textContent = legs.length ? "" : "Sem deslocamentos no período selecionado.";
+  }
+
+  function setFlag(ed, years) {
+    const box = $("mapFlag");
+    if (!ed) { box.hidden = true; return; }
+    box.hidden = false;
+    $("mapFlagImg").src = `https://cdn.jsdelivr.net/npm/flag-icons@7/flags/4x3/${ed.iso}.svg`;
+    $("mapFlagImg").alt = `Bandeira: ${ed.country}`;
+    $("mapFlagEd").textContent = years || ed.edition;
+    $("mapFlagCity").textContent = `${ed.city}, ${ed.country}${ed.virtual ? " · virtual" : ""}`;
+  }
+
+  // passar o mouse numa cidade mostra a bandeira dela (fora da animação)
+  function bindMapHover() {
+    const c = chart("chMap");
+    c.off("mouseover"); c.off("mouseout");
+    c.on("mouseover", { seriesId: "cities" }, (x) => {
+      if (mapAnim.timer) return;
+      const city = x.data.city;
+      const ed = editions.filter((e) => e.city === city.name && e.year >= state.from && e.year <= state.to).pop();
+      setFlag(ed, city.years.length > 1 ? `WER ${city.years.map((y) => String(y).slice(0, 4)).join(", ")}` : null);
+    });
+    c.on("mouseover", { seriesId: "legs" }, (x) => { if (!mapAnim.timer) setFlag(x.data.leg.to); });
+    c.on("mouseout", () => {
+      if (mapAnim.timer) return;
+      const eds = editions.filter((e) => e.year >= state.from && e.year <= state.to);
+      setFlag(eds[eds.length - 1]);
+    });
   }
 
   function stopMap(keepCaption) {
