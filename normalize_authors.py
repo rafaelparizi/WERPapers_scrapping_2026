@@ -163,6 +163,102 @@ def build_clusters(counts: Counter) -> dict[str, dict]:
     return result
 
 
+# ---------------------------------------------------------------- planilha com destaque
+
+def write_xlsx(out: pd.DataFrame, names_col: pd.Series, mapping: dict, review: set, mp: pd.DataFrame):
+    from openpyxl import Workbook
+    from openpyxl.cell.rich_text import CellRichText, TextBlock
+    from openpyxl.cell.text import InlineFont
+    from openpyxl.styles import Alignment, Font, PatternFill
+
+    fills = {"revisar": PatternFill("solid", fgColor="F8D7DA"), "ajustado": PatternFill("solid", fgColor="FFF3CD")}
+    font_review = InlineFont(b=True, color="C00000")
+    font_adjusted = InlineFont(b=True, color="9C5700")
+
+    def highlighted(raw: str, names: list[str]):
+        """Texto original de `authors` com os nomes afetados em negrito/cor."""
+        spans = []
+        pos = 0
+        for n in names:
+            kind = "review" if n in review else "adjusted" if n != mapping[n]["canonical"] else None
+            if kind is None:
+                continue
+            m = re.search(re.escape(re.sub(r" Jr\.$", "", n)), raw[pos:], re.I)
+            if m:
+                spans.append((pos + m.start(), pos + m.end(), kind))
+                pos += m.end()
+        if not spans:
+            return raw
+        parts, last = [], 0
+        for a, b, kind in spans:
+            if a > last:
+                parts.append(raw[last:a])
+            parts.append(TextBlock(font_review if kind == "review" else font_adjusted, raw[a:b]))
+            last = b
+        if last < len(raw):
+            parts.append(raw[last:])
+        return CellRichText(parts)
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "papers"
+    cols = list(out.columns)
+    ws.append(cols)
+    for c in ws[1]:
+        c.font = Font(bold=True)
+    ai, si = cols.index("authors"), cols.index("name_status")
+    for (_, row), names in zip(out.iterrows(), names_col):
+        vals = [v.item() if hasattr(v, "item") else v for v in row.tolist()]
+        ws.append(vals)
+        r = ws.max_row
+        status = vals[si]
+        ws.cell(r, ai + 1).value = highlighted(vals[ai], names)
+        if status in fills:
+            for c in ws[r]:
+                c.fill = fills[status]
+    widths = {"title": 60, "authors": 60, "authors_normalized": 60, "name_changes": 60, "abstract": 50,
+              "keywords": 30, "track": 25, "edition_name": 30, "location_date": 25, "paper_url": 25, "pdf_url": 25}
+    for idx, col in enumerate(cols, start=1):
+        ws.column_dimensions[ws.cell(1, idx).column_letter].width = widths.get(col, 12)
+    ws.freeze_panes = "B2"
+    ws.auto_filter.ref = ws.dimensions
+
+    rv = wb.create_sheet("revisar_nomes")
+    rv.append(["variant", "canonical", "rule", "shared_coauthors", "papers"])
+    papers_of: dict[str, list] = {}
+    for pid, names in zip(out["paper_id"], names_col):
+        for n in names:
+            papers_of.setdefault(n, []).append(pid)
+    for _, m in mp[mp.needs_review].iterrows():
+        rv.append([m.variant, m.canonical, m.rule, m.shared_coauthors, ", ".join(papers_of.get(m.variant, []))])
+    for c in rv[1]:
+        c.font = Font(bold=True)
+    for letter, w in zip("ABCDE", (35, 40, 18, 16, 30)):
+        rv.column_dimensions[letter].width = w
+
+    lg = wb.create_sheet("legenda")
+    for line in [
+        ("Situação dos nomes (coluna name_status)",),
+        ("revisar", "Linha em vermelho claro. Há nome cuja normalização é incerta: sem coautor em comum com as demais variantes, união por iniciais, sobrenome que não é o último, ou variante ambígua. O nome aparece em vermelho e negrito na coluna authors."),
+        ("ajustado", "Linha em amarelo. Algum nome foi normalizado ou a separação dos autores foi corrigida. O nome aparece em laranja e negrito na coluna authors."),
+        ("ok", "Sem alteração."),
+        (),
+        ("name_changes", "Lista 'original → canônico [regra]' dos nomes alterados no artigo."),
+        ("revisar_nomes", "Aba com cada nome a revisar e os artigos em que aparece."),
+        ("Como corrigir", "Adicionar linha em data/author_overrides.csv (variant,canonical) e rodar normalize_authors.py. canonical vazio impede a união."),
+    ]:
+        lg.append(line)
+    lg["A1"].font = Font(bold=True)
+    lg["A2"].fill, lg["A3"].fill = fills["revisar"], fills["ajustado"]
+    lg.column_dimensions["A"].width = 18
+    lg.column_dimensions["B"].width = 120
+    for row in lg.iter_rows():
+        for c in row:
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+
+    wb.save(DATA / "wer_papers.xlsx")
+
+
 def main():
     df = pd.read_csv(DATA / "wer_papers.csv", keep_default_na=False)
     df["is_preface"] = df["is_preface"].astype(str) == "True"
@@ -210,18 +306,39 @@ def main():
     mp = mp.sort_values(["canonical", "n_papers_variant"], ascending=[True, False])
     mp.to_csv(DATA / "authors_mapping.csv", index=False, encoding="utf-8-sig")
 
+    # situação dos nomes em cada artigo
+    review = set(mp.loc[mp.needs_review, "variant"])
+    statuses, changes = [], []
+    for raw, names in zip(df["authors"], df["names_"]):
+        items = []
+        for n in names:
+            m = mapping[n]
+            if n in review:
+                items.append(f"{n} → {m['canonical']} [revisar: {m['rule']}]" if n != m["canonical"]
+                             else f"{n} [revisar: {m['rule']}]")
+            elif n != m["canonical"]:
+                items.append(f"{n} → {m['canonical']} [{m['rule']}]")
+        if [x.strip() for x in raw.split(";") if x.strip()] != names:
+            items.insert(0, "[separação/grafia dos autores corrigida]")
+        changes.append("; ".join(items))
+        statuses.append("revisar" if any(n in review for n in names) else "ajustado" if items else "ok")
+    df["name_status"] = statuses
+    df["name_changes"] = changes
+
     cols = [c for c in df.columns if c != "names_"]
     i = cols.index("authors")
-    cols.insert(i + 1, cols.pop(cols.index("authors_normalized")))
+    for k, c in enumerate(["authors_normalized", "name_status", "name_changes"], start=1):
+        cols.insert(i + k, cols.pop(cols.index(c)))
     out = df[cols]
     out.to_csv(DATA / "wer_papers.csv", index=False, encoding="utf-8-sig")
-    out.drop(columns="bibtex").to_excel(DATA / "wer_papers.xlsx", index=False)
+    write_xlsx(out.drop(columns="bibtex"), df["names_"], mapping, review, mp)
     (DATA / "wer_papers.json").write_text(json.dumps(out.to_dict("records"), ensure_ascii=False, indent=2), encoding="utf-8")
 
     merged = mp[mp.variant != mp.canonical]
     print(f"Grafias originais: {len(mapping)} | Autores após normalização: {mp.canonical.nunique()}")
     print(f"Variantes unidas: {len(merged)} | por regra: {merged.rule.value_counts().to_dict()}")
     print(f"Ambíguas (não unidas): {(mp.rule == 'ambiguous').sum()} | Marcadas para revisão: {mp.needs_review.sum()}")
+    print(f"Artigos por situação dos nomes: {out.name_status.value_counts().to_dict()}")
 
 
 if __name__ == "__main__":

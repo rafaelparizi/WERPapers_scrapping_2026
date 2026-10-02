@@ -11,7 +11,7 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 
 | Arquivo | Conteúdo |
 |---|---|
-| [`data/wer_papers.xlsx`](data/wer_papers.xlsx) | Planilha para abrir no Excel (sem a coluna BibTeX) |
+| [`data/wer_papers.xlsx`](data/wer_papers.xlsx) | Planilha para abrir no Excel (sem a coluna BibTeX). Linhas coloridas e nomes destacados conforme a situação dos nomes (ver abaixo), com as abas `revisar_nomes` e `legenda` |
 | [`data/wer_papers.csv`](data/wer_papers.csv) | CSV em UTF-8 com BOM (acentos corretos no Excel) |
 | [`data/wer_papers.json`](data/wer_papers.json) | Os mesmos registros em JSON |
 | [`data/wer_papers.bib`](data/wer_papers.bib) | Entradas BibTeX fornecidas pelo WERpapers (importáveis no Zotero/Mendeley) |
@@ -33,6 +33,8 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | `title` | Título |
 | `authors` | Autores como aparecem no site, separados por `;` |
 | `authors_normalized` | Autores com nomes normalizados, separados por `; ` |
+| `name_status` | `revisar` (normalização incerta), `ajustado` (nomes normalizados ou separação corrigida) ou `ok` |
+| `name_changes` | Alterações feitas nos nomes do artigo: `original → canônico [regra]` |
 | `n_authors` | Número de autores (após corrigir a separação) |
 | `abstract` | Resumo |
 | `keywords` | Palavras-chave, separadas por `;` |
@@ -86,7 +88,7 @@ No site, a mesma pessoa aparece com várias grafias. Jaelson Castro, por exemplo
 4. **Escolhe o nome canônico**: a forma mais frequente entre as que têm o primeiro nome por extenso.
 5. **Aplica `author_overrides.csv`** por último. Ali ficam as decisões manuais, como separar homônimos (“Ricardo Almeida” ≠ “Ricardo de Almeida Falbo”) e corrigir erros de digitação da fonte (“Bejamim” → “Benjamim”).
 
-Em `authors_mapping.csv`, a coluna `needs_review` marca as uniões menos seguras: variantes sem coautor em comum com o restante do grupo, uniões por iniciais e sobrenome que não é o último. Para corrigir um caso, adicione uma linha em `author_overrides.csv` e rode o script de novo. Deixe `canonical` vazio para impedir a união.
+Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com o nome incerto em vermelho e negrito na coluna `authors`. Os artigos `ajustado` aparecem em amarelo, com os nomes alterados em laranja. Em `authors_mapping.csv`, a coluna `needs_review` marca as uniões menos seguras: variantes sem coautor em comum com o restante do grupo, uniões por iniciais e sobrenome que não é o último. Para corrigir um caso, adicione uma linha em `author_overrides.csv` e rode o script de novo. Deixe `canonical` vazio para impedir a união.
 
 ## Limitações conhecidas
 
