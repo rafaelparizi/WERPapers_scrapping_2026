@@ -67,7 +67,7 @@ wer200001,2000,1,Francisco A. C. Pinheiro,Francisco A. C. Pinheiro,Formal and In
 wer200002,2000,1,Jaime de Melo Sabát Neto,Jaime de Melo Sabát Neto,Non-Functional Requirements for Object-Oriented Modeling
 wer200002,2000,2,Julio Cesar Sampaio do Prado Leite,Julio Cesar Sampaio do Prado Leite,Non-Functional Requirements for Object-Oriented Modeling
 wer200002,2000,3,Luiz Márcio Cysneiros,Luiz Marcio Cysneiros,Non-Functional Requirements for Object-Oriented Modeling
-wer200003,2000,1,Juan Sánchez Díaz,Juan Sánchez,Prototipado de interfaces de usuario a partir de escenarios y modelos UML1
+wer200003,2000,1,Juan Sánchez Díaz,Juan Sánchez Díaz,Prototipado de interfaces de usuario a partir de escenarios y modelos UML1
 wer200003,2000,2,Alberto Aparicio Vila,Alberto Aparicio Vila,Prototipado de interfaces de usuario a partir de escenarios y modelos UML1
 wer200003,2000,3,Oscar Pastor López,Oscar Pastor,Prototipado de interfaces de usuario a partir de escenarios y modelos UML1
 wer200003,2000,4,Juan Jose Fons,Juan Jose Fons,Prototipado de interfaces de usuario a partir de escenarios y modelos UML1
@@ -137,13 +137,13 @@ wer200112,2001,1,Julio Cesar Sampaio do Prado Leite,Julio Cesar Sampaio do Prado
 wer200112,2001,2,Soeli T. Fiorini,Soeli T. Fiorini,Requirements Processes: An Experience Report
 wer200112,2001,3,Amador Durán,Amador Durán,Requirements Processes: An Experience Report
 wer200112,2001,4,Beatriz Bernárdez,Beatriz Bernárdez,Requirements Processes: An Experience Report
-wer200112,2001,5,Juan Sánchez Diaz,Juan Sánchez,Requirements Processes: An Experience Report
+wer200112,2001,5,Juan Sánchez Diaz,Juan Sánchez Díaz,Requirements Processes: An Experience Report
 wer200112,2001,6,Emílio Insfrán Pelozo,Emílio Insfrán Pelozo,Requirements Processes: An Experience Report
 wer200113,2001,1,Luiz Eduardo Galvão Martins,Luiz Eduardo Galvão Martins,Um Modelo de Avaliação de Especificações Semi-Formais de Requisitos de Software Baseado na Teoria dos Conjuntos Nebulosos
 wer200113,2001,2,Ana Estela Antunes da Silva,Ana Estela Antunes da Silva,Um Modelo de Avaliação de Especificações Semi-Formais de Requisitos de Software Baseado na Teoria dos Conjuntos Nebulosos
 wer200114,2001,1,Maria Carmen Penadés,Maria Carmen Penadés,Automatic Derivation of Workflow Specifications from Organizational Structures and Use Cases
 wer200114,2001,2,José H. Canós,José H. Canós,Automatic Derivation of Workflow Specifications from Organizational Structures and Use Cases
-wer200114,2001,3,Juan Sánchez,Juan Sánchez,Automatic Derivation of Workflow Specifications from Organizational Structures and Use Cases
+wer200114,2001,3,Juan Sánchez,Juan Sánchez Díaz,Automatic Derivation of Workflow Specifications from Organizational Structures and Use Cases
 wer200115,2001,1,Amador Durán,Amador Durán,An XML-Based Approach for the Automatic Verification of Software Requirements Specifications
 wer200115,2001,2,Beatriz Bernárdez,Beatriz Bernárdez,An XML-Based Approach for the Automatic Verification of Software Requirements Specifications
 wer200115,2001,3,Antonio Ruiz,Antonio Ruiz,An XML-Based Approach for the Automatic Verification of Software Requirements Specifications
@@ -184,17 +184,17 @@ wer200207,2002,2,J.F.B. Castro,Jaelson Castro,Modeling Organizational Architectu
 wer200208,2002,1,H. Estrada,Hugo Estrada,Generación de Especificaciones de Requisitos de Software a Partir de Modelos de Negocios: Un Enfoque
 wer200208,2002,2,A. Martinez,Alicia Martínez,Generación de Especificaciones de Requisitos de Software a Partir de Modelos de Negocios: Un Enfoque
 wer200208,2002,3,O. Pastor,Oscar Pastor,Generación de Especificaciones de Requisitos de Software a Partir de Modelos de Negocios: Un Enfoque
-wer200208,2002,4,J. Sanchez,Juan Sánchez,Generación de Especificaciones de Requisitos de Software a Partir de Modelos de Negocios: Un Enfoque
-wer200209,2002,1,M. Toranzo,Marco A. Toranzo Céspedes,Uma Proposta para Melhorar o Rastreamento de Requisitos
+wer200208,2002,4,J. Sanchez,Juan Sánchez Díaz,Generación de Especificaciones de Requisitos de Software a Partir de Modelos de Negocios: Un Enfoque
+wer200209,2002,1,M. Toranzo,Marco Toranzo,Uma Proposta para Melhorar o Rastreamento de Requisitos
 wer200209,2002,2,J.F.B. Castro,Jaelson Castro,Uma Proposta para Melhorar o Rastreamento de Requisitos
-wer200209,2002,3,E. Mello,E. Mello,Uma Proposta para Melhorar o Rastreamento de Requisitos
+wer200209,2002,3,E. Mello,Elton Mello,Uma Proposta para Melhorar o Rastreamento de Requisitos
 wer200210,2002,1,V. Anaya,V. Anaya,SmartTrace: Una Herramienta para Trazabilidad de Requisitos en Proyectos basados en UML
 wer200210,2002,2,P. Letelier,P. Letelier,SmartTrace: Una Herramienta para Trazabilidad de Requisitos en Proyectos basados en UML
 wer200211,2002,1,M. Sánchez-Alonso,M. Sánchez-Alonso,Specifying Cooperation Environment Requirements using Formal and Graphical Techniques
 wer200211,2002,2,J.M. Murillo,J.M. Murillo,Specifying Cooperation Environment Requirements using Formal and Graphical Techniques
-wer200212,2002,1,D.F. Togneri,D.F. Togneri,Supporting Cooperative Requirements Engineering with an Automated Tool
+wer200212,2002,1,D.F. Togneri,Denise Franzotti Togneri,Supporting Cooperative Requirements Engineering with an Automated Tool
 wer200212,2002,2,R. de A. Falbo,Ricardo de Almeida Falbo,Supporting Cooperative Requirements Engineering with an Automated Tool
-wer200212,2002,3,C. S. de Menezes,C. S. de Menezes,Supporting Cooperative Requirements Engineering with an Automated Tool
+wer200212,2002,3,C. S. de Menezes,Crediné Silva de Menezes,Supporting Cooperative Requirements Engineering with an Automated Tool
 wer200213,2002,1,L.E.G. Martins,Luiz Eduardo Galvão Martins,Relato de Experiência de Ensino de Engenharia de Requisitos em um Curso de Mestrado em Sistemas de Informação
 wer200214,2002,1,P. Botella,Pere Botella,Using Quality Models for Assessing COTS Selection
 wer200214,2002,2,X. Burgués,Xavier Burgués,Using Quality Models for Assessing COTS Selection
@@ -212,7 +212,7 @@ wer200217,2002,3,R. Corchuelo,Rafael Corchuelo,Using Constraint Programming for 
 wer200217,2002,4,M. Toro,Miguel Toro,Using Constraint Programming for the Automatic Detection of Conflicts in Quality Requirements
 wer200218,2002,1,F.R.S. Paim,F.R.S. Paim,Enhancing Data Warehouse Design with the NFR Framework
 wer200218,2002,2,J.F.B. Castro,Jaelson Castro,Enhancing Data Warehouse Design with the NFR Framework
-wer200219,2002,1,J. Sánchez,Juan Sánchez,VRU: Un Método para Validar Requisitos y Generar Interfaces de Usuario Multiplataforma
+wer200219,2002,1,J. Sánchez,Juan Sánchez Díaz,VRU: Un Método para Validar Requisitos y Generar Interfaces de Usuario Multiplataforma
 wer200219,2002,2,J. Belenguer,J. Belenguer,VRU: Un Método para Validar Requisitos y Generar Interfaces de Usuario Multiplataforma
 wer200219,2002,3,P. Belenguer,P. Belenguer,VRU: Un Método para Validar Requisitos y Generar Interfaces de Usuario Multiplataforma
 wer200219,2002,4,D. Pascual,D. Pascual,VRU: Un Método para Validar Requisitos y Generar Interfaces de Usuario Multiplataforma
@@ -351,7 +351,7 @@ wer200503,2005,1,Ilca Webster,Ilca Webster,A Survey of Good Practices and Misuse
 wer200503,2005,2,Juliana Amaral,Juliana Amaral,A Survey of Good Practices and Misuses for Modelling with i* Framework
 wer200503,2005,3,Luiz Marcio Cysneiros,Luiz Marcio Cysneiros,A Survey of Good Practices and Misuses for Modelling with i* Framework
 wer200504,2005,1,Isabel Díaz,Isabel Díaz,Metamorfosis: Un Marco para el Análisis de Requisitos Funcionales
-wer200504,2005,2,Juan Sánchez,Juan Sánchez,Metamorfosis: Un Marco para el Análisis de Requisitos Funcionales
+wer200504,2005,2,Juan Sánchez,Juan Sánchez Díaz,Metamorfosis: Un Marco para el Análisis de Requisitos Funcionales
 wer200504,2005,3,Oscar Pastor,Oscar Pastor,Metamorfosis: Un Marco para el Análisis de Requisitos Funcionales
 wer200505,2005,1,Alessandro Fantechi,Alessandro Fantechi,A Content Analysis Technique for Inconsistency Detection in Software Requirements Documents
 wer200505,2005,2,Emilio Spinicci,Emilio Spinicci,A Content Analysis Technique for Inconsistency Detection in Software Requirements Documents
@@ -399,7 +399,7 @@ wer200520,2005,1,Xavier Franch,Xavier Franch,Un Marco para la Definición de Mé
 wer200520,2005,2,Gemma Grau,Gemma Grau,Un Marco para la Definición de Métricas sobre Modelos de Dependencias entre Actores
 wer200520,2005,3,Carme Quer,Carme Quer,Un Marco para la Definición de Métricas sobre Modelos de Dependencias entre Actores
 wer200521,2005,1,Isabel Villanueva,Isabel Villanueva,Elicitación de requisitos en sistemas de gestión orientados a procesos
-wer200521,2005,2,Juan Sánchez,Juan Sánchez,Elicitación de requisitos en sistemas de gestión orientados a procesos
+wer200521,2005,2,Juan Sánchez,Juan Sánchez Díaz,Elicitación de requisitos en sistemas de gestión orientados a procesos
 wer200521,2005,3,Óscar Pastor,Oscar Pastor,Elicitación de requisitos en sistemas de gestión orientados a procesos
 wer200522,2005,1,Pablo Thomas,Pablo Thomas,Elicitación de Objetivos a partir de Escenarios
 wer200522,2005,2,Alejandro Oliveros,Alejandro Oliveros,Elicitación de Objetivos a partir de Escenarios
@@ -489,12 +489,12 @@ wer200709,2007,2,Edson Andrade de Moraes,Edson Andrade de Moraes,A Strategy for 
 wer200709,2007,3,Carlos Eduardo Portela Serra de Castro,Carlos Eduardo Portela Serra de Castro,A Strategy for Information Source Identification
 wer200710,2007,1,Jose Luis De la Vara González,Jose Luis De la Vara González,Descomposición de árboles de metas a partir de modelos de procesos
 wer200710,2007,2,David Anes Alcolea,David Anes Alcolea,Descomposición de árboles de metas a partir de modelos de procesos
-wer200710,2007,3,Juan Sánchez Díaz,Juan Sánchez,Descomposición de árboles de metas a partir de modelos de procesos
+wer200710,2007,3,Juan Sánchez Díaz,Juan Sánchez Díaz,Descomposición de árboles de metas a partir de modelos de procesos
 wer200711,2007,1,Silvia Angelica Zanco Ladeira,Silvia Angelica Zanco Ladeira,Guidelines for Business Modeling Elaboration based on Views from Domain Information
 wer200711,2007,2,Maria Istela Cagnin,Maria Istela Cagnin,Guidelines for Business Modeling Elaboration based on Views from Domain Information
 wer200712,2007,1,Gunter Mussbacher,Gunter Mussbacher,Evolving Use Case Maps as a Scenario and Workflow Description Language
 wer200713,2007,1,José Luís De la Vara González,Jose Luis De la Vara González,Integración de un entorno de producción automática de software en un marco de alineamiento estratégico
-wer200713,2007,2,Juan Sánchez Díaz,Juan Sánchez,Integración de un entorno de producción automática de software en un marco de alineamiento estratégico
+wer200713,2007,2,Juan Sánchez Díaz,Juan Sánchez Díaz,Integración de un entorno de producción automática de software en un marco de alineamiento estratégico
 wer200713,2007,3,Óscar Pastor López,Oscar Pastor,Integración de un entorno de producción automática de software en un marco de alineamiento estratégico
 wer200714,2007,1,Alireza Pourshahid,Alireza Pourshahid,Business Process Monitoring and Alignment: An Approach Based on the User Requirements Notation and Business Intelligence Tools
 wer200714,2007,2,Daniel Amyot,Daniel Amyot,Business Process Monitoring and Alignment: An Approach Based on the User Requirements Notation and Business Intelligence Tools
@@ -547,7 +547,7 @@ wer200804,2008,1,Márcia Seabra Cabral,Márcia Seabra Cabral,Aplicação de Téc
 wer200804,2008,2,Fernanda Alencar,Fernanda Alencar,Aplicação de Técnicas de Leitura durante a Análise de Requisitos
 wer200804,2008,3,Jaelson Castro,Jaelson Castro,Aplicação de Técnicas de Leitura durante a Análise de Requisitos
 wer200804,2008,4,Oscar Pastor,Oscar Pastor,Aplicação de Técnicas de Leitura durante a Análise de Requisitos
-wer200804,2008,5,Juan Sánchez,Juan Sánchez,Aplicação de Técnicas de Leitura durante a Análise de Requisitos
+wer200804,2008,5,Juan Sánchez,Juan Sánchez Díaz,Aplicação de Técnicas de Leitura durante a Análise de Requisitos
 wer200805,2008,1,Sri Fatimah Tjong,Sri Fatimah Tjong,Can Rules of Inferences Resolve Coordination Ambiguity in Natural Language Requirements Specification?
 wer200805,2008,2,Daniel M. Berry,Daniel M. Berry,Can Rules of Inferences Resolve Coordination Ambiguity in Natural Language Requirements Specification?
 wer200806,2008,1,Miguel A. Laguna,Miguel A. Laguna,Product Line Requirements: Multi-Paradigm Variability Models
@@ -639,7 +639,7 @@ wer200914,2009,2,Jorge Luis Nicolas Audy,Jorge Luis N. Audy,Towards a requiremen
 wer200914,2009,3,Rafael Prikladnicki,Rafael Prikladnicki,Towards a requirements reuse method using Product Line in distributed environments
 wer201001,2010,1,Emanuel Santos,Emanuel Santos,A Goal-Oriented Approach for Variability in BPMN
 wer201001,2010,2,Jaelson Castro,Jaelson Castro,A Goal-Oriented Approach for Variability in BPMN
-wer201001,2010,3,Juan Sánchez,Juan Sánchez,A Goal-Oriented Approach for Variability in BPMN
+wer201001,2010,3,Juan Sánchez,Juan Sánchez Díaz,A Goal-Oriented Approach for Variability in BPMN
 wer201001,2010,4,Oscar Pastor,Oscar Pastor,A Goal-Oriented Approach for Variability in BPMN
 wer201002,2010,1,Laís Xavier,Laís Xavier,Integração de Requisitos Não-Funcionais a Processos de Negócio: Integrando BPMN e NFR
 wer201002,2010,2,Fernanda Alencar,Fernanda Alencar,Integração de Requisitos Não-Funcionais a Processos de Negócio: Integrando BPMN e NFR
@@ -652,7 +652,7 @@ wer201004,2010,1,Jaime Cazuhiro Ossada,Jaime Cazuhiro Ossada,Um Estudo de Campo 
 wer201004,2010,2,Luiz Eduardo Galvão Martins,Luiz Eduardo Galvão Martins,Um Estudo de Campo sobre o Estado da Prática da Elicitação de Requisitos em Sistemas Embarcados
 wer201005,2010,1,Leo Ordinez,Leo Ordinez,From User Requirements to Tasks Descriptions in Real-Time Systems
 wer201005,2010,2,David Donari,David Donari,From User Requirements to Tasks Descriptions in Real-Time Systems
-wer201005,2010,3,Rodrigo Santos,Rodrigo Santos,From User Requirements to Tasks Descriptions in Real-Time Systems
+wer201005,2010,3,Rodrigo Santos,Rodrigo Santos (arg),From User Requirements to Tasks Descriptions in Real-Time Systems
 wer201005,2010,4,Javier Orozco,Javier Orozco,From User Requirements to Tasks Descriptions in Real-Time Systems
 wer201006,2010,1,Elizabeth Suescun,Elizabeth Suescún Monsalve,Evolución de un Juego Educacional de Ingeniería de Software a través de Técnicas de Elicitación de Requisitos
 wer201006,2010,2,Vera Werneck,Vera Maria Benjamim Werneck,Evolución de un Juego Educacional de Ingeniería de Software a través de Técnicas de Elicitación de Requisitos
@@ -1357,7 +1357,7 @@ wer202207,2022,2,Sidgley C. de Andrade,Sidgley C. de Andrade,Obtendo Casos de Us
 wer202207,2022,3,Ivonei F. da Silva,Ivonei Freitas da Silva,Obtendo Casos de Uso a Partir de Modelos de Processos de Negócio: Uma Revisão Sistemática da Literatura
 wer202207,2022,4,Alexandre L. B. Silva,Alexandre Luiz de Borba Silva,Obtendo Casos de Uso a Partir de Modelos de Processos de Negócio: Uma Revisão Sistemática da Literatura
 wer202207,2022,5,Victor A. Pozzan,Victor Augusto Pozzan,Obtendo Casos de Uso a Partir de Modelos de Processos de Negócio: Uma Revisão Sistemática da Literatura
-wer202207,2022,6,Marco A. Toranzo Céspedes,Marco A. Toranzo Céspedes,Obtendo Casos de Uso a Partir de Modelos de Processos de Negócio: Uma Revisão Sistemática da Literatura
+wer202207,2022,6,Marco A. Toranzo Céspedes,Marco Toranzo,Obtendo Casos de Uso a Partir de Modelos de Processos de Negócio: Uma Revisão Sistemática da Literatura
 wer202208,2022,1,Larissa Barbosa,Larissa Barbosa,Organizing the TD Management Landscape for Requirements and Requirements Documentation Debt
 wer202208,2022,2,Sávio Freire,Sávio Freire,Organizing the TD Management Landscape for Requirements and Requirements Documentation Debt
 wer202208,2022,3,Nicolli Rios,Nicolli Rios,Organizing the TD Management Landscape for Requirements and Requirements Documentation Debt
@@ -1451,7 +1451,7 @@ wer202305,2023,1,Gustavo Cesar Lopes Geraldino,Gustavo Cesar Lopes Geraldino,Pro
 wer202305,2023,2,Victor Francisco Araya Santander,Victor Francisco Araya Santander,Process of Transforming Requirements Elicited with MindMaps into iStar models
 wer202306,2023,1,Alexandre Barbosa,Alexandre Barbosa,ReQSI-CI: Um Catálogo de Requisitos Não-Funcionais para Sistemas de Informação em Cidades Inteligentes sob a Perspectiva de Ecossistemas Digitais
 wer202306,2023,2,Paulo Malcher,Paulo Malcher,ReQSI-CI: Um Catálogo de Requisitos Não-Funcionais para Sistemas de Informação em Cidades Inteligentes sob a Perspectiva de Ecossistemas Digitais
-wer202306,2023,3,Rodrigo Santos,Rodrigo Santos,ReQSI-CI: Um Catálogo de Requisitos Não-Funcionais para Sistemas de Informação em Cidades Inteligentes sob a Perspectiva de Ecossistemas Digitais
+wer202306,2023,3,Rodrigo Santos,Rodrigo Pereira dos Santos,ReQSI-CI: Um Catálogo de Requisitos Não-Funcionais para Sistemas de Informação em Cidades Inteligentes sob a Perspectiva de Ecossistemas Digitais
 wer202307,2023,1,Moniky Ribeiro,Moniky Ribeiro,Requirements4Safety – Construindo uma técnica para modelagem de Requisitos Iniciais de Segurança
 wer202307,2023,2,Jaelson Castro,Jaelson Castro,Requirements4Safety – Construindo uma técnica para modelagem de Requisitos Iniciais de Segurança
 wer202307,2023,3,Ricardo Ramos,Ricardo Ramos,Requirements4Safety – Construindo uma técnica para modelagem de Requisitos Iniciais de Segurança

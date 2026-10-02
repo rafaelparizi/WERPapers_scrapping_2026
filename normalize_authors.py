@@ -5,9 +5,10 @@ Lê data/wer_papers.csv (gerado por scrape_werpapers.py) e grava:
   data/wer_authorships.csv    uma linha por (artigo, autor), formato longo para bibliometria
   data/wer_papers.{csv,xlsx,json} com a coluna nova `authors_normalized`
 
-Correções manuais: data/author_overrides.csv (colunas variant,canonical) é aplicado por último
-e prevalece sobre o agrupamento automático. Use canonical vazio para impedir que uma variante
-seja agrupada (ela fica como está).
+Correções manuais: data/author_overrides.csv (colunas variant,canonical,paper_id) é aplicado por
+último e prevalece sobre o agrupamento automático. Use canonical vazio para impedir que uma variante
+seja agrupada (ela fica como está). Preencha paper_id para aplicar a correção só naquele artigo
+(homônimos com a mesma grafia).
 """
 import json
 import re
@@ -175,12 +176,12 @@ def write_xlsx(out: pd.DataFrame, names_col: pd.Series, mapping: dict, review: s
     font_review = InlineFont(b=True, color="C00000")
     font_adjusted = InlineFont(b=True, color="9C5700")
 
-    def highlighted(raw: str, names: list[str]):
+    def highlighted(raw: str, names: list[str], status: str):
         """Texto original de `authors` com os nomes afetados em negrito/cor."""
         spans = []
         pos = 0
         for n in names:
-            kind = "review" if n in review else "adjusted" if n != mapping[n]["canonical"] else None
+            kind = "review" if n in review and status == "revisar" else "adjusted" if n != mapping[n]["canonical"] else None
             if kind is None:
                 continue
             m = re.search(re.escape(re.sub(r" Jr\.$", "", n)), raw[pos:], re.I)
@@ -212,7 +213,7 @@ def write_xlsx(out: pd.DataFrame, names_col: pd.Series, mapping: dict, review: s
         ws.append(vals)
         r = ws.max_row
         status = vals[si]
-        ws.cell(r, ai + 1).value = highlighted(vals[ai], names)
+        ws.cell(r, ai + 1).value = highlighted(vals[ai], names, vals[si])
         if status in fills:
             for c in ws[r]:
                 c.fill = fills[status]
@@ -259,6 +260,30 @@ def write_xlsx(out: pd.DataFrame, names_col: pd.Series, mapping: dict, review: s
     wb.save(DATA / "wer_papers.xlsx")
 
 
+def write_normalized_xlsx(out: pd.DataFrame, authorships: pd.DataFrame):
+    """Planilha final para análise: sem prefácios, coluna authors = nomes normalizados."""
+    from openpyxl.styles import Font
+
+    papers = out[out["is_preface"].astype(str) != "True"].copy()
+    papers = papers.rename(columns={"authors": "authors_original"}).rename(columns={"authors_normalized": "authors"})
+    cols = ["paper_id", "year", "edition", "edition_name", "location_date", "track", "title", "authors",
+            "n_authors", "abstract", "keywords", "doi", "pdf_url", "paper_url", "issn", "isbn", "publisher",
+            "authors_original"]
+    widths = {"title": 60, "authors": 60, "authors_original": 60, "abstract": 50, "keywords": 30, "track": 25,
+              "edition_name": 30, "location_date": 25, "paper_url": 25, "pdf_url": 25, "author": 35}
+    with pd.ExcelWriter(DATA / "wer_papers_normalized.xlsx", engine="openpyxl") as xw:
+        papers[cols].to_excel(xw, sheet_name="papers", index=False)
+        authorships[["paper_id", "year", "position", "author", "author_original", "title"]].to_excel(
+            xw, sheet_name="authorships", index=False)
+        for ws in xw.book.worksheets:
+            for c in ws[1]:
+                c.font = Font(bold=True)
+                ws.column_dimensions[c.column_letter].width = widths.get(c.value, 12)
+            ws.freeze_panes = "B2"
+            ws.auto_filter.ref = ws.dimensions
+    return len(papers)
+
+
 def main():
     df = pd.read_csv(DATA / "wer_papers.csv", keep_default_na=False)
     df["is_preface"] = df["is_preface"].astype(str) == "True"
@@ -271,20 +296,29 @@ def main():
 
     overrides_path = DATA / "author_overrides.csv"
     if not overrides_path.exists():
-        overrides_path.write_text("variant,canonical\n", encoding="utf-8")
-    for _, o in pd.read_csv(overrides_path, keep_default_na=False).iterrows():
-        if o.variant in mapping:
+        overrides_path.write_text("variant,canonical,paper_id\n", encoding="utf-8")
+    paper_ov: dict[tuple[str, str], str] = {}  # (paper_id, variant) -> canonical
+    for _, o in pd.read_csv(overrides_path, keep_default_na=False, dtype=str).iterrows():
+        if o.variant not in mapping:
+            print(f"Aviso: variante do override não encontrada: {o.variant!r}")
+        elif o.get("paper_id", ""):
+            paper_ov[(o.paper_id, o.variant)] = o.canonical or o.variant
+        else:
             mapping[o.variant].update(canonical=o.canonical or o.variant, rule="manual")
 
-    canon = lambda n: mapping[n]["canonical"]
-    df["authors_normalized"] = df["names_"].map(lambda ns: "; ".join(dict.fromkeys(canon(n) for n in ns)))
+    def canon(n: str, pid: str | None = None) -> str:
+        return paper_ov.get((pid, n), mapping[n]["canonical"])
+
+    df["authors_normalized"] = [
+        "; ".join(dict.fromkeys(canon(n, pid) for n in ns)) for pid, ns in zip(df["paper_id"], df["names_"])]
     df["n_authors"] = df["authors_normalized"].map(lambda s: len([a for a in s.split("; ") if a]))
 
     # formato longo
     rows = [{"paper_id": r.paper_id, "year": r.year, "position": i + 1, "author_original": n,
-             "author": canon(n), "title": r.title}
+             "author": canon(n, r.paper_id), "title": r.title}
             for r in df[~df.is_preface].itertuples() for i, n in enumerate(r.names_)]
-    pd.DataFrame(rows).to_csv(DATA / "wer_authorships.csv", index=False, encoding="utf-8-sig")
+    authorships = pd.DataFrame(rows)
+    authorships.to_csv(DATA / "wer_authorships.csv", index=False, encoding="utf-8-sig")
 
     # tabela de mapeamento para revisão
     papers_per = Counter(r["author_original"] for r in rows)
@@ -293,9 +327,9 @@ def main():
                        for n, m in mapping.items()])
     # evidência por coautoria: a variante tem coautor em comum com as outras variantes do grupo?
     coauth: dict[str, set] = {}
-    for names in df.loc[~df.is_preface, "names_"]:
+    for pid, names in zip(df.loc[~df.is_preface, "paper_id"], df.loc[~df.is_preface, "names_"]):
         for n in names:
-            coauth.setdefault(n, set()).update(canon(o) for o in names if o != n)
+            coauth.setdefault(n, set()).update(canon(o, pid) for o in names if o != n)
     by_canon = mp.groupby("canonical")["variant"].apply(list).to_dict()
     mp["shared_coauthors"] = [
         len(coauth.get(v, set()) & set().union(*(coauth.get(o, set()) for o in by_canon[c] if o != v)))
@@ -309,11 +343,13 @@ def main():
     # situação dos nomes em cada artigo
     review = set(mp.loc[mp.needs_review, "variant"])
     statuses, changes = [], []
-    for raw, names in zip(df["authors"], df["names_"]):
+    for pid, raw, names in zip(df["paper_id"], df["authors"], df["names_"]):
         items = []
         for n in names:
             m = mapping[n]
-            if n in review:
+            if (pid, n) in paper_ov:
+                items.append(f"{n} → {paper_ov[(pid, n)]} [manual]")
+            elif n in review:
                 items.append(f"{n} → {m['canonical']} [revisar: {m['rule']}]" if n != m["canonical"]
                              else f"{n} [revisar: {m['rule']}]")
             elif n != m["canonical"]:
@@ -321,7 +357,8 @@ def main():
         if [x.strip() for x in raw.split(";") if x.strip()] != names:
             items.insert(0, "[separação/grafia dos autores corrigida]")
         changes.append("; ".join(items))
-        statuses.append("revisar" if any(n in review for n in names) else "ajustado" if items else "ok")
+        statuses.append("revisar" if any(n in review and (pid, n) not in paper_ov for n in names)
+                        else "ajustado" if items else "ok")
     df["name_status"] = statuses
     df["name_changes"] = changes
 
@@ -332,13 +369,15 @@ def main():
     out = df[cols]
     out.to_csv(DATA / "wer_papers.csv", index=False, encoding="utf-8-sig")
     write_xlsx(out.drop(columns="bibtex"), df["names_"], mapping, review, mp)
+    n_final = write_normalized_xlsx(out, authorships)
     (DATA / "wer_papers.json").write_text(json.dumps(out.to_dict("records"), ensure_ascii=False, indent=2), encoding="utf-8")
 
     merged = mp[mp.variant != mp.canonical]
-    print(f"Grafias originais: {len(mapping)} | Autores após normalização: {mp.canonical.nunique()}")
+    print(f"Grafias originais: {len(mapping)} | Autores após normalização: {authorships.author.nunique()}")
     print(f"Variantes unidas: {len(merged)} | por regra: {merged.rule.value_counts().to_dict()}")
     print(f"Ambíguas (não unidas): {(mp.rule == 'ambiguous').sum()} | Marcadas para revisão: {mp.needs_review.sum()}")
     print(f"Artigos por situação dos nomes: {out.name_status.value_counts().to_dict()}")
+    print(f"wer_papers_normalized.xlsx: {n_final} artigos (sem prefácios)")
 
 
 if __name__ == "__main__":

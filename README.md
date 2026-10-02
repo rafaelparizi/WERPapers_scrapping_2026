@@ -4,20 +4,21 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 
 - **29 edições** (1998–2026)
 - **554 artigos** + 8 prefácios
-- **932 autores distintos** após normalização (1.130 grafias originais)
+- **932 autores distintos** após normalização e validação manual (1.130 grafias originais)
 - Idiomas: português, espanhol e inglês
 
 ## Arquivos
 
 | Arquivo | Conteúdo |
 |---|---|
+| [`data/wer_papers_normalized.xlsx`](data/wer_papers_normalized.xlsx) | **Planilha final para análise**: 554 artigos, sem prefácios, com a coluna `authors` já normalizada e validada (o nome original fica em `authors_original`). A aba `authorships` traz uma linha por artigo e autor |
 | [`data/wer_papers.xlsx`](data/wer_papers.xlsx) | Planilha para abrir no Excel (sem a coluna BibTeX). Linhas coloridas e nomes destacados conforme a situação dos nomes (ver abaixo), com as abas `revisar_nomes` e `legenda` |
 | [`data/wer_papers.csv`](data/wer_papers.csv) | CSV em UTF-8 com BOM (acentos corretos no Excel) |
 | [`data/wer_papers.json`](data/wer_papers.json) | Os mesmos registros em JSON |
 | [`data/wer_papers.bib`](data/wer_papers.bib) | Entradas BibTeX fornecidas pelo WERpapers (importáveis no Zotero/Mendeley) |
 | [`data/wer_authorships.csv`](data/wer_authorships.csv) | Uma linha por (artigo, autor), com nome original e normalizado: formato pronto para análises de produtividade e coautoria |
 | [`data/authors_mapping.csv`](data/authors_mapping.csv) | Tabela de normalização: grafia original → nome canônico, regra aplicada e marcação de revisão |
-| [`data/author_overrides.csv`](data/author_overrides.csv) | Correções manuais da normalização |
+| [`data/author_overrides.csv`](data/author_overrides.csv) | Correções manuais da normalização (validadas pelos autores do dataset) |
 | [`scrape_werpapers.py`](scrape_werpapers.py) | Script de coleta |
 | [`normalize_authors.py`](normalize_authors.py) | Script de normalização de autores |
 
@@ -86,7 +87,7 @@ No site, a mesma pessoa aparece com várias grafias. Jaelson Castro, por exemplo
 2. **Une grafias equivalentes** sem diferenciar acento, caixa e pontuação, e sem considerar partículas (de, da, del…) nem sufixos (Jr., Neto, Filho).
 3. **Agrupa variantes compatíveis** com a forma mais completa do nome. O primeiro nome precisa coincidir (por extenso ou inicial), cada parte do nome mais curto precisa aparecer, na mesma ordem, no mais longo, e o sobrenome final precisa estar por extenso. Uma variante compatível com duas pessoas diferentes não é unida e recebe a marca `ambiguous`.
 4. **Escolhe o nome canônico**: a forma mais frequente entre as que têm o primeiro nome por extenso.
-5. **Aplica `author_overrides.csv`** por último. Ali ficam as decisões manuais, como separar homônimos (“Ricardo Almeida” ≠ “Ricardo de Almeida Falbo”) e corrigir erros de digitação da fonte (“Bejamim” → “Benjamim”).
+5. **Aplica `author_overrides.csv`** por último. Quando a coluna opcional `paper_id` está preenchida, a correção vale só para aquele artigo, o que resolve homônimos com a mesma grafia (ex.: os três “Rodrigo Santos”). Ali ficam as decisões manuais, como separar homônimos (“Ricardo Almeida” ≠ “Ricardo de Almeida Falbo”) e corrigir erros de digitação da fonte (“Bejamim” → “Benjamim”).
 
 Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com o nome incerto em vermelho e negrito na coluna `authors`. Os artigos `ajustado` aparecem em amarelo, com os nomes alterados em laranja. Em `authors_mapping.csv`, a coluna `needs_review` marca as uniões menos seguras: variantes sem coautor em comum com o restante do grupo, uniões por iniciais e sobrenome que não é o último. Para corrigir um caso, adicione uma linha em `author_overrides.csv` e rode o script de novo. Deixe `canonical` vazio para impedir a união.
 

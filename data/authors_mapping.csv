@@ -35,7 +35,7 @@ Alexandre Lerario,Alexandre Lerário,same_key,1,2,2,False
 Alexandre Luiz de Borba Silva,Alexandre Luiz de Borba Silva,,1,2,,False
 Alexandre L. B. Silva,Alexandre Luiz de Borba Silva,subset,1,2,2,False
 Alexandre Marcos Lins de Vasconcelos,Alexandre Marcos Lins de Vasconcelos,,1,2,,False
-Alexandre M. L. de Vasconcelos,Alexandre Marcos Lins de Vasconcelos,subset,1,2,0,True
+Alexandre M. L. de Vasconcelos,Alexandre Marcos Lins de Vasconcelos,manual,1,2,0,False
 Alexandre Mendonça,Alexandre Mendonça,,1,1,,False
 Alexia Pacheco,Alexia Pacheco,,1,1,,False
 Alexssandro Morgenroth,Alexssandro Morgenroth,,1,1,,False
@@ -99,7 +99,7 @@ Antonio de Padua,Antonio de Padua Albuquerque Oliveira,surname_not_last,1,3,1,Fa
 Apuena Gomes,Apuena Gomes,,2,1,,False
 Ari Melo Mariano,Ari Melo Mariano,,1,1,,False
 Ariadne M. B. R. Carvalho,Ariadne M. B. R. Carvalho,,1,2,,False
-Ariadne Carvalho,Ariadne M. B. R. Carvalho,subset,1,2,0,True
+Ariadne Carvalho,Ariadne M. B. R. Carvalho,manual,1,2,0,False
 Arndt von Staa,Arndt von Staa,,1,1,,False
 Arthur Vieira,Arthur Vieira,,1,1,,False
 Artur Andrade,Artur Andrade,,1,1,,False
@@ -138,7 +138,6 @@ Bruno Pazos,Bruno Pazos,,1,1,,False
 Bruno Rezende,Bruno Rezende,,1,1,,False
 Bruno Santana da Silva,Bruno Santana da Silva,,1,1,,False
 Bárbara Stefani Ranieri,Bárbara Stefani Ranieri,,1,1,,False
-C. S. de Menezes,C. S. de Menezes,,1,1,,False
 Caio Moussa Assumpção,Caio Moussa Assumpção,,1,1,,False
 Caio Steglich,Caio Steglich,,1,1,,False
 Camila Almeida,Camila Almeida,,1,1,,False
@@ -162,7 +161,7 @@ Carlos Eduardo Lacerda Veiga,Carlos Eduardo Lacerda Veiga,,1,1,,False
 Carlos Eduardo Portela Serra de Castro,Carlos Eduardo Portela Serra de Castro,,1,1,,False
 Carlos Eduardo Xavier Correia,Carlos Eduardo Xavier Correia,,1,1,,False
 Carlos Henrique Netto Lahoz,Carlos Henrique Netto Lahoz,,1,2,,False
-Carlos Lahoz,Carlos Henrique Netto Lahoz,subset,1,2,0,True
+Carlos Lahoz,Carlos Henrique Netto Lahoz,manual,1,2,0,False
 Carlos José Pereira de Lucena,Carlos José Pereira de Lucena,,1,1,,False
 Carlos Monsalve,Carlos Monsalve,,1,1,,False
 Carlos Neil,Carlos Neil,,1,1,,False
@@ -204,6 +203,7 @@ Clemente Izurieta,Clemente Izurieta,,1,1,,False
 Cláudia Maria Lima Werner,Cláudia Maria Lima Werner,,1,1,,False
 Cláudia Souza,Cláudia Souza,,1,1,,False
 Cornejo Galo,Cornejo Galo,,1,1,,False
+C. S. de Menezes,Crediné Silva de Menezes,manual,1,1,0,False
 Cristiana De Paulo,Cristiana De Paulo,,1,2,,False
 Cristiana de Paulo,Cristiana De Paulo,same_key,1,2,1,False
 Cristiane Aparecida Lana,Cristiane Aparecida Lana,,1,1,,False
@@ -212,7 +212,6 @@ Cristina Tavares,Cristina Tavares,,1,1,,False
 Cynara Lira de Carvalho Souza,Cynara Lira de Carvalho Souza,,1,1,,False
 Cássio Capucho Peçanha,Cássio Capucho Peçanha,,1,1,,False
 D. Pascual,D. Pascual,,1,1,,False
-D.F. Togneri,D.F. Togneri,,1,1,,False
 D.J. Nunes,D.J. Nunes,,1,1,,False
 Dalessandro S. Vianna,Dalessandro S. Vianna,,1,1,,False
 Damiano Distante,Damiano Distante,,1,1,,False
@@ -242,13 +241,14 @@ Davi de França Carneiro,Davi De França Carneiro,same_key,1,2,2,False
 David Anes Alcolea,David Anes Alcolea,,1,1,,False
 David Donari,David Donari,,1,1,,False
 Davide Bolchini,Davide Bolchini,,2,2,,False
-D. Bolchini,Davide Bolchini,initials,1,2,0,True
+D. Bolchini,Davide Bolchini,manual,1,2,0,False
 Davide Falessi,Davide Falessi,,1,1,,False
 Deivson Albuquerque,Deivson Albuquerque,,1,1,,False
 Delfina Villarreal Garrido,Delfina Villarreal Garrido,,1,1,,False
 Demétrius de Almeida Jubé,Demétrius de Almeida Jubé,,1,1,,False
 Denis Silveira,Denis Silveira,,1,1,,False
 Denise Assis,Denise Assis,,1,1,,False
+D.F. Togneri,Denise Franzotti Togneri,manual,1,1,0,False
 Denise Lazzeri Gastaldo,Denise Lazzeri Gastaldo,,1,1,,False
 Denize Pimenta,Denize Pimenta,,1,1,,False
 Dennis Farfán Lovón,Dennis Farfán Lovón,,1,1,,False
@@ -263,12 +263,11 @@ Décio Fonseca,Décio Fonseca,,1,1,,False
 Dércio Vieira,Dércio Vieira,,1,1,,False
 Dênis Zaniro,Dênis Zaniro,,1,1,,False
 E. Insfrán,E. Insfrán,,1,1,,False
-E. Mello,E. Mello,,1,1,,False
 E. Tejadillos,E. Tejadillos,,1,1,,False
 Eber Schmitz,Eber Schmitz,,1,1,,False
 Ecivaldo Matos,Ecivaldo Matos,,2,1,,False
 Edgar Sarmiento Calisaya,Edgar Sarmiento Calisaya,,1,2,,False
-Edgar Sarmiento,Edgar Sarmiento Calisaya,surname_not_last,1,2,0,True
+Edgar Sarmiento,Edgar Sarmiento Calisaya,manual,1,2,0,False
 Edinelson Aparecido Batista,Edinelson Aparecido Batista,,1,1,,False
 Edna Dias Canedo,Edna Dias Canedo,,8,1,,False
 Edna Pacheco Zanlorenci,Edna Pacheco Zanlorenci,,4,1,,False
@@ -298,6 +297,7 @@ Elizabeth Suescun,Elizabeth Suescún Monsalve,surname_not_last,1,2,2,False
 Elizamara K. Almeida,Elizamara K. Almeida,,1,1,,False
 Ellen Souza,Ellen Souza,,1,1,,False
 Eloisa Toffano S. Masson,Eloisa Toffano S. Masson,,1,1,,False
+E. Mello,Elton Mello,manual,1,1,0,False
 Eltoni Guimarães,Eltoni Guimarães,,1,1,,False
 Elías Roa,Elías Roa,,1,1,,False
 Emanuel Santos,Emanuel Santos,,3,1,,False
@@ -309,10 +309,10 @@ Emílio Insfrán Pelozo,Emílio Insfrán Pelozo,,1,2,,False
 Emilio Insfrán Pelozo,Emílio Insfrán Pelozo,same_key,1,2,0,False
 Enric Mayol,Enric Mayol,,1,1,,False
 Enyo Gonçalves,Enyo Gonçalves,,5,2,,False
-Enyo José Tavares Gonçalves,Enyo Gonçalves,subset,1,2,0,True
+Enyo José Tavares Gonçalves,Enyo Gonçalves,manual,1,2,0,False
 Enzo Giandon,Enzo Giandon,,1,1,,False
 Eric Yu,Eric Yu,,3,2,,False
-Eric S.K. Yu,Eric Yu,subset,1,2,0,True
+Eric S.K. Yu,Eric Yu,manual,1,2,0,False
 Erica Esteves,Erica Esteves,,1,1,,False
 Erica Miranda,Erica Miranda,,2,1,,False
 Erik B. Silva,Erik B. Silva,,1,1,,False
@@ -347,7 +347,7 @@ Felipe dos Santos Rocha,Felipe dos Santos Rocha,,1,1,,False
 Fernanda Alencar,Fernanda Alencar,,27,5,,False
 Fernanda M. R. de Alencar,Fernanda Alencar,subset,4,5,1,False
 Fernanda M. R. Alencar,Fernanda Alencar,subset,3,5,2,False
-Fernanda Maria Ribeiro de Alencar,Fernanda Alencar,subset,1,5,0,True
+Fernanda Maria Ribeiro de Alencar,Fernanda Alencar,manual,1,5,0,False
 F.M.R. Alencar,Fernanda Alencar,initials,1,5,2,False
 Fernanda Baião,Fernanda Baião,,1,1,,False
 Fernanda T. Novo,Fernanda T. Novo,,1,1,,False
@@ -368,7 +368,7 @@ Flávio Pedroza,Flávio Pereira Pedroza,subset,1,2,2,False
 Flávio Ricardo Carpena,Flávio Ricardo Carpena,,1,1,,False
 Franciane Alves,Franciane Alves,,1,1,,False
 Francisco A. C. Pinheiro,Francisco A. C. Pinheiro,,3,2,,False
-F.A.C. Pinheiro,Francisco A. C. Pinheiro,initials,1,2,0,True
+F.A.C. Pinheiro,Francisco A. C. Pinheiro,manual,1,2,0,False
 Francisco Milton Mendes Neto,Francisco Milton Mendes Neto,,1,1,,False
 Fábio Avigo de Castro Pinto,Fábio Avigo de Castro Pinto,,2,1,,False
 Fábio Basso,Fábio Basso,,1,1,,False
@@ -500,7 +500,7 @@ Jobson Luiz Massollar da Silva,Jobson Luiz Massollar da Silva,,1,1,,False
 John D. Mcgregor,John D. Mcgregor,,1,1,,False
 John Mylopoulos,John Mylopoulos,,1,1,,False
 Johnny Cardoso Marques,Johnny Cardoso Marques,,5,2,,False
-Johnny Marques,Johnny Cardoso Marques,subset,1,2,0,True
+Johnny Marques,Johnny Cardoso Marques,manual,1,2,0,False
 Jokin Arizmendi,Jokin Arizmendi,,1,1,,False
 Jon G. Hall,Jon G. Hall,,1,1,,False
 Jonathan Delgado Guerrero,Jonathan Delgado Guerrero,,1,1,,False
@@ -515,7 +515,7 @@ Jorge Ezequiel Moyano,Jorge Ezequiel Moyano,,1,1,,False
 Jorge Fossati,Jorge Fossati,,1,1,,False
 Jorge Hochstetter-Diez,Jorge Hochstetter-Diez,,1,1,,False
 Jorge Luis N. Audy,Jorge Luis N. Audy,,2,2,,False
-Jorge Luis Nicolas Audy,Jorge Luis N. Audy,subset,1,2,0,True
+Jorge Luis Nicolas Audy,Jorge Luis N. Audy,manual,1,2,0,False
 Jorge Luiz Nicolas Audy,Jorge Luiz Nicolas Audy,,2,1,,False
 Jorge M. Montagna,Jorge M. Montagna,,1,1,,False
 Jorge Marchetti,Jorge Marchetti,,1,1,,False
@@ -568,11 +568,11 @@ Juan Pablo Carvallo,Juan Pablo Carvallo,,4,3,,False
 Juan P. Carvallo,Juan Pablo Carvallo,subset,1,3,3,False
 J.P. Carvallo,Juan Pablo Carvallo,initials,1,3,3,False
 Juan Pablo Mighetti,Juan Pablo Mighetti,,1,1,,False
-Juan Sánchez,Juan Sánchez,,5,5,,False
-Juan Sánchez Díaz,Juan Sánchez,surname_not_last,3,5,1,False
-Juan Sánchez Diaz,Juan Sánchez,surname_not_last,1,5,0,True
-J. Sanchez,Juan Sánchez,surname_not_last,1,5,1,False
-J. Sánchez,Juan Sánchez,surname_not_last,1,5,0,True
+Juan Sánchez,Juan Sánchez Díaz,manual,5,5,1,False
+Juan Sánchez Díaz,Juan Sánchez Díaz,manual,3,5,,False
+Juan Sánchez Diaz,Juan Sánchez Díaz,manual,1,5,0,False
+J. Sanchez,Juan Sánchez Díaz,manual,1,5,1,False
+J. Sánchez,Juan Sánchez Díaz,manual,1,5,0,False
 Judith Kelner,Judith Kelner,,1,1,,False
 Juliana Amaral,Juliana Amaral,,2,1,,False
 Juliana Carvalho Silva do Outão,Juliana Carvalho Silva do Outão,,1,1,,False
@@ -630,7 +630,7 @@ Leandro Antonelli,Leandro Antonelli,,35,2,,False
 L. Antonelli,Leandro Antonelli,initials,1,2,1,False
 Leandro Buss Becker,Leandro Buss Becker,,1,1,,False
 Leandro T. Lopes,Leandro T. Lopes,,2,2,,False
-Leandro Lopes,Leandro T. Lopes,subset,1,2,0,True
+Leandro Lopes,Leandro T. Lopes,manual,1,2,0,False
 Leo Ordinez,Leo Ordinez,,2,1,,False
 Leonardo Barcelos,Leonardo Barcelos,,1,1,,False
 Leonardo C. Marques,Leonardo C. Marques,,1,2,,False
@@ -665,7 +665,7 @@ Lucia Rapanotti,Lucia Rapanotti,,1,1,,False
 Luciana A. M. Zaina,Luciana A. M. Zaina,,2,2,,False
 Luciana Zaina,Luciana A. M. Zaina,subset,1,2,1,False
 Luciana Ballejos,Luciana Ballejos,,3,2,,False
-Luciana C. Ballejos,Luciana Ballejos,subset,1,2,0,True
+Luciana C. Ballejos,Luciana Ballejos,manual,1,2,0,False
 Luciana Neves Bentes,Luciana Neves Bentes,,1,1,,False
 Luciana Pereira Simões,Luciana Pereira Simões,,1,1,,False
 Luciana Tanevitch,Luciana Tanevitch,,2,1,,False
@@ -680,7 +680,7 @@ Luiz Alexandre Martins da Costa,Luiz Alexandre Martins da Costa,,1,2,,False
 Luiz Dias,Luiz Dias,,1,1,,False
 Luiz Eduardo Galvão Martins,Luiz Eduardo Galvão Martins,,10,3,,False
 Luiz Eduardo G. Martins,Luiz Eduardo Galvão Martins,subset,3,3,1,False
-L.E.G. Martins,Luiz Eduardo Galvão Martins,initials,1,3,0,True
+L.E.G. Martins,Luiz Eduardo Galvão Martins,manual,1,3,0,False
 Luiz Fernando Capretz,Luiz Fernando Capretz,,1,1,,False
 Luiz Gustavo Ferreira Aguiar,Luiz Gustavo Ferreira Aguiar,,2,1,,False
 Luiz Marcio Cysneiros,Luiz Marcio Cysneiros,,13,3,,False
@@ -718,9 +718,9 @@ Marcia C. F. Carvalho,Marcia C. F. Carvalho,,1,1,,False
 Marcia Lucena,Marcia Lucena,,10,2,,False
 Márcia Lucena,Marcia Lucena,same_key,2,2,4,False
 Marcio Veronez,Marcio Veronez,,2,1,,False
-Marco A. Toranzo Céspedes,Marco A. Toranzo Céspedes,,1,2,,False
-M. Toranzo,Marco A. Toranzo Céspedes,surname_not_last,1,2,0,True
 Marco Antonio Damo,Marco Antonio Damo,,1,1,,False
+Marco A. Toranzo Céspedes,Marco Toranzo,manual,1,2,0,False
+M. Toranzo,Marco Toranzo,manual,1,2,0,False
 Marcos Accioly,Marcos Accioly,,1,1,,False
 Marcos Alexandre dos Anjos,Marcos Alexandre dos Anjos,,1,1,,False
 Marcos Antonio de Oliveira,Marcos Antonio de Oliveira,,1,1,,False
@@ -787,7 +787,7 @@ Michael Felderer,Michael Felderer,,1,1,,False
 Michael Hartley,Michael Hartley,,1,1,,False
 Michel Heluey Fortuna,Michel Heluey Fortuna,,1,1,,False
 Miguel A. Laguna,Miguel A. Laguna,,3,2,,False
-M.A. Laguna,Miguel A. Laguna,initials,1,2,0,True
+M.A. Laguna,Miguel A. Laguna,manual,1,2,0,False
 Miguel Romero,Miguel Romero,,1,1,,False
 M. Toro Bonilla,Miguel Toro,surname_not_last,2,3,4,False
 Miguel Toro,Miguel Toro,,2,3,,False
@@ -840,7 +840,7 @@ Néstor Adolfo Mamani Macedo,Néstor Adolfo Mamani Macedo,,1,1,,False
 O. López,O. López,manual,1,6,,False
 Octavio A. Ríos,Octavio A. Ríos,,1,1,,False
 Olga Ormandjieva,Olga Ormandjieva,,1,2,,False
-O. Ormandjieva,Olga Ormandjieva,initials,1,2,0,True
+O. Ormandjieva,Olga Ormandjieva,manual,1,2,0,False
 Omar Alimenti,Omar Alimenti,,1,1,,False
 Orlando Oliveira,Orlando Oliveira,,1,1,,False
 Oscar Dieste,Oscar Dieste,,5,1,,False
@@ -867,7 +867,7 @@ Patrícia Tedesco,Patrícia Tedesco,,1,2,,False
 Patricia Tedesco,Patrícia Tedesco,same_key,1,2,0,False
 Patrícia Vilain,Patrícia Vilain,,1,1,,False
 Paulo Cesar Masiero,Paulo Cesar Masiero,,1,2,,False
-Paulo C. Masiero,Paulo Cesar Masiero,subset,1,2,0,True
+Paulo C. Masiero,Paulo Cesar Masiero,manual,1,2,0,False
 Paulo Duarte,Paulo Duarte,,1,1,,False
 Paulo Lima,Paulo Lima,,3,1,,False
 Paulo Malcher,Paulo Malcher,,1,1,,False
@@ -929,7 +929,7 @@ Renata Souza,Renata Souza,,1,1,,False
 Renata Vinadé,Renata Vinadé,,2,1,,False
 Renato F. Bulcão-Neto,Renato F. Bulcão-Neto,,5,4,,False
 Renato Bulcão-Neto,Renato F. Bulcão-Neto,subset,3,4,2,False
-Renato de Freitas Bulcão Neto,Renato F. Bulcão-Neto,subset,1,4,0,True
+Renato de Freitas Bulcão Neto,Renato F. Bulcão-Neto,manual,1,4,0,False
 Renato de Freitas Bulcão-Neto,Renato F. Bulcão-Neto,subset,1,4,2,False
 Renato G. Fritola,Renato G. Fritola,,1,1,,False
 Renato Menezes,Renato Menezes,,1,1,,False
@@ -945,7 +945,7 @@ Ricardo Argenton Ramos,Ricardo Ramos,subset,1,4,1,False
 Ricardo A. Ramos,Ricardo Ramos,subset,1,4,2,False
 Ricardo Argenton,Ricardo Ramos,surname_not_last,1,4,2,False
 Ricardo de Almeida Falbo,Ricardo de Almeida Falbo,,2,3,,False
-R. de A. Falbo,Ricardo de Almeida Falbo,initials,1,3,0,True
+R. de A. Falbo,Ricardo de Almeida Falbo,manual,1,3,0,False
 Ridha Khedri,Ridha Khedri,,1,1,,False
 Rita Suzana Pitangueira Maciel,Rita Suzana Pitangueira Maciel,,2,3,,False
 Rita S. P Maciel,Rita Suzana Pitangueira Maciel,subset,1,3,1,False
@@ -953,7 +953,7 @@ Rita Pitangueira,Rita Suzana Pitangueira Maciel,surname_not_last,1,3,1,False
 Robert Carlisle Burnett,Robert Carlisle Burnett,,4,1,,False
 Robert Ramac,Robert Ramac,,1,1,,False
 Roberta Andrade de A. Fagundes,Roberta Andrade de A. Fagundes,,1,2,,False
-Roberta Fagundes,Roberta Andrade de A. Fagundes,subset,1,2,0,True
+Roberta Fagundes,Roberta Andrade de A. Fagundes,manual,1,2,0,False
 Roberta Coelho,Roberta Coelho,,1,1,,False
 Roberta Gomes,Roberta Gomes,,1,1,,False
 Roberto Avila Paldês,Roberto Avila Paldês,,2,3,,False
@@ -992,7 +992,7 @@ Roxana Giandini,Roxana Giandini,,1,1,,False
 Roxana Portugal,Roxana Portugal,,4,4,,False
 Roxana L. Q. Portugal,Roxana Portugal,subset,2,4,3,False
 Roxana L. Quintanilla Portugal,Roxana Portugal,subset,1,4,3,False
-Roxana L.Q. Portugal,Roxana Portugal,subset,1,4,0,True
+Roxana L.Q. Portugal,Roxana Portugal,manual,1,4,0,False
 Roxana Saavedra,Roxana Saavedra,,1,1,,False
 Ruben Araújo,Ruben Araújo,,1,1,,False
 Ruben H. Ullón,Ruben H. Ullón,,1,1,,False
@@ -1056,7 +1056,7 @@ Tayana Conte,Tayana Conte,,7,2,,False
 Tayana U. Conte,Tayana Conte,subset,1,2,2,False
 Teresa Maciel,Teresa Maciel,,1,1,,False
 Tereza Gonçalves Kirner,Tereza Gonçalves Kirner,,2,2,,False
-Tereza G. Kirner,Tereza Gonçalves Kirner,subset,1,2,0,True
+Tereza G. Kirner,Tereza Gonçalves Kirner,manual,1,2,0,False
 Thais Ebling,Thais Ebling,,1,1,,False
 Thelma Chiossi,Thelma Chiossi,,1,1,,False
 Thiago Cabral,Thiago Cabral,,1,1,,False
@@ -1095,7 +1095,7 @@ Victor Borges Loures de Paula,Victor Borges Loures de Paula,,1,1,,False
 Victor Francisco Araya Santander,Victor Francisco Araya Santander,,8,5,,False
 Victor F.A. Santander,Victor Francisco Araya Santander,subset,4,5,4,False
 Victor F. A. Santander,Victor Francisco Araya Santander,subset,4,5,2,False
-Victor Santander,Victor Francisco Araya Santander,subset,3,5,0,True
+Victor Santander,Victor Francisco Araya Santander,manual,3,5,0,False
 Victor A. Santander,Victor Francisco Araya Santander,subset,2,5,1,False
 Victor O. Hermsdorf,Victor O. Hermsdorf,,1,1,,False
 Victoria Bondarchuk,Victoria Bondarchuk,,1,1,,False
@@ -1115,7 +1115,7 @@ Willian Samuel Gerstberger,Willian Samuel Gerstberger,,1,1,,False
 Willy Silva Coutinho,Willy Silva Coutinho,,1,1,,False
 Wilson Carlos da Silva,Wilson Carlos da Silva,,1,1,,False
 Wylliams Barbosa Santos,Wylliams Barbosa Santos,,1,2,,False
-Wylliams Santos,Wylliams Barbosa Santos,subset,1,2,0,True
+Wylliams Santos,Wylliams Barbosa Santos,manual,1,2,0,False
 Xavier Burgués,Xavier Burgués,,1,2,,False
 X. Burgués,Xavier Burgués,initials,1,2,3,False
 Xavier Franch,Xavier Franch,,11,2,,False
