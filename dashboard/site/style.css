@@ -116,6 +116,25 @@ main { max-width: 1200px; margin: 0 auto; padding: 24px 24px 48px; }
 h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; flex: 1 1 auto; }
 h3 { font-size: 15px; margin: 0; font-weight: 600; }
 
+/* botão "?" com explicação */
+.cap-row { display: flex; align-items: center; gap: 8px; }
+.info { position: relative; display: inline-flex; }
+.info-btn {
+  width: 22px; height: 22px; padding: 0; border-radius: 50%;
+  font-size: 12px; font-weight: 700; line-height: 1; color: var(--text-secondary);
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.info-btn:hover, .info-btn[aria-expanded="true"] { color: var(--accent); border-color: var(--accent); background: var(--surface); }
+.info-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tip {
+  position: absolute; top: calc(100% + 8px); left: -8px; z-index: 40; width: min(360px, 80vw);
+  background: var(--surface); color: var(--text-secondary); border: 1px solid var(--border); border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14); padding: 12px 14px; font-size: 13px; font-weight: 400; line-height: 1.5;
+}
+.tip strong { display: block; color: var(--text-primary); margin-bottom: 4px; font-size: 14px; }
+.tip b { color: var(--text-primary); }
+.tip-item { display: block; margin: 6px 0; }
+
 .prose p { margin: 8px 0 0; color: var(--text-secondary); max-width: 75ch; }
 .downloads { list-style: none; margin: 12px 0 0; padding: 0; }
 .downloads li { padding: 10px 0; border-bottom: 1px solid var(--border); }

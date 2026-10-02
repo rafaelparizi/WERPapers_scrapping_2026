@@ -85,7 +85,19 @@
           </figure>
           <figure class="card wide">
             <figcaption>
-              <h3>Autores novos e recorrentes por ano</h3>
+              <div class="cap-row">
+                <h3>Autores novos e recorrentes por ano</h3>
+                <span class="info">
+                  <button class="info-btn" type="button" aria-label="Como é calculado" aria-describedby="tipNewAuthors" aria-expanded="false">?</button>
+                  <span class="tip" id="tipNewAuthors" role="tooltip" hidden>
+                    <strong>Como é calculado</strong>
+                    Para cada ano, contamos os autores distintos com pelo menos um artigo naquele ano (cada autor conta uma vez, mesmo com vários artigos).
+                    <span class="tip-item"><b>Novo:</b> primeira publicação do autor no WER foi naquele ano. A estreia é buscada em toda a série 1998–2026, mesmo com o filtro de período ativo.</span>
+                    <span class="tip-item"><b>Recorrente:</b> o autor já havia publicado em alguma edição anterior.</span>
+                    Novos + recorrentes = autores distintos do ano. Em 1998 todos aparecem como novos, pois não há edições anteriores no acervo. A contagem usa os nomes normalizados.
+                  </span>
+                </span>
+              </div>
               <p class="note">Novo = primeira participação no WER naquele ano (considerando toda a série).</p>
             </figcaption>
             <div class="chart" id="chNewAuthors"></div>

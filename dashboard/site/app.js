@@ -665,6 +665,36 @@
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
   window.addEventListener("hashchange", route);
 
+
+  // ------------------------------------------------------------ botões "?" (explicações)
+  function setupInfoTips() {
+    const close = (except) => document.querySelectorAll(".info").forEach((w) => {
+      if (w === except) return;
+      w.querySelector(".tip").hidden = true;
+      w.querySelector(".info-btn").setAttribute("aria-expanded", "false");
+    });
+    document.querySelectorAll(".info").forEach((w) => {
+      const btn = w.querySelector(".info-btn"), tip = w.querySelector(".tip");
+      const show = () => {
+        close(w);
+        tip.hidden = false;
+        btn.setAttribute("aria-expanded", "true");
+        // mantém o balão dentro da tela (16px de margem)
+        tip.style.left = "";
+        const r = tip.getBoundingClientRect();
+        const over = r.right - (document.documentElement.clientWidth - 16);
+        if (over > 0) tip.style.left = `${Math.max(16 - (r.left + 8), -8 - over)}px`;
+      };
+      btn.addEventListener("click", (e) => { e.stopPropagation(); tip.hidden ? show() : close(); });
+      w.addEventListener("mouseenter", show);
+      w.addEventListener("mouseleave", () => { if (document.activeElement !== btn) close(); });
+      btn.addEventListener("focus", show);
+      btn.addEventListener("blur", () => setTimeout(() => { if (!w.matches(":hover")) close(); }, 0));
+    });
+    document.addEventListener("click", (e) => { if (!e.target.closest(".info")) close(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+  }
+
   // ------------------------------------------------------------ ciclo
   function render() {
     aggregate();
@@ -679,6 +709,7 @@
 
   $("generated").textContent = new Date(data.meta.generated + "T12:00:00").toLocaleDateString("pt-BR");
   setupFilters();
+  setupInfoTips();
   render();
   route();
   loadWorld().catch(() => { $("mapCaption").textContent = "Não foi possível carregar o mapa-múndi (sem conexão com o CDN)."; });
