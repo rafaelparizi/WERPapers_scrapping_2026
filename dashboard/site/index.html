@@ -82,6 +82,13 @@
           <p class="note">Cada seta liga a sede de um ano à do ano seguinte; o número junto à ponta é o ano da edição de chegada. Pontos maiores = mais edições. Trechos tracejados envolvem edições virtuais.</p>
         </div>
         <div class="map-controls">
+          <label class="speed">Velocidade
+            <select id="mapSpeed">
+              <option value="7000">Lenta (7 s por trecho)</option>
+              <option value="4500" selected>Normal (4,5 s)</option>
+              <option value="2500">Rápida (2,5 s)</option>
+            </select>
+          </label>
           <button id="mapPlay" type="button" aria-pressed="false">▶ Reproduzir trajetória</button>
         </div>
       </figcaption>

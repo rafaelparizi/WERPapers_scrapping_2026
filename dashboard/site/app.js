@@ -382,7 +382,7 @@
       ...base(t),
       tooltip: { ...base(t).tooltip, trigger: "item" },
       geo: {
-        map: "world", roam: true, center: [-38, 4], zoom: 2.4, scaleLimit: { min: 1, max: 12 },
+        map: "world", roam: true, center: HOME.center, zoom: HOME.zoom, scaleLimit: { min: 1, max: 12 },
         itemStyle: { areaColor: css("--land"), borderColor: css("--land-border"), borderWidth: 0.6 },
         emphasis: { disabled: true }, select: { disabled: true }, silent: true,
       },
@@ -456,22 +456,100 @@
     });
   }
 
+  const HOME = { center: [-38, 4], zoom: 2.4 };
+  let tween = null;
+
+  // move a "câmera" do mapa suavemente até center/zoom
+  function flyTo(center, zoom, ms = 1100, onDone) {
+    const c = chart("chMap");
+    const g = c.getOption().geo[0];
+    const c0 = g.center || HOME.center, z0 = g.zoom || HOME.zoom;
+    cancelAnimationFrame(tween);
+    const t0 = performance.now();
+    const ease = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+    const frame = (now) => {
+      const k = ease(Math.min(1, (now - t0) / ms));
+      // interpola o zoom em escala logarítmica para a aproximação parecer constante
+      const z = Math.exp(Math.log(z0) + (Math.log(zoom) - Math.log(z0)) * k);
+      c.setOption({ geo: { center: [c0[0] + (center[0] - c0[0]) * k, c0[1] + (center[1] - c0[1]) * k], zoom: z } });
+      if (k < 1) tween = requestAnimationFrame(frame);
+      else if (onDone) onDone();
+    };
+    tween = requestAnimationFrame(frame);
+  }
+
+  // enquadramento que mostra origem e destino de um trecho, fora da área coberta pela bandeira
+  function frameLeg(l) {
+    const c = chart("chMap");
+    const [a, b] = [l.from.coord, l.to.coord];
+    const z = c.getOption().geo[0].zoom || HOME.zoom;
+    const p0 = c.convertToPixel("geo", [0, 0]), px = c.convertToPixel("geo", [1, 0]), py = c.convertToPixel("geo", [0, 1]);
+    const ppdX = Math.abs(px[0] - p0[0]), ppdY = Math.abs(py[1] - p0[1]);
+    const flag = $("mapFlag");
+    const top = flag.hidden ? 0 : flag.offsetTop + flag.offsetHeight + 8;  // faixa ocupada pela bandeira
+    const W = c.getWidth(), H = c.getHeight() - top;
+    const dlon = Math.max(4, Math.abs(a[0] - b[0])), dlat = Math.max(4, Math.abs(a[1] - b[1]));
+    const f = Math.min((W * 0.55) / (dlon * ppdX), (H * 0.55) / (dlat * ppdY));
+    const zoom = Math.min(10, Math.max(1.6, z * f));
+    const k = zoom / z;
+    // desloca o centro para o norte: o trecho fica centralizado na área livre, abaixo da bandeira
+    const lat = (a[1] + b[1]) / 2 + top / 2 / (ppdY * k);
+    return { center: [(a[0] + b[0]) / 2, lat], zoom };
+  }
+
+  function stepDuration() { return +$("mapSpeed").value; }
+
+  // destaca o trecho atual sem redesenhar o mapa (mantém a transição de zoom)
+  function focusLeg(l) {
+    const t = theme();
+    const rs = css("--ramp-start"), re = css("--ramp-end");
+    const legs = periodLegs();
+    chart("chMap").setOption({
+      series: [
+        { id: "legs", label: { show: false },
+          data: legs.map((x) => ({ coords: [x.from.coord, x.to.coord], leg: x,
+            lineStyle: { color: mix(rs, re, x.t), width: 2, curveness: 0.28,
+              type: x.from.virtual || x.to.virtual ? "dashed" : "solid", opacity: 0.25 } })) },
+        { id: "flight", data: [] },  // some enquanto a câmera se move
+      ],
+    });
+    setFlag(l.to);
+    const v = frameLeg(l);
+    const step = mapAnim.step;
+    // a linha laranja e a seta só entram quando o mapa parou: ficam sincronizadas com a geografia
+    flyTo(v.center, v.zoom, 1100, () => {
+      if (mapAnim.step !== step || !mapAnim.timer) return;
+      chart("chMap").setOption({ series: [{ id: "flight",
+        effect: { show: true, period: Math.max(1.2, (stepDuration() - 1100) / 1000 * 0.6), trailLength: 0.35,
+          symbol: "arrow", symbolSize: 11, color: t.series[1], loop: true },
+        data: [{ coords: [l.from.coord, l.to.coord], year: l.to.year }] }] });
+    });
+  }
+
   function stopMap(keepCaption) {
-    clearInterval(mapAnim.timer);
+    clearTimeout(mapAnim.timer);
     mapAnim.timer = null;
     mapAnim.step = -1;
     $("mapPlay").textContent = "▶ Reproduzir trajetória";
     $("mapPlay").setAttribute("aria-pressed", "false");
     if (!keepCaption) $("mapCaption").textContent = "";
+    cancelAnimationFrame(tween);
     renderMap();
   }
 
   function stepMap() {
     const legs = periodLegs();
     mapAnim.step += 1;
-    if (mapAnim.step >= legs.length) return stopMap(true);
-    $("mapCaption").textContent = `${mapAnim.step + 1}/${legs.length} · ${legLabel(legs[mapAnim.step])}`;
-    renderMap();
+    if (mapAnim.step >= legs.length) {
+      mapAnim.timer = null;
+      flyTo(HOME.center, HOME.zoom, 1400);
+      setTimeout(() => { if (!mapAnim.timer) stopMap(true); }, 1500);
+      return;
+    }
+    const l = legs[mapAnim.step];
+    $("mapCaption").textContent = `${mapAnim.step + 1}/${legs.length} · ${legLabel(l)}`;
+    focusLeg(l);
+    mapAnim.timer = setTimeout(stepMap, stepDuration());
   }
 
   $("mapPlay").addEventListener("click", () => {
@@ -479,9 +557,9 @@
     if (!periodLegs().length) return;
     $("mapPlay").textContent = "■ Parar";
     $("mapPlay").setAttribute("aria-pressed", "true");
+    renderMap();
     mapAnim.step = -1;
     stepMap();
-    mapAnim.timer = setInterval(stepMap, 2200);
   });
 
   // ------------------------------------------------------------ ciclo

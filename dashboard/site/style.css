@@ -147,6 +147,8 @@ button:hover, select:hover { background: var(--hover); }
 .map-card { margin-bottom: 16px; }
 .map-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; justify-content: space-between; }
 .map-head > div:first-child { flex: 1 1 320px; }
+.map-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.map-controls .speed { display: flex; gap: 6px; align-items: center; color: var(--text-secondary); font-size: 13px; }
 #mapPlay[aria-pressed="true"] { background: var(--hover); }
 #chMap { height: 560px; }
 .map-legend { display: flex; align-items: center; gap: 8px; margin-top: 12px; color: var(--text-muted); font-size: 12px; }
