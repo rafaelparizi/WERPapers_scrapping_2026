@@ -4,7 +4,7 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 
 - **29 edições** (1998–2026)
 - **554 artigos** + 8 prefácios
-- **1.141 grafias distintas de autores** (sem desambiguação)
+- **932 autores distintos** após normalização (1.130 grafias originais)
 - Idiomas: português, espanhol e inglês
 
 ## Arquivos
@@ -15,7 +15,11 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | [`data/wer_papers.csv`](data/wer_papers.csv) | CSV em UTF-8 com BOM (acentos corretos no Excel) |
 | [`data/wer_papers.json`](data/wer_papers.json) | Os mesmos registros em JSON |
 | [`data/wer_papers.bib`](data/wer_papers.bib) | Entradas BibTeX fornecidas pelo WERpapers (importáveis no Zotero/Mendeley) |
+| [`data/wer_authorships.csv`](data/wer_authorships.csv) | Uma linha por (artigo, autor), com nome original e normalizado: formato pronto para análises de produtividade e coautoria |
+| [`data/authors_mapping.csv`](data/authors_mapping.csv) | Tabela de normalização: grafia original → nome canônico, regra aplicada e marcação de revisão |
+| [`data/author_overrides.csv`](data/author_overrides.csv) | Correções manuais da normalização |
 | [`scrape_werpapers.py`](scrape_werpapers.py) | Script de coleta |
+| [`normalize_authors.py`](normalize_authors.py) | Script de normalização de autores |
 
 ## Colunas
 
@@ -27,8 +31,9 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | `location_date` | Local e data do evento |
 | `track` | Trilha ou sessão em que o artigo foi publicado |
 | `title` | Título |
-| `authors` | Autores, separados por `;` |
-| `n_authors` | Número de autores |
+| `authors` | Autores como aparecem no site, separados por `;` |
+| `authors_normalized` | Autores com nomes normalizados, separados por `; ` |
+| `n_authors` | Número de autores (após corrigir a separação) |
 | `abstract` | Resumo |
 | `keywords` | Palavras-chave, separadas por `;` |
 | `doi` | DOI (quando existe) |
@@ -71,12 +76,23 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | 2025 | Rio de Janeiro, Brazil | 28 | 28 | 28 |
 | 2026 | La Plata, Argentina | 30 | 30 | 30 |
 
+## Normalização de autores
+
+No site, a mesma pessoa aparece com várias grafias. Jaelson Castro, por exemplo, tem 9: “Jaelson F. B. Castro”, “J.F.B. Castro”, “Jaelson Brelaz de Castro”, “Jaelson CastrO”… O script `normalize_authors.py`:
+
+1. **Corrige a separação dos autores**: “ e ” e “ and ” usados como separador, “Jr.” contado como autor à parte, números de afiliação colados ao nome (“Braosi1”), CAIXA ALTA (“LEONARDI”).
+2. **Une grafias equivalentes** sem diferenciar acento, caixa e pontuação, e sem considerar partículas (de, da, del…) nem sufixos (Jr., Neto, Filho).
+3. **Agrupa variantes compatíveis** com a forma mais completa do nome. O primeiro nome precisa coincidir (por extenso ou inicial), cada parte do nome mais curto precisa aparecer, na mesma ordem, no mais longo, e o sobrenome final precisa estar por extenso. Uma variante compatível com duas pessoas diferentes não é unida e recebe a marca `ambiguous`.
+4. **Escolhe o nome canônico**: a forma mais frequente entre as que têm o primeiro nome por extenso.
+5. **Aplica `author_overrides.csv`** por último. Ali ficam as decisões manuais, como separar homônimos (“Ricardo Almeida” ≠ “Ricardo de Almeida Falbo”) e corrigir erros de digitação da fonte (“Bejamim” → “Benjamim”).
+
+Em `authors_mapping.csv`, a coluna `needs_review` marca as uniões menos seguras: variantes sem coautor em comum com o restante do grupo, uniões por iniciais e sobrenome que não é o último. Para corrigir um caso, adicione uma linha em `author_overrides.csv` e rode o script de novo. Deixe `canonical` vazio para impedir a união.
+
 ## Limitações conhecidas
 
 - **DOI** só existe a partir de 2018 (PUC-Rio Editora em 2018, Even3 desde 2019).
 - **Keywords** não constam no site para 2008–2010 e 2013, e faltam parcialmente em outros anos antigos.
 - **Abstracts:** dois artigos (2000 e 2003) estão sem resumo no próprio site.
-- **Autores não normalizados:** a mesma pessoa pode aparecer com grafias diferentes (ex.: “Julio Cesar Sampaio do Prado Leite” e “Julio Cesar Leite”). Análises de autoria exigem desambiguação.
 - **Trilhas heterogêneas:** até 2017 as seções são temáticas; depois, por tipo de submissão (Research, Tools, Industry, Masters and Doctoral).
 - **Ligaduras perdidas:** alguns resumos antigos vieram com ligaduras “ff”/“fi” ausentes (ex.: “o er” em vez de “offer”), herdadas da extração de PDF feita pela fonte.
 
@@ -86,6 +102,7 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python scrape_werpapers.py
+.venv/bin/python normalize_authors.py
 ```
 
 O script lê a lista de edições na página inicial, percorre o sumário de cada edição e visita a página de cada artigo para extrair resumo, palavras-chave, DOI e BibTeX. As páginas baixadas ficam em cache em `data/cache/` (ignorado pelo git), de modo que reexecutar não baixa tudo de novo.
