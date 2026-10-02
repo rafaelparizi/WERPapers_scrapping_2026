@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WER Bibliometria</title>
+  <meta name="description" content="Indicadores bibliométricos do WER - Workshop on Requirements Engineering (1998-2026)">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <h1>WER em números</h1>
+      <p class="subtitle">Workshop on Requirements Engineering &middot; artigos publicados de 1998 a 2026</p>
+    </div>
+    <div class="filters" role="group" aria-label="Período">
+      <label>De <select id="yearFrom"></select></label>
+      <label>Até <select id="yearTo"></select></label>
+      <button id="resetPeriod" type="button">Todo o período</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="kpis" id="kpis" aria-label="Resumo"></section>
+
+    <h2>Produção e autoria</h2>
+    <div class="grid">
+      <figure class="card">
+        <figcaption><h3>Artigos por ano</h3></figcaption>
+        <div class="chart" id="chPapers"></div>
+      </figure>
+      <figure class="card">
+        <figcaption><h3>Autores distintos por ano</h3></figcaption>
+        <div class="chart" id="chAuthorsYear"></div>
+      </figure>
+      <figure class="card">
+        <figcaption><h3>Média de autores por artigo</h3></figcaption>
+        <div class="chart" id="chAvgAuthors"></div>
+      </figure>
+      <figure class="card">
+        <figcaption><h3>Número de autores por artigo</h3></figcaption>
+        <div class="chart" id="chTeamSize"></div>
+      </figure>
+      <figure class="card wide">
+        <figcaption>
+          <h3>Autores novos e recorrentes por ano</h3>
+          <p class="note">Novo = primeira participação no WER naquele ano (considerando toda a série).</p>
+        </figcaption>
+        <div class="chart" id="chNewAuthors"></div>
+      </figure>
+      <figure class="card wide">
+        <figcaption><h3>Autores mais produtivos</h3><p class="note">Top 20 por número de artigos no período.</p></figcaption>
+        <div class="chart" id="chTopAuthors"></div>
+      </figure>
+    </div>
+
+    <section class="card table-card">
+      <div class="table-head">
+        <h3>Todos os autores</h3>
+        <input id="authorSearch" type="search" placeholder="Buscar autor..." aria-label="Buscar autor">
+      </div>
+      <div class="table-wrap">
+        <table id="authorTable">
+          <thead><tr>
+            <th data-sort="name">Autor</th><th data-sort="n" class="num">Artigos</th>
+            <th data-sort="first" class="num">Primeiro ano</th><th data-sort="last" class="num">Último ano</th>
+            <th data-sort="coauthors" class="num">Coautores</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note" id="authorCount"></p>
+      <div id="authorDetail" class="detail" hidden></div>
+    </section>
+
+    <h2>Edições e trilhas</h2>
+    <div class="grid">
+      <figure class="card">
+        <figcaption><h3>Edições por país-sede</h3></figcaption>
+        <div class="chart" id="chCountries"></div>
+      </figure>
+      <figure class="card">
+        <figcaption><h3>Artigos por trilha (2018 em diante)</h3>
+          <p class="note">Até 2017 os artigos eram organizados em sessões temáticas (lista abaixo).</p></figcaption>
+        <div class="chart" id="chTracks"></div>
+      </figure>
+    </div>
+
+    <section class="card table-card">
+      <h3>Edições</h3>
+      <div class="table-wrap">
+        <table id="editionTable">
+          <thead><tr><th class="num">Ano</th><th>Edição</th><th>Sede</th><th>País</th><th class="num">Artigos</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note">Sede conforme a página de cada edição no WERpapers. Em 2010 a página inicial do site indica Montevidéu (Uruguai), mas a página da edição indica Cuenca (Equador).</p>
+    </section>
+
+    <section class="card table-card">
+      <h3>Sessões temáticas (1998–2017)</h3>
+      <div id="sessions" class="sessions"></div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>Fonte: <a href="https://werpapers.dimap.ufrn.br/" target="_blank" rel="noopener">WERpapers</a> (ISSN 2675-0066, Dimap/UFRN).
+      Nomes de autores normalizados e validados manualmente. Prefácios excluídos.
+      Dados gerados em <span id="generated"></span>.
+      <a href="https://github.com/rafaelparizi/WERPapers_scrapping_2026" target="_blank" rel="noopener">Repositório</a>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -21,6 +21,7 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | [`data/author_overrides.csv`](data/author_overrides.csv) | Correções manuais da normalização (validadas pelos autores do dataset) |
 | [`scrape_werpapers.py`](scrape_werpapers.py) | Script de coleta |
 | [`normalize_authors.py`](normalize_authors.py) | Script de normalização de autores |
+| [`dashboard/`](dashboard/) | Dashboard bibliométrico (ver abaixo) |
 
 ## Colunas
 
@@ -90,6 +91,26 @@ No site, a mesma pessoa aparece com várias grafias. Jaelson Castro, por exemplo
 5. **Aplica `author_overrides.csv`** por último. Quando a coluna opcional `paper_id` está preenchida, a correção vale só para aquele artigo, o que resolve homônimos com a mesma grafia (ex.: os três “Rodrigo Santos”). Ali ficam as decisões manuais, como separar homônimos (“Ricardo Almeida” ≠ “Ricardo de Almeida Falbo”) e corrigir erros de digitação da fonte (“Bejamim” → “Benjamim”).
 
 Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com o nome incerto em vermelho e negrito na coluna `authors`. Os artigos `ajustado` aparecem em amarelo, com os nomes alterados em laranja. Em `authors_mapping.csv`, a coluna `needs_review` marca as uniões menos seguras: variantes sem coautor em comum com o restante do grupo, uniões por iniciais e sobrenome que não é o último. Para corrigir um caso, adicione uma linha em `author_overrides.csv` e rode o script de novo. Deixe `canonical` vazio para impedir a união.
+
+## Dashboard
+
+Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, ranking e tabela pesquisável de autores, edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
+
+É um site estático (`dashboard/site/`: HTML, JS e `data.json`, com gráficos em Apache ECharts), pronto para o GitHub Pages.
+
+**Rodar com Docker:**
+
+```bash
+docker compose up --build -d
+```
+
+Depois, abra http://localhost:8088. Para usar outra porta: `DASHBOARD_PORT=9000 docker compose up -d`.
+
+**Regenerar os dados sem Docker** (depois de alterar a planilha ou a normalização):
+
+```bash
+.venv/bin/python dashboard/build_data.py
+```
 
 ## Limitações conhecidas
 
