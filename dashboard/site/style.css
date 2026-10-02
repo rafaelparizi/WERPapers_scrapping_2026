@@ -143,6 +143,8 @@ button:hover, select:hover { background: var(--hover); }
 #chTopAuthors { height: 520px !important; }
 
 .table-card { margin-top: 16px; }
+.decades { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 24px; align-items: center; }
+.decades-table { max-height: none; border-top: none; margin-top: 8px; }
 
 .map-card { margin-bottom: 16px; }
 .map-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start; justify-content: space-between; }
@@ -186,6 +188,7 @@ tbody tr:hover { background: var(--hover); }
 
 .detail { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
 .detail h4 { margin: 0 0 8px; font-size: 15px; }
+.detail .author-chart { height: 200px; margin: 8px 0 16px; }
 .detail ol { margin: 0; padding-left: 20px; }
 .detail li { margin-bottom: 6px; }
 .detail .meta { color: var(--text-muted); font-size: 13px; }
@@ -199,6 +202,7 @@ tbody tr:hover { background: var(--hover); }
 @media (max-width: 900px) {
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .grid { grid-template-columns: minmax(0, 1fr); }
+  .decades { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 600px) {
   .page-header, main, .page-footer { padding-left: 16px; padding-right: 16px; }

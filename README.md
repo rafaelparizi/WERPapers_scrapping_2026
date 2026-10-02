@@ -100,7 +100,7 @@ Na planilha, artigos com `name_status = revisar` aparecem em vermelho claro, com
 
 **Online:** https://rafaelparizi.github.io/WERPapers_scrapping_2026/ (publicado pelo GitHub Pages a cada push que altere `dashboard/` ou `data/wer_papers_normalized.xlsx`).
 
-Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, ranking e tabela pesquisável de autores, **mapa da trajetória do WER entre as cidades-sede** (rotas animadas ano a ano, com zoom em cada trecho e velocidade ajustável), edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
+Painel interativo com indicadores de **produção e autoria** e de **edições e trilhas**: artigos por ano, autores distintos, média de autores por artigo, autores novos x recorrentes, produção por década, ranking e tabela pesquisável de autores (com a produção por ano de cada um), **mapa da trajetória do WER entre as cidades-sede** (rotas animadas ano a ano, com zoom em cada trecho e velocidade ajustável), edições por país-sede e artigos por trilha. Um filtro de período se aplica a tudo.
 
 É um site estático (`dashboard/site/`: HTML, JS e `data.json`, com gráficos em Apache ECharts), publicado pelo workflow `.github/workflows/pages.yml`.
 

@@ -226,6 +226,51 @@
     }, true);
   }
 
+
+  // ------------------------------------------------------------ produção por década
+  function renderDecades() {
+    const t = theme();
+    const label = (d) => `${d}s`;
+    const rows = new Map();
+    for (const p of P) {
+      const d = Math.floor(p.year / 10) * 10;
+      if (!rows.has(d)) rows.set(d, { d, years: new Set(), papers: 0, authorSlots: 0, authors: new Set(), novos: new Set() });
+      const r = rows.get(d);
+      r.years.add(p.year);
+      r.papers += 1;
+      r.authorSlots += p.authors.length;
+      for (const a of p.authors) {
+        r.authors.add(a);
+        if (Math.floor(firstYear.get(a) / 10) * 10 === d) r.novos.add(a);
+      }
+    }
+    const ds = [...rows.values()].sort((a, b) => a.d - b.d);
+    for (const r of ds) {
+      const ys = [...r.years];
+      r.range = `${Math.min(...ys)}–${Math.max(...ys)}`;
+      r.perEd = r.papers / r.years.size;
+    }
+    if (!ds.length) return empty("chDecades", "Sem artigos no período");
+    chart("chDecades").setOption({
+      ...base(t),
+      grid: { ...base(t).grid, top: 44 },
+      tooltip: { ...base(t).tooltip, trigger: "axis", axisPointer: { type: "shadow" },
+        formatter: (ps) => { const r = ds[ps[0].dataIndex];
+          return `<b>Década de ${r.d} (${r.range})</b><br>${fmt(r.perEd, 1)} artigos por edição<br>` +
+            `${r.papers} artigos em ${r.years.size} ediç${r.years.size > 1 ? "ões" : "ão"}`; } },
+      xAxis: catAxis(t, ds.map((r) => label(r.d))),
+      yAxis: valAxis(t, { name: "artigos por edição", nameTextStyle: { color: t.muted, align: "left" } }),
+      series: [{ type: "bar", data: ds.map((r) => +r.perEd.toFixed(1)), itemStyle: barStyle(t.series[0]), barMaxWidth: 56,
+        label: { show: true, position: "top", color: t.text2, fontSize: 11, lineHeight: 14,
+          formatter: (x) => `{b|${fmt(x.value, 1)}}\n${ds[x.dataIndex].papers} artigos`,
+          rich: { b: { fontWeight: 600, fontSize: 12, color: t.text } } } }],
+    }, true);
+    $("decadeTable").querySelector("tbody").innerHTML = ds.map((r) =>
+      `<tr><td>${label(r.d)} <span class="tag">${r.range}</span></td><td class="num">${r.years.size}</td>` +
+      `<td class="num">${r.papers}</td><td class="num">${fmt(r.perEd, 1)}</td><td class="num">${fmt(r.authors.size)}</td>` +
+      `<td class="num">${fmt(r.novos.size)}</td><td class="num">${fmt(r.authorSlots / r.papers, 2)}</td></tr>`).join("");
+  }
+
   // ------------------------------------------------------------ tabela de autores
   function renderAuthorTable() {
     const q = state.search.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -242,7 +287,7 @@
     $("authorTable").querySelector("tbody").innerHTML = rows.map((s) =>
       `<tr data-name="${esc(s.name)}"><td>${esc(s.name)}</td><td class="num">${s.n}</td>` +
       `<td class="num">${s.first}</td><td class="num">${s.last}</td><td class="num">${s.coauthors}</td></tr>`).join("");
-    $("authorCount").textContent = `${fmt(rows.length)} autores${q ? " encontrados" : ""}. Clique em um autor para ver os artigos.`;
+    $("authorCount").textContent = `${fmt(rows.length)} autores${q ? " encontrados" : ""}. Clique em um autor para ver a produção por ano e os artigos.`;
   }
 
   function showAuthor(name) {
@@ -250,12 +295,33 @@
     if (!s) return;
     const box = $("authorDetail");
     box.hidden = false;
-    box.innerHTML = `<h4>${esc(s.name)} <span class="tag">${s.n} artigo${s.n > 1 ? "s" : ""}</span></h4><ol>` +
+    const co = new Map();
+    for (const p of s.papers) for (const a of p.authors) if (a !== s.name) co.set(a, (co.get(a) || 0) + 1);
+    const topCo = [...co.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 5);
+    const active = new Set(s.papers.map((p) => p.year)).size;
+    box.innerHTML = `<h4>${esc(s.name)} <span class="tag">${s.n} artigo${s.n > 1 ? "s" : ""}</span></h4>` +
+      `<p class="meta">${s.first === s.last ? s.first : `${s.first}–${s.last}`} · ${active} ano${active > 1 ? "s" : ""} com artigo · ${s.coauthors} coautores` +
+      (topCo.length ? `<br>Principais coautores: ${topCo.map(([a, n]) => `${esc(a)} (${n})`).join(", ")}` : "") + `</p>` +
+      `<div class="chart author-chart" id="chAuthorYears"></div><ol>` +
       [...s.papers].sort((a, b) => a.year - b.year).map((p) =>
         `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` +
         `<div class="meta">${p.year} · ${esc(p.authors.join("; "))}${p.doi ? ` · DOI ${esc(p.doi)}` : ""}</div></li>`).join("") + "</ol>";
+
+    // produção do autor por ano (anos sem artigo = 0), no período filtrado
+    if (charts.chAuthorYears) { charts.chAuthorYears.dispose(); delete charts.chAuthorYears; }
+    const t = theme();
+    const ys = range(state.from, state.to);
+    const perYear = ys.map((y) => s.papers.filter((p) => p.year === y).length);
+    chart("chAuthorYears").setOption({
+      ...base(t),
+      tooltip: { ...base(t).tooltip, trigger: "axis", axisPointer: { type: "shadow" },
+        formatter: (ps) => `<b>${ps[0].name}</b><br>${ps[0].value} artigo${ps[0].value === 1 ? "" : "s"}` },
+      xAxis: catAxis(t, ys), yAxis: valAxis(t, { minInterval: 1 }),
+      series: [{ type: "bar", data: perYear, itemStyle: barStyle(t.series[0]), barMaxWidth: 22 }],
+    }, true);
     box.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
+
   $("authorTable").addEventListener("click", (e) => {
     const tr = e.target.closest("tr[data-name]");
     if (tr) showAuthor(tr.dataset.name);
@@ -567,6 +633,7 @@
     aggregate();
     renderKpis();
     renderProduction();
+    renderDecades();
     renderAuthorTable();
     renderEditions();
     if (mapAnim.timer) stopMap(false); else renderMap();
