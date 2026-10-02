@@ -22,6 +22,8 @@ Metadados de todos os artigos publicados no **WER – Workshop on Requirements E
 | [`scrape_werpapers.py`](scrape_werpapers.py) | Script de coleta |
 | [`normalize_authors.py`](normalize_authors.py) | Script de normalização de autores |
 | [`dashboard/`](dashboard/) | Dashboard bibliométrico (ver abaixo) |
+| [`data/gephi/`](data/gephi/) | Rede de coautoria para o Gephi (CSV de nós e arestas + GEXF dinâmico) |
+| [`export_gephi.py`](export_gephi.py) | Script de exportação para o Gephi |
 
 ## Colunas
 
@@ -112,6 +114,17 @@ Depois, abra http://localhost:8088. Para usar outra porta: `DASHBOARD_PORT=9000 
 .venv/bin/python dashboard/build_data.py
 ```
 
+## Rede de coautoria (Gephi)
+
+`export_gephi.py` gera a rede de coautoria a partir da planilha normalizada. São 932 autores e 2.249 pares de coautores, com peso igual ao número de artigos em conjunto.
+
+- **`coauthorship.gexf`** (recomendado): no Gephi, *File → Open*. Inclui os atributos dos nós (`papers`, `first_year`, `last_year`, `active_years`, `coauthors`) e das arestas (`first_year`, `last_year`, `Weight`). Cada nó e aresta tem os anos de atividade, o que permite usar a **linha do tempo** (*Window → Timeline*) para ver a rede crescer.
+- **`coauthorship_nodes.csv` + `coauthorship_edges.csv`**: no Gephi, *File → Import spreadsheet*. Importe primeiro os nós (tabela *Nodes*) e depois as arestas (tabela *Edges*), no mesmo workspace (*Append to existing workspace*).
+
+```bash
+.venv/bin/python export_gephi.py
+```
+
 ## Limitações conhecidas
 
 - **DOI** só existe a partir de 2018 (PUC-Rio Editora em 2018, Even3 desde 2019).
@@ -127,6 +140,7 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python scrape_werpapers.py
 .venv/bin/python normalize_authors.py
+.venv/bin/python export_gephi.py
 ```
 
 O script lê a lista de edições na página inicial, percorre o sumário de cada edição e visita a página de cada artigo para extrair resumo, palavras-chave, DOI e BibTeX. As páginas baixadas ficam em cache em `data/cache/` (ignorado pelo git), de modo que reexecutar não baixa tudo de novo.

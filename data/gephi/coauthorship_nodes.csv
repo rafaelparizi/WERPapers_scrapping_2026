@@ -1,0 +1,933 @@
+Id,Label,papers,first_year,last_year,active_years,coauthors
+a0,A. Castor,1,2004,2004,1,3
+a1,A. Y. Kano,1,2007,2007,1,2
+a2,Abimael Santos,3,2023,2025,3,7
+a3,Adicinéia Aparecida de Oliveira,1,2012,2012,1,2
+a4,Adriana Carniello,1,2004,2004,1,2
+a5,Adriana Damian,1,2021,2021,1,4
+a6,Adriana Pereira de Medeiros,1,2011,2011,1,1
+a7,Adriano Barbosa,1,2025,2025,1,7
+a8,Adriano Costa Pinto,1,2025,2025,1,4
+a9,Alain Abran,1,2008,2008,1,4
+a10,Alan J. Forster,1,2007,2007,1,3
+a11,Alan R.G. García,1,2019,2019,1,4
+a12,Alberto Aparicio Vila,1,2000,2000,1,3
+a13,Alberto Sardinha,1,2025,2025,1,3
+a14,Alberto Sebastián,5,2017,2026,5,5
+a15,Aldo Nunes,1,2025,2025,1,4
+a16,Aldo Quelopana Retamal,1,2009,2009,1,3
+a17,Alejandra Cechich,2,2005,2008,2,3
+a18,Alejandro Fernandez,4,2022,2026,3,15
+a19,Alejandro Oliveros,18,2000,2025,16,14
+a20,Alessandra Chan,1,2003,2003,1,5
+a21,Alessandro Fantechi,1,2005,2005,1,1
+a22,Alex Armijos Roblero,1,2016,2016,1,4
+a23,Alex Leodan Arce,1,2026,2026,1,4
+a24,Alex Lins de Araújo,1,2014,2014,1,2
+a25,Alex Sandro Gomes,2,2003,2004,2,3
+a26,Alexandre Barbosa,1,2023,2023,1,2
+a27,Alexandre Brito Cardias Junior,1,2010,2010,1,4
+a28,Alexandre Lazaretti Zanatta,2,2005,2023,2,2
+a29,Alexandre Lerário,2,2016,2016,1,5
+a30,Alexandre Luiz de Borba Silva,2,2015,2022,2,7
+a31,Alexandre Marcos Lins de Vasconcelos,2,2006,2012,2,5
+a32,Alexandre Mendonça,1,2019,2019,1,1
+a33,Alexia Pacheco,1,2022,2022,1,16
+a34,Alexssandro Morgenroth,1,2025,2025,1,1
+a35,Alicia Martínez,5,2001,2010,5,8
+a36,Aline Barbosa,7,2019,2022,4,7
+a37,Aline Jaqueira,1,2016,2016,1,6
+a38,Alireza Pourshahid,1,2007,2007,1,3
+a39,Alison de Oliveira Moraes,1,2025,2025,1,4
+a40,Alisson Neres Lindoso,1,2006,2006,1,1
+a41,Alline de Melo Lemos,1,2008,2008,1,1
+a42,Alvaro Oliveira,2,2025,2025,1,11
+a43,Amador Durán,6,1999,2002,4,8
+a44,Amanda Sousa,2,2022,2026,2,9
+a45,Amora Sukar,1,2018,2018,1,3
+a46,Ana Carolina Candido de Melo,1,2021,2021,1,4
+a47,Ana Clara Correa da Silva,1,2020,2020,1,3
+a48,Ana Elizabete Souza de Carvalho,2,2001,2002,2,3
+a49,Ana Estela Antunes da Silva,1,2001,2001,1,1
+a50,Ana Holanda,1,2016,2016,1,7
+a51,Ana Luisa Medeiros,1,2013,2013,1,2
+a52,Ana Luiza A. Cerqueira,1,2007,2007,1,6
+a53,Ana M. Lima,1,2024,2024,1,3
+a54,Ana Maria da Mota Moura,2,2018,2020,2,3
+a55,Ana Maria de Alencar Price,1,2000,2000,1,1
+a56,Ana Moreira,3,2006,2011,3,10
+a57,Anarosa Alves Franco Brandão,1,2022,2022,1,2
+a58,Anderson Belgamo,4,2004,2012,3,5
+a59,Anderson Jefferson Cerqueira,1,2020,2020,1,2
+a60,Andrea Alegretti,1,2026,2026,1,2
+a61,Andreia Malucelli,1,2013,2013,1,3
+a62,Andres Paul Moya Flores,1,2019,2019,1,2
+a63,Andressa Girotto Vargas,1,2026,2026,1,1
+a64,André Di Thommazo,1,2007,2007,1,2
+a65,André Luiz Coelho da Silva,1,2017,2017,1,4
+a66,André Luiz de Castro Leal,5,2011,2017,4,10
+a67,André Villas-Boas,1,2003,2003,1,3
+a68,Andréia Libório Sampaio,1,2022,2022,1,2
+a69,Angela Verónica Granizo Rodríguez,1,2024,2024,1,3
+a70,Angelica Cunha dos Santos,1,2021,2021,1,3
+a71,Angelica Toffano Seidel Calazans,5,2016,2020,4,15
+a72,Anna Beatriz Marques,5,2023,2026,4,13
+a73,Anselmo de Araujo Couto,1,2009,2009,1,1
+a74,Antonelli Leandro,1,2025,2025,1,3
+a75,Antonio Juarez,1,2006,2006,1,6
+a76,Antonio Ruiz,5,1999,2002,4,4
+a77,Antonio Vallecillo,1,2001,2001,1,3
+a78,Antonio de Padua Albuquerque Oliveira,6,2006,2021,6,10
+a79,Apuena Gomes,2,2019,2024,2,4
+a80,Ari Melo Mariano,1,2016,2016,1,4
+a81,Ariadne M. B. R. Carvalho,2,2003,2006,2,3
+a82,Arndt von Staa,1,2014,2014,1,3
+a83,Arthur Vieira,1,2023,2023,1,2
+a84,Artur Andrade,1,2021,2021,1,6
+a85,Arturo González,2,2011,2012,2,3
+a86,Astério K. Tanaka,1,2006,2006,1,2
+a87,Augusto Terra,1,2022,2022,1,2
+a88,Auri M. R. Vincenzi,1,2020,2020,1,2
+a89,Aurora Vizcaíno,3,2005,2008,2,4
+a90,Awais Rashid,1,2005,2005,1,2
+a91,Awdren de Lima Fontão,1,2025,2025,1,4
+a92,Azriel Majdenbaum,2,2003,2004,2,4
+a93,Aêda Sousa,7,2015,2020,5,16
+a94,Beatriz B. do Rêgo,1,2020,2020,1,5
+a95,Beatriz Bernárdez,4,1999,2001,2,8
+a96,Beatriz Mascia Daltrini,2,1999,2001,2,1
+a97,Belfor Acuña-Castillo,1,2025,2025,1,2
+a98,Bernardo G. Ambrósio,1,2011,2011,1,4
+a99,Bill Andreopoulos,1,2004,2004,1,0
+a100,Bleno W. F. V. da Silva,1,2020,2020,1,1
+a101,Boris Pérez,1,2022,2022,1,16
+a102,Brenda Aguiar,1,2021,2021,1,6
+a103,Brian Caimmi,1,2017,2017,1,2
+a104,Bruna Costa Cons,1,2018,2018,1,6
+a105,Bruna Ferreira,1,2023,2023,1,2
+a106,Bruno Borlini Duarte,1,2018,2018,1,2
+a107,Bruno De Souza Silva,1,2016,2016,1,4
+a108,Bruno G. Ochotorena,1,2018,2018,1,6
+a109,Bruno Gadelha,2,2021,2021,1,11
+a110,Bruno González-Baixauli,4,2004,2008,4,7
+a111,Bruno Nandolpho Machado,1,2014,2014,1,2
+a112,Bruno P. de Souza,1,2021,2021,1,3
+a113,Bruno Pazos,1,2025,2025,1,4
+a114,Bruno Rezende,1,2008,2008,1,7
+a115,Bruno Santana da Silva,1,2008,2008,1,2
+a116,Bárbara Stefani Ranieri,1,2012,2012,1,3
+a117,Caio Moussa Assumpção,1,2026,2026,1,3
+a118,Caio Steglich,1,2021,2021,1,1
+a119,Camila Almeida,1,2025,2025,1,7
+a120,Camila B. de Andrade,2,2019,2020,2,4
+a121,Camila Luísa F. de Lima,1,2019,2019,1,3
+a122,Camila Tiemi Outa,1,2019,2019,1,1
+a123,Camilo Almendra,1,2019,2019,1,4
+a124,Camilo Castellanos,1,2022,2022,1,16
+a125,Carina Alves,7,2000,2025,6,13
+a126,Carla Bezerra,1,2022,2022,1,2
+a127,Carla Silva,23,2002,2024,15,33
+a128,Carlos Antonio Carden,2,2025,2026,2,17
+a129,Carlos Cares,2,2009,2011,2,3
+a130,Carlos Eduardo C. Braga,1,2014,2014,1,2
+a131,Carlos Eduardo Lacerda Veiga,1,2024,2024,1,5
+a132,Carlos Eduardo Portela Serra de Castro,1,2007,2007,1,2
+a133,Carlos Eduardo Xavier Correia,1,2023,2023,1,4
+a134,Carlos Henrique Netto Lahoz,2,2006,2020,2,3
+a135,Carlos José Pereira de Lucena,1,1998,1998,1,2
+a136,Carlos Monsalve,1,2016,2016,1,4
+a137,Carlos Neil,1,2024,2024,1,3
+a138,Carlos Nusch,1,2026,2026,1,15
+a139,Carlos Renato dos Santos,4,2022,2025,4,5
+a140,Carme Jiménez,1,2013,2013,1,3
+a141,Carme Quer,5,2002,2015,5,5
+a142,Carmen Velasco,1,2010,2010,1,4
+a143,Carolina Howard Felicíssimo,3,2003,2004,2,4
+a144,Carolina Sturm Trindade,1,1998,1998,1,3
+a145,Caroline Carbonell Cintra,1,2006,2006,1,1
+a146,Carolyn Seaman,1,2022,2022,1,16
+a147,Catalin Bidian,1,2007,2007,1,1
+a148,Catalina Mostaccio,4,2024,2026,3,2
+a149,Cecilia Hinojosa,1,2015,2015,1,3
+a150,Cecilia Sosa Arias Peixoto,1,2010,2010,1,3
+a151,Celso Agra,2,2015,2017,2,6
+a152,Celso Sá Filho,1,2016,2016,1,6
+a153,Christina von Flach G. Chavez,1,2018,2018,1,4
+a154,Christopher Shneider Cerqueira,1,2023,2023,1,1
+a155,Cinthya Cavalcanti,1,2018,2018,1,4
+a156,Claiton Luís Grings,1,2009,2009,1,1
+a157,Clarissa Borba,2,2010,2011,2,2
+a158,Claudia Cappelli,1,2007,2007,1,6
+a159,Claudia Hazan,2,2003,2005,2,2
+a160,Claudia Marcos,1,2026,2026,1,2
+a161,Claudia P. Ayala,1,2004,2004,1,2
+a162,Claudia Silvia Litvak,1,2013,2013,1,2
+a163,Claudia de Andrade Tambascia,1,2003,2003,1,3
+a164,Claudio Coelho da Silva Junior,1,2025,2025,1,4
+a165,Claudio Henrique Medaber Jambo,1,2026,2026,1,4
+a166,Claudio Meneses Villegas,1,2009,2009,1,3
+a167,Cleice Souza,2,2012,2013,2,11
+a168,Cleidson R. B. de Souza,3,2008,2009,2,4
+a169,Clemente Izurieta,1,2022,2022,1,16
+a170,Cláudia Maria Lima Werner,1,1999,1999,1,1
+a171,Cláudia Souza,1,2012,2012,1,6
+a172,Cornejo Galo,1,2025,2025,1,3
+a173,Crediné Silva de Menezes,1,2002,2002,1,2
+a174,Cristiana De Paulo,2,2024,2025,2,3
+a175,Cristiane Aparecida Lana,1,2015,2015,1,3
+a176,Cristiano Ferreira de Souza,1,2011,2011,1,1
+a177,Cristina Tavares,1,2001,2001,1,2
+a178,Cynara Lira de Carvalho Souza,1,2014,2014,1,1
+a179,Cássio Capucho Peçanha,1,2018,2018,1,2
+a180,D. Pascual,1,2002,2002,1,3
+a181,D.J. Nunes,1,2002,2002,1,2
+a182,Dalessandro S. Vianna,1,2006,2006,1,2
+a183,Damiano Distante,1,2024,2024,1,5
+a184,Daniel Aguil Mallea,1,2025,2025,1,2
+a185,Daniel Alves da Silva,1,2024,2024,1,5
+a186,Daniel Amyot,2,2007,2007,1,5
+a187,Daniel Arias Figueroa,1,2000,2000,1,2
+a188,Daniel Colomer,1,2011,2011,1,3
+a189,Daniel Ferreira,1,2018,2018,1,4
+a190,Daniel M. Berry,4,2005,2008,3,7
+a191,Daniel Maria,1,2018,2018,1,4
+a192,Daniel Mosqueira Obando,1,2023,2023,1,4
+a193,Daniel Méndez Fernández,1,2017,2017,1,3
+a194,Daniela Barreiro Claro,1,2024,2024,1,3
+a195,Daniela Cruzes,1,2023,2023,1,5
+a196,Daniela Raffo,1,2019,2019,1,2
+a197,Daniella de O. Costa,1,2021,2021,1,3
+a198,Danielle Loyola,1,2008,2008,1,7
+a199,Danielle Rousy,2,2014,2014,1,3
+a200,Danilo Tavares,1,2014,2014,1,2
+a201,Dante Carrizo,2,2008,2011,2,3
+a202,Danyllo Albuquerque,2,2017,2018,2,4
+a203,Darlan Arruda,1,2014,2014,1,5
+a204,Darío Correal,1,2022,2022,1,16
+a205,Davi De França Carneiro,2,2023,2024,2,4
+a206,David Anes Alcolea,1,2007,2007,1,2
+a207,David Donari,1,2010,2010,1,3
+a208,Davide Bolchini,3,2002,2004,3,2
+a209,Davide Falessi,1,2022,2022,1,16
+a210,Deivson Albuquerque,1,2017,2017,1,4
+a211,Delfina Villarreal Garrido,1,2026,2026,1,2
+a212,Demétrius de Almeida Jubé,1,2023,2023,1,4
+a213,Denis Silveira,1,2006,2006,1,6
+a214,Denise Assis,1,2016,2016,1,6
+a215,Denise Franzotti Togneri,1,2002,2002,1,2
+a216,Denise Lazzeri Gastaldo,1,2003,2003,1,1
+a217,Denize Pimenta,1,2017,2017,1,2
+a218,Dennis Farfán Lovón,1,2023,2023,1,4
+a219,Diego Dermeval,1,2013,2013,1,9
+a220,Diego Firmenich,3,2024,2025,2,7
+a221,Diego Menegazzi,1,2023,2023,1,1
+a222,Diego Torres,5,2022,2026,4,14
+a223,Diogo Do Nascimento Paza,1,2021,2021,1,1
+a224,Dolors Costal,1,2013,2013,1,3
+a225,Dorgival Netto,4,2019,2025,4,5
+a226,Décio Fonseca,1,2000,2000,1,3
+a227,Dércio Vieira,1,2014,2014,1,5
+a228,Dênis Zaniro,1,2008,2008,1,1
+a229,E. Insfrán,1,2002,2002,1,3
+a230,E. Tejadillos,1,2002,2002,1,3
+a231,Eber Schmitz,1,2006,2006,1,6
+a232,Ecivaldo Matos,2,2018,2020,2,7
+a233,Edgar Sarmiento Calisaya,2,2026,2026,1,7
+a234,Edinelson Aparecido Batista,1,2003,2003,1,1
+a235,Edna Dias Canedo,8,2020,2026,5,18
+a236,Edna Pacheco Zanlorenci,4,1998,2003,4,1
+a237,Edneuci Denise Audacio,1,2021,2021,1,4
+a238,Ednilson da S. A. Júnior,1,2021,2021,1,3
+a239,Edson Alves,1,2015,2015,1,4
+a240,Edson Andrade de Moraes,1,2007,2007,1,2
+a241,Edson César Oliveira,1,2021,2021,1,3
+a242,Edson Toshimi Midorikawa,1,2003,2003,1,1
+a243,Eduardo Aranha,1,2018,2018,1,3
+a244,Eduardo B. Fernandez,1,2014,2014,1,3
+a245,Eduardo Freire,1,2005,2005,1,2
+a246,Eduardo José Ribeiro Castro,1,2016,2016,1,4
+a247,Eduardo Kinder Almentero,9,2008,2026,8,18
+a248,Eduardo Santana de Almeida,1,2018,2018,1,4
+a249,Efrain R. Fonseca C,1,2015,2015,1,3
+a250,Egberto Santana,1,2022,2022,1,2
+a251,Eliane Siegert,1,2013,2013,1,2
+a252,Elias Canhadas Genvigir,3,2016,2021,2,7
+a253,Eliel Morales,1,2010,2010,1,4
+a254,Elisa Yumi Nakagawa,1,2011,2011,1,1
+a255,Elizabeth Furtado,1,2006,2006,1,1
+a256,Elizabeth Suescún Monsalve,2,2010,2011,2,2
+a257,Elizamara K. Almeida,1,2021,2021,1,6
+a258,Ellen Souza,1,2007,2007,1,4
+a259,Eloisa Toffano S. Masson,1,2018,2018,1,5
+a260,Elton Mello,1,2002,2002,1,2
+a261,Eltoni Guimarães,1,2021,2021,1,2
+a262,Elías Roa,1,2026,2026,1,15
+a263,Emanuel Santos,3,2009,2013,3,12
+a264,Emeli Braosi,1,2017,2017,1,4
+a265,Emilia Rinland,1,2012,2012,1,4
+a266,Emiliano Sansone,1,2022,2022,1,4
+a267,Emilio Spinicci,1,2005,2005,1,1
+a268,Emílio Insfrán Pelozo,2,2001,2023,2,8
+a269,Enric Mayol,1,2004,2004,1,2
+a270,Enyo Gonçalves,6,2016,2022,4,13
+a271,Enzo Giandon,1,2026,2026,1,15
+a272,Eric Yu,4,2004,2007,3,6
+a273,Erica Esteves,1,2023,2023,1,3
+a274,Erica Miranda,2,2017,2019,2,4
+a275,Erik B. Silva,1,2024,2024,1,3
+a276,Ernani Gaspar Santos,1,2011,2011,1,1
+a277,Ernesto Fonseca Veiga,3,2022,2025,3,3
+a278,Eusebi Calonge,1,2008,2008,1,3
+a279,Ewelton Y. C. Yoshidome,2,2010,2012,2,7
+a280,Ewerton David Brito de Jesus,1,2024,2024,1,2
+a281,Ezequiel Kahan,1,2023,2023,1,3
+a282,Ezequiel Robledo,1,2017,2017,1,2
+a283,F.J. Garcia,1,2002,2002,1,2
+a284,F.R.S. Paim,1,2002,2002,1,1
+a285,Fabiane Barreto Vavassori Benitti,2,2011,2020,2,2
+a286,Fabiano Alves da Silva,1,2024,2024,1,3
+a287,Fabio Penha,1,2017,2017,1,4
+a288,Fabricio Lozada,1,2025,2025,1,4
+a289,Fabrizio Farias,1,2021,2021,1,2
+a290,Fabrízia M. de Sousa,1,1999,1999,1,2
+a291,Fadil Alturki,1,2010,2010,1,1
+a292,Faheem Ahmed,1,2021,2021,1,3
+a293,Faranak Farzad,1,2007,2007,1,2
+a294,Federico Cristina,2,2025,2026,2,4
+a295,Federico Pellegrino,1,2024,2024,1,5
+a296,Felicidad Ramos,1,2008,2008,1,2
+a297,Felipe Brito Ayres,1,2022,2022,1,3
+a298,Felipe Dias,1,2006,2006,1,6
+a299,Felipe Dioguardi,1,2022,2022,1,5
+a300,Felipe Távora Pereira,1,2006,2006,1,1
+a301,Felipe dos Santos Rocha,1,2020,2020,1,1
+a302,Fernanda Alencar,36,1998,2026,22,67
+a303,Fernanda Baião,1,2017,2017,1,2
+a304,Fernanda T. Novo,1,2018,2018,1,6
+a305,Fernando J. Danyans,1,2014,2014,1,2
+a306,Fernando Lins,1,2022,2022,1,3
+a307,Fernando R. C. Silva,1,2004,2004,1,4
+a308,Fernando Wanderley,1,2014,2014,1,4
+a309,Fernando de A. Guimarães,1,2018,2018,1,5
+a310,Fernão Stella R. Germano,1,2003,2003,1,5
+a311,Fiama S. Santos,1,2018,2018,1,3
+a312,Filipe A. Garrido,1,2020,2020,1,5
+a313,Fillipe Napolitano,1,2008,2008,1,7
+a314,Flavia Belintani Blum Haddad,1,2016,2016,1,3
+a315,Flavio Henrique Mendonca,2,2026,2026,1,4
+a316,Flávio Pereira Pedroza,2,2003,2004,2,5
+a317,Flávio Ricardo Carpena,1,1998,1998,1,1
+a318,Franciane Alves,1,2021,2021,1,6
+a319,Francisco A. C. Pinheiro,4,1999,2003,4,2
+a320,Francisco Milton Mendes Neto,1,2008,2008,1,1
+a321,Fábio Avigo de Castro Pinto,2,2020,2022,2,2
+a322,Fábio Basso,1,2023,2023,1,4
+a323,Fábio Francisco de Carvalho Caballero,1,2025,2025,1,4
+a324,Fábio Levy Siqueira,5,2011,2026,5,6
+a325,Fábio Lúcio Lopes de Mendonça,1,2024,2024,1,5
+a326,G.S. Rangel,1,2002,2002,1,2
+a327,Gabriel Girardi da Costa,1,2024,2024,1,3
+a328,Gabriel Viana Teixeira,1,2021,2021,1,3
+a329,Gabriela Guedes,3,2012,2020,3,11
+a330,Gabriela N. Aranda,2,2005,2008,2,3
+a331,Gabriela Perez,6,2024,2026,3,18
+a332,Gabriela Trindade,1,2023,2023,1,3
+a333,Gabriella Castro Barbosa Costa Dalpra,1,2025,2025,1,5
+a334,Galo Cornejo-Gómez,1,2024,2024,1,3
+a335,Gemma Grau,2,2003,2005,2,4
+a336,Genildo Gomes,1,2021,2021,1,6
+a337,Genésio Gomes da Cruz Neto,2,2003,2004,2,3
+a338,George Marsicano Corrêa,1,2023,2023,1,4
+a339,George Valença,2,2007,2022,2,7
+a340,Geovana Ramos Sousa Silva,1,2024,2024,1,2
+a341,Geovanny Raura,1,2015,2015,1,3
+a342,Geraldo Gabriel Crelier dos Santos,1,2026,2026,1,3
+a343,German Ruiz,1,2026,2026,1,3
+a344,Geórgia Maria C. de Sousa,1,2003,2003,1,1
+a345,Giancarlo Guizzardi,2,1999,2017,2,5
+a346,Gilberto Amado de Azevedo Cysneiros Filho,3,2000,2015,3,5
+a347,Gilleanes Thorwald Araujo Guedes,1,2024,2024,1,1
+a348,Gilton J. F. Silva,1,2018,2018,1,3
+a349,Giovana Brandão Ribeiro Linhares,1,2020,2020,1,1
+a350,Gisele Morgado,1,2006,2006,1,6
+a351,Giuliana Maltempo,3,2023,2026,3,25
+a352,Gladys N. Kaplan,7,1998,2017,6,4
+a353,Glauber Henrique Camelo Batista,1,2015,2015,1,2
+a354,Gleison Santos,1,2017,2017,1,2
+a355,Graciela D.S. Hadad,16,1998,2026,13,16
+a356,Gregorio Maclen,2,2023,2024,2,10
+a357,Gregorio Ponce,1,2026,2026,1,15
+a358,Grijalva-Arriaga Paola,1,2025,2025,1,3
+a359,Guillermo Rodriguez,2,2017,2026,2,4
+a360,Gunter Mussbacher,1,2007,2007,1,0
+a361,Gustavo Cesar Lopes Geraldino,2,2020,2023,2,3
+a362,Gustavo D. Gila,1,2000,2000,1,2
+a363,Gustavo López,1,2022,2022,1,16
+a364,Gustavo Rossi,7,1998,2021,7,7
+a365,Gustavo Silva,1,2018,2018,1,2
+a366,H.C.A.B. Tavares,1,2002,2002,1,2
+a367,Hamilton G. P. Hitzschky,1,2019,2019,1,1
+a368,Henrique Prado de Sá Sousa,15,2011,2026,10,22
+a369,Herberth Reinstein,1,2018,2018,1,2
+a370,Herbet de Souza Cunha,2,2007,2012,2,9
+a371,Hermano Moura,1,2021,2021,1,2
+a372,Hermano Peixoto de Oliveira Jr,1,2010,2010,1,3
+a373,Hernan Astudillo,2,2012,2014,2,1
+a374,Heuller Aloys Carneiro Procópio,1,2020,2020,1,2
+a375,Heyde Francielle do Carmo França,1,2016,2016,1,1
+a376,Hidelberg Albuquerque,1,2014,2014,1,2
+a377,Higor Monteiro,1,2018,2018,1,3
+a378,Hironori Washizaki,1,2014,2014,1,3
+a379,Hugo Estrada,5,2001,2010,5,8
+a380,Hugo Villamizar,1,2022,2022,1,2
+a381,Hélio Lopes,1,2022,2022,1,2
+a382,I.D. López,1,2002,2002,1,1
+a383,Iago Interaminense Gomes,1,2023,2023,1,3
+a384,Idemauro A. R. Lara,1,2006,2006,1,3
+a385,Igor Couto,1,2021,2021,1,4
+a386,Ilca Webster,2,2005,2005,1,3
+a387,Ilueny Santos,2,2015,2017,2,4
+a388,Ing. Daimara Mustelier Sanchidrian,1,2012,2012,1,4
+a389,Ing. Karel Fernandez Cedeño,1,2012,2012,1,4
+a390,Isabel Díaz,1,2005,2005,1,2
+a391,Isabel Nunes,1,2025,2025,1,2
+a392,Isabel Sofia Brito,2,2015,2016,2,3
+a393,Isabel Villanueva,1,2005,2005,1,2
+a394,Isabelle Brilhante,1,2021,2021,1,6
+a395,Isaque Copque,1,2025,2025,1,7
+a396,Isidro Ramos,1,1998,1998,1,2
+a397,Ismayle S. Santos,1,2022,2022,1,5
+a398,Ismayle Santos,1,2024,2024,1,3
+a399,Ivan D'uva,1,2025,2025,1,2
+a400,Ivonei Freitas da Silva,5,2012,2022,5,10
+a401,J. Belenguer,1,2002,2002,1,3
+a402,J.M. Murillo,1,2002,2002,1,1
+a403,Jacqueline Abreu do N. T. Rodrigues,1,2012,2012,1,2
+a404,Jaelson Castro,67,1998,2026,28,89
+a405,Jaime Cazuhiro Ossada,2,2010,2012,2,3
+a406,Jaime de Melo Sabát Neto,1,2000,2000,1,2
+a407,Janaína dos Reis Lopes,1,2017,2017,1,4
+a408,Jaqueline de Souza Moura,1,2023,2023,1,4
+a409,Jarbele C. S. Coutinho,1,2024,2024,1,2
+a410,Jarbele Coutinho,1,2025,2025,1,2
+a411,Javier Jaén,1,1998,1998,1,2
+a412,Javier Orozco,1,2010,2010,1,3
+a413,Javier Ortiz,1,2001,2001,1,4
+a414,Jean C. S. Rosa,2,2018,2020,2,7
+a415,Jean Carlos Bellio,1,2018,2018,1,4
+a416,Joan Fons,1,2005,2005,1,2
+a417,Joanna Pivatelli,1,2015,2015,1,4
+a418,Joaquina Nogueira,1,2026,2026,1,3
+a419,Jobson Luiz Massollar da Silva,1,2026,2026,1,4
+a420,John D. Mcgregor,1,2018,2018,1,4
+a421,John Mylopoulos,1,2000,2000,1,3
+a422,Johnny Cardoso Marques,6,2019,2024,6,5
+a423,Jokin Arizmendi,1,2008,2008,1,3
+a424,Jon G. Hall,1,2011,2011,1,2
+a425,Jonathan Delgado Guerrero,1,2025,2025,1,2
+a426,Jonathan H. J. Souza,1,2020,2020,1,3
+a427,Jorge Doorn,19,1998,2025,13,16
+a428,Jorge Ezequiel Moyano,1,2025,2025,1,2
+a429,Jorge Fossati,1,2025,2025,1,1
+a430,Jorge Hochstetter-Diez,1,2025,2025,1,2
+a431,Jorge Luis N. Audy,3,2003,2009,2,4
+a432,Jorge Luiz Nicolas Audy,2,2004,2005,2,4
+a433,Jorge M. Montagna,1,2004,2004,1,1
+a434,Jorge Marchetti,1,2012,2012,1,4
+a435,Jose Augusto Fabri,2,2016,2016,1,5
+a436,Jose Carlos Duarte,1,2021,2021,1,4
+a437,Jose Luis De la Vara González,4,2007,2016,3,6
+a438,Jose Vinicius Vieira Lima,2,2019,2021,2,5
+a439,Joselaine Valaski,1,2013,2013,1,3
+a440,Josenildo Melo,1,2015,2015,1,3
+a441,Joseph Yoder,1,2014,2014,1,3
+a442,José A. Romero,1,2016,2016,1,4
+a443,José Antônio Macêdo,1,2026,2026,1,5
+a444,José Carlos Maldonado,2,2003,2005,2,7
+a445,José Eduardo Fernandes,1,2025,2025,1,5
+a446,José F. Guilhermino da Silva,1,2024,2024,1,2
+a447,José Gallardo Arancibia,1,2009,2009,1,3
+a448,José Gonçalves Pereira Filho,1,1999,1999,1,1
+a449,José H. Canós,2,1998,2001,2,4
+a450,José Henrique de Melo Cardoso,1,2012,2012,1,2
+a451,José Inácio De Grande,1,2006,2006,1,1
+a452,José Júnior,1,2014,2014,1,4
+a453,José Luis Braga,5,2011,2015,4,11
+a454,José Mauro V. de Castilho,1,1998,1998,1,3
+a455,José Vasconcelos,1,2003,2003,1,1
+a456,Joxeja Oiarbide,1,2008,2008,1,3
+a457,Joás Weslei Baía,2,2012,2013,2,2
+a458,João Araújo,8,2006,2025,7,19
+a459,João Azevedo,1,2025,2025,1,3
+a460,João Batista Camargo Jr.,1,2006,2006,1,1
+a461,João Bosco Pinto Filho,1,2001,2001,1,2
+a462,João Caldas Júnior,1,1998,1998,1,1
+a463,João Epifânio,1,2023,2023,1,3
+a464,João Lucas Vasconcelos,1,2026,2026,1,1
+a465,João Marcos de Mattos Barguil,1,2026,2026,1,3
+a466,João Pablo Silva da Silva,1,2010,2010,1,2
+a467,João Pimentel,11,2007,2023,9,24
+a468,João Victor R. Araújo,1,2022,2022,1,2
+a469,Juan Escudero,1,2026,2026,1,15
+a470,Juan Ignacio Glassman,1,2026,2026,1,15
+a471,Juan Ignacio Torres,1,2026,2026,1,2
+a472,Juan Jose Fons,1,2000,2000,1,3
+a473,Juan Pablo Carvallo,6,2002,2024,6,6
+a474,Juan Pablo Mighetti,1,2016,2016,1,1
+a475,Juan Sánchez Díaz,11,2000,2010,7,23
+a476,Judith Kelner,1,2022,2022,1,3
+a477,Juliana Amaral,2,2005,2005,1,4
+a478,Juliana Carvalho Silva do Outão,1,2025,2025,1,4
+a479,Juliana Cesar Sirena Machado,1,2021,2021,1,3
+a480,Juliana Conceição,1,2023,2023,1,2
+a481,Juliana Delle Ville,5,2022,2026,4,27
+a482,Juliana Mattei,1,2023,2023,1,10
+a483,Julie Rasmussen,1,2023,2023,1,5
+a484,Julieta Screpnik,1,2025,2025,1,2
+a485,Julio Cesar Sampaio do Prado Leite,57,1998,2026,26,75
+a486,Jullia Saad,1,2020,2020,1,2
+a487,Jéssyka Vilela,9,2015,2024,5,17
+a488,Júlia Luiza Conceição,1,2021,2021,1,6
+a489,Júlio Hartmann,1,1998,1998,1,3
+a490,Karin Koogan Breitman,4,1998,2004,3,4
+a491,Karina Casola,1,2023,2023,1,4
+a492,Karina Pérez Teruel,1,2012,2012,1,4
+a493,Karla Donato Fook,1,2001,2001,1,1
+a494,Karlla Loane Santos Lima,1,2025,2025,1,3
+a495,Karolyne Oliveira,1,2013,2013,1,9
+a496,Katia Romero Felizardo,1,2021,2021,1,4
+a497,Kauan Campos,1,2026,2026,1,2
+a498,Keldjan Alves,2,2006,2007,2,5
+a499,Keyla Silva,1,2023,2023,1,1
+a500,Kiane Mabel Rezende,2,2017,2018,2,7
+a501,Kiev Gama,1,2021,2021,1,2
+a502,Klaas Sikkel,1,2009,2009,1,5
+a503,Kleoson B. C. Santos,1,2018,2018,1,1
+a504,Kádna Camboim,1,2018,2018,1,1
+a505,L.A. Martins,1,2002,2002,1,2
+a506,Larissa Barbosa,1,2022,2022,1,16
+a507,Larissa Pereira Gonçalves,2,2024,2024,1,6
+a508,Larissa Pinheiro,1,2026,2026,1,2
+a509,Larissa Rodrigues da Costa,2,2021,2022,2,3
+a510,Larissa Santos Saraiva,1,2025,2025,1,2
+a511,Larissa de Alencar Sobral,1,2013,2013,1,1
+a512,Laura Petersen,1,2000,2000,1,3
+a513,Laura Rivero,2,1998,1998,1,5
+a514,Laura Sarkis,1,2023,2023,1,1
+a515,Laura Tosselli,1,2026,2026,1,3
+a516,Lauriane Correa,1,2018,2018,1,4
+a517,Laís Xavier,1,2010,2010,1,3
+a518,Leandro Antonelli,36,2001,2026,13,60
+a519,Leandro Buss Becker,1,2023,2023,1,4
+a520,Leandro T. Lopes,3,2003,2005,2,5
+a521,Leo Ordinez,2,2010,2012,2,7
+a522,Leonardo Barcelos,1,2016,2016,1,1
+a523,Leonardo C. Marques,2,2020,2021,2,8
+a524,Leonardo Fonseca de Carvalho,2,2011,2012,2,5
+a525,Leonardo Lucena,1,2017,2017,1,4
+a526,Leonardo Morales,1,2025,2025,1,4
+a527,Leonardo Pereira Merlin,1,2015,2015,1,4
+a528,Letizia Ballestero,1,2023,2023,1,10
+a529,Letícia Fonseca,1,2016,2016,1,4
+a530,Letícia Lima,1,2020,2020,1,3
+a531,Letícia Passos,1,2021,2021,1,3
+a532,Liam Peyton,1,2007,2007,1,2
+a533,Lidia López,1,2011,2011,1,3
+a534,Lilian A. Bertini,1,2006,2006,1,3
+a535,Lilian Ramires,1,2007,2007,1,4
+a536,Lis Ângela De Bortoli,1,2000,2000,1,1
+a537,Lisane de Brisolara,1,2013,2013,1,2
+a538,Liziane S. Soares,1,2011,2011,1,4
+a539,Luana Souza,2,2019,2024,2,4
+a540,Lucas Bueno Ruas Oliveira,1,2011,2011,1,1
+a541,Lucas D’amaral Pires,1,2018,2018,1,6
+a542,Lucas Florêncio de Brito,1,2021,2021,1,4
+a543,Lucas Gonçalves Cunha,1,2015,2015,1,3
+a544,Lucas Hanauer,1,2021,2021,1,4
+a545,Lucas Viana,1,2021,2021,1,3
+a546,Lucas da Silva Souza,1,2022,2022,1,3
+a547,Lucia R. D. Bastos,2,2003,2004,2,1
+a548,Lucia Rapanotti,1,2011,2011,1,2
+a549,Luciana A. M. Zaina,3,2020,2021,2,7
+a550,Luciana Ballejos,4,2004,2020,4,6
+a551,Luciana Neves Bentes,1,2010,2010,1,4
+a552,Luciana Pereira Simões,1,2025,2025,1,4
+a553,Luciana Tanevitch,2,2022,2023,2,11
+a554,Luciana de Oliveira,1,2019,2019,1,4
+a555,Luciana de Paiva Silva,1,2004,2004,1,1
+a556,Luis A. Gama,1,2010,2010,1,4
+a557,Luis Delgado,1,2013,2013,1,3
+a558,Luis H. Garcia Paucar,1,2017,2017,1,1
+a559,Luis Iribarne,1,2001,2001,1,3
+a560,Luisa Mich,1,2007,2007,1,3
+a561,Luiz Alexandre Martins da Costa,1,2025,2025,1,4
+a562,Luiz Dias,1,2021,2021,1,2
+a563,Luiz Eduardo Galvão Martins,14,1999,2020,10,20
+a564,Luiz Fernando Capretz,1,2021,2021,1,3
+a565,Luiz Gustavo Ferreira Aguiar,2,2016,2021,2,6
+a566,Luiz Marcio Cysneiros,15,1998,2021,12,12
+a567,Luiza Lira,1,2023,2023,1,4
+a568,Luzardo P. Silva,1,2003,2003,1,1
+a569,Luísa Caetano Correia,1,2026,2026,1,4
+a570,Lyrene Fernandes da Silva,10,2003,2026,7,16
+a571,Lívia Mancine,2,2026,2026,1,2
+a572,M. Burbano,1,2002,2002,1,3
+a573,M. Elena Centeno,1,2004,2004,1,1
+a574,M. Griselda Báez,1,2001,2001,1,1
+a575,M. Kassab,1,2007,2007,1,4
+a576,M. L. Ponisio,1,2007,2007,1,4
+a577,M. Sánchez-Alonso,1,2002,2002,1,1
+a578,Ma. Carolina Sacoto,1,2024,2024,1,1
+a579,Ma. Laura Caliusco,1,2012,2012,1,2
+a580,Mabel Bertolami,4,2003,2008,4,1
+a581,Maikel Yelandi Leyva Vásquez,1,2012,2012,1,4
+a582,Manoel Mendonça,2,2022,2025,2,22
+a583,Marc Marinho de Alcântara,1,2026,2026,1,2
+a584,Marcela Genero,1,2023,2023,1,3
+a585,Marcela Ridao,9,1998,2025,8,9
+a586,Marcela Ruiz,2,2011,2012,2,3
+a587,Marcelio D’oliveira Leal,2,2008,2009,2,3
+a588,Marcelo Augusto Silva Belisário,1,2025,2025,1,5
+a589,Marcelo Marinho,1,2021,2021,1,2
+a590,Marcia C. F. Carvalho,1,2001,2001,1,1
+a591,Marcia Lucena,12,2009,2025,11,29
+a592,Marcio Veronez,2,2021,2025,2,3
+a593,Marco Antonio Damo,1,2024,2024,1,1
+a594,Marco Toranzo,2,2002,2022,2,7
+a595,Marcos Accioly,1,2016,2016,1,4
+a596,Marcos Alexandre dos Anjos,1,2024,2024,1,3
+a597,Marcos Antonio de Oliveira,1,2022,2022,1,3
+a598,Marcos Danilo Martins,1,2007,2007,1,2
+a599,Marcos Drach,1,2006,2006,1,2
+a600,Marcos Kalinowski,3,2017,2026,3,9
+a601,Marcos Lordello Chaim,1,2004,2004,1,2
+a602,Marcos Paiva,1,2021,2021,1,2
+a603,Marcos R. S. Borges,1,2005,2005,1,1
+a604,Maria Augusta Nascimento de Moura,1,2026,2026,1,1
+a605,Maria Carmen Penadés,1,2001,2001,1,2
+a606,Maria Gois,1,2025,2025,1,4
+a607,Maria I. Montebelo,1,2006,2006,1,3
+a608,Maria Istela Cagnin,2,2003,2007,2,6
+a609,Maria Júlia Marques Schettini,1,2025,2025,1,5
+a610,Maria Lencastre,25,2000,2026,14,50
+a611,Maria Victoria Fiori,1,2023,2023,1,2
+a612,Maria Wanick Sarinho,1,2022,2022,1,3
+a613,Maria Yêda Lima,1,2022,2022,1,2
+a614,Mariana Crisostomo Martins,3,2021,2024,3,2
+a615,Mariana Peixoto,5,2015,2023,4,6
+a616,Mariana Salamoni Francisco,1,2022,2022,1,5
+a617,Mariana del Fresno,2,1998,1998,1,5
+a618,Mariel Ale,2,2013,2020,2,3
+a619,Mariela Haya,1,2004,2004,1,2
+a620,Marina Reis Fernandes,1,2022,2022,1,5
+a621,Mario Jino,1,2004,2004,1,2
+a622,Mario Piattini,3,2005,2008,2,4
+a623,Marisa Gomez,1,2012,2012,1,4
+a624,Marisa Panizzi,1,2026,2026,1,2
+a625,Mark Douglas,1,2008,2008,1,7
+a626,Markus Mannio,1,2001,2001,1,1
+a627,Marta Lopez,2,2008,2011,2,4
+a628,Martina Hübler,1,2026,2026,1,15
+a629,María Alejandra Paz Menvielle,1,2025,2025,1,2
+a630,María Carmen Leonardi,6,1998,2013,5,10
+a631,María Cecilia Bastarrica,1,2009,2009,1,2
+a632,María Celia Elizalde,2,2019,2025,2,5
+a633,María Guadalupe Gramajo,1,2020,2020,1,2
+a634,María Laura Achetta,1,2026,2026,1,3
+a635,Mateus E. Andrade,1,2024,2024,1,3
+a636,Matias Adorno,1,2023,2023,1,10
+a637,Matías L. Mastropietro,1,2014,2014,1,2
+a638,Mauricio Barros Ottoni,2,2023,2024,2,4
+a639,Mauricio Rodríguez Ricon,1,2026,2026,1,15
+a640,Mauricio Ronny,1,2010,2010,1,4
+a641,Mauro Brischke,1,2012,2012,1,2
+a642,Maurício Manoel Coelho Júnior,1,2021,2021,1,3
+a643,Maurício R. de A. Souza,1,2012,2012,1,4
+a644,Maurício Serrano,1,2008,2008,1,7
+a645,Maximiliano Cortés-Leiva,1,2025,2025,1,2
+a646,Maya Daneva,4,2005,2009,4,11
+a647,Mayara Figueiredo,1,2008,2008,1,2
+a648,Maíra Medeiros,1,2013,2013,1,2
+a649,Melina Soares,1,2019,2019,1,4
+a650,Mercedes Soria,1,2026,2026,1,3
+a651,Michael Felderer,1,2017,2017,1,3
+a652,Michael Hartley,1,2007,2007,1,2
+a653,Michel Heluey Fortuna,1,2005,2005,1,1
+a654,Miguel A. Laguna,4,2002,2008,4,4
+a655,Miguel Romero,1,2008,2008,1,2
+a656,Miguel Toro,5,1999,2002,4,4
+a657,Milena Rota Sena Marques,1,2013,2013,1,2
+a658,Milene Serrano,1,2008,2008,1,7
+a659,Ming Zhang,1,2008,2008,1,3
+a660,Miriam Ellen de Freitas,1,2003,2003,1,3
+a661,Miriam Pinto,1,2016,2016,1,4
+a662,Miriam Sayão,2,2005,2009,2,2
+a663,Moises Barbosa,1,2021,2021,1,6
+a664,Moisés Neves,1,2021,2021,1,1
+a665,Monica Iovan,1,2023,2023,1,5
+a666,Moniky Ribeiro,4,2019,2023,4,8
+a667,Monique Soares,3,2012,2020,3,11
+a668,Montse Ereño Incera,1,2008,2008,1,3
+a669,Mozart de Melo Alves Júnior,4,2021,2025,3,11
+a670,Murilo Arouca,1,2025,2025,1,7
+a671,Márcia Hortência Fonseca Ribeiro Nardes Maciel,1,2023,2023,1,1
+a672,Márcia Santos,1,2000,2000,1,3
+a673,Márcia Seabra Cabral,1,2008,2008,1,4
+a674,Mônica Bandeira,1,2023,2023,1,4
+a675,Mônica Zopelari Roseti,1,1999,1999,1,1
+a676,Nadzeya Kiyavitskaya,1,2007,2007,1,3
+a677,Nan Ma,1,2008,2008,1,3
+a678,Nancy Hitschfeld-Kahler,1,2009,2009,1,2
+a679,Natalia Juristo,2,2008,2011,2,3
+a680,Natalya Goelzer,1,2018,2018,1,2
+a681,Nathácia Indayara Pereira,1,2017,2017,1,4
+a682,Nathálea Salem,1,2012,2012,1,2
+a683,Nazim H. Madhavji,1,2007,2007,1,2
+a684,Nebojša Taušan,1,2022,2022,1,16
+a685,Nelly Bencomo,1,2017,2017,1,1
+a686,Nelly Condori-Fernández,4,2006,2016,4,10
+a687,Nelson Gutemberg Rocha Da Silva,2,2023,2024,2,4
+a688,Nicola Zeni,1,2007,2007,1,3
+a689,Nicolli Rios,1,2022,2022,1,16
+a690,Nicolás A. Bedetti,1,2018,2018,1,3
+a691,Nicolás Simón Ruffolo,2,2022,2026,2,18
+a692,Nina D. Fogelström,1,2007,2007,1,1
+a693,Nobukazu Yoshioka,1,2014,2014,1,3
+a694,Nuno J. Nunes,1,2020,2020,1,5
+a695,Néstor Adolfo Mamani Macedo,1,1999,1999,1,1
+a696,O. López,1,2002,2002,1,2
+a697,Octavio A. Ríos,1,2001,2001,1,4
+a698,Olga Ormandjieva,2,2007,2008,2,5
+a699,Omar Alimenti,1,2012,2012,1,4
+a700,Orlando Oliveira,1,2015,2015,1,1
+a701,Oscar Dieste,5,2008,2015,4,12
+a702,Oscar Pastor,15,2000,2012,13,23
+a703,Over Causil,1,2026,2026,1,3
+a704,P. Belenguer,1,2002,2002,1,3
+a705,P. Letelier,1,2002,2002,1,1
+a706,P. Paolini,1,2002,2002,1,1
+a707,Pablo Dall Oglio,1,2010,2010,1,2
+a708,Pablo Roldán Valdiviezo,1,2024,2024,1,1
+a709,Pablo Thomas,7,2005,2026,4,11
+a710,Paola Grijalva-Arriaga,1,2024,2024,1,3
+a711,Patricia Mergulhão,3,2019,2022,3,5
+a712,Patricia Pesado,2,2025,2026,2,4
+a713,Patrick C. K. Hung,1,2007,2007,1,2
+a714,Patrícia Freitas Campos de Vasconcelos,1,2025,2025,1,2
+a715,Patrícia Tedesco,2,2003,2003,1,4
+a716,Patrícia Vilain,1,2005,2005,1,1
+a717,Paulo Cesar Masiero,2,1998,2003,2,6
+a718,Paulo Duarte,1,2022,2022,1,5
+a719,Paulo Lima,3,2015,2016,2,9
+a720,Paulo Malcher,1,2023,2023,1,2
+a721,Paulo Roberto Silva dos Reis,1,2026,2026,1,4
+a722,Paulo Sérgio Medeiros,1,2026,2026,1,4
+a723,Paulo Sérgio Muniz Silva,2,2011,2013,2,1
+a724,Pedro D. Valente,1,2020,2020,1,5
+a725,Pedro Dias,1,2011,2011,1,3
+a726,Pedro E. Colla,1,2024,2024,1,0
+a727,Pedro Fernandes Ribeiro Neto,1,2008,2008,1,1
+a728,Pedro Henrique Teixeira Costa,1,2022,2022,1,3
+a729,Pedro Lucas Dornelles,1,2024,2024,1,1
+a730,Pedro Nuno,1,2015,2015,1,4
+a731,Pedro O. Rossel,1,2009,2009,1,2
+a732,Pedro Oscar,1,2006,2006,1,6
+a733,Pedro Pignaton Negri,1,2017,2017,1,4
+a734,Pedro Rodrigues de Carvalho Junior,1,2022,2022,1,3
+a735,Pedro Valderas,1,2005,2005,1,2
+a736,Pengfei Chen Michael Weiss,1,2007,2007,1,3
+a737,Pere Botella,2,2002,2004,2,5
+a738,Peter Sawyer,1,2005,2005,1,2
+a739,Pollyanna C. O. Dias,1,2023,2023,1,4
+a740,Priscila Engiel,1,2015,2015,1,4
+a741,Priscila Lima,1,2006,2006,1,6
+a742,Priscila Portela Costa,1,2020,2020,1,2
+a743,Priscilla B. B. Pagliuso,1,2003,2003,1,3
+a744,Quazi A. Rahman,1,2007,2007,1,2
+a745,Quelita Ribeiro,3,2021,2024,3,7
+a746,Rafael Corchuelo,3,2000,2002,3,4
+a747,Rafael Crispim Ignácio,1,2020,2020,1,1
+a748,Rafael Duarte,1,2014,2014,1,4
+a749,Rafael Ferreira,1,2014,2014,1,5
+a750,Rafael Lima,2,2026,2026,1,2
+a751,Rafael Mello,1,2023,2023,1,2
+a752,Rafael Nascimento,2,2018,2021,2,4
+a753,Rafael Parizi,4,2018,2024,3,9
+a754,Rafael Pinto,1,2015,2015,1,3
+a755,Rafael Prikladnicki,2,2005,2009,2,5
+a756,Rafael Soares,1,2014,2014,1,5
+a757,Rafael Timóteo de Sousa Junior,1,2024,2024,1,5
+a758,Raimundo Fagner Costa,1,2023,2023,1,2
+a759,Rainara Maia Carvalho,1,2022,2022,1,3
+a760,Ramon Luna,1,2026,2026,1,5
+a761,Rebeca C. Motta,1,2021,2021,1,3
+a762,Rebeca Camurça Cunha,1,2023,2023,1,1
+a763,Rebeca Teodoro Da Silva,2,2016,2021,2,6
+a764,Regina Andrade Brito,1,2006,2006,1,1
+a765,Reinaldo Silva,1,2020,2020,1,2
+a766,Renata Braga,2,2026,2026,1,2
+a767,Renata Guizzardi,1,2016,2016,1,4
+a768,Renata Melo,2,2006,2007,2,5
+a769,Renata Pontin de M. Fortes,1,1998,1998,1,1
+a770,Renata Souza,1,2022,2022,1,2
+a771,Renata Vinadé,2,2023,2024,2,5
+a772,Renato F. Bulcão-Neto,10,2016,2026,7,8
+a773,Renato G. Fritola,1,2022,2022,1,1
+a774,Renato Menezes,1,2021,2021,1,2
+a775,Rhenara Oliveira,2,2024,2026,2,6
+a776,Ricardo Ajax. D. Kosloski,1,2018,2018,1,5
+a777,Ricardo Almeida,1,2019,2019,1,4
+a778,Ricardo André Cavalcante de Souza,1,2015,2015,1,2
+a779,Ricardo C. O. Amorim,1,2003,2003,1,3
+a780,Ricardo Cordeiro Galvão Santana van Erven,1,2023,2023,1,4
+a781,Ricardo D. Maya,1,2016,2016,1,4
+a782,Ricardo Ramos,6,2005,2023,6,14
+a783,Ricardo de Almeida Falbo,3,2002,2017,3,8
+a784,Ridha Khedri,1,2010,2010,1,1
+a785,Rita Suzana Pitangueira Maciel,4,2022,2026,4,21
+a786,Robert Carlisle Burnett,4,1998,2003,4,1
+a787,Robert Ramac,1,2022,2022,1,16
+a788,Roberta Andrade de A. Fagundes,2,2018,2021,2,8
+a789,Roberta Coelho,1,2022,2022,1,2
+a790,Roberta Gomes,1,2016,2016,1,4
+a791,Roberto Avila Paldês,4,2016,2018,3,13
+a792,Roberto Azevedo,1,2016,2016,1,3
+a793,Roberto Pereira,1,2025,2025,1,2
+a794,Roberto Tom Price,1,2006,2006,1,1
+a795,Roberto de Cerqueira Figueiredo,1,2024,2024,1,3
+a796,Roberto de Souza Júnior,1,2010,2010,1,3
+a797,Robson Lima de Alencar,1,2021,2021,1,3
+a798,Rodolfo V. C. L. de Andrade,1,2007,2007,1,4
+a799,Rodrigo Cezario da Silva,1,2011,2011,1,1
+a800,Rodrigo Juliao dos Santos,1,2023,2023,1,4
+a801,Rodrigo Oliveira Zacarias,1,2024,2024,1,3
+a802,Rodrigo Pereira dos Santos,3,2023,2025,3,9
+a803,Rodrigo Santos (arg),1,2010,2010,1,3
+a804,Rodrigo Santos de Espindola,2,2004,2005,2,4
+a805,Rodrigo Spínola,1,2022,2022,1,16
+a806,Roel Wieringa,3,2005,2009,3,9
+a807,Romeu Ferreira de Oliveira,2,2018,2019,2,3
+a808,Romina Torres,2,2012,2014,2,1
+a809,Rosa Candida Pinto,2,2004,2005,2,3
+a810,Rosa Maria E. M. da Costa,1,2018,2018,1,6
+a811,Rosangela Penteado,2,2007,2016,2,6
+a812,Rosario Girardi,1,2006,2006,1,1
+a813,Rossana Andrade,3,2022,2026,3,10
+a814,Rosângela De,1,2003,2003,1,5
+a815,Roxana Giandini,1,2013,2013,1,1
+a816,Roxana Portugal,8,2015,2026,6,16
+a817,Roxana Saavedra,1,2013,2013,1,2
+a818,Ruben Araújo,1,2014,2014,1,4
+a819,Ruben H. Ullón,1,2016,2016,1,4
+a820,Ruy Ovídio Perrelli de Melo,1,2024,2024,1,2
+a821,Ruzanna Chitchyan,1,2005,2005,1,2
+a822,S. Martí,1,2002,2002,1,3
+a823,Sabrina Marczak,6,2018,2024,4,15
+a824,Saiqa Aleem,1,2021,2021,1,3
+a825,Samuel Anjos Neto,1,2026,2026,1,3
+a826,Sandeison Fernandes,1,2025,2025,1,4
+a827,Sandra Fabbri,5,2004,2008,4,5
+a828,Sandro Bimonte,1,2025,2025,1,3
+a829,Sandro R. B. Oliveira,5,2009,2020,5,11
+a830,Sandro Santos Andrade,1,2018,2018,1,4
+a831,Santiago Cecconato,2,2023,2024,2,12
+a832,Sara Guimarães,1,2022,2022,1,2
+a833,Sarah Ribeiro,1,2017,2017,1,3
+a834,Sarasuaty Yelisetty,1,2021,2021,1,2
+a835,Sasha Valdes Jimenez,1,2012,2012,1,4
+a836,Sebastián Dapoto,2,2025,2026,2,4
+a837,Sebastián Diaz,1,2026,2026,1,15
+a838,Sepideh Ghanavati,1,2007,2007,1,2
+a839,Sergio España,2,2011,2012,2,3
+a840,Sergio Firmenich,1,2024,2024,1,3
+a841,Shadi Moradi Seresht,1,2008,2008,1,1
+a842,Sheila Reinehr,1,2013,2013,1,3
+a843,Shuib Basri,1,2021,2021,1,3
+a844,Sidgley C. de Andrade,1,2022,2022,1,5
+a845,Silvia Angelica Zanco Ladeira,1,2007,2007,1,1
+a846,Silvia Gordillo,1,2006,2006,1,4
+a847,Silvia I. Barba Brunner,1,2001,2001,1,1
+a848,Silvia Pereira,2,2006,2007,2,5
+a849,Simara Rocha,1,2005,2005,1,2
+a850,Simone Diniz Junqueira Barbosa,1,2008,2008,1,2
+a851,Simone da Silva Amorim,1,2018,2018,1,4
+a852,Soeli T. Fiorini,2,1998,2001,2,6
+a853,Sofía Celano,1,2026,2026,1,15
+a854,Sonia Santana,2,2024,2026,2,3
+a855,Sri Fatimah Tjong,2,2007,2008,2,2
+a856,Stanley Loh,1,1998,1998,1,3
+a857,Stefan Wagner,1,2017,2017,1,3
+a858,Stefano Rizzi,1,2025,2025,1,3
+a859,Stella Tornabene,1,2000,2000,1,3
+a860,Sthefanie Magro,1,2021,2021,1,5
+a861,Susana Brunoro C. Oliveira,1,2006,2006,1,2
+a862,Suzana Sampaio,1,2021,2021,1,2
+a863,Sávio Freire,3,2022,2026,3,23
+a864,Sâmmara Éllen Renner Ferrão,1,2022,2022,1,1
+a865,Sérgio Crespo Coelho da Silva Pinto,1,2010,2010,1,2
+a866,Taciana Novo Kudo,6,2020,2025,5,5
+a867,Tadeu Classe,3,2023,2026,2,7
+a868,Taina Santos,1,2018,2018,1,4
+a869,Talita Marques Ruiz Slavov,1,2020,2020,1,2
+a870,Tarcísio Pereira,5,2015,2021,4,11
+a871,Tassio Ferenzini Martins Sirqueira,2,2026,2026,1,4
+a872,Tayana Conte,8,2018,2021,3,27
+a873,Teresa Maciel,1,2016,2016,1,6
+a874,Tereza Gonçalves Kirner,3,1998,2006,3,5
+a875,Thais Ebling,1,2009,2009,1,2
+a876,Thelma Chiossi,1,2006,2006,1,2
+a877,Thiago Cabral,1,2014,2014,1,5
+a878,Thiago de Moura Parracho,1,2024,2024,1,3
+a879,Thomas Pablo,1,2025,2025,1,3
+a880,Tiago Brito,2,2024,2025,2,4
+a881,Tiago Heineck,3,2017,2019,3,6
+a882,Tiago Pedrosa,1,2025,2025,1,5
+a883,Timóteo Gomes,4,2018,2022,4,3
+a884,Tony Gorschek,2,2007,2019,2,5
+a885,Tracy Hall,1,2008,2008,1,3
+a886,Trevor Barker,1,2008,2008,1,3
+a887,Uirá Kulesza,1,2018,2018,1,3
+a888,Ulla Louise Didriksson,1,2025,2025,1,2
+a889,Uolevi Nikula,1,2001,2001,1,1
+a890,V. Anaya,1,2002,2002,1,1
+a891,Vagner L. Gava,1,2019,2019,1,1
+a892,Valeria Ortiz Quiroz,1,2026,2026,1,3
+a893,Valéria Delisandra Feltrim,1,1998,1998,1,1
+a894,Valéria Farinazzo Martins Salvador,1,2004,2004,1,1
+a895,Vanessa M. da Silva,1,2018,2018,1,6
+a896,Vera Ivanova,1,2005,2005,1,2
+a897,Vera Maria Benjamim Werneck,14,2004,2026,11,24
+a898,Verónica Castañeda,1,2012,2012,1,2
+a899,Vianca Vega Zepeda,1,2009,2009,1,3
+a900,Vicente Pelechano,1,2005,2005,1,2
+a901,Victor Augusto Pozzan,3,2019,2022,3,6
+a902,Victor Borges Loures de Paula,1,2025,2025,1,5
+a903,Victor Francisco Araya Santander,21,2000,2026,14,26
+a904,Victor O. Hermsdorf,1,2011,2011,1,4
+a905,Victoria Bondarchuk,1,2023,2023,1,5
+a906,Vinícius Dias Paldês,1,2017,2017,1,4
+a907,Vinícius Monteiro,1,2021,2021,1,6
+a908,Vinícius Polito,1,2022,2022,1,3
+a909,Virginia Mauco,3,1998,2004,2,5
+a910,Vito Perrone,1,2004,2004,1,1
+a911,Vitor Luiz Caldeira Gilnek,2,2023,2024,2,3
+a912,Viviana A. Ledesma,1,2018,2018,1,3
+a913,Vladimir Mandic,1,2022,2022,1,16
+a914,Vítor E. Silva Souza,2,2017,2018,2,6
+a915,Wallace M. P. Lira,1,2012,2012,1,4
+a916,Wilian Stancke,1,2013,2013,1,3
+a917,Willian Samuel Gerstberger,1,2024,2024,1,1
+a918,Willy Silva Coutinho,1,2021,2021,1,3
+a919,Wilson Carlos da Silva,1,2008,2008,1,1
+a920,Wylliams Barbosa Santos,2,2018,2021,2,6
+a921,Xavier Burgués,2,2002,2003,2,5
+a922,Xavier Franch,12,2002,2015,9,16
+a923,Ytalo Silva,1,2025,2025,1,4
+a924,Zair Abdelouahab,3,2001,2005,2,4
+a925,Zhi Li,1,2011,2011,1,2
+a926,Zlatko Zlatev,1,2005,2005,1,2
+a927,Zude Li,1,2007,2007,1,2
+a928,y Lucas O. Carnero,1,2019,2019,1,4
+a929,Álvaro Rocha,1,2003,2003,1,1
+a930,Álvaro Soares dos Santos,1,2026,2026,1,1
+a931,Álvaro Soria,1,2017,2017,1,2

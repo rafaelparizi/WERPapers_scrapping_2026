@@ -1,0 +1,2250 @@
+Source,Target,Type,Weight,first_year,last_year,years,source_name,target_name
+a302,a404,Undirected,19,1998,2021,1998;1999;2000;2002;2003;2004;2007;2008;2009;2010;2012;2013;2015;2016;2017;2018;2021,Fernanda Alencar,Jaelson Castro
+a404,a610,Undirected,11,2000,2026,2000;2016;2021;2022;2023;2024;2025;2026,Jaelson Castro,Maria Lencastre
+a355,a427,Undirected,10,1998,2025,1998;1999;2000;2002;2009;2013;2018;2019;2025,Graciela D.S. Hadad,Jorge Doorn
+a368,a485,Undirected,10,2011,2025,2011;2012;2014;2019;2020;2021;2023;2025,Henrique Prado de Sá Sousa,Julio Cesar Sampaio do Prado Leite
+a404,a467,Undirected,9,2010,2023,2010;2011;2013;2015;2016;2019;2020;2023,Jaelson Castro,João Pimentel
+a427,a585,Undirected,9,1998,2025,1998;2000;2001;2002;2003;2006;2009;2025,Jorge Doorn,Marcela Ridao
+a247,a368,Undirected,8,2012,2026,2012;2019;2020;2021;2023;2025;2026,Eduardo Kinder Almentero,Henrique Prado de Sá Sousa
+a127,a404,Undirected,8,2002,2013,2002;2003;2004;2005;2009;2010;2011;2013,Carla Silva,Jaelson Castro
+a19,a518,Undirected,8,2001,2021,2001;2002;2012;2013;2015;2017;2021,Alejandro Oliveros,Leandro Antonelli
+a475,a702,Undirected,7,2000,2010,2000;2002;2005;2007;2008;2010,Juan Sánchez Díaz,Oscar Pastor
+a36,a610,Undirected,7,2019,2022,2019;2020;2021;2022,Aline Barbosa,Maria Lencastre
+a352,a427,Undirected,7,1998,2017,1998;1999;2000;2002;2009;2017,Gladys N. Kaplan,Jorge Doorn
+a352,a355,Undirected,6,1998,2009,1998;1999;2000;2002;2009,Gladys N. Kaplan,Graciela D.S. Hadad
+a772,a866,Undirected,6,2020,2025,2020;2021;2022;2024;2025,Renato F. Bulcão-Neto,Taciana Novo Kudo
+a364,a518,Undirected,6,2006,2021,2006;2012;2013;2015;2017;2021,Gustavo Rossi,Leandro Antonelli
+a247,a485,Undirected,6,2008,2023,2008;2012;2019;2020;2021;2023,Eduardo Kinder Almentero,Julio Cesar Sampaio do Prado Leite
+a93,a302,Undirected,6,2015,2020,2015;2016;2017;2018;2020,Aêda Sousa,Fernanda Alencar
+a331,a518,Undirected,6,2024,2026,2024;2025;2026,Gabriela Perez,Leandro Antonelli
+a566,a897,Undirected,6,2004,2021,2004;2005;2007;2009;2014;2021,Luiz Marcio Cysneiros,Vera Maria Benjamim Werneck
+a481,a518,Undirected,5,2022,2026,2022;2023;2024;2026,Juliana Delle Ville,Leandro Antonelli
+a14,a355,Undirected,5,2017,2026,2017;2019;2024;2025;2026,Alberto Sebastián,Graciela D.S. Hadad
+a43,a656,Undirected,5,1999,2002,1999;2000;2001;2002,Amador Durán,Miguel Toro
+a404,a487,Undirected,5,2015,2019,2015;2016;2019,Jaelson Castro,Jéssyka Vilela
+a222,a518,Undirected,5,2022,2026,2022;2023;2024;2026,Diego Torres,Leandro Antonelli
+a35,a379,Undirected,5,2001,2010,2001;2002;2003;2004;2010,Alicia Martínez,Hugo Estrada
+a485,a570,Undirected,5,2003,2026,2003;2005;2023;2025;2026,Julio Cesar Sampaio do Prado Leite,Lyrene Fernandes da Silva
+a364,a485,Undirected,5,1998,2021,1998;2012;2013;2017;2021,Gustavo Rossi,Julio Cesar Sampaio do Prado Leite
+a43,a76,Undirected,5,1999,2002,1999;2000;2001;2002,Amador Durán,Antonio Ruiz
+a485,a566,Undirected,5,1998,2021,1998;2000;2001;2008;2021,Julio Cesar Sampaio do Prado Leite,Luiz Marcio Cysneiros
+a485,a816,Undirected,5,2015,2026,2015;2018;2023;2025;2026,Julio Cesar Sampaio do Prado Leite,Roxana Portugal
+a473,a922,Undirected,5,2002,2015,2002;2003;2006;2009;2015,Juan Pablo Carvallo,Xavier Franch
+a302,a870,Undirected,5,2015,2021,2015;2017;2018;2021,Fernanda Alencar,Tarcísio Pereira
+a427,a485,Undirected,5,1998,2001,1998;1999;2000;2001,Jorge Doorn,Julio Cesar Sampaio do Prado Leite
+a76,a656,Undirected,5,1999,2002,1999;2000;2001;2002,Antonio Ruiz,Miguel Toro
+a404,a782,Undirected,5,2005,2023,2005;2007;2012;2022;2023,Jaelson Castro,Ricardo Ramos
+a19,a364,Undirected,5,2012,2021,2012;2013;2015;2017;2021,Alejandro Oliveros,Gustavo Rossi
+a270,a404,Undirected,5,2016,2019,2016;2018;2019,Enyo Gonçalves,Jaelson Castro
+a141,a922,Undirected,5,2002,2015,2002;2003;2005;2006;2015,Carme Quer,Xavier Franch
+a485,a897,Undirected,5,2007,2021,2007;2009;2010;2011;2021,Julio Cesar Sampaio do Prado Leite,Vera Maria Benjamim Werneck
+a19,a580,Undirected,4,2003,2008,2003;2004;2006;2008,Alejandro Oliveros,Mabel Bertolami
+a148,a518,Undirected,4,2024,2026,2024;2025;2026,Catalina Mostaccio,Leandro Antonelli
+a148,a331,Undirected,4,2024,2026,2024;2025;2026,Catalina Mostaccio,Gabriela Perez
+a66,a485,Undirected,4,2011,2014,2011;2012;2014,André Luiz de Castro Leal,Julio Cesar Sampaio do Prado Leite
+a66,a368,Undirected,4,2011,2014,2011;2012;2014,André Luiz de Castro Leal,Henrique Prado de Sá Sousa
+a570,a816,Undirected,4,2023,2026,2023;2025;2026,Lyrene Fernandes da Silva,Roxana Portugal
+a404,a903,Undirected,4,2000,2015,2000;2001;2004;2015,Jaelson Castro,Victor Francisco Araya Santander
+a379,a702,Undirected,4,2001,2004,2001;2002;2003;2004,Hugo Estrada,Oscar Pastor
+a35,a702,Undirected,4,2001,2004,2001;2002;2003;2004,Alicia Martínez,Oscar Pastor
+a404,a669,Undirected,4,2021,2025,2021;2022;2025,Jaelson Castro,Mozart de Melo Alves Júnior
+a236,a786,Undirected,4,1998,2003,1998;2000;2001;2003,Edna Pacheco Zanlorenci,Robert Carlisle Burnett
+a141,a473,Undirected,4,2002,2015,2002;2003;2006;2015,Carme Quer,Juan Pablo Carvallo
+a400,a903,Undirected,4,2012,2022,2012;2015;2020;2022,Ivonei Freitas da Silva,Victor Francisco Araya Santander
+a18,a518,Undirected,4,2022,2026,2022;2023;2026,Alejandro Fernandez,Leandro Antonelli
+a404,a458,Undirected,4,2007,2019,2007;2018;2019,Jaelson Castro,João Araújo
+a404,a666,Undirected,4,2019,2023,2019;2021;2022;2023,Jaelson Castro,Moniky Ribeiro
+a485,a518,Undirected,4,2012,2021,2012;2013;2017;2021,Julio Cesar Sampaio do Prado Leite,Leandro Antonelli
+a19,a485,Undirected,4,2012,2021,2012;2013;2017;2021,Alejandro Oliveros,Julio Cesar Sampaio do Prado Leite
+a125,a404,Undirected,4,2000,2006,2000;2001;2006,Carina Alves,Jaelson Castro
+a302,a883,Undirected,4,2018,2022,2018;2020;2021;2022,Fernanda Alencar,Timóteo Gomes
+a404,a870,Undirected,4,2015,2021,2015;2017;2018;2021,Jaelson Castro,Tarcísio Pereira
+a78,a485,Undirected,4,2007,2021,2007;2008;2009;2021,Antonio de Padua Albuquerque Oliveira,Julio Cesar Sampaio do Prado Leite
+a71,a791,Undirected,4,2016,2018,2016;2017;2018,Angelica Toffano Seidel Calazans,Roberto Avila Paldês
+a467,a487,Undirected,4,2015,2019,2015;2016;2019,João Pimentel,Jéssyka Vilela
+a518,a709,Undirected,4,2024,2026,2024;2026,Leandro Antonelli,Pablo Thomas
+a43,a95,Undirected,4,1999,2001,1999;2001,Amador Durán,Beatriz Bernárdez
+a220,a518,Undirected,3,2024,2025,2024;2025,Diego Firmenich,Leandro Antonelli
+a143,a490,Undirected,3,2003,2004,2003;2004,Carolina Howard Felicíssimo,Karin Koogan Breitman
+a277,a772,Undirected,3,2022,2025,2022;2024;2025,Ernesto Fonseca Veiga,Renato F. Bulcão-Neto
+a302,a591,Undirected,3,2009,2017,2009;2016;2017,Fernanda Alencar,Marcia Lucena
+a263,a404,Undirected,3,2009,2013,2009;2010;2013,Emanuel Santos,Jaelson Castro
+a368,a867,Undirected,3,2023,2026,2023;2026,Henrique Prado de Sá Sousa,Tadeu Classe
+a14,a518,Undirected,3,2024,2026,2024;2025;2026,Alberto Sebastián,Leandro Antonelli
+a355,a518,Undirected,3,2024,2026,2024;2025;2026,Graciela D.S. Hadad,Leandro Antonelli
+a823,a872,Undirected,3,2018,2021,2018;2021,Sabrina Marczak,Tayana Conte
+a404,a702,Undirected,3,2008,2010,2008;2010,Jaelson Castro,Oscar Pastor
+a127,a615,Undirected,3,2015,2023,2015;2019;2023,Carla Silva,Mariana Peixoto
+a404,a719,Undirected,3,2015,2016,2015;2016,Jaelson Castro,Paulo Lima
+a270,a458,Undirected,3,2018,2019,2018;2019,Enyo Gonçalves,João Araújo
+a78,a897,Undirected,3,2007,2021,2007;2009;2021,Antonio de Padua Albuquerque Oliveira,Vera Maria Benjamim Werneck
+a368,a816,Undirected,3,2025,2026,2025;2026,Henrique Prado de Sá Sousa,Roxana Portugal
+a302,a782,Undirected,3,2007,2016,2007;2012;2016,Fernanda Alencar,Ricardo Ramos
+a302,a467,Undirected,3,2010,2016,2010;2013;2016,Fernanda Alencar,João Pimentel
+a404,a881,Undirected,3,2017,2019,2017;2018;2019,Jaelson Castro,Tiago Heineck
+a467,a610,Undirected,3,2016,2023,2016;2020;2023,João Pimentel,Maria Lencastre
+a110,a485,Undirected,3,2004,2007,2004;2005;2007,Bruno González-Baixauli,Julio Cesar Sampaio do Prado Leite
+a404,a745,Undirected,3,2021,2024,2021;2022;2024,Jaelson Castro,Quelita Ribeiro
+a139,a422,Undirected,3,2022,2024,2022;2023;2024,Carlos Renato dos Santos,Johnny Cardoso Marques
+a614,a772,Undirected,3,2021,2024,2021;2022;2024,Mariana Crisostomo Martins,Renato F. Bulcão-Neto
+a36,a711,Undirected,3,2019,2022,2019;2020;2022,Aline Barbosa,Patricia Mergulhão
+a352,a485,Undirected,3,1998,2000,1998;1999;2000,Gladys N. Kaplan,Julio Cesar Sampaio do Prado Leite
+a610,a711,Undirected,3,2019,2022,2019;2020;2022,Maria Lencastre,Patricia Mergulhão
+a355,a485,Undirected,3,1998,2000,1998;1999;2000,Graciela D.S. Hadad,Julio Cesar Sampaio do Prado Leite
+a351,a518,Undirected,3,2023,2026,2023;2024;2026,Giuliana Maltempo,Leandro Antonelli
+a351,a481,Undirected,3,2023,2026,2023;2024;2026,Giuliana Maltempo,Juliana Delle Ville
+a95,a656,Undirected,3,1999,2001,1999;2001,Beatriz Bernárdez,Miguel Toro
+a58,a827,Undirected,3,2004,2005,2004;2005,Anderson Belgamo,Sandra Fabbri
+a76,a95,Undirected,3,1999,2001,1999;2001,Antonio Ruiz,Beatriz Bernárdez
+a646,a806,Undirected,3,2005,2009,2005;2007;2009,Maya Daneva,Roel Wieringa
+a901,a903,Undirected,3,2019,2022,2019;2020;2022,Victor Augusto Pozzan,Victor Francisco Araya Santander
+a89,a622,Undirected,3,2005,2008,2005;2008,Aurora Vizcaíno,Mario Piattini
+a614,a866,Undirected,3,2021,2024,2021;2022;2024,Mariana Crisostomo Martins,Taciana Novo Kudo
+a110,a654,Undirected,3,2004,2008,2004;2005;2008,Bruno González-Baixauli,Miguel A. Laguna
+a329,a667,Undirected,3,2012,2020,2012;2013;2020,Gabriela Guedes,Monique Soares
+a686,a702,Undirected,3,2006,2009,2006;2008;2009,Nelly Condori-Fernández,Oscar Pastor
+a78,a566,Undirected,3,2006,2021,2006;2008;2021,Antonio de Padua Albuquerque Oliveira,Luiz Marcio Cysneiros
+a656,a746,Undirected,3,2000,2002,2000;2001;2002,Miguel Toro,Rafael Corchuelo
+a76,a746,Undirected,3,2000,2002,2000;2001;2002,Antonio Ruiz,Rafael Corchuelo
+a43,a746,Undirected,3,2000,2002,2000;2001;2002,Amador Durán,Rafael Corchuelo
+a56,a458,Undirected,3,2006,2011,2006;2007;2011,Ana Moreira,João Araújo
+a18,a222,Undirected,3,2022,2023,2022;2023,Alejandro Fernandez,Diego Torres
+a2,a404,Undirected,3,2023,2025,2023;2024;2025,Abimael Santos,Jaelson Castro
+a2,a610,Undirected,3,2023,2025,2023;2024;2025,Abimael Santos,Maria Lencastre
+a247,a867,Undirected,3,2023,2026,2023;2026,Eduardo Kinder Almentero,Tadeu Classe
+a477,a566,Undirected,2,2005,2005,2005,Juliana Amaral,Luiz Marcio Cysneiros
+a17,a89,Undirected,2,2005,2008,2005;2008,Alejandra Cechich,Aurora Vizcaíno
+a17,a330,Undirected,2,2005,2008,2005;2008,Alejandra Cechich,Gabriela N. Aranda
+a17,a622,Undirected,2,2005,2008,2005;2008,Alejandra Cechich,Mario Piattini
+a294,a709,Undirected,2,2025,2026,2025;2026,Federico Cristina,Pablo Thomas
+a386,a566,Undirected,2,2005,2005,2005,Ilca Webster,Luiz Marcio Cysneiros
+a437,a475,Undirected,2,2007,2007,2007,Jose Luis De la Vara González,Juan Sánchez Díaz
+a485,a654,Undirected,2,2004,2005,2004;2005,Julio Cesar Sampaio do Prado Leite,Miguel A. Laguna
+a127,a809,Undirected,2,2004,2005,2004;2005,Carla Silva,Rosa Candida Pinto
+a404,a809,Undirected,2,2004,2005,2004;2005,Jaelson Castro,Rosa Candida Pinto
+a432,a804,Undirected,2,2004,2005,2004;2005,Jorge Luiz Nicolas Audy,Rodrigo Santos de Espindola
+a370,a485,Undirected,2,2007,2012,2007;2012,Herbet de Souza Cunha,Julio Cesar Sampaio do Prado Leite
+a29,a252,Undirected,2,2016,2016,2016,Alexandre Lerário,Elias Canhadas Genvigir
+a294,a712,Undirected,2,2025,2026,2025;2026,Federico Cristina,Patricia Pesado
+a252,a435,Undirected,2,2016,2016,2016,Elias Canhadas Genvigir,Jose Augusto Fabri
+a29,a435,Undirected,2,2016,2016,2016,Alexandre Lerário,Jose Augusto Fabri
+a89,a330,Undirected,2,2005,2008,2005;2008,Aurora Vizcaíno,Gabriela N. Aranda
+a274,a591,Undirected,2,2017,2019,2017;2019,Erica Miranda,Marcia Lucena
+a294,a836,Undirected,2,2025,2026,2025;2026,Federico Cristina,Sebastián Dapoto
+a709,a712,Undirected,2,2025,2026,2025;2026,Pablo Thomas,Patricia Pesado
+a202,a404,Undirected,2,2017,2018,2017;2018,Danyllo Albuquerque,Jaelson Castro
+a368,a570,Undirected,2,2025,2025,2025,Henrique Prado de Sá Sousa,Lyrene Fernandes da Silva
+a498,a610,Undirected,2,2006,2007,2006;2007,Keldjan Alves,Maria Lencastre
+a498,a768,Undirected,2,2006,2007,2006;2007,Keldjan Alves,Renata Melo
+a610,a768,Undirected,2,2006,2007,2006;2007,Maria Lencastre,Renata Melo
+a128,a518,Undirected,2,2025,2026,2025;2026,Carlos Antonio Carden,Leandro Antonelli
+a518,a691,Undirected,2,2022,2026,2022;2026,Leandro Antonelli,Nicolás Simón Ruffolo
+a18,a481,Undirected,2,2022,2023,2022;2023,Alejandro Fernandez,Juliana Delle Ville
+a404,a509,Undirected,2,2021,2022,2021;2022,Jaelson Castro,Larissa Rodrigues da Costa
+a71,a500,Undirected,2,2017,2018,2017;2018,Angelica Toffano Seidel Calazans,Kiane Mabel Rezende
+a18,a553,Undirected,2,2022,2023,2022;2023,Alejandro Fernandez,Luciana Tanevitch
+a222,a481,Undirected,2,2022,2023,2022;2023,Diego Torres,Juliana Delle Ville
+a222,a553,Undirected,2,2022,2023,2022;2023,Diego Torres,Luciana Tanevitch
+a481,a553,Undirected,2,2022,2023,2022;2023,Juliana Delle Ville,Luciana Tanevitch
+a500,a791,Undirected,2,2017,2018,2017;2018,Kiane Mabel Rezende,Roberto Avila Paldês
+a518,a553,Undirected,2,2022,2023,2022;2023,Leandro Antonelli,Luciana Tanevitch
+a125,a848,Undirected,2,2006,2007,2006;2007,Carina Alves,Silvia Pereira
+a565,a763,Undirected,2,2016,2021,2016;2021,Luiz Gustavo Ferreira Aguiar,Rebeca Teodoro Da Silva
+a252,a763,Undirected,2,2016,2021,2016;2021,Elias Canhadas Genvigir,Rebeca Teodoro Da Silva
+a302,a610,Undirected,2,2006,2016,2006;2016,Fernanda Alencar,Maria Lencastre
+a93,a404,Undirected,2,2017,2018,2017;2018,Aêda Sousa,Jaelson Castro
+a247,a816,Undirected,2,2025,2026,2025;2026,Eduardo Kinder Almentero,Roxana Portugal
+a712,a836,Undirected,2,2025,2026,2025;2026,Patricia Pesado,Sebastián Dapoto
+a330,a622,Undirected,2,2005,2008,2005;2008,Gabriela N. Aranda,Mario Piattini
+a709,a836,Undirected,2,2025,2026,2025;2026,Pablo Thomas,Sebastián Dapoto
+a252,a565,Undirected,2,2016,2021,2016;2021,Elias Canhadas Genvigir,Luiz Gustavo Ferreira Aguiar
+a387,a591,Undirected,2,2015,2017,2015;2017,Ilueny Santos,Marcia Lucena
+a190,a855,Undirected,2,2007,2008,2007;2008,Daniel M. Berry,Sri Fatimah Tjong
+a518,a831,Undirected,2,2023,2024,2023;2024,Leandro Antonelli,Santiago Cecconato
+a85,a586,Undirected,2,2011,2012,2011;2012,Arturo González,Marcela Ruiz
+a666,a782,Undirected,2,2022,2023,2022;2023,Moniky Ribeiro,Ricardo Ramos
+a351,a831,Undirected,2,2023,2024,2023;2024,Giuliana Maltempo,Santiago Cecconato
+a356,a518,Undirected,2,2023,2024,2023;2024,Gregorio Maclen,Leandro Antonelli
+a481,a831,Undirected,2,2023,2024,2023;2024,Juliana Delle Ville,Santiago Cecconato
+a453,a524,Undirected,2,2011,2012,2011;2012,José Luis Braga,Leonardo Fonseca de Carvalho
+a44,a813,Undirected,2,2022,2026,2022;2026,Amanda Sousa,Rossana Andrade
+a550,a618,Undirected,2,2013,2020,2013;2020,Luciana Ballejos,Mariel Ale
+a85,a839,Undirected,2,2011,2012,2011;2012,Arturo González,Sergio España
+a485,a785,Undirected,2,2023,2024,2023;2024,Julio Cesar Sampaio do Prado Leite,Rita Suzana Pitangueira Maciel
+a487,a615,Undirected,2,2022,2022,2022,Jéssyka Vilela,Mariana Peixoto
+a279,a829,Undirected,2,2010,2012,2010;2012,Ewelton Y. C. Yoshidome,Sandro R. B. Oliveira
+a256,a897,Undirected,2,2010,2011,2010;2011,Elizabeth Suescún Monsalve,Vera Maria Benjamim Werneck
+a256,a485,Undirected,2,2010,2011,2010;2011,Elizabeth Suescún Monsalve,Julio Cesar Sampaio do Prado Leite
+a205,a638,Undirected,2,2023,2024,2023;2024,Davi De França Carneiro,Mauricio Barros Ottoni
+a405,a563,Undirected,2,2010,2012,2010;2012,Jaime Cazuhiro Ossada,Luiz Eduardo Galvão Martins
+a85,a702,Undirected,2,2011,2012,2011;2012,Arturo González,Oscar Pastor
+a586,a702,Undirected,2,2011,2012,2011;2012,Marcela Ruiz,Oscar Pastor
+a127,a157,Undirected,2,2010,2011,2010;2011,Carla Silva,Clarissa Borba
+a127,a329,Undirected,2,2013,2020,2013;2020,Carla Silva,Gabriela Guedes
+a373,a808,Undirected,2,2012,2014,2012;2014,Hernan Astudillo,Romina Torres
+a771,a823,Undirected,2,2023,2024,2023;2024,Renata Vinadé,Sabrina Marczak
+a404,a667,Undirected,2,2012,2013,2012;2013,Jaelson Castro,Monique Soares
+a453,a457,Undirected,2,2012,2013,2012;2013,José Luis Braga,Joás Weslei Baía
+a329,a404,Undirected,2,2012,2013,2012;2013,Gabriela Guedes,Jaelson Castro
+a302,a667,Undirected,2,2012,2013,2012;2013,Fernanda Alencar,Monique Soares
+a302,a329,Undirected,2,2012,2013,2012;2013,Fernanda Alencar,Gabriela Guedes
+a167,a667,Undirected,2,2012,2013,2012;2013,Cleice Souza,Monique Soares
+a586,a839,Undirected,2,2011,2012,2011;2012,Marcela Ruiz,Sergio España
+a167,a404,Undirected,2,2012,2013,2012;2013,Cleice Souza,Jaelson Castro
+a167,a329,Undirected,2,2012,2013,2012;2013,Cleice Souza,Gabriela Guedes
+a167,a302,Undirected,2,2012,2013,2012;2013,Cleice Souza,Fernanda Alencar
+a222,a356,Undirected,2,2023,2024,2023;2024,Diego Torres,Gregorio Maclen
+a127,a667,Undirected,2,2013,2020,2013;2020,Carla Silva,Monique Soares
+a324,a723,Undirected,2,2011,2013,2011;2013,Fábio Levy Siqueira,Paulo Sérgio Muniz Silva
+a702,a839,Undirected,2,2011,2012,2011;2012,Oscar Pastor,Sergio España
+a157,a404,Undirected,2,2010,2011,2010;2011,Clarissa Borba,Jaelson Castro
+a205,a687,Undirected,2,2023,2024,2023;2024,Davi De França Carneiro,Nelson Gutemberg Rocha Da Silva
+a270,a487,Undirected,2,2016,2016,2016,Enyo Gonçalves,Jéssyka Vilela
+a174,a225,Undirected,2,2024,2025,2024;2025,Cristiana De Paulo,Dorgival Netto
+a404,a475,Undirected,2,2008,2010,2008;2010,Jaelson Castro,Juan Sánchez Díaz
+a127,a487,Undirected,2,2024,2024,2024,Carla Silva,Jéssyka Vilela
+a151,a302,Undirected,2,2015,2017,2015;2017,Celso Agra,Fernanda Alencar
+a30,a400,Undirected,2,2015,2022,2015;2022,Alexandre Luiz de Borba Silva,Ivonei Freitas da Silva
+a30,a903,Undirected,2,2015,2022,2015;2022,Alexandre Luiz de Borba Silva,Victor Francisco Araya Santander
+a467,a719,Undirected,2,2015,2016,2015;2016,João Pimentel,Paulo Lima
+a487,a719,Undirected,2,2015,2016,2015;2016,Jéssyka Vilela,Paulo Lima
+a302,a719,Undirected,2,2015,2016,2015;2016,Fernanda Alencar,Paulo Lima
+a201,a701,Undirected,2,2008,2011,2008;2011,Dante Carrizo,Oscar Dieste
+a72,a775,Undirected,2,2024,2026,2024;2026,Anna Beatriz Marques,Rhenara Oliveira
+a72,a813,Undirected,2,2024,2026,2024;2026,Anna Beatriz Marques,Rossana Andrade
+a775,a813,Undirected,2,2024,2026,2024;2026,Rhenara Oliveira,Rossana Andrade
+a518,a854,Undirected,2,2024,2026,2024;2026,Leandro Antonelli,Sonia Santana
+a709,a854,Undirected,2,2024,2026,2024;2026,Pablo Thomas,Sonia Santana
+a392,a437,Undirected,2,2015,2016,2015;2016,Isabel Sofia Brito,Jose Luis De la Vara González
+a270,a467,Undirected,2,2016,2016,2016,Enyo Gonçalves,João Pimentel
+a201,a679,Undirected,2,2008,2011,2008;2011,Dante Carrizo,Natalia Juristo
+a679,a701,Undirected,2,2008,2011,2008;2011,Natalia Juristo,Oscar Dieste
+a638,a687,Undirected,2,2023,2024,2023;2024,Mauricio Barros Ottoni,Nelson Gutemberg Rocha Da Silva
+a263,a302,Undirected,2,2009,2013,2009;2013,Emanuel Santos,Fernanda Alencar
+a785,a863,Undirected,2,2022,2026,2022;2026,Rita Suzana Pitangueira Maciel,Sávio Freire
+a903,a911,Undirected,2,2023,2024,2023;2024,Victor Francisco Araya Santander,Vitor Luiz Caldeira Gilnek
+a277,a866,Undirected,2,2024,2025,2024;2025,Ernesto Fonseca Veiga,Taciana Novo Kudo
+a127,a199,Undirected,2,2014,2014,2014,Carla Silva,Danielle Rousy
+a582,a863,Undirected,2,2022,2025,2022;2025,Manoel Mendonça,Sávio Freire
+a355,a585,Undirected,2,2009,2025,2009;2025,Graciela D.S. Hadad,Marcela Ridao
+a591,a880,Undirected,2,2024,2025,2024;2025,Marcia Lucena,Tiago Brito
+a235,a507,Undirected,2,2024,2024,2024,Edna Dias Canedo,Larissa Pereira Gonçalves
+a272,a566,Undirected,2,2004,2005,2004;2005,Eric Yu,Luiz Marcio Cysneiros
+a127,a302,Undirected,2,2009,2013,2009;2013,Carla Silva,Fernanda Alencar
+a127,a263,Undirected,2,2009,2013,2009;2013,Carla Silva,Emanuel Santos
+a129,a922,Undirected,2,2009,2011,2009;2011,Carlos Cares,Xavier Franch
+a646,a702,Undirected,2,2008,2009,2008;2009,Maya Daneva,Oscar Pastor
+a646,a686,Undirected,2,2008,2009,2008;2009,Maya Daneva,Nelly Condori-Fernández
+a168,a587,Undirected,2,2008,2009,2008;2009,Cleidson R. B. de Souza,Marcelio D’oliveira Leal
+a627,a701,Undirected,2,2008,2011,2008;2011,Marta Lopez,Oscar Dieste
+a272,a897,Undirected,2,2004,2005,2004;2005,Eric Yu,Vera Maria Benjamim Werneck
+a458,a881,Undirected,2,2018,2019,2018;2019,João Araújo,Tiago Heineck
+a753,a872,Undirected,2,2021,2021,2021,Rafael Parizi,Tayana Conte
+a513,a909,Undirected,2,1998,1998,1998,Laura Rivero,Virginia Mauco
+a346,a404,Undirected,2,2000,2002,2000;2002,Gilberto Amado de Azevedo Cysneiros Filho,Jaelson Castro
+a302,a346,Undirected,2,2000,2002,2000;2002,Fernanda Alencar,Gilberto Amado de Azevedo Cysneiros Filho
+a127,a225,Undirected,2,2019,2023,2019;2023,Carla Silva,Dorgival Netto
+a93,a883,Undirected,2,2018,2020,2018;2020,Aêda Sousa,Timóteo Gomes
+a270,a881,Undirected,2,2018,2019,2018;2019,Enyo Gonçalves,Tiago Heineck
+a591,a752,Undirected,2,2018,2021,2018;2021,Marcia Lucena,Rafael Nascimento
+a431,a520,Undirected,2,2003,2003,2003,Jorge Luis N. Audy,Leandro T. Lopes
+a25,a337,Undirected,2,2003,2004,2003;2004,Alex Sandro Gomes,Genésio Gomes da Cruz Neto
+a302,a316,Undirected,2,2003,2004,2003;2004,Fernanda Alencar,Flávio Pereira Pedroza
+a316,a404,Undirected,2,2003,2004,2003;2004,Flávio Pereira Pedroza,Jaelson Castro
+a404,a547,Undirected,2,2003,2004,2003;2004,Jaelson Castro,Lucia R. D. Bastos
+a159,a485,Undirected,2,2003,2005,2003;2005,Claudia Hazan,Julio Cesar Sampaio do Prado Leite
+a232,a414,Undirected,2,2018,2020,2018;2020,Ecivaldo Matos,Jean C. S. Rosa
+a485,a585,Undirected,2,2000,2001,2000;2001,Julio Cesar Sampaio do Prado Leite,Marcela Ridao
+a321,a324,Undirected,2,2020,2022,2020;2022,Fábio Avigo de Castro Pinto,Fábio Levy Siqueira
+a96,a563,Undirected,2,1999,2001,1999;2001,Beatriz Mascia Daltrini,Luiz Eduardo Galvão Martins
+a141,a335,Undirected,2,2003,2005,2003;2005,Carme Quer,Gemma Grau
+a630,a909,Undirected,2,1998,2004,1998;2004,María Carmen Leonardi,Virginia Mauco
+a617,a909,Undirected,2,1998,1998,1998,Mariana del Fresno,Virginia Mauco
+a585,a909,Undirected,2,1998,1998,1998,Marcela Ridao,Virginia Mauco
+a585,a617,Undirected,2,1998,1998,1998,Marcela Ridao,Mariana del Fresno
+a427,a632,Undirected,2,2019,2025,2019;2025,Jorge Doorn,María Celia Elizalde
+a355,a632,Undirected,2,2019,2025,2019;2025,Graciela D.S. Hadad,María Celia Elizalde
+a361,a903,Undirected,2,2020,2023,2020;2023,Gustavo Cesar Lopes Geraldino,Victor Francisco Araya Santander
+a473,a921,Undirected,2,2002,2003,2002;2003,Juan Pablo Carvallo,Xavier Burgués
+a571,a772,Undirected,2,2026,2026,2026,Lívia Mancine,Renato F. Bulcão-Neto
+a766,a772,Undirected,2,2026,2026,2026,Renata Braga,Renato F. Bulcão-Neto
+a753,a823,Undirected,2,2021,2021,2021,Rafael Parizi,Sabrina Marczak
+a750,a903,Undirected,2,2026,2026,2026,Rafael Lima,Victor Francisco Araya Santander
+a610,a666,Undirected,2,2021,2023,2021;2023,Maria Lencastre,Moniky Ribeiro
+a610,a669,Undirected,2,2021,2022,2021;2022,Maria Lencastre,Mozart de Melo Alves Júnior
+a54,a485,Undirected,2,2018,2020,2018;2020,Ana Maria da Mota Moura,Julio Cesar Sampaio do Prado Leite
+a141,a921,Undirected,2,2002,2003,2002;2003,Carme Quer,Xavier Burgués
+a485,a807,Undirected,2,2018,2019,2018;2019,Julio Cesar Sampaio do Prado Leite,Romeu Ferreira de Oliveira
+a737,a922,Undirected,2,2002,2004,2002;2004,Pere Botella,Xavier Franch
+a109,a872,Undirected,2,2021,2021,2021,Bruno Gadelha,Tayana Conte
+a79,a539,Undirected,2,2019,2024,2019;2024,Apuena Gomes,Luana Souza
+a921,a922,Undirected,2,2002,2003,2002;2003,Xavier Burgués,Xavier Franch
+a79,a591,Undirected,2,2019,2024,2019;2024,Apuena Gomes,Marcia Lucena
+a315,a871,Undirected,2,2026,2026,2026,Flavio Henrique Mendonca,Tassio Ferenzini Martins Sirqueira
+a48,a404,Undirected,2,2001,2002,2001;2002,Ana Elizabete Souza de Carvalho,Jaelson Castro
+a315,a897,Undirected,2,2026,2026,2026,Flavio Henrique Mendonca,Vera Maria Benjamim Werneck
+a539,a591,Undirected,2,2019,2024,2019;2024,Luana Souza,Marcia Lucena
+a871,a897,Undirected,2,2026,2026,2026,Tassio Ferenzini Martins Sirqueira,Vera Maria Benjamim Werneck
+a400,a901,Undirected,2,2020,2022,2020;2022,Ivonei Freitas da Silva,Victor Augusto Pozzan
+a335,a922,Undirected,2,2003,2005,2003;2005,Gemma Grau,Xavier Franch
+a571,a766,Undirected,2,2026,2026,2026,Lívia Mancine,Renata Braga
+a513,a617,Undirected,2,1998,1998,1998,Laura Rivero,Mariana del Fresno
+a427,a617,Undirected,2,1998,1998,1998,Jorge Doorn,Mariana del Fresno
+a523,a872,Undirected,2,2020,2021,2020;2021,Leonardo C. Marques,Tayana Conte
+a549,a872,Undirected,2,2020,2021,2020;2021,Luciana A. M. Zaina,Tayana Conte
+a120,a610,Undirected,2,2019,2020,2019;2020,Camila B. de Andrade,Maria Lencastre
+a36,a120,Undirected,2,2019,2020,2019;2020,Aline Barbosa,Camila B. de Andrade
+a427,a513,Undirected,2,1998,1998,1998,Jorge Doorn,Laura Rivero
+a485,a630,Undirected,2,1998,2001,1998;2001,Julio Cesar Sampaio do Prado Leite,María Carmen Leonardi
+a302,a438,Undirected,2,2019,2021,2019;2021,Fernanda Alencar,Jose Vinicius Vieira Lima
+a485,a490,Undirected,2,1998,2003,1998;2003,Julio Cesar Sampaio do Prado Leite,Karin Koogan Breitman
+a513,a585,Undirected,2,1998,1998,1998,Laura Rivero,Marcela Ridao
+a427,a630,Undirected,2,1998,2000,1998;2000,Jorge Doorn,María Carmen Leonardi
+a485,a852,Undirected,2,1998,2001,1998;2001,Julio Cesar Sampaio do Prado Leite,Soeli T. Fiorini
+a427,a909,Undirected,2,1998,1998,1998,Jorge Doorn,Virginia Mauco
+a785,a787,Undirected,1,2022,2022,2022,Rita Suzana Pitangueira Maciel,Robert Ramac
+a19,a268,Undirected,1,2023,2023,2023,Alejandro Oliveros,Emílio Insfrán Pelozo
+a19,a281,Undirected,1,2023,2023,2023,Alejandro Oliveros,Ezequiel Kahan
+a88,a772,Undirected,1,2020,2020,2020,Auri M. R. Vincenzi,Renato F. Bulcão-Neto
+a506,a863,Undirected,1,2022,2022,2022,Larissa Barbosa,Sávio Freire
+a19,a584,Undirected,1,2023,2023,2023,Alejandro Oliveros,Marcela Genero
+a88,a866,Undirected,1,2020,2020,2020,Auri M. R. Vincenzi,Taciana Novo Kudo
+a268,a281,Undirected,1,2023,2023,2023,Emílio Insfrán Pelozo,Ezequiel Kahan
+a268,a584,Undirected,1,2023,2023,2023,Emílio Insfrán Pelozo,Marcela Genero
+a582,a684,Undirected,1,2022,2022,2022,Manoel Mendonça,Nebojša Taušan
+a281,a584,Undirected,1,2023,2023,2023,Ezequiel Kahan,Marcela Genero
+a506,a805,Undirected,1,2022,2022,2022,Larissa Barbosa,Rodrigo Spínola
+a26,a720,Undirected,1,2023,2023,2023,Alexandre Barbosa,Paulo Malcher
+a26,a802,Undirected,1,2023,2023,2023,Alexandre Barbosa,Rodrigo Pereira dos Santos
+a720,a802,Undirected,1,2023,2023,2023,Paulo Malcher,Rodrigo Pereira dos Santos
+a785,a805,Undirected,1,2022,2022,2022,Rita Suzana Pitangueira Maciel,Rodrigo Spínola
+a237,a252,Undirected,1,2021,2021,2021,Edneuci Denise Audacio,Elias Canhadas Genvigir
+a523,a549,Undirected,1,2020,2020,2020,Leonardo C. Marques,Luciana A. M. Zaina
+a506,a913,Undirected,1,2022,2022,2022,Larissa Barbosa,Vladimir Mandic
+a694,a724,Undirected,1,2020,2020,2020,Nuno J. Nunes,Pedro D. Valente
+a59,a71,Undirected,1,2020,2020,2020,Anderson Jefferson Cerqueira,Angelica Toffano Seidel Calazans
+a689,a913,Undirected,1,2022,2022,2022,Nicolli Rios,Vladimir Mandic
+a689,a863,Undirected,1,2022,2022,2022,Nicolli Rios,Sávio Freire
+a689,a805,Undirected,1,2022,2022,2022,Nicolli Rios,Rodrigo Spínola
+a361,a400,Undirected,1,2020,2020,2020,Gustavo Cesar Lopes Geraldino,Ivonei Freitas da Silva
+a689,a787,Undirected,1,2022,2022,2022,Nicolli Rios,Robert Ramac
+a689,a785,Undirected,1,2022,2022,2022,Nicolli Rios,Rita Suzana Pitangueira Maciel
+a684,a913,Undirected,1,2022,2022,2022,Nebojša Taušan,Vladimir Mandic
+a684,a863,Undirected,1,2022,2022,2022,Nebojša Taušan,Sávio Freire
+a684,a805,Undirected,1,2022,2022,2022,Nebojša Taušan,Rodrigo Spínola
+a59,a235,Undirected,1,2020,2020,2020,Anderson Jefferson Cerqueira,Edna Dias Canedo
+a684,a787,Undirected,1,2022,2022,2022,Nebojša Taušan,Robert Ramac
+a361,a901,Undirected,1,2020,2020,2020,Gustavo Cesar Lopes Geraldino,Victor Augusto Pozzan
+a684,a785,Undirected,1,2022,2022,2022,Nebojša Taušan,Rita Suzana Pitangueira Maciel
+a684,a689,Undirected,1,2022,2022,2022,Nebojša Taušan,Nicolli Rios
+a582,a913,Undirected,1,2022,2022,2022,Manoel Mendonça,Vladimir Mandic
+a582,a805,Undirected,1,2022,2022,2022,Manoel Mendonça,Rodrigo Spínola
+a582,a787,Undirected,1,2022,2022,2022,Manoel Mendonça,Robert Ramac
+a582,a785,Undirected,1,2022,2022,2022,Manoel Mendonça,Rita Suzana Pitangueira Maciel
+a582,a689,Undirected,1,2022,2022,2022,Manoel Mendonça,Nicolli Rios
+a237,a496,Undirected,1,2021,2021,2021,Edneuci Denise Audacio,Katia Romero Felizardo
+a506,a787,Undirected,1,2022,2022,2022,Larissa Barbosa,Robert Ramac
+a506,a785,Undirected,1,2022,2022,2022,Larissa Barbosa,Rita Suzana Pitangueira Maciel
+a5,a436,Undirected,1,2021,2021,2021,Adriana Damian,Jose Carlos Duarte
+a83,a127,Undirected,1,2023,2023,2023,Arthur Vieira,Carla Silva
+a83,a615,Undirected,1,2023,2023,2023,Arthur Vieira,Mariana Peixoto
+a247,a800,Undirected,1,2023,2023,2023,Eduardo Kinder Almentero,Rodrigo Juliao dos Santos
+a209,a787,Undirected,1,2022,2022,2022,Davide Falessi,Robert Ramac
+a209,a785,Undirected,1,2022,2022,2022,Davide Falessi,Rita Suzana Pitangueira Maciel
+a209,a689,Undirected,1,2022,2022,2022,Davide Falessi,Nicolli Rios
+a209,a684,Undirected,1,2022,2022,2022,Davide Falessi,Nebojša Taušan
+a5,a753,Undirected,1,2021,2021,2021,Adriana Damian,Rafael Parizi
+a209,a582,Undirected,1,2022,2022,2022,Davide Falessi,Manoel Mendonça
+a5,a823,Undirected,1,2021,2021,2021,Adriana Damian,Sabrina Marczak
+a209,a506,Undirected,1,2022,2022,2022,Davide Falessi,Larissa Barbosa
+a209,a363,Undirected,1,2022,2022,2022,Davide Falessi,Gustavo López
+a204,a913,Undirected,1,2022,2022,2022,Darío Correal,Vladimir Mandic
+a204,a863,Undirected,1,2022,2022,2022,Darío Correal,Sávio Freire
+a204,a805,Undirected,1,2022,2022,2022,Darío Correal,Rodrigo Spínola
+a5,a872,Undirected,1,2021,2021,2021,Adriana Damian,Tayana Conte
+a204,a787,Undirected,1,2022,2022,2022,Darío Correal,Robert Ramac
+a426,a872,Undirected,1,2020,2020,2020,Jonathan H. J. Souza,Tayana Conte
+a204,a785,Undirected,1,2022,2022,2022,Darío Correal,Rita Suzana Pitangueira Maciel
+a204,a689,Undirected,1,2022,2022,2022,Darío Correal,Nicolli Rios
+a496,a763,Undirected,1,2021,2021,2021,Katia Romero Felizardo,Rebeca Teodoro Da Silva
+a209,a805,Undirected,1,2022,2022,2022,Davide Falessi,Rodrigo Spínola
+a496,a565,Undirected,1,2021,2021,2021,Katia Romero Felizardo,Luiz Gustavo Ferreira Aguiar
+a363,a863,Undirected,1,2022,2022,2022,Gustavo López,Sávio Freire
+a506,a689,Undirected,1,2022,2022,2022,Larissa Barbosa,Nicolli Rios
+a414,a694,Undirected,1,2020,2020,2020,Jean C. S. Rosa,Nuno J. Nunes
+a2,a666,Undirected,1,2023,2023,2023,Abimael Santos,Moniky Ribeiro
+a506,a684,Undirected,1,2022,2022,2022,Larissa Barbosa,Nebojša Taušan
+a237,a565,Undirected,1,2021,2021,2021,Edneuci Denise Audacio,Luiz Gustavo Ferreira Aguiar
+a506,a582,Undirected,1,2022,2022,2022,Larissa Barbosa,Manoel Mendonça
+a363,a913,Undirected,1,2022,2022,2022,Gustavo López,Vladimir Mandic
+a2,a782,Undirected,1,2023,2023,2023,Abimael Santos,Ricardo Ramos
+a237,a763,Undirected,1,2021,2021,2021,Edneuci Denise Audacio,Rebeca Teodoro Da Silva
+a363,a805,Undirected,1,2022,2022,2022,Gustavo López,Rodrigo Spínola
+a209,a863,Undirected,1,2022,2022,2022,Davide Falessi,Sávio Freire
+a363,a787,Undirected,1,2022,2022,2022,Gustavo López,Robert Ramac
+a610,a782,Undirected,1,2023,2023,2023,Maria Lencastre,Ricardo Ramos
+a363,a785,Undirected,1,2022,2022,2022,Gustavo López,Rita Suzana Pitangueira Maciel
+a363,a689,Undirected,1,2022,2022,2022,Gustavo López,Nicolli Rios
+a363,a684,Undirected,1,2022,2022,2022,Gustavo López,Nebojša Taušan
+a363,a582,Undirected,1,2022,2022,2022,Gustavo López,Manoel Mendonça
+a363,a506,Undirected,1,2022,2022,2022,Gustavo López,Larissa Barbosa
+a209,a913,Undirected,1,2022,2022,2022,Davide Falessi,Vladimir Mandic
+a252,a496,Undirected,1,2021,2021,2021,Elias Canhadas Genvigir,Katia Romero Felizardo
+a414,a724,Undirected,1,2020,2020,2020,Jean C. S. Rosa,Pedro D. Valente
+a787,a863,Undirected,1,2022,2022,2022,Robert Ramac,Sávio Freire
+a785,a913,Undirected,1,2022,2022,2022,Rita Suzana Pitangueira Maciel,Vladimir Mandic
+a397,a718,Undirected,1,2022,2022,2022,Ismayle S. Santos,Paulo Duarte
+a100,a829,Undirected,1,2020,2020,2020,Bleno W. F. V. da Silva,Sandro R. B. Oliveira
+a620,a813,Undirected,1,2022,2022,2022,Marina Reis Fernandes,Rossana Andrade
+a620,a718,Undirected,1,2022,2022,2022,Marina Reis Fernandes,Paulo Duarte
+a616,a813,Undirected,1,2022,2022,2022,Mariana Salamoni Francisco,Rossana Andrade
+a422,a563,Undirected,1,2020,2020,2020,Johnny Cardoso Marques,Luiz Eduardo Galvão Martins
+a616,a718,Undirected,1,2022,2022,2022,Mariana Salamoni Francisco,Paulo Duarte
+a235,a780,Undirected,1,2023,2023,2023,Edna Dias Canedo,Ricardo Cordeiro Galvão Santana van Erven
+a616,a620,Undirected,1,2022,2022,2022,Mariana Salamoni Francisco,Marina Reis Fernandes
+a397,a813,Undirected,1,2022,2022,2022,Ismayle S. Santos,Rossana Andrade
+a397,a620,Undirected,1,2022,2022,2022,Ismayle S. Santos,Marina Reis Fernandes
+a235,a739,Undirected,1,2023,2023,2023,Edna Dias Canedo,Pollyanna C. O. Dias
+a397,a616,Undirected,1,2022,2022,2022,Ismayle S. Santos,Mariana Salamoni Francisco
+a422,a869,Undirected,1,2020,2020,2020,Johnny Cardoso Marques,Talita Marques Ruiz Slavov
+a338,a739,Undirected,1,2023,2023,2023,George Marsicano Corrêa,Pollyanna C. O. Dias
+a563,a869,Undirected,1,2020,2020,2020,Luiz Eduardo Galvão Martins,Talita Marques Ruiz Slavov
+a44,a718,Undirected,1,2022,2022,2022,Amanda Sousa,Paulo Duarte
+a44,a620,Undirected,1,2022,2022,2022,Amanda Sousa,Marina Reis Fernandes
+a44,a616,Undirected,1,2022,2022,2022,Amanda Sousa,Mariana Salamoni Francisco
+a44,a397,Undirected,1,2022,2022,2022,Amanda Sousa,Ismayle S. Santos
+a789,a832,Undirected,1,2022,2022,2022,Roberta Coelho,Sara Guimarães
+a718,a813,Undirected,1,2022,2022,2022,Paulo Duarte,Rossana Andrade
+a530,a883,Undirected,1,2020,2020,2020,Letícia Lima,Timóteo Gomes
+a591,a789,Undirected,1,2022,2022,2022,Marcia Lucena,Roberta Coelho
+a126,a468,Undirected,1,2022,2022,2022,Carla Bezerra,João Victor R. Araújo
+a212,a739,Undirected,1,2023,2023,2023,Demétrius de Almeida Jubé,Pollyanna C. O. Dias
+a212,a338,Undirected,1,2023,2023,2023,Demétrius de Almeida Jubé,George Marsicano Corrêa
+a134,a563,Undirected,1,2020,2020,2020,Carlos Henrique Netto Lahoz,Luiz Eduardo Galvão Martins
+a374,a563,Undirected,1,2020,2020,2020,Heuller Aloys Carneiro Procópio,Luiz Eduardo Galvão Martins
+a212,a780,Undirected,1,2023,2023,2023,Demétrius de Almeida Jubé,Ricardo Cordeiro Galvão Santana van Erven
+a285,a747,Undirected,1,2020,2020,2020,Fabiane Barreto Vavassori Benitti,Rafael Crispim Ignácio
+a212,a235,Undirected,1,2023,2023,2023,Demétrius de Almeida Jubé,Edna Dias Canedo
+a235,a338,Undirected,1,2023,2023,2023,Edna Dias Canedo,George Marsicano Corrêa
+a499,a514,Undirected,1,2023,2023,2023,Keyla Silva,Laura Sarkis
+a349,a485,Undirected,1,2020,2020,2020,Giovana Brandão Ribeiro Linhares,Julio Cesar Sampaio do Prado Leite
+a302,a530,Undirected,1,2020,2020,2020,Fernanda Alencar,Letícia Lima
+a68,a468,Undirected,1,2022,2022,2022,Andréia Libório Sampaio,João Victor R. Araújo
+a68,a126,Undirected,1,2022,2022,2022,Andréia Libório Sampaio,Carla Bezerra
+a404,a765,Undirected,1,2020,2020,2020,Jaelson Castro,Reinaldo Silva
+a467,a765,Undirected,1,2020,2020,2020,João Pimentel,Reinaldo Silva
+a613,a770,Undirected,1,2022,2022,2022,Maria Yêda Lima,Renata Souza
+a127,a770,Undirected,1,2022,2022,2022,Carla Silva,Renata Souza
+a93,a530,Undirected,1,2020,2020,2020,Aêda Sousa,Letícia Lima
+a127,a613,Undirected,1,2022,2022,2022,Carla Silva,Maria Yêda Lima
+a773,a903,Undirected,1,2022,2022,2022,Renato G. Fritola,Victor Francisco Araya Santander
+a591,a832,Undirected,1,2022,2022,2022,Marcia Lucena,Sara Guimarães
+a612,a908,Undirected,1,2022,2022,2022,Maria Wanick Sarinho,Vinícius Polito
+a787,a805,Undirected,1,2022,2022,2022,Robert Ramac,Rodrigo Spínola
+a72,a105,Undirected,1,2023,2023,2023,Anna Beatriz Marques,Bruna Ferreira
+a297,a546,Undirected,1,2022,2022,2022,Felipe Brito Ayres,Lucas da Silva Souza
+a235,a728,Undirected,1,2022,2022,2022,Edna Dias Canedo,Pedro Henrique Teixeira Costa
+a739,a780,Undirected,1,2023,2023,2023,Pollyanna C. O. Dias,Ricardo Cordeiro Galvão Santana van Erven
+a94,a724,Undirected,1,2020,2020,2020,Beatriz B. do Rêgo,Pedro D. Valente
+a232,a312,Undirected,1,2020,2020,2020,Ecivaldo Matos,Filipe A. Garrido
+a235,a546,Undirected,1,2022,2022,2022,Edna Dias Canedo,Lucas da Silva Souza
+a235,a297,Undirected,1,2022,2022,2022,Edna Dias Canedo,Felipe Brito Ayres
+a863,a913,Undirected,1,2022,2022,2022,Sávio Freire,Vladimir Mandic
+a805,a913,Undirected,1,2022,2022,2022,Rodrigo Spínola,Vladimir Mandic
+a805,a863,Undirected,1,2022,2022,2022,Rodrigo Spínola,Sávio Freire
+a297,a728,Undirected,1,2022,2022,2022,Felipe Brito Ayres,Pedro Henrique Teixeira Costa
+a232,a694,Undirected,1,2020,2020,2020,Ecivaldo Matos,Nuno J. Nunes
+a71,a235,Undirected,1,2020,2020,2020,Angelica Toffano Seidel Calazans,Edna Dias Canedo
+a232,a724,Undirected,1,2020,2020,2020,Ecivaldo Matos,Pedro D. Valente
+a312,a414,Undirected,1,2020,2020,2020,Filipe A. Garrido,Jean C. S. Rosa
+a312,a694,Undirected,1,2020,2020,2020,Filipe A. Garrido,Nuno J. Nunes
+a787,a913,Undirected,1,2022,2022,2022,Robert Ramac,Vladimir Mandic
+a312,a724,Undirected,1,2020,2020,2020,Filipe A. Garrido,Pedro D. Valente
+a72,a611,Undirected,1,2023,2023,2023,Anna Beatriz Marques,Maria Victoria Fiori
+a105,a611,Undirected,1,2023,2023,2023,Bruna Ferreira,Maria Victoria Fiori
+a338,a780,Undirected,1,2023,2023,2023,George Marsicano Corrêa,Ricardo Cordeiro Galvão Santana van Erven
+a546,a728,Undirected,1,2022,2022,2022,Lucas da Silva Souza,Pedro Henrique Teixeira Costa
+a339,a908,Undirected,1,2022,2022,2022,George Valença,Vinícius Polito
+a618,a633,Undirected,1,2020,2020,2020,Mariel Ale,María Guadalupe Gramajo
+a339,a612,Undirected,1,2022,2022,2022,George Valença,Maria Wanick Sarinho
+a301,a563,Undirected,1,2020,2020,2020,Felipe dos Santos Rocha,Luiz Eduardo Galvão Martins
+a306,a908,Undirected,1,2022,2022,2022,Fernando Lins,Vinícius Polito
+a306,a612,Undirected,1,2022,2022,2022,Fernando Lins,Maria Wanick Sarinho
+a134,a374,Undirected,1,2020,2020,2020,Carlos Henrique Netto Lahoz,Heuller Aloys Carneiro Procópio
+a94,a232,Undirected,1,2020,2020,2020,Beatriz B. do Rêgo,Ecivaldo Matos
+a306,a339,Undirected,1,2022,2022,2022,Fernando Lins,George Valença
+a250,a615,Undirected,1,2022,2022,2022,Egberto Santana,Mariana Peixoto
+a250,a487,Undirected,1,2022,2022,2022,Egberto Santana,Jéssyka Vilela
+a94,a312,Undirected,1,2020,2020,2020,Beatriz B. do Rêgo,Filipe A. Garrido
+a404,a476,Undirected,1,2022,2022,2022,Jaelson Castro,Judith Kelner
+a94,a414,Undirected,1,2020,2020,2020,Beatriz B. do Rêgo,Jean C. S. Rosa
+a87,a615,Undirected,1,2022,2022,2022,Augusto Terra,Mariana Peixoto
+a87,a487,Undirected,1,2022,2022,2022,Augusto Terra,Jéssyka Vilela
+a235,a864,Undirected,1,2022,2022,2022,Edna Dias Canedo,Sâmmara Éllen Renner Ferrão
+a509,a610,Undirected,1,2022,2022,2022,Larissa Rodrigues da Costa,Maria Lencastre
+a476,a610,Undirected,1,2022,2022,2022,Judith Kelner,Maria Lencastre
+a94,a694,Undirected,1,2020,2020,2020,Beatriz B. do Rêgo,Nuno J. Nunes
+a436,a753,Undirected,1,2021,2021,2021,Jose Carlos Duarte,Rafael Parizi
+a550,a633,Undirected,1,2020,2020,2020,Luciana Ballejos,María Guadalupe Gramajo
+a476,a509,Undirected,1,2022,2022,2022,Judith Kelner,Larissa Rodrigues da Costa
+a102,a257,Undirected,1,2021,2021,2021,Brenda Aguiar,Elizamara K. Almeida
+a204,a684,Undirected,1,2022,2022,2022,Darío Correal,Nebojša Taušan
+a289,a501,Undirected,1,2021,2021,2021,Fabrizio Farias,Kiev Gama
+a70,a328,Undirected,1,2021,2021,2021,Angelica Cunha dos Santos,Gabriel Viana Teixeira
+a734,a759,Undirected,1,2022,2022,2022,Pedro Rodrigues de Carvalho Junior,Rainara Maia Carvalho
+a597,a759,Undirected,1,2022,2022,2022,Marcos Antonio de Oliveira,Rainara Maia Carvalho
+a70,a549,Undirected,1,2021,2021,2021,Angelica Cunha dos Santos,Luciana A. M. Zaina
+a597,a734,Undirected,1,2022,2022,2022,Marcos Antonio de Oliveira,Pedro Rodrigues de Carvalho Junior
+a270,a759,Undirected,1,2022,2022,2022,Enyo Gonçalves,Rainara Maia Carvalho
+a70,a872,Undirected,1,2021,2021,2021,Angelica Cunha dos Santos,Tayana Conte
+a270,a734,Undirected,1,2022,2022,2022,Enyo Gonçalves,Pedro Rodrigues de Carvalho Junior
+a270,a597,Undirected,1,2022,2022,2022,Enyo Gonçalves,Marcos Antonio de Oliveira
+a381,a600,Undirected,1,2022,2022,2022,Hélio Lopes,Marcos Kalinowski
+a328,a549,Undirected,1,2021,2021,2021,Gabriel Viana Teixeira,Luciana A. M. Zaina
+a328,a872,Undirected,1,2021,2021,2021,Gabriel Viana Teixeira,Tayana Conte
+a380,a600,Undirected,1,2022,2022,2022,Hugo Villamizar,Marcos Kalinowski
+a380,a381,Undirected,1,2022,2022,2022,Hugo Villamizar,Hélio Lopes
+a302,a669,Undirected,1,2021,2021,2021,Fernanda Alencar,Mozart de Melo Alves Júnior
+a302,a745,Undirected,1,2021,2021,2021,Fernanda Alencar,Quelita Ribeiro
+a562,a834,Undirected,1,2021,2021,2021,Luiz Dias,Sarasuaty Yelisetty
+a422,a834,Undirected,1,2021,2021,2021,Johnny Cardoso Marques,Sarasuaty Yelisetty
+a422,a562,Undirected,1,2021,2021,2021,Johnny Cardoso Marques,Luiz Dias
+a302,a860,Undirected,1,2021,2021,2021,Fernanda Alencar,Sthefanie Magro
+a404,a860,Undirected,1,2021,2021,2021,Jaelson Castro,Sthefanie Magro
+a669,a745,Undirected,1,2021,2021,2021,Mozart de Melo Alves Júnior,Quelita Ribeiro
+a223,a903,Undirected,1,2021,2021,2021,Diogo Do Nascimento Paza,Victor Francisco Araya Santander
+a118,a823,Undirected,1,2021,2021,2021,Caio Steglich,Sabrina Marczak
+a400,a592,Undirected,1,2021,2021,2021,Ivonei Freitas da Silva,Marcio Veronez
+a371,a501,Undirected,1,2021,2021,2021,Hermano Moura,Kiev Gama
+a18,a266,Undirected,1,2022,2022,2022,Alejandro Fernandez,Emiliano Sansone
+a204,a582,Undirected,1,2022,2022,2022,Darío Correal,Manoel Mendonça
+a289,a371,Undirected,1,2021,2021,2021,Fabrizio Farias,Hermano Moura
+a30,a594,Undirected,1,2022,2022,2022,Alexandre Luiz de Borba Silva,Marco Toranzo
+a46,a302,Undirected,1,2021,2021,2021,Ana Carolina Candido de Melo,Fernanda Alencar
+a57,a324,Undirected,1,2022,2022,2022,Anarosa Alves Franco Brandão,Fábio Levy Siqueira
+a57,a321,Undirected,1,2022,2022,2022,Anarosa Alves Franco Brandão,Fábio Avigo de Castro Pinto
+a46,a438,Undirected,1,2021,2021,2021,Ana Carolina Candido de Melo,Jose Vinicius Vieira Lima
+a46,a788,Undirected,1,2021,2021,2021,Ana Carolina Candido de Melo,Roberta Andrade de A. Fagundes
+a299,a553,Undirected,1,2022,2022,2022,Felipe Dioguardi,Luciana Tanevitch
+a299,a518,Undirected,1,2022,2022,2022,Felipe Dioguardi,Leandro Antonelli
+a299,a481,Undirected,1,2022,2022,2022,Felipe Dioguardi,Juliana Delle Ville
+a46,a920,Undirected,1,2021,2021,2021,Ana Carolina Candido de Melo,Wylliams Barbosa Santos
+a222,a299,Undirected,1,2022,2022,2022,Diego Torres,Felipe Dioguardi
+a302,a788,Undirected,1,2021,2021,2021,Fernanda Alencar,Roberta Andrade de A. Fagundes
+a18,a299,Undirected,1,2022,2022,2022,Alejandro Fernandez,Felipe Dioguardi
+a302,a920,Undirected,1,2021,2021,2021,Fernanda Alencar,Wylliams Barbosa Santos
+a266,a691,Undirected,1,2022,2022,2022,Emiliano Sansone,Nicolás Simón Ruffolo
+a266,a518,Undirected,1,2022,2022,2022,Emiliano Sansone,Leandro Antonelli
+a222,a691,Undirected,1,2022,2022,2022,Diego Torres,Nicolás Simón Ruffolo
+a438,a788,Undirected,1,2021,2021,2021,Jose Vinicius Vieira Lima,Roberta Andrade de A. Fagundes
+a222,a266,Undirected,1,2022,2022,2022,Diego Torres,Emiliano Sansone
+a438,a920,Undirected,1,2021,2021,2021,Jose Vinicius Vieira Lima,Wylliams Barbosa Santos
+a788,a920,Undirected,1,2021,2021,2021,Roberta Andrade de A. Fagundes,Wylliams Barbosa Santos
+a247,a479,Undirected,1,2021,2021,2021,Eduardo Kinder Almentero,Juliana Cesar Sirena Machado
+a368,a479,Undirected,1,2021,2021,2021,Henrique Prado de Sá Sousa,Juliana Cesar Sirena Machado
+a479,a485,Undirected,1,2021,2021,2021,Juliana Cesar Sirena Machado,Julio Cesar Sampaio do Prado Leite
+a18,a691,Undirected,1,2022,2022,2022,Alejandro Fernandez,Nicolás Simón Ruffolo
+a544,a872,Undirected,1,2021,2021,2021,Lucas Hanauer,Tayana Conte
+a544,a823,Undirected,1,2021,2021,2021,Lucas Hanauer,Sabrina Marczak
+a544,a753,Undirected,1,2021,2021,2021,Lucas Hanauer,Rafael Parizi
+a385,a872,Undirected,1,2021,2021,2021,Igor Couto,Tayana Conte
+a523,a907,Undirected,1,2021,2021,2021,Leonardo C. Marques,Vinícius Monteiro
+a531,a545,Undirected,1,2021,2021,2021,Letícia Passos,Lucas Viana
+a318,a907,Undirected,1,2021,2021,2021,Franciane Alves,Vinícius Monteiro
+a318,a872,Undirected,1,2021,2021,2021,Franciane Alves,Tayana Conte
+a531,a872,Undirected,1,2021,2021,2021,Letícia Passos,Tayana Conte
+a545,a872,Undirected,1,2021,2021,2021,Lucas Viana,Tayana Conte
+a112,a197,Undirected,1,2021,2021,2021,Bruno P. de Souza,Daniella de O. Costa
+a318,a523,Undirected,1,2021,2021,2021,Franciane Alves,Leonardo C. Marques
+a257,a907,Undirected,1,2021,2021,2021,Elizamara K. Almeida,Vinícius Monteiro
+a112,a238,Undirected,1,2021,2021,2021,Bruno P. de Souza,Ednilson da S. A. Júnior
+a257,a872,Undirected,1,2021,2021,2021,Elizamara K. Almeida,Tayana Conte
+a257,a523,Undirected,1,2021,2021,2021,Elizamara K. Almeida,Leonardo C. Marques
+a257,a318,Undirected,1,2021,2021,2021,Elizamara K. Almeida,Franciane Alves
+a109,a907,Undirected,1,2021,2021,2021,Bruno Gadelha,Vinícius Monteiro
+a109,a523,Undirected,1,2021,2021,2021,Bruno Gadelha,Leonardo C. Marques
+a112,a761,Undirected,1,2021,2021,2021,Bruno P. de Souza,Rebeca C. Motta
+a197,a238,Undirected,1,2021,2021,2021,Daniella de O. Costa,Ednilson da S. A. Júnior
+a109,a318,Undirected,1,2021,2021,2021,Bruno Gadelha,Franciane Alves
+a109,a257,Undirected,1,2021,2021,2021,Bruno Gadelha,Elizamara K. Almeida
+a102,a907,Undirected,1,2021,2021,2021,Brenda Aguiar,Vinícius Monteiro
+a197,a761,Undirected,1,2021,2021,2021,Daniella de O. Costa,Rebeca C. Motta
+a238,a761,Undirected,1,2021,2021,2021,Ednilson da S. A. Júnior,Rebeca C. Motta
+a102,a109,Undirected,1,2021,2021,2021,Brenda Aguiar,Bruno Gadelha
+a102,a872,Undirected,1,2021,2021,2021,Brenda Aguiar,Tayana Conte
+a102,a523,Undirected,1,2021,2021,2021,Brenda Aguiar,Leonardo C. Marques
+a241,a872,Undirected,1,2021,2021,2021,Edson César Oliveira,Tayana Conte
+a872,a907,Undirected,1,2021,2021,2021,Tayana Conte,Vinícius Monteiro
+a302,a642,Undirected,1,2021,2021,2021,Fernanda Alencar,Maurício Manoel Coelho Júnior
+a36,a602,Undirected,1,2021,2021,2021,Aline Barbosa,Marcos Paiva
+a385,a823,Undirected,1,2021,2021,2021,Igor Couto,Sabrina Marczak
+a669,a860,Undirected,1,2021,2021,2021,Mozart de Melo Alves Júnior,Sthefanie Magro
+a385,a753,Undirected,1,2021,2021,2021,Igor Couto,Rafael Parizi
+a669,a870,Undirected,1,2021,2021,2021,Mozart de Melo Alves Júnior,Tarcísio Pereira
+a385,a544,Undirected,1,2021,2021,2021,Igor Couto,Lucas Hanauer
+a745,a860,Undirected,1,2021,2021,2021,Quelita Ribeiro,Sthefanie Magro
+a745,a870,Undirected,1,2021,2021,2021,Quelita Ribeiro,Tarcísio Pereira
+a860,a870,Undirected,1,2021,2021,2021,Sthefanie Magro,Tarcísio Pereira
+a261,a591,Undirected,1,2021,2021,2021,Eltoni Guimarães,Marcia Lucena
+a261,a752,Undirected,1,2021,2021,2021,Eltoni Guimarães,Rafael Nascimento
+a602,a610,Undirected,1,2021,2021,2021,Marcos Paiva,Maria Lencastre
+a241,a531,Undirected,1,2021,2021,2021,Edson César Oliveira,Letícia Passos
+a302,a797,Undirected,1,2021,2021,2021,Fernanda Alencar,Robson Lima de Alencar
+a824,a843,Undirected,1,2021,2021,2021,Saiqa Aleem,Shuib Basri
+a564,a843,Undirected,1,2021,2021,2021,Luiz Fernando Capretz,Shuib Basri
+a564,a824,Undirected,1,2021,2021,2021,Luiz Fernando Capretz,Saiqa Aleem
+a292,a843,Undirected,1,2021,2021,2021,Faheem Ahmed,Shuib Basri
+a292,a824,Undirected,1,2021,2021,2021,Faheem Ahmed,Saiqa Aleem
+a292,a564,Undirected,1,2021,2021,2021,Faheem Ahmed,Luiz Fernando Capretz
+a797,a918,Undirected,1,2021,2021,2021,Robson Lima de Alencar,Willy Silva Coutinho
+a642,a918,Undirected,1,2021,2021,2021,Maurício Manoel Coelho Júnior,Willy Silva Coutinho
+a642,a797,Undirected,1,2021,2021,2021,Maurício Manoel Coelho Júnior,Robson Lima de Alencar
+a302,a918,Undirected,1,2021,2021,2021,Fernanda Alencar,Willy Silva Coutinho
+a241,a545,Undirected,1,2021,2021,2021,Edson César Oliveira,Lucas Viana
+a30,a844,Undirected,1,2022,2022,2022,Alexandre Luiz de Borba Silva,Sidgley C. de Andrade
+a125,a664,Undirected,1,2021,2021,2021,Carina Alves,Moisés Neves
+a30,a901,Undirected,1,2022,2022,2022,Alexandre Luiz de Borba Silva,Victor Augusto Pozzan
+a124,a506,Undirected,1,2022,2022,2022,Camilo Castellanos,Larissa Barbosa
+a84,a488,Undirected,1,2021,2021,2021,Artur Andrade,Júlia Luiza Conceição
+a84,a663,Undirected,1,2021,2021,2021,Artur Andrade,Moises Barbosa
+a146,a805,Undirected,1,2022,2022,2022,Carolyn Seaman,Rodrigo Spínola
+a146,a787,Undirected,1,2022,2022,2022,Carolyn Seaman,Robert Ramac
+a84,a872,Undirected,1,2021,2021,2021,Artur Andrade,Tayana Conte
+a146,a785,Undirected,1,2022,2022,2022,Carolyn Seaman,Rita Suzana Pitangueira Maciel
+a146,a689,Undirected,1,2022,2022,2022,Carolyn Seaman,Nicolli Rios
+a146,a684,Undirected,1,2022,2022,2022,Carolyn Seaman,Nebojša Taušan
+a146,a582,Undirected,1,2022,2022,2022,Carolyn Seaman,Manoel Mendonça
+a146,a506,Undirected,1,2022,2022,2022,Carolyn Seaman,Larissa Barbosa
+a146,a363,Undirected,1,2022,2022,2022,Carolyn Seaman,Gustavo López
+a146,a209,Undirected,1,2022,2022,2022,Carolyn Seaman,Davide Falessi
+a146,a204,Undirected,1,2022,2022,2022,Carolyn Seaman,Darío Correal
+a146,a169,Undirected,1,2022,2022,2022,Carolyn Seaman,Clemente Izurieta
+a124,a913,Undirected,1,2022,2022,2022,Camilo Castellanos,Vladimir Mandic
+a124,a863,Undirected,1,2022,2022,2022,Camilo Castellanos,Sávio Freire
+a109,a336,Undirected,1,2021,2021,2021,Bruno Gadelha,Genildo Gomes
+a109,a394,Undirected,1,2021,2021,2021,Bruno Gadelha,Isabelle Brilhante
+a124,a805,Undirected,1,2022,2022,2022,Camilo Castellanos,Rodrigo Spínola
+a124,a787,Undirected,1,2022,2022,2022,Camilo Castellanos,Robert Ramac
+a124,a785,Undirected,1,2022,2022,2022,Camilo Castellanos,Rita Suzana Pitangueira Maciel
+a109,a488,Undirected,1,2021,2021,2021,Bruno Gadelha,Júlia Luiza Conceição
+a124,a689,Undirected,1,2022,2022,2022,Camilo Castellanos,Nicolli Rios
+a124,a684,Undirected,1,2022,2022,2022,Camilo Castellanos,Nebojša Taušan
+a124,a582,Undirected,1,2022,2022,2022,Camilo Castellanos,Manoel Mendonça
+a146,a863,Undirected,1,2022,2022,2022,Carolyn Seaman,Sávio Freire
+a84,a394,Undirected,1,2021,2021,2021,Artur Andrade,Isabelle Brilhante
+a146,a913,Undirected,1,2022,2022,2022,Carolyn Seaman,Vladimir Mandic
+a169,a805,Undirected,1,2022,2022,2022,Clemente Izurieta,Rodrigo Spínola
+a436,a823,Undirected,1,2021,2021,2021,Jose Carlos Duarte,Sabrina Marczak
+a436,a872,Undirected,1,2021,2021,2021,Jose Carlos Duarte,Tayana Conte
+a204,a506,Undirected,1,2022,2022,2022,Darío Correal,Larissa Barbosa
+a204,a363,Undirected,1,2022,2022,2022,Darío Correal,Gustavo López
+a204,a209,Undirected,1,2022,2022,2022,Darío Correal,Davide Falessi
+a169,a913,Undirected,1,2022,2022,2022,Clemente Izurieta,Vladimir Mandic
+a169,a863,Undirected,1,2022,2022,2022,Clemente Izurieta,Sávio Freire
+a102,a318,Undirected,1,2021,2021,2021,Brenda Aguiar,Franciane Alves
+a404,a542,Undirected,1,2021,2021,2021,Jaelson Castro,Lucas Florêncio de Brito
+a542,a610,Undirected,1,2021,2021,2021,Lucas Florêncio de Brito,Maria Lencastre
+a542,a666,Undirected,1,2021,2021,2021,Lucas Florêncio de Brito,Moniky Ribeiro
+a169,a787,Undirected,1,2022,2022,2022,Clemente Izurieta,Robert Ramac
+a169,a204,Undirected,1,2022,2022,2022,Clemente Izurieta,Darío Correal
+a169,a785,Undirected,1,2022,2022,2022,Clemente Izurieta,Rita Suzana Pitangueira Maciel
+a542,a669,Undirected,1,2021,2021,2021,Lucas Florêncio de Brito,Mozart de Melo Alves Júnior
+a169,a689,Undirected,1,2022,2022,2022,Clemente Izurieta,Nicolli Rios
+a169,a684,Undirected,1,2022,2022,2022,Clemente Izurieta,Nebojša Taušan
+a169,a582,Undirected,1,2022,2022,2022,Clemente Izurieta,Manoel Mendonça
+a169,a506,Undirected,1,2022,2022,2022,Clemente Izurieta,Larissa Barbosa
+a666,a669,Undirected,1,2021,2021,2021,Moniky Ribeiro,Mozart de Melo Alves Júnior
+a169,a363,Undirected,1,2022,2022,2022,Clemente Izurieta,Gustavo López
+a169,a209,Undirected,1,2022,2022,2022,Clemente Izurieta,Davide Falessi
+a84,a109,Undirected,1,2021,2021,2021,Artur Andrade,Bruno Gadelha
+a84,a336,Undirected,1,2021,2021,2021,Artur Andrade,Genildo Gomes
+a109,a663,Undirected,1,2021,2021,2021,Bruno Gadelha,Moises Barbosa
+a124,a363,Undirected,1,2022,2022,2022,Camilo Castellanos,Gustavo López
+a400,a594,Undirected,1,2022,2022,2022,Ivonei Freitas da Silva,Marco Toranzo
+a124,a209,Undirected,1,2022,2022,2022,Camilo Castellanos,Davide Falessi
+a33,a689,Undirected,1,2022,2022,2022,Alexia Pacheco,Nicolli Rios
+a33,a684,Undirected,1,2022,2022,2022,Alexia Pacheco,Nebojša Taušan
+a33,a582,Undirected,1,2022,2022,2022,Alexia Pacheco,Manoel Mendonça
+a33,a506,Undirected,1,2022,2022,2022,Alexia Pacheco,Larissa Barbosa
+a33,a363,Undirected,1,2022,2022,2022,Alexia Pacheco,Gustavo López
+a394,a663,Undirected,1,2021,2021,2021,Isabelle Brilhante,Moises Barbosa
+a33,a209,Undirected,1,2022,2022,2022,Alexia Pacheco,Davide Falessi
+a394,a872,Undirected,1,2021,2021,2021,Isabelle Brilhante,Tayana Conte
+a33,a204,Undirected,1,2022,2022,2022,Alexia Pacheco,Darío Correal
+a33,a169,Undirected,1,2022,2022,2022,Alexia Pacheco,Clemente Izurieta
+a33,a146,Undirected,1,2022,2022,2022,Alexia Pacheco,Carolyn Seaman
+a33,a124,Undirected,1,2022,2022,2022,Alexia Pacheco,Camilo Castellanos
+a33,a101,Undirected,1,2022,2022,2022,Alexia Pacheco,Boris Pérez
+a844,a903,Undirected,1,2022,2022,2022,Sidgley C. de Andrade,Victor Francisco Araya Santander
+a488,a663,Undirected,1,2021,2021,2021,Júlia Luiza Conceição,Moises Barbosa
+a844,a901,Undirected,1,2022,2022,2022,Sidgley C. de Andrade,Victor Augusto Pozzan
+a594,a903,Undirected,1,2022,2022,2022,Marco Toranzo,Victor Francisco Araya Santander
+a594,a901,Undirected,1,2022,2022,2022,Marco Toranzo,Victor Augusto Pozzan
+a594,a844,Undirected,1,2022,2022,2022,Marco Toranzo,Sidgley C. de Andrade
+a400,a844,Undirected,1,2022,2022,2022,Ivonei Freitas da Silva,Sidgley C. de Andrade
+a488,a872,Undirected,1,2021,2021,2021,Júlia Luiza Conceição,Tayana Conte
+a663,a872,Undirected,1,2021,2021,2021,Moises Barbosa,Tayana Conte
+a589,a774,Undirected,1,2021,2021,2021,Marcelo Marinho,Renato Menezes
+a589,a862,Undirected,1,2021,2021,2021,Marcelo Marinho,Suzana Sampaio
+a774,a862,Undirected,1,2021,2021,2021,Renato Menezes,Suzana Sampaio
+a33,a785,Undirected,1,2022,2022,2022,Alexia Pacheco,Rita Suzana Pitangueira Maciel
+a33,a787,Undirected,1,2022,2022,2022,Alexia Pacheco,Robert Ramac
+a33,a805,Undirected,1,2022,2022,2022,Alexia Pacheco,Rodrigo Spínola
+a101,a684,Undirected,1,2022,2022,2022,Boris Pérez,Nebojša Taušan
+a124,a204,Undirected,1,2022,2022,2022,Camilo Castellanos,Darío Correal
+a336,a394,Undirected,1,2021,2021,2021,Genildo Gomes,Isabelle Brilhante
+a124,a169,Undirected,1,2022,2022,2022,Camilo Castellanos,Clemente Izurieta
+a124,a146,Undirected,1,2022,2022,2022,Camilo Castellanos,Carolyn Seaman
+a101,a913,Undirected,1,2022,2022,2022,Boris Pérez,Vladimir Mandic
+a101,a863,Undirected,1,2022,2022,2022,Boris Pérez,Sávio Freire
+a101,a805,Undirected,1,2022,2022,2022,Boris Pérez,Rodrigo Spínola
+a101,a787,Undirected,1,2022,2022,2022,Boris Pérez,Robert Ramac
+a336,a488,Undirected,1,2021,2021,2021,Genildo Gomes,Júlia Luiza Conceição
+a101,a785,Undirected,1,2022,2022,2022,Boris Pérez,Rita Suzana Pitangueira Maciel
+a101,a689,Undirected,1,2022,2022,2022,Boris Pérez,Nicolli Rios
+a101,a582,Undirected,1,2022,2022,2022,Boris Pérez,Manoel Mendonça
+a33,a863,Undirected,1,2022,2022,2022,Alexia Pacheco,Sávio Freire
+a101,a506,Undirected,1,2022,2022,2022,Boris Pérez,Larissa Barbosa
+a101,a363,Undirected,1,2022,2022,2022,Boris Pérez,Gustavo López
+a101,a209,Undirected,1,2022,2022,2022,Boris Pérez,Davide Falessi
+a101,a204,Undirected,1,2022,2022,2022,Boris Pérez,Darío Correal
+a101,a169,Undirected,1,2022,2022,2022,Boris Pérez,Clemente Izurieta
+a336,a663,Undirected,1,2021,2021,2021,Genildo Gomes,Moises Barbosa
+a101,a146,Undirected,1,2022,2022,2022,Boris Pérez,Carolyn Seaman
+a336,a872,Undirected,1,2021,2021,2021,Genildo Gomes,Tayana Conte
+a101,a124,Undirected,1,2022,2022,2022,Boris Pérez,Camilo Castellanos
+a394,a488,Undirected,1,2021,2021,2021,Isabelle Brilhante,Júlia Luiza Conceição
+a33,a913,Undirected,1,2022,2022,2022,Alexia Pacheco,Vladimir Mandic
+a368,a800,Undirected,1,2023,2023,2023,Henrique Prado de Sá Sousa,Rodrigo Juliao dos Santos
+a218,a485,Undirected,1,2023,2023,2023,Dennis Farfán Lovón,Julio Cesar Sampaio do Prado Leite
+a485,a800,Undirected,1,2023,2023,2023,Julio Cesar Sampaio do Prado Leite,Rodrigo Juliao dos Santos
+a351,a469,Undirected,1,2026,2026,2026,Giuliana Maltempo,Juan Escudero
+a262,a351,Undirected,1,2026,2026,2026,Elías Roa,Giuliana Maltempo
+a262,a331,Undirected,1,2026,2026,2026,Elías Roa,Gabriela Perez
+a262,a271,Undirected,1,2026,2026,2026,Elías Roa,Enzo Giandon
+a138,a853,Undirected,1,2026,2026,2026,Carlos Nusch,Sofía Celano
+a138,a837,Undirected,1,2026,2026,2026,Carlos Nusch,Sebastián Diaz
+a138,a691,Undirected,1,2026,2026,2026,Carlos Nusch,Nicolás Simón Ruffolo
+a138,a639,Undirected,1,2026,2026,2026,Carlos Nusch,Mauricio Rodríguez Ricon
+a138,a628,Undirected,1,2026,2026,2026,Carlos Nusch,Martina Hübler
+a138,a518,Undirected,1,2026,2026,2026,Carlos Nusch,Leandro Antonelli
+a138,a481,Undirected,1,2026,2026,2026,Carlos Nusch,Juliana Delle Ville
+a138,a470,Undirected,1,2026,2026,2026,Carlos Nusch,Juan Ignacio Glassman
+a138,a469,Undirected,1,2026,2026,2026,Carlos Nusch,Juan Escudero
+a138,a357,Undirected,1,2026,2026,2026,Carlos Nusch,Gregorio Ponce
+a138,a351,Undirected,1,2026,2026,2026,Carlos Nusch,Giuliana Maltempo
+a138,a331,Undirected,1,2026,2026,2026,Carlos Nusch,Gabriela Perez
+a138,a271,Undirected,1,2026,2026,2026,Carlos Nusch,Enzo Giandon
+a138,a262,Undirected,1,2026,2026,2026,Carlos Nusch,Elías Roa
+a128,a853,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Sofía Celano
+a128,a837,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Sebastián Diaz
+a128,a691,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Nicolás Simón Ruffolo
+a128,a639,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Mauricio Rodríguez Ricon
+a128,a628,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Martina Hübler
+a128,a481,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Juliana Delle Ville
+a128,a470,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Juan Ignacio Glassman
+a128,a469,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Juan Escudero
+a128,a357,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Gregorio Ponce
+a128,a351,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Giuliana Maltempo
+a128,a331,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Gabriela Perez
+a128,a271,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Enzo Giandon
+a262,a357,Undirected,1,2026,2026,2026,Elías Roa,Gregorio Ponce
+a262,a469,Undirected,1,2026,2026,2026,Elías Roa,Juan Escudero
+a262,a470,Undirected,1,2026,2026,2026,Elías Roa,Juan Ignacio Glassman
+a271,a639,Undirected,1,2026,2026,2026,Enzo Giandon,Mauricio Rodríguez Ricon
+a331,a853,Undirected,1,2026,2026,2026,Gabriela Perez,Sofía Celano
+a331,a837,Undirected,1,2026,2026,2026,Gabriela Perez,Sebastián Diaz
+a331,a691,Undirected,1,2026,2026,2026,Gabriela Perez,Nicolás Simón Ruffolo
+a331,a639,Undirected,1,2026,2026,2026,Gabriela Perez,Mauricio Rodríguez Ricon
+a331,a628,Undirected,1,2026,2026,2026,Gabriela Perez,Martina Hübler
+a331,a481,Undirected,1,2026,2026,2026,Gabriela Perez,Juliana Delle Ville
+a331,a470,Undirected,1,2026,2026,2026,Gabriela Perez,Juan Ignacio Glassman
+a331,a469,Undirected,1,2026,2026,2026,Gabriela Perez,Juan Escudero
+a331,a357,Undirected,1,2026,2026,2026,Gabriela Perez,Gregorio Ponce
+a331,a351,Undirected,1,2026,2026,2026,Gabriela Perez,Giuliana Maltempo
+a271,a853,Undirected,1,2026,2026,2026,Enzo Giandon,Sofía Celano
+a271,a837,Undirected,1,2026,2026,2026,Enzo Giandon,Sebastián Diaz
+a271,a691,Undirected,1,2026,2026,2026,Enzo Giandon,Nicolás Simón Ruffolo
+a271,a628,Undirected,1,2026,2026,2026,Enzo Giandon,Martina Hübler
+a262,a481,Undirected,1,2026,2026,2026,Elías Roa,Juliana Delle Ville
+a271,a518,Undirected,1,2026,2026,2026,Enzo Giandon,Leandro Antonelli
+a271,a481,Undirected,1,2026,2026,2026,Enzo Giandon,Juliana Delle Ville
+a271,a470,Undirected,1,2026,2026,2026,Enzo Giandon,Juan Ignacio Glassman
+a271,a469,Undirected,1,2026,2026,2026,Enzo Giandon,Juan Escudero
+a271,a357,Undirected,1,2026,2026,2026,Enzo Giandon,Gregorio Ponce
+a271,a351,Undirected,1,2026,2026,2026,Enzo Giandon,Giuliana Maltempo
+a271,a331,Undirected,1,2026,2026,2026,Enzo Giandon,Gabriela Perez
+a262,a853,Undirected,1,2026,2026,2026,Elías Roa,Sofía Celano
+a262,a837,Undirected,1,2026,2026,2026,Elías Roa,Sebastián Diaz
+a262,a691,Undirected,1,2026,2026,2026,Elías Roa,Nicolás Simón Ruffolo
+a262,a639,Undirected,1,2026,2026,2026,Elías Roa,Mauricio Rodríguez Ricon
+a262,a628,Undirected,1,2026,2026,2026,Elías Roa,Martina Hübler
+a262,a518,Undirected,1,2026,2026,2026,Elías Roa,Leandro Antonelli
+a128,a262,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Elías Roa
+a128,a138,Undirected,1,2026,2026,2026,Carlos Antonio Carden,Carlos Nusch
+a518,a583,Undirected,1,2026,2026,2026,Leandro Antonelli,Marc Marinho de Alcântara
+a164,a561,Undirected,1,2025,2025,2025,Claudio Coelho da Silva Junior,Luiz Alexandre Martins da Costa
+a669,a826,Undirected,1,2025,2025,2025,Mozart de Melo Alves Júnior,Sandeison Fernandes
+a404,a826,Undirected,1,2025,2025,2025,Jaelson Castro,Sandeison Fernandes
+a42,a826,Undirected,1,2025,2025,2025,Alvaro Oliveira,Sandeison Fernandes
+a42,a669,Undirected,1,2025,2025,2025,Alvaro Oliveira,Mozart de Melo Alves Júnior
+a42,a404,Undirected,1,2025,2025,2025,Alvaro Oliveira,Jaelson Castro
+a15,a826,Undirected,1,2025,2025,2025,Aldo Nunes,Sandeison Fernandes
+a15,a669,Undirected,1,2025,2025,2025,Aldo Nunes,Mozart de Melo Alves Júnior
+a15,a404,Undirected,1,2025,2025,2025,Aldo Nunes,Jaelson Castro
+a15,a42,Undirected,1,2025,2025,2025,Aldo Nunes,Alvaro Oliveira
+a561,a802,Undirected,1,2025,2025,2025,Luiz Alexandre Martins da Costa,Rodrigo Pereira dos Santos
+a478,a802,Undirected,1,2025,2025,2025,Juliana Carvalho Silva do Outão,Rodrigo Pereira dos Santos
+a478,a561,Undirected,1,2025,2025,2025,Juliana Carvalho Silva do Outão,Luiz Alexandre Martins da Costa
+a164,a802,Undirected,1,2025,2025,2025,Claudio Coelho da Silva Junior,Rodrigo Pereira dos Santos
+a164,a478,Undirected,1,2025,2025,2025,Claudio Coelho da Silva Junior,Juliana Carvalho Silva do Outão
+a494,a772,Undirected,1,2025,2025,2025,Karlla Loane Santos Lima,Renato F. Bulcão-Neto
+a91,a802,Undirected,1,2025,2025,2025,Awdren de Lima Fontão,Rodrigo Pereira dos Santos
+a91,a561,Undirected,1,2025,2025,2025,Awdren de Lima Fontão,Luiz Alexandre Martins da Costa
+a91,a478,Undirected,1,2025,2025,2025,Awdren de Lima Fontão,Juliana Carvalho Silva do Outão
+a91,a164,Undirected,1,2025,2025,2025,Awdren de Lima Fontão,Claudio Coelho da Silva Junior
+a358,a879,Undirected,1,2025,2025,2025,Grijalva-Arriaga Paola,Thomas Pablo
+a172,a879,Undirected,1,2025,2025,2025,Cornejo Galo,Thomas Pablo
+a172,a358,Undirected,1,2025,2025,2025,Cornejo Galo,Grijalva-Arriaga Paola
+a74,a879,Undirected,1,2025,2025,2025,Antonelli Leandro,Thomas Pablo
+a74,a358,Undirected,1,2025,2025,2025,Antonelli Leandro,Grijalva-Arriaga Paola
+a74,a172,Undirected,1,2025,2025,2025,Antonelli Leandro,Cornejo Galo
+a610,a923,Undirected,1,2025,2025,2025,Maria Lencastre,Ytalo Silva
+a606,a923,Undirected,1,2025,2025,2025,Maria Gois,Ytalo Silva
+a606,a610,Undirected,1,2025,2025,2025,Maria Gois,Maria Lencastre
+a277,a494,Undirected,1,2025,2025,2025,Ernesto Fonseca Veiga,Karlla Loane Santos Lima
+a494,a866,Undirected,1,2025,2025,2025,Karlla Loane Santos Lima,Taciana Novo Kudo
+a222,a583,Undirected,1,2026,2026,2026,Diego Torres,Marc Marinho de Alcântara
+a8,a139,Undirected,1,2025,2025,2025,Adriano Costa Pinto,Carlos Renato dos Santos
+a23,a836,Undirected,1,2026,2026,2026,Alex Leodan Arce,Sebastián Dapoto
+a23,a712,Undirected,1,2026,2026,2026,Alex Leodan Arce,Patricia Pesado
+a23,a709,Undirected,1,2026,2026,2026,Alex Leodan Arce,Pablo Thomas
+a23,a294,Undirected,1,2026,2026,2026,Alex Leodan Arce,Federico Cristina
+a247,a570,Undirected,1,2025,2025,2025,Eduardo Kinder Almentero,Lyrene Fernandes da Silva
+a323,a552,Undirected,1,2025,2025,2025,Fábio Francisco de Carvalho Caballero,Luciana Pereira Simões
+a139,a552,Undirected,1,2025,2025,2025,Carlos Renato dos Santos,Luciana Pereira Simões
+a139,a323,Undirected,1,2025,2025,2025,Carlos Renato dos Santos,Fábio Francisco de Carvalho Caballero
+a39,a552,Undirected,1,2025,2025,2025,Alison de Oliveira Moraes,Luciana Pereira Simões
+a39,a323,Undirected,1,2025,2025,2025,Alison de Oliveira Moraes,Fábio Francisco de Carvalho Caballero
+a39,a139,Undirected,1,2025,2025,2025,Alison de Oliveira Moraes,Carlos Renato dos Santos
+a8,a552,Undirected,1,2025,2025,2025,Adriano Costa Pinto,Luciana Pereira Simões
+a8,a323,Undirected,1,2025,2025,2025,Adriano Costa Pinto,Fábio Francisco de Carvalho Caballero
+a8,a39,Undirected,1,2025,2025,2025,Adriano Costa Pinto,Alison de Oliveira Moraes
+a391,a591,Undirected,1,2025,2025,2025,Isabel Nunes,Marcia Lucena
+a793,a903,Undirected,1,2025,2025,2025,Roberto Pereira,Victor Francisco Araya Santander
+a592,a903,Undirected,1,2025,2025,2025,Marcio Veronez,Victor Francisco Araya Santander
+a592,a793,Undirected,1,2025,2025,2025,Marcio Veronez,Roberto Pereira
+a34,a903,Undirected,1,2025,2025,2025,Alexssandro Morgenroth,Victor Francisco Araya Santander
+a828,a858,Undirected,1,2025,2025,2025,Sandro Bimonte,Stefano Rizzi
+a518,a858,Undirected,1,2025,2025,2025,Leandro Antonelli,Stefano Rizzi
+a518,a828,Undirected,1,2025,2025,2025,Leandro Antonelli,Sandro Bimonte
+a128,a858,Undirected,1,2025,2025,2025,Carlos Antonio Carden,Stefano Rizzi
+a128,a828,Undirected,1,2025,2025,2025,Carlos Antonio Carden,Sandro Bimonte
+a430,a645,Undirected,1,2025,2025,2025,Jorge Hochstetter-Diez,Maximiliano Cortés-Leiva
+a97,a645,Undirected,1,2025,2025,2025,Belfor Acuña-Castillo,Maximiliano Cortés-Leiva
+a97,a430,Undirected,1,2025,2025,2025,Belfor Acuña-Castillo,Jorge Hochstetter-Diez
+a391,a880,Undirected,1,2025,2025,2025,Isabel Nunes,Tiago Brito
+a351,a357,Undirected,1,2026,2026,2026,Giuliana Maltempo,Gregorio Ponce
+a351,a470,Undirected,1,2026,2026,2026,Giuliana Maltempo,Juan Ignacio Glassman
+a485,a867,Undirected,1,2023,2023,2023,Julio Cesar Sampaio do Prado Leite,Tadeu Classe
+a351,a628,Undirected,1,2026,2026,2026,Giuliana Maltempo,Martina Hübler
+a650,a892,Undirected,1,2026,2026,2026,Mercedes Soria,Valeria Ortiz Quiroz
+a634,a892,Undirected,1,2026,2026,2026,María Laura Achetta,Valeria Ortiz Quiroz
+a634,a650,Undirected,1,2026,2026,2026,María Laura Achetta,Mercedes Soria
+a515,a892,Undirected,1,2026,2026,2026,Laura Tosselli,Valeria Ortiz Quiroz
+a515,a650,Undirected,1,2026,2026,2026,Laura Tosselli,Mercedes Soria
+a515,a634,Undirected,1,2026,2026,2026,Laura Tosselli,María Laura Achetta
+a342,a867,Undirected,1,2026,2026,2026,Geraldo Gabriel Crelier dos Santos,Tadeu Classe
+a342,a368,Undirected,1,2026,2026,2026,Geraldo Gabriel Crelier dos Santos,Henrique Prado de Sá Sousa
+a247,a342,Undirected,1,2026,2026,2026,Eduardo Kinder Almentero,Geraldo Gabriel Crelier dos Santos
+a497,a903,Undirected,1,2026,2026,2026,Kauan Campos,Victor Francisco Araya Santander
+a497,a750,Undirected,1,2026,2026,2026,Kauan Campos,Rafael Lima
+a570,a930,Undirected,1,2026,2026,2026,Lyrene Fernandes da Silva,Álvaro Soares dos Santos
+a816,a867,Undirected,1,2026,2026,2026,Roxana Portugal,Tadeu Classe
+a600,a867,Undirected,1,2026,2026,2026,Marcos Kalinowski,Tadeu Classe
+a600,a816,Undirected,1,2026,2026,2026,Marcos Kalinowski,Roxana Portugal
+a368,a600,Undirected,1,2026,2026,2026,Henrique Prado de Sá Sousa,Marcos Kalinowski
+a247,a600,Undirected,1,2026,2026,2026,Eduardo Kinder Almentero,Marcos Kalinowski
+a465,a485,Undirected,1,2026,2026,2026,João Marcos de Mattos Barguil,Julio Cesar Sampaio do Prado Leite
+a324,a485,Undirected,1,2026,2026,2026,Fábio Levy Siqueira,Julio Cesar Sampaio do Prado Leite
+a324,a465,Undirected,1,2026,2026,2026,Fábio Levy Siqueira,João Marcos de Mattos Barguil
+a117,a485,Undirected,1,2026,2026,2026,Caio Moussa Assumpção,Julio Cesar Sampaio do Prado Leite
+a117,a465,Undirected,1,2026,2026,2026,Caio Moussa Assumpção,João Marcos de Mattos Barguil
+a117,a324,Undirected,1,2026,2026,2026,Caio Moussa Assumpção,Fábio Levy Siqueira
+a721,a897,Undirected,1,2026,2026,2026,Paulo Roberto Silva dos Reis,Vera Maria Benjamim Werneck
+a721,a871,Undirected,1,2026,2026,2026,Paulo Roberto Silva dos Reis,Tassio Ferenzini Martins Sirqueira
+a315,a721,Undirected,1,2026,2026,2026,Flavio Henrique Mendonca,Paulo Roberto Silva dos Reis
+a165,a897,Undirected,1,2026,2026,2026,Claudio Henrique Medaber Jambo,Vera Maria Benjamim Werneck
+a165,a871,Undirected,1,2026,2026,2026,Claudio Henrique Medaber Jambo,Tassio Ferenzini Martins Sirqueira
+a165,a721,Undirected,1,2026,2026,2026,Claudio Henrique Medaber Jambo,Paulo Roberto Silva dos Reis
+a233,a368,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Henrique Prado de Sá Sousa
+a233,a419,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Jobson Luiz Massollar da Silva
+a233,a569,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Luísa Caetano Correia
+a72,a443,Undirected,1,2026,2026,2026,Anna Beatriz Marques,José Antônio Macêdo
+a343,a518,Undirected,1,2026,2026,2026,German Ruiz,Leandro Antonelli
+a343,a418,Undirected,1,2026,2026,2026,German Ruiz,Joaquina Nogueira
+a331,a418,Undirected,1,2026,2026,2026,Gabriela Perez,Joaquina Nogueira
+a331,a343,Undirected,1,2026,2026,2026,Gabriela Perez,German Ruiz
+a233,a816,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Roxana Portugal
+a233,a570,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Lyrene Fernandes da Silva
+a233,a485,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Julio Cesar Sampaio do Prado Leite
+a760,a813,Undirected,1,2026,2026,2026,Ramon Luna,Rossana Andrade
+a760,a775,Undirected,1,2026,2026,2026,Ramon Luna,Rhenara Oliveira
+a443,a813,Undirected,1,2026,2026,2026,José Antônio Macêdo,Rossana Andrade
+a443,a775,Undirected,1,2026,2026,2026,José Antônio Macêdo,Rhenara Oliveira
+a443,a760,Undirected,1,2026,2026,2026,José Antônio Macêdo,Ramon Luna
+a72,a760,Undirected,1,2026,2026,2026,Anna Beatriz Marques,Ramon Luna
+a44,a775,Undirected,1,2026,2026,2026,Amanda Sousa,Rhenara Oliveira
+a233,a722,Undirected,1,2026,2026,2026,Edgar Sarmiento Calisaya,Paulo Sérgio Medeiros
+a44,a760,Undirected,1,2026,2026,2026,Amanda Sousa,Ramon Luna
+a44,a443,Undirected,1,2026,2026,2026,Amanda Sousa,José Antônio Macêdo
+a44,a72,Undirected,1,2026,2026,2026,Amanda Sousa,Anna Beatriz Marques
+a302,a604,Undirected,1,2026,2026,2026,Fernanda Alencar,Maria Augusta Nascimento de Moura
+a518,a624,Undirected,1,2026,2026,2026,Leandro Antonelli,Marisa Panizzi
+a60,a624,Undirected,1,2026,2026,2026,Andrea Alegretti,Marisa Panizzi
+a60,a518,Undirected,1,2026,2026,2026,Andrea Alegretti,Leandro Antonelli
+a569,a722,Undirected,1,2026,2026,2026,Luísa Caetano Correia,Paulo Sérgio Medeiros
+a419,a722,Undirected,1,2026,2026,2026,Jobson Luiz Massollar da Silva,Paulo Sérgio Medeiros
+a419,a569,Undirected,1,2026,2026,2026,Jobson Luiz Massollar da Silva,Luísa Caetano Correia
+a368,a722,Undirected,1,2026,2026,2026,Henrique Prado de Sá Sousa,Paulo Sérgio Medeiros
+a368,a569,Undirected,1,2026,2026,2026,Henrique Prado de Sá Sousa,Luísa Caetano Correia
+a368,a419,Undirected,1,2026,2026,2026,Henrique Prado de Sá Sousa,Jobson Luiz Massollar da Silva
+a165,a315,Undirected,1,2026,2026,2026,Claudio Henrique Medaber Jambo,Flavio Henrique Mendonca
+a508,a863,Undirected,1,2026,2026,2026,Larissa Pinheiro,Sávio Freire
+a508,a785,Undirected,1,2026,2026,2026,Larissa Pinheiro,Rita Suzana Pitangueira Maciel
+a469,a481,Undirected,1,2026,2026,2026,Juan Escudero,Juliana Delle Ville
+a470,a853,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Sofía Celano
+a470,a837,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Sebastián Diaz
+a470,a691,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Nicolás Simón Ruffolo
+a470,a639,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Mauricio Rodríguez Ricon
+a470,a628,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Martina Hübler
+a470,a518,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Leandro Antonelli
+a470,a481,Undirected,1,2026,2026,2026,Juan Ignacio Glassman,Juliana Delle Ville
+a469,a853,Undirected,1,2026,2026,2026,Juan Escudero,Sofía Celano
+a469,a837,Undirected,1,2026,2026,2026,Juan Escudero,Sebastián Diaz
+a469,a691,Undirected,1,2026,2026,2026,Juan Escudero,Nicolás Simón Ruffolo
+a469,a639,Undirected,1,2026,2026,2026,Juan Escudero,Mauricio Rodríguez Ricon
+a469,a628,Undirected,1,2026,2026,2026,Juan Escudero,Martina Hübler
+a469,a518,Undirected,1,2026,2026,2026,Juan Escudero,Leandro Antonelli
+a469,a470,Undirected,1,2026,2026,2026,Juan Escudero,Juan Ignacio Glassman
+a481,a639,Undirected,1,2026,2026,2026,Juliana Delle Ville,Mauricio Rodríguez Ricon
+a357,a853,Undirected,1,2026,2026,2026,Gregorio Ponce,Sofía Celano
+a357,a837,Undirected,1,2026,2026,2026,Gregorio Ponce,Sebastián Diaz
+a357,a691,Undirected,1,2026,2026,2026,Gregorio Ponce,Nicolás Simón Ruffolo
+a357,a639,Undirected,1,2026,2026,2026,Gregorio Ponce,Mauricio Rodríguez Ricon
+a357,a628,Undirected,1,2026,2026,2026,Gregorio Ponce,Martina Hübler
+a357,a518,Undirected,1,2026,2026,2026,Gregorio Ponce,Leandro Antonelli
+a357,a481,Undirected,1,2026,2026,2026,Gregorio Ponce,Juliana Delle Ville
+a357,a470,Undirected,1,2026,2026,2026,Gregorio Ponce,Juan Ignacio Glassman
+a357,a469,Undirected,1,2026,2026,2026,Gregorio Ponce,Juan Escudero
+a351,a853,Undirected,1,2026,2026,2026,Giuliana Maltempo,Sofía Celano
+a351,a837,Undirected,1,2026,2026,2026,Giuliana Maltempo,Sebastián Diaz
+a351,a691,Undirected,1,2026,2026,2026,Giuliana Maltempo,Nicolás Simón Ruffolo
+a351,a639,Undirected,1,2026,2026,2026,Giuliana Maltempo,Mauricio Rodríguez Ricon
+a481,a628,Undirected,1,2026,2026,2026,Juliana Delle Ville,Martina Hübler
+a481,a691,Undirected,1,2026,2026,2026,Juliana Delle Ville,Nicolás Simón Ruffolo
+a703,a825,Undirected,1,2026,2026,2026,Over Causil,Samuel Anjos Neto
+a837,a853,Undirected,1,2026,2026,2026,Sebastián Diaz,Sofía Celano
+a610,a825,Undirected,1,2026,2026,2026,Maria Lencastre,Samuel Anjos Neto
+a610,a703,Undirected,1,2026,2026,2026,Maria Lencastre,Over Causil
+a404,a825,Undirected,1,2026,2026,2026,Jaelson Castro,Samuel Anjos Neto
+a404,a703,Undirected,1,2026,2026,2026,Jaelson Castro,Over Causil
+a235,a464,Undirected,1,2026,2026,2026,Edna Dias Canedo,João Lucas Vasconcelos
+a18,a854,Undirected,1,2026,2026,2026,Alejandro Fernandez,Sonia Santana
+a18,a709,Undirected,1,2026,2026,2026,Alejandro Fernandez,Pablo Thomas
+a63,a235,Undirected,1,2026,2026,2026,Andressa Girotto Vargas,Edna Dias Canedo
+a211,a359,Undirected,1,2026,2026,2026,Delfina Villarreal Garrido,Guillermo Rodriguez
+a160,a359,Undirected,1,2026,2026,2026,Claudia Marcos,Guillermo Rodriguez
+a160,a211,Undirected,1,2026,2026,2026,Claudia Marcos,Delfina Villarreal Garrido
+a471,a709,Undirected,1,2026,2026,2026,Juan Ignacio Torres,Pablo Thomas
+a471,a518,Undirected,1,2026,2026,2026,Juan Ignacio Torres,Leandro Antonelli
+a691,a853,Undirected,1,2026,2026,2026,Nicolás Simón Ruffolo,Sofía Celano
+a481,a837,Undirected,1,2026,2026,2026,Juliana Delle Ville,Sebastián Diaz
+a691,a837,Undirected,1,2026,2026,2026,Nicolás Simón Ruffolo,Sebastián Diaz
+a639,a853,Undirected,1,2026,2026,2026,Mauricio Rodríguez Ricon,Sofía Celano
+a639,a837,Undirected,1,2026,2026,2026,Mauricio Rodríguez Ricon,Sebastián Diaz
+a639,a691,Undirected,1,2026,2026,2026,Mauricio Rodríguez Ricon,Nicolás Simón Ruffolo
+a628,a853,Undirected,1,2026,2026,2026,Martina Hübler,Sofía Celano
+a628,a837,Undirected,1,2026,2026,2026,Martina Hübler,Sebastián Diaz
+a628,a691,Undirected,1,2026,2026,2026,Martina Hübler,Nicolás Simón Ruffolo
+a628,a639,Undirected,1,2026,2026,2026,Martina Hübler,Mauricio Rodríguez Ricon
+a518,a853,Undirected,1,2026,2026,2026,Leandro Antonelli,Sofía Celano
+a518,a837,Undirected,1,2026,2026,2026,Leandro Antonelli,Sebastián Diaz
+a518,a639,Undirected,1,2026,2026,2026,Leandro Antonelli,Mauricio Rodríguez Ricon
+a518,a628,Undirected,1,2026,2026,2026,Leandro Antonelli,Martina Hübler
+a481,a853,Undirected,1,2026,2026,2026,Juliana Delle Ville,Sofía Celano
+a404,a923,Undirected,1,2025,2025,2025,Jaelson Castro,Ytalo Silva
+a404,a606,Undirected,1,2025,2025,2025,Jaelson Castro,Maria Gois
+a2,a923,Undirected,1,2025,2025,2025,Abimael Santos,Ytalo Silva
+a2,a606,Undirected,1,2025,2025,2025,Abimael Santos,Maria Gois
+a154,a762,Undirected,1,2023,2023,2023,Christopher Shneider Cerqueira,Rebeca Camurça Cunha
+a751,a758,Undirected,1,2023,2023,2023,Rafael Mello,Raimundo Fagner Costa
+a127,a758,Undirected,1,2023,2023,2023,Carla Silva,Raimundo Fagner Costa
+a127,a751,Undirected,1,2023,2023,2023,Carla Silva,Rafael Mello
+a383,a687,Undirected,1,2023,2023,2023,Iago Interaminense Gomes,Nelson Gutemberg Rocha Da Silva
+a383,a638,Undirected,1,2023,2023,2023,Iago Interaminense Gomes,Mauricio Barros Ottoni
+a205,a383,Undirected,1,2023,2023,2023,Davi De França Carneiro,Iago Interaminense Gomes
+a463,a591,Undirected,1,2023,2023,2023,João Epifânio,Marcia Lucena
+a332,a591,Undirected,1,2023,2023,2023,Gabriela Trindade,Marcia Lucena
+a332,a463,Undirected,1,2023,2023,2023,Gabriela Trindade,João Epifânio
+a273,a591,Undirected,1,2023,2023,2023,Erica Esteves,Marcia Lucena
+a273,a463,Undirected,1,2023,2023,2023,Erica Esteves,João Epifânio
+a273,a332,Undirected,1,2023,2023,2023,Erica Esteves,Gabriela Trindade
+a491,a519,Undirected,1,2023,2023,2023,Karina Casola,Leandro Buss Becker
+a408,a519,Undirected,1,2023,2023,2023,Jaqueline de Souza Moura,Leandro Buss Becker
+a408,a491,Undirected,1,2023,2023,2023,Jaqueline de Souza Moura,Karina Casola
+a322,a519,Undirected,1,2023,2023,2023,Fábio Basso,Leandro Buss Becker
+a322,a491,Undirected,1,2023,2023,2023,Fábio Basso,Karina Casola
+a322,a408,Undirected,1,2023,2023,2023,Fábio Basso,Jaqueline de Souza Moura
+a133,a519,Undirected,1,2023,2023,2023,Carlos Eduardo Xavier Correia,Leandro Buss Becker
+a133,a491,Undirected,1,2023,2023,2023,Carlos Eduardo Xavier Correia,Karina Casola
+a133,a408,Undirected,1,2023,2023,2023,Carlos Eduardo Xavier Correia,Jaqueline de Souza Moura
+a133,a322,Undirected,1,2023,2023,2023,Carlos Eduardo Xavier Correia,Fábio Basso
+a480,a785,Undirected,1,2023,2023,2023,Juliana Conceição,Rita Suzana Pitangueira Maciel
+a480,a485,Undirected,1,2023,2023,2023,Juliana Conceição,Julio Cesar Sampaio do Prado Leite
+a127,a221,Undirected,1,2023,2023,2023,Carla Silva,Diego Menegazzi
+a218,a816,Undirected,1,2023,2023,2023,Dennis Farfán Lovón,Roxana Portugal
+a218,a570,Undirected,1,2023,2023,2023,Dennis Farfán Lovón,Lyrene Fernandes da Silva
+a426,a523,Undirected,1,2020,2020,2020,Jonathan H. J. Souza,Leonardo C. Marques
+a28,a671,Undirected,1,2023,2023,2023,Alexandre Lazaretti Zanatta,Márcia Hortência Fonseca Ribeiro Nardes Maciel
+a334,a518,Undirected,1,2024,2024,2024,Galo Cornejo-Gómez,Leandro Antonelli
+a334,a709,Undirected,1,2024,2024,2024,Galo Cornejo-Gómez,Pablo Thomas
+a518,a708,Undirected,1,2024,2024,2024,Leandro Antonelli,Pablo Roldán Valdiviezo
+a183,a481,Undirected,1,2024,2024,2024,Damiano Distante,Juliana Delle Ville
+a183,a351,Undirected,1,2024,2024,2024,Damiano Distante,Giuliana Maltempo
+a183,a295,Undirected,1,2024,2024,2024,Damiano Distante,Federico Pellegrino
+a137,a518,Undirected,1,2024,2024,2024,Carlos Neil,Leandro Antonelli
+a137,a355,Undirected,1,2024,2024,2024,Carlos Neil,Graciela D.S. Hadad
+a14,a137,Undirected,1,2024,2024,2024,Alberto Sebastián,Carlos Neil
+a446,a610,Undirected,1,2024,2024,2024,José F. Guilhermino da Silva,Maria Lencastre
+a404,a446,Undirected,1,2024,2024,2024,Jaelson Castro,José F. Guilhermino da Silva
+a593,a903,Undirected,1,2024,2024,2024,Marco Antonio Damo,Victor Francisco Araya Santander
+a340,a507,Undirected,1,2024,2024,2024,Geovana Ramos Sousa Silva,Larissa Pereira Gonçalves
+a235,a340,Undirected,1,2024,2024,2024,Edna Dias Canedo,Geovana Ramos Sousa Silva
+a539,a880,Undirected,1,2024,2024,2024,Luana Souza,Tiago Brito
+a79,a880,Undirected,1,2024,2024,2024,Apuena Gomes,Tiago Brito
+a610,a745,Undirected,1,2024,2024,2024,Maria Lencastre,Quelita Ribeiro
+a334,a710,Undirected,1,2024,2024,2024,Galo Cornejo-Gómez,Paola Grijalva-Arriaga
+a2,a745,Undirected,1,2024,2024,2024,Abimael Santos,Quelita Ribeiro
+a596,a911,Undirected,1,2024,2024,2024,Marcos Alexandre dos Anjos,Vitor Luiz Caldeira Gilnek
+a596,a903,Undirected,1,2024,2024,2024,Marcos Alexandre dos Anjos,Victor Francisco Araya Santander
+a327,a911,Undirected,1,2024,2024,2024,Gabriel Girardi da Costa,Vitor Luiz Caldeira Gilnek
+a327,a903,Undirected,1,2024,2024,2024,Gabriel Girardi da Costa,Victor Francisco Araya Santander
+a327,a596,Undirected,1,2024,2024,2024,Gabriel Girardi da Costa,Marcos Alexandre dos Anjos
+a518,a840,Undirected,1,2024,2024,2024,Leandro Antonelli,Sergio Firmenich
+a220,a840,Undirected,1,2024,2024,2024,Diego Firmenich,Sergio Firmenich
+a69,a840,Undirected,1,2024,2024,2024,Angela Verónica Granizo Rodríguez,Sergio Firmenich
+a69,a518,Undirected,1,2024,2024,2024,Angela Verónica Granizo Rodríguez,Leandro Antonelli
+a69,a220,Undirected,1,2024,2024,2024,Angela Verónica Granizo Rodríguez,Diego Firmenich
+a709,a710,Undirected,1,2024,2024,2024,Pablo Thomas,Paola Grijalva-Arriaga
+a518,a710,Undirected,1,2024,2024,2024,Leandro Antonelli,Paola Grijalva-Arriaga
+a192,a816,Undirected,1,2023,2023,2023,Daniel Mosqueira Obando,Roxana Portugal
+a192,a570,Undirected,1,2023,2023,2023,Daniel Mosqueira Obando,Lyrene Fernandes da Silva
+a192,a485,Undirected,1,2023,2023,2023,Daniel Mosqueira Obando,Julio Cesar Sampaio do Prado Leite
+a823,a905,Undirected,1,2023,2023,2023,Sabrina Marczak,Victoria Bondarchuk
+a18,a831,Undirected,1,2023,2023,2023,Alejandro Fernandez,Santiago Cecconato
+a18,a636,Undirected,1,2023,2023,2023,Alejandro Fernandez,Matias Adorno
+a18,a528,Undirected,1,2023,2023,2023,Alejandro Fernandez,Letizia Ballestero
+a18,a482,Undirected,1,2023,2023,2023,Alejandro Fernandez,Juliana Mattei
+a18,a356,Undirected,1,2023,2023,2023,Alejandro Fernandez,Gregorio Maclen
+a18,a351,Undirected,1,2023,2023,2023,Alejandro Fernandez,Giuliana Maltempo
+a610,a674,Undirected,1,2023,2023,2023,Maria Lencastre,Mônica Bandeira
+a567,a674,Undirected,1,2023,2023,2023,Luiza Lira,Mônica Bandeira
+a567,a610,Undirected,1,2023,2023,2023,Luiza Lira,Maria Lencastre
+a467,a674,Undirected,1,2023,2023,2023,João Pimentel,Mônica Bandeira
+a467,a567,Undirected,1,2023,2023,2023,João Pimentel,Luiza Lira
+a404,a674,Undirected,1,2023,2023,2023,Jaelson Castro,Mônica Bandeira
+a404,a567,Undirected,1,2023,2023,2023,Jaelson Castro,Luiza Lira
+a771,a905,Undirected,1,2023,2023,2023,Renata Vinadé,Victoria Bondarchuk
+a222,a482,Undirected,1,2023,2023,2023,Diego Torres,Juliana Mattei
+a665,a905,Undirected,1,2023,2023,2023,Monica Iovan,Victoria Bondarchuk
+a665,a823,Undirected,1,2023,2023,2023,Monica Iovan,Sabrina Marczak
+a665,a771,Undirected,1,2023,2023,2023,Monica Iovan,Renata Vinadé
+a483,a905,Undirected,1,2023,2023,2023,Julie Rasmussen,Victoria Bondarchuk
+a483,a823,Undirected,1,2023,2023,2023,Julie Rasmussen,Sabrina Marczak
+a483,a771,Undirected,1,2023,2023,2023,Julie Rasmussen,Renata Vinadé
+a483,a665,Undirected,1,2023,2023,2023,Julie Rasmussen,Monica Iovan
+a195,a905,Undirected,1,2023,2023,2023,Daniela Cruzes,Victoria Bondarchuk
+a195,a823,Undirected,1,2023,2023,2023,Daniela Cruzes,Sabrina Marczak
+a195,a771,Undirected,1,2023,2023,2023,Daniela Cruzes,Renata Vinadé
+a195,a665,Undirected,1,2023,2023,2023,Daniela Cruzes,Monica Iovan
+a195,a483,Undirected,1,2023,2023,2023,Daniela Cruzes,Julie Rasmussen
+a800,a867,Undirected,1,2023,2023,2023,Rodrigo Juliao dos Santos,Tadeu Classe
+a222,a351,Undirected,1,2023,2023,2023,Diego Torres,Giuliana Maltempo
+a222,a528,Undirected,1,2023,2023,2023,Diego Torres,Letizia Ballestero
+a192,a218,Undirected,1,2023,2023,2023,Daniel Mosqueira Obando,Dennis Farfán Lovón
+a481,a636,Undirected,1,2023,2023,2023,Juliana Delle Ville,Matias Adorno
+a636,a831,Undirected,1,2023,2023,2023,Matias Adorno,Santiago Cecconato
+a553,a831,Undirected,1,2023,2023,2023,Luciana Tanevitch,Santiago Cecconato
+a553,a636,Undirected,1,2023,2023,2023,Luciana Tanevitch,Matias Adorno
+a528,a831,Undirected,1,2023,2023,2023,Letizia Ballestero,Santiago Cecconato
+a528,a636,Undirected,1,2023,2023,2023,Letizia Ballestero,Matias Adorno
+a528,a553,Undirected,1,2023,2023,2023,Letizia Ballestero,Luciana Tanevitch
+a518,a636,Undirected,1,2023,2023,2023,Leandro Antonelli,Matias Adorno
+a518,a528,Undirected,1,2023,2023,2023,Leandro Antonelli,Letizia Ballestero
+a482,a831,Undirected,1,2023,2023,2023,Juliana Mattei,Santiago Cecconato
+a482,a636,Undirected,1,2023,2023,2023,Juliana Mattei,Matias Adorno
+a482,a553,Undirected,1,2023,2023,2023,Juliana Mattei,Luciana Tanevitch
+a482,a528,Undirected,1,2023,2023,2023,Juliana Mattei,Letizia Ballestero
+a482,a518,Undirected,1,2023,2023,2023,Juliana Mattei,Leandro Antonelli
+a481,a528,Undirected,1,2023,2023,2023,Juliana Delle Ville,Letizia Ballestero
+a222,a636,Undirected,1,2023,2023,2023,Diego Torres,Matias Adorno
+a481,a482,Undirected,1,2023,2023,2023,Juliana Delle Ville,Juliana Mattei
+a356,a831,Undirected,1,2023,2023,2023,Gregorio Maclen,Santiago Cecconato
+a356,a636,Undirected,1,2023,2023,2023,Gregorio Maclen,Matias Adorno
+a356,a553,Undirected,1,2023,2023,2023,Gregorio Maclen,Luciana Tanevitch
+a356,a528,Undirected,1,2023,2023,2023,Gregorio Maclen,Letizia Ballestero
+a356,a482,Undirected,1,2023,2023,2023,Gregorio Maclen,Juliana Mattei
+a356,a481,Undirected,1,2023,2023,2023,Gregorio Maclen,Juliana Delle Ville
+a351,a636,Undirected,1,2023,2023,2023,Giuliana Maltempo,Matias Adorno
+a351,a553,Undirected,1,2023,2023,2023,Giuliana Maltempo,Luciana Tanevitch
+a351,a528,Undirected,1,2023,2023,2023,Giuliana Maltempo,Letizia Ballestero
+a351,a482,Undirected,1,2023,2023,2023,Giuliana Maltempo,Juliana Mattei
+a351,a356,Undirected,1,2023,2023,2023,Giuliana Maltempo,Gregorio Maclen
+a222,a831,Undirected,1,2023,2023,2023,Diego Torres,Santiago Cecconato
+a183,a518,Undirected,1,2024,2024,2024,Damiano Distante,Leandro Antonelli
+a183,a831,Undirected,1,2024,2024,2024,Damiano Distante,Santiago Cecconato
+a295,a351,Undirected,1,2024,2024,2024,Federico Pellegrino,Giuliana Maltempo
+a518,a526,Undirected,1,2025,2025,2025,Leandro Antonelli,Leonardo Morales
+a42,a863,Undirected,1,2025,2025,2025,Alvaro Oliveira,Sávio Freire
+a42,a670,Undirected,1,2025,2025,2025,Alvaro Oliveira,Murilo Arouca
+a42,a582,Undirected,1,2025,2025,2025,Alvaro Oliveira,Manoel Mendonça
+a42,a485,Undirected,1,2025,2025,2025,Alvaro Oliveira,Julio Cesar Sampaio do Prado Leite
+a42,a395,Undirected,1,2025,2025,2025,Alvaro Oliveira,Isaque Copque
+a42,a119,Undirected,1,2025,2025,2025,Alvaro Oliveira,Camila Almeida
+a7,a863,Undirected,1,2025,2025,2025,Adriano Barbosa,Sávio Freire
+a7,a670,Undirected,1,2025,2025,2025,Adriano Barbosa,Murilo Arouca
+a7,a582,Undirected,1,2025,2025,2025,Adriano Barbosa,Manoel Mendonça
+a7,a485,Undirected,1,2025,2025,2025,Adriano Barbosa,Julio Cesar Sampaio do Prado Leite
+a7,a395,Undirected,1,2025,2025,2025,Adriano Barbosa,Isaque Copque
+a7,a119,Undirected,1,2025,2025,2025,Adriano Barbosa,Camila Almeida
+a7,a42,Undirected,1,2025,2025,2025,Adriano Barbosa,Alvaro Oliveira
+a288,a526,Undirected,1,2025,2025,2025,Fabricio Lozada,Leonardo Morales
+a119,a485,Undirected,1,2025,2025,2025,Camila Almeida,Julio Cesar Sampaio do Prado Leite
+a288,a518,Undirected,1,2025,2025,2025,Fabricio Lozada,Leandro Antonelli
+a220,a526,Undirected,1,2025,2025,2025,Diego Firmenich,Leonardo Morales
+a220,a288,Undirected,1,2025,2025,2025,Diego Firmenich,Fabricio Lozada
+a113,a526,Undirected,1,2025,2025,2025,Bruno Pazos,Leonardo Morales
+a113,a518,Undirected,1,2025,2025,2025,Bruno Pazos,Leandro Antonelli
+a113,a288,Undirected,1,2025,2025,2025,Bruno Pazos,Fabricio Lozada
+a113,a220,Undirected,1,2025,2025,2025,Bruno Pazos,Diego Firmenich
+a225,a410,Undirected,1,2025,2025,2025,Dorgival Netto,Jarbele Coutinho
+a174,a410,Undirected,1,2025,2025,2025,Cristiana De Paulo,Jarbele Coutinho
+a399,a428,Undirected,1,2025,2025,2025,Ivan D'uva,Jorge Ezequiel Moyano
+a184,a428,Undirected,1,2025,2025,2025,Daniel Aguil Mallea,Jorge Ezequiel Moyano
+a184,a399,Undirected,1,2025,2025,2025,Daniel Aguil Mallea,Ivan D'uva
+a518,a629,Undirected,1,2025,2025,2025,Leandro Antonelli,María Alejandra Paz Menvielle
+a119,a395,Undirected,1,2025,2025,2025,Camila Almeida,Isaque Copque
+a119,a582,Undirected,1,2025,2025,2025,Camila Almeida,Manoel Mendonça
+a484,a518,Undirected,1,2025,2025,2025,Julieta Screpnik,Leandro Antonelli
+a333,a902,Undirected,1,2025,2025,2025,Gabriella Castro Barbosa Costa Dalpra,Victor Borges Loures de Paula
+a585,a632,Undirected,1,2025,2025,2025,Marcela Ridao,María Celia Elizalde
+a425,a518,Undirected,1,2025,2025,2025,Jonathan Delgado Guerrero,Leandro Antonelli
+a220,a425,Undirected,1,2025,2025,2025,Diego Firmenich,Jonathan Delgado Guerrero
+a882,a902,Undirected,1,2025,2025,2025,Tiago Pedrosa,Victor Borges Loures de Paula
+a609,a902,Undirected,1,2025,2025,2025,Maria Júlia Marques Schettini,Victor Borges Loures de Paula
+a609,a882,Undirected,1,2025,2025,2025,Maria Júlia Marques Schettini,Tiago Pedrosa
+a588,a902,Undirected,1,2025,2025,2025,Marcelo Augusto Silva Belisário,Victor Borges Loures de Paula
+a588,a882,Undirected,1,2025,2025,2025,Marcelo Augusto Silva Belisário,Tiago Pedrosa
+a588,a609,Undirected,1,2025,2025,2025,Marcelo Augusto Silva Belisário,Maria Júlia Marques Schettini
+a445,a902,Undirected,1,2025,2025,2025,José Eduardo Fernandes,Victor Borges Loures de Paula
+a445,a882,Undirected,1,2025,2025,2025,José Eduardo Fernandes,Tiago Pedrosa
+a445,a609,Undirected,1,2025,2025,2025,José Eduardo Fernandes,Maria Júlia Marques Schettini
+a445,a588,Undirected,1,2025,2025,2025,José Eduardo Fernandes,Marcelo Augusto Silva Belisário
+a333,a882,Undirected,1,2025,2025,2025,Gabriella Castro Barbosa Costa Dalpra,Tiago Pedrosa
+a119,a670,Undirected,1,2025,2025,2025,Camila Almeida,Murilo Arouca
+a333,a609,Undirected,1,2025,2025,2025,Gabriella Castro Barbosa Costa Dalpra,Maria Júlia Marques Schettini
+a333,a588,Undirected,1,2025,2025,2025,Gabriella Castro Barbosa Costa Dalpra,Marcelo Augusto Silva Belisário
+a333,a445,Undirected,1,2025,2025,2025,Gabriella Castro Barbosa Costa Dalpra,José Eduardo Fernandes
+a670,a863,Undirected,1,2025,2025,2025,Murilo Arouca,Sávio Freire
+a582,a670,Undirected,1,2025,2025,2025,Manoel Mendonça,Murilo Arouca
+a485,a863,Undirected,1,2025,2025,2025,Julio Cesar Sampaio do Prado Leite,Sávio Freire
+a485,a670,Undirected,1,2025,2025,2025,Julio Cesar Sampaio do Prado Leite,Murilo Arouca
+a485,a582,Undirected,1,2025,2025,2025,Julio Cesar Sampaio do Prado Leite,Manoel Mendonça
+a395,a863,Undirected,1,2025,2025,2025,Isaque Copque,Sávio Freire
+a395,a670,Undirected,1,2025,2025,2025,Isaque Copque,Murilo Arouca
+a395,a582,Undirected,1,2025,2025,2025,Isaque Copque,Manoel Mendonça
+a395,a485,Undirected,1,2025,2025,2025,Isaque Copque,Julio Cesar Sampaio do Prado Leite
+a119,a863,Undirected,1,2025,2025,2025,Camila Almeida,Sávio Freire
+a484,a629,Undirected,1,2025,2025,2025,Julieta Screpnik,María Alejandra Paz Menvielle
+a485,a888,Undirected,1,2025,2025,2025,Julio Cesar Sampaio do Prado Leite,Ulla Louise Didriksson
+a295,a481,Undirected,1,2024,2024,2024,Federico Pellegrino,Juliana Delle Ville
+a325,a757,Undirected,1,2024,2024,2024,Fábio Lúcio Lopes de Mendonça,Rafael Timóteo de Sousa Junior
+a485,a795,Undirected,1,2024,2024,2024,Julio Cesar Sampaio do Prado Leite,Roberto de Cerqueira Figueiredo
+a194,a795,Undirected,1,2024,2024,2024,Daniela Barreiro Claro,Roberto de Cerqueira Figueiredo
+a194,a785,Undirected,1,2024,2024,2024,Daniela Barreiro Claro,Rita Suzana Pitangueira Maciel
+a194,a485,Undirected,1,2024,2024,2024,Daniela Barreiro Claro,Julio Cesar Sampaio do Prado Leite
+a802,a878,Undirected,1,2024,2024,2024,Rodrigo Pereira dos Santos,Thiago de Moura Parracho
+a801,a878,Undirected,1,2024,2024,2024,Rodrigo Oliveira Zacarias,Thiago de Moura Parracho
+a801,a802,Undirected,1,2024,2024,2024,Rodrigo Oliveira Zacarias,Rodrigo Pereira dos Santos
+a368,a878,Undirected,1,2024,2024,2024,Henrique Prado de Sá Sousa,Thiago de Moura Parracho
+a368,a802,Undirected,1,2024,2024,2024,Henrique Prado de Sá Sousa,Rodrigo Pereira dos Santos
+a368,a801,Undirected,1,2024,2024,2024,Henrique Prado de Sá Sousa,Rodrigo Oliveira Zacarias
+a280,a487,Undirected,1,2024,2024,2024,Ewerton David Brito de Jesus,Jéssyka Vilela
+a127,a280,Undirected,1,2024,2024,2024,Carla Silva,Ewerton David Brito de Jesus
+a507,a757,Undirected,1,2024,2024,2024,Larissa Pereira Gonçalves,Rafael Timóteo de Sousa Junior
+a325,a507,Undirected,1,2024,2024,2024,Fábio Lúcio Lopes de Mendonça,Larissa Pereira Gonçalves
+a729,a753,Undirected,1,2024,2024,2024,Pedro Lucas Dornelles,Rafael Parizi
+a235,a757,Undirected,1,2024,2024,2024,Edna Dias Canedo,Rafael Timóteo de Sousa Junior
+a235,a325,Undirected,1,2024,2024,2024,Edna Dias Canedo,Fábio Lúcio Lopes de Mendonça
+a185,a757,Undirected,1,2024,2024,2024,Daniel Alves da Silva,Rafael Timóteo de Sousa Junior
+a185,a507,Undirected,1,2024,2024,2024,Daniel Alves da Silva,Larissa Pereira Gonçalves
+a185,a325,Undirected,1,2024,2024,2024,Daniel Alves da Silva,Fábio Lúcio Lopes de Mendonça
+a185,a235,Undirected,1,2024,2024,2024,Daniel Alves da Silva,Edna Dias Canedo
+a131,a757,Undirected,1,2024,2024,2024,Carlos Eduardo Lacerda Veiga,Rafael Timóteo de Sousa Junior
+a131,a507,Undirected,1,2024,2024,2024,Carlos Eduardo Lacerda Veiga,Larissa Pereira Gonçalves
+a131,a325,Undirected,1,2024,2024,2024,Carlos Eduardo Lacerda Veiga,Fábio Lúcio Lopes de Mendonça
+a131,a235,Undirected,1,2024,2024,2024,Carlos Eduardo Lacerda Veiga,Edna Dias Canedo
+a131,a185,Undirected,1,2024,2024,2024,Carlos Eduardo Lacerda Veiga,Daniel Alves da Silva
+a295,a831,Undirected,1,2024,2024,2024,Federico Pellegrino,Santiago Cecconato
+a295,a518,Undirected,1,2024,2024,2024,Federico Pellegrino,Leandro Antonelli
+a785,a795,Undirected,1,2024,2024,2024,Rita Suzana Pitangueira Maciel,Roberto de Cerqueira Figueiredo
+a53,a72,Undirected,1,2024,2024,2024,Ana M. Lima,Anna Beatriz Marques
+a368,a888,Undirected,1,2025,2025,2025,Henrique Prado de Sá Sousa,Ulla Louise Didriksson
+a72,a398,Undirected,1,2024,2024,2024,Anna Beatriz Marques,Ismayle Santos
+a19,a429,Undirected,1,2025,2025,2025,Alejandro Oliveros,Jorge Fossati
+a510,a714,Undirected,1,2025,2025,2025,Larissa Santos Saraiva,Patrícia Freitas Campos de Vasconcelos
+a72,a714,Undirected,1,2025,2025,2025,Anna Beatriz Marques,Patrícia Freitas Campos de Vasconcelos
+a72,a510,Undirected,1,2025,2025,2025,Anna Beatriz Marques,Larissa Santos Saraiva
+a458,a459,Undirected,1,2025,2025,2025,João Araújo,João Azevedo
+a125,a459,Undirected,1,2025,2025,2025,Carina Alves,João Azevedo
+a125,a458,Undirected,1,2025,2025,2025,Carina Alves,João Araújo
+a13,a459,Undirected,1,2025,2025,2025,Alberto Sardinha,João Azevedo
+a13,a458,Undirected,1,2025,2025,2025,Alberto Sardinha,João Araújo
+a13,a125,Undirected,1,2025,2025,2025,Alberto Sardinha,Carina Alves
+a347,a917,Undirected,1,2024,2024,2024,Gilleanes Thorwald Araujo Guedes,Willian Samuel Gerstberger
+a398,a813,Undirected,1,2024,2024,2024,Ismayle Santos,Rossana Andrade
+a398,a775,Undirected,1,2024,2024,2024,Ismayle Santos,Rhenara Oliveira
+a286,a687,Undirected,1,2024,2024,2024,Fabiano Alves da Silva,Nelson Gutemberg Rocha Da Silva
+a53,a275,Undirected,1,2024,2024,2024,Ana M. Lima,Erik B. Silva
+a286,a638,Undirected,1,2024,2024,2024,Fabiano Alves da Silva,Mauricio Barros Ottoni
+a205,a286,Undirected,1,2024,2024,2024,Davi De França Carneiro,Fabiano Alves da Silva
+a473,a578,Undirected,1,2024,2024,2024,Juan Pablo Carvallo,Ma. Carolina Sacoto
+a518,a816,Undirected,1,2024,2024,2024,Leandro Antonelli,Roxana Portugal
+a481,a816,Undirected,1,2024,2024,2024,Juliana Delle Ville,Roxana Portugal
+a225,a409,Undirected,1,2024,2024,2024,Dorgival Netto,Jarbele C. S. Coutinho
+a174,a409,Undirected,1,2024,2024,2024,Cristiana De Paulo,Jarbele C. S. Coutinho
+a487,a820,Undirected,1,2024,2024,2024,Jéssyka Vilela,Ruy Ovídio Perrelli de Melo
+a127,a820,Undirected,1,2024,2024,2024,Carla Silva,Ruy Ovídio Perrelli de Melo
+a275,a635,Undirected,1,2024,2024,2024,Erik B. Silva,Mateus E. Andrade
+a72,a635,Undirected,1,2024,2024,2024,Anna Beatriz Marques,Mateus E. Andrade
+a72,a275,Undirected,1,2024,2024,2024,Anna Beatriz Marques,Erik B. Silva
+a53,a635,Undirected,1,2024,2024,2024,Ana M. Lima,Mateus E. Andrade
+a426,a549,Undirected,1,2020,2020,2020,Jonathan H. J. Souza,Luciana A. M. Zaina
+a135,a485,Undirected,1,1998,1998,1998,Carlos José Pereira de Lucena,Julio Cesar Sampaio do Prado Leite
+a120,a711,Undirected,1,2020,2020,2020,Camila B. de Andrade,Patricia Mergulhão
+a458,a782,Undirected,1,2007,2007,2007,João Araújo,Ricardo Ramos
+a575,a806,Undirected,1,2007,2007,2007,M. Kassab,Roel Wieringa
+a575,a698,Undirected,1,2007,2007,2007,M. Kassab,Olga Ormandjieva
+a575,a646,Undirected,1,2007,2007,2007,M. Kassab,Maya Daneva
+a575,a576,Undirected,1,2007,2007,2007,M. Kassab,M. L. Ponisio
+a535,a768,Undirected,1,2007,2007,2007,Lilian Ramires,Renata Melo
+a535,a610,Undirected,1,2007,2007,2007,Lilian Ramires,Maria Lencastre
+a498,a535,Undirected,1,2007,2007,2007,Keldjan Alves,Lilian Ramires
+a258,a768,Undirected,1,2007,2007,2007,Ellen Souza,Renata Melo
+a258,a610,Undirected,1,2007,2007,2007,Ellen Souza,Maria Lencastre
+a258,a535,Undirected,1,2007,2007,2007,Ellen Souza,Lilian Ramires
+a258,a498,Undirected,1,2007,2007,2007,Ellen Souza,Keldjan Alves
+a782,a811,Undirected,1,2007,2007,2007,Ricardo Ramos,Rosangela Penteado
+a458,a811,Undirected,1,2007,2007,2007,João Araújo,Rosangela Penteado
+a404,a811,Undirected,1,2007,2007,2007,Jaelson Castro,Rosangela Penteado
+a576,a698,Undirected,1,2007,2007,2007,M. L. Ponisio,Olga Ormandjieva
+a302,a811,Undirected,1,2007,2007,2007,Fernanda Alencar,Rosangela Penteado
+a302,a458,Undirected,1,2007,2007,2007,Fernanda Alencar,João Araújo
+a56,a811,Undirected,1,2007,2007,2007,Ana Moreira,Rosangela Penteado
+a56,a782,Undirected,1,2007,2007,2007,Ana Moreira,Ricardo Ramos
+a56,a404,Undirected,1,2007,2007,2007,Ana Moreira,Jaelson Castro
+a56,a302,Undirected,1,2007,2007,2007,Ana Moreira,Fernanda Alencar
+a652,a855,Undirected,1,2007,2007,2007,Michael Hartley,Sri Fatimah Tjong
+a190,a652,Undirected,1,2007,2007,2007,Daniel M. Berry,Michael Hartley
+a744,a927,Undirected,1,2007,2007,2007,Quazi A. Rahman,Zude Li
+a683,a927,Undirected,1,2007,2007,2007,Nazim H. Madhavji,Zude Li
+a683,a744,Undirected,1,2007,2007,2007,Nazim H. Madhavji,Quazi A. Rahman
+a186,a736,Undirected,1,2007,2007,2007,Daniel Amyot,Pengfei Chen Michael Weiss
+a38,a736,Undirected,1,2007,2007,2007,Alireza Pourshahid,Pengfei Chen Michael Weiss
+a576,a646,Undirected,1,2007,2007,2007,M. L. Ponisio,Maya Daneva
+a576,a806,Undirected,1,2007,2007,2007,M. L. Ponisio,Roel Wieringa
+a10,a736,Undirected,1,2007,2007,2007,Alan J. Forster,Pengfei Chen Michael Weiss
+a423,a668,Undirected,1,2008,2008,2008,Jokin Arizmendi,Montse Ereño Incera
+a198,a644,Undirected,1,2008,2008,2008,Danielle Loyola,Maurício Serrano
+a198,a625,Undirected,1,2008,2008,2008,Danielle Loyola,Mark Douglas
+a198,a485,Undirected,1,2008,2008,2008,Danielle Loyola,Julio Cesar Sampaio do Prado Leite
+a198,a313,Undirected,1,2008,2008,2008,Danielle Loyola,Fillipe Napolitano
+a198,a247,Undirected,1,2008,2008,2008,Danielle Loyola,Eduardo Kinder Almentero
+a114,a658,Undirected,1,2008,2008,2008,Bruno Rezende,Milene Serrano
+a114,a644,Undirected,1,2008,2008,2008,Bruno Rezende,Maurício Serrano
+a114,a625,Undirected,1,2008,2008,2008,Bruno Rezende,Mark Douglas
+a114,a485,Undirected,1,2008,2008,2008,Bruno Rezende,Julio Cesar Sampaio do Prado Leite
+a114,a313,Undirected,1,2008,2008,2008,Bruno Rezende,Fillipe Napolitano
+a114,a247,Undirected,1,2008,2008,2008,Bruno Rezende,Eduardo Kinder Almentero
+a114,a198,Undirected,1,2008,2008,2008,Bruno Rezende,Danielle Loyola
+a456,a668,Undirected,1,2008,2008,2008,Joxeja Oiarbide,Montse Ereño Incera
+a423,a456,Undirected,1,2008,2008,2008,Jokin Arizmendi,Joxeja Oiarbide
+a646,a698,Undirected,1,2007,2007,2007,Maya Daneva,Olga Ormandjieva
+a278,a668,Undirected,1,2008,2008,2008,Eusebi Calonge,Montse Ereño Incera
+a278,a456,Undirected,1,2008,2008,2008,Eusebi Calonge,Joxeja Oiarbide
+a278,a423,Undirected,1,2008,2008,2008,Eusebi Calonge,Jokin Arizmendi
+a293,a713,Undirected,1,2007,2007,2007,Faranak Farzad,Patrick C. K. Hung
+a272,a713,Undirected,1,2007,2007,2007,Eric Yu,Patrick C. K. Hung
+a272,a293,Undirected,1,2007,2007,2007,Eric Yu,Faranak Farzad
+a676,a688,Undirected,1,2007,2007,2007,Nadzeya Kiyavitskaya,Nicola Zeni
+a560,a688,Undirected,1,2007,2007,2007,Luisa Mich,Nicola Zeni
+a560,a676,Undirected,1,2007,2007,2007,Luisa Mich,Nadzeya Kiyavitskaya
+a190,a688,Undirected,1,2007,2007,2007,Daniel M. Berry,Nicola Zeni
+a190,a676,Undirected,1,2007,2007,2007,Daniel M. Berry,Nadzeya Kiyavitskaya
+a190,a560,Undirected,1,2007,2007,2007,Daniel M. Berry,Luisa Mich
+a698,a806,Undirected,1,2007,2007,2007,Olga Ormandjieva,Roel Wieringa
+a38,a186,Undirected,1,2007,2007,2007,Alireza Pourshahid,Daniel Amyot
+a10,a186,Undirected,1,2007,2007,2007,Alan J. Forster,Daniel Amyot
+a549,a742,Undirected,1,2020,2020,2020,Luciana A. M. Zaina,Priscila Portela Costa
+a534,a874,Undirected,1,2006,2006,2006,Lilian A. Bertini,Tereza Gonçalves Kirner
+a110,a158,Undirected,1,2007,2007,2007,Bruno González-Baixauli,Claudia Cappelli
+a78,a370,Undirected,1,2007,2007,2007,Antonio de Padua Albuquerque Oliveira,Herbet de Souza Cunha
+a78,a158,Undirected,1,2007,2007,2007,Antonio de Padua Albuquerque Oliveira,Claudia Cappelli
+a78,a110,Undirected,1,2007,2007,2007,Antonio de Padua Albuquerque Oliveira,Bruno González-Baixauli
+a52,a897,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Vera Maria Benjamim Werneck
+a52,a485,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Julio Cesar Sampaio do Prado Leite
+a52,a370,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Herbet de Souza Cunha
+a52,a158,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Claudia Cappelli
+a52,a110,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Bruno González-Baixauli
+a52,a78,Undirected,1,2007,2007,2007,Ana Luiza A. Cerqueira,Antonio de Padua Albuquerque Oliveira
+a31,a764,Undirected,1,2006,2006,2006,Alexandre Marcos Lins de Vasconcelos,Regina Andrade Brito
+a451,a563,Undirected,1,2006,2006,2006,José Inácio De Grande,Luiz Eduardo Galvão Martins
+a607,a874,Undirected,1,2006,2006,2006,Maria I. Montebelo,Tereza Gonçalves Kirner
+a534,a607,Undirected,1,2006,2006,2006,Lilian A. Bertini,Maria I. Montebelo
+a110,a897,Undirected,1,2007,2007,2007,Bruno González-Baixauli,Vera Maria Benjamim Werneck
+a384,a874,Undirected,1,2006,2006,2006,Idemauro A. R. Lara,Tereza Gonçalves Kirner
+a384,a607,Undirected,1,2006,2006,2006,Idemauro A. R. Lara,Maria I. Montebelo
+a384,a534,Undirected,1,2006,2006,2006,Idemauro A. R. Lara,Lilian A. Bertini
+a404,a848,Undirected,1,2006,2006,2006,Jaelson Castro,Silvia Pereira
+a732,a741,Undirected,1,2006,2006,2006,Pedro Oscar,Priscila Lima
+a350,a741,Undirected,1,2006,2006,2006,Gisele Morgado,Priscila Lima
+a350,a732,Undirected,1,2006,2006,2006,Gisele Morgado,Pedro Oscar
+a298,a741,Undirected,1,2006,2006,2006,Felipe Dias,Priscila Lima
+a298,a732,Undirected,1,2006,2006,2006,Felipe Dias,Pedro Oscar
+a298,a350,Undirected,1,2006,2006,2006,Felipe Dias,Gisele Morgado
+a231,a741,Undirected,1,2006,2006,2006,Eber Schmitz,Priscila Lima
+a231,a732,Undirected,1,2006,2006,2006,Eber Schmitz,Pedro Oscar
+a231,a350,Undirected,1,2006,2006,2006,Eber Schmitz,Gisele Morgado
+a110,a370,Undirected,1,2007,2007,2007,Bruno González-Baixauli,Herbet de Souza Cunha
+a158,a370,Undirected,1,2007,2007,2007,Claudia Cappelli,Herbet de Souza Cunha
+a10,a38,Undirected,1,2007,2007,2007,Alan J. Forster,Alireza Pourshahid
+a147,a272,Undirected,1,2007,2007,2007,Catalin Bidian,Eric Yu
+a437,a702,Undirected,1,2007,2007,2007,Jose Luis De la Vara González,Oscar Pastor
+a608,a845,Undirected,1,2007,2007,2007,Maria Istela Cagnin,Silvia Angelica Zanco Ladeira
+a206,a475,Undirected,1,2007,2007,2007,David Anes Alcolea,Juan Sánchez Díaz
+a206,a437,Undirected,1,2007,2007,2007,David Anes Alcolea,Jose Luis De la Vara González
+a240,a485,Undirected,1,2007,2007,2007,Edson Andrade de Moraes,Julio Cesar Sampaio do Prado Leite
+a132,a485,Undirected,1,2007,2007,2007,Carlos Eduardo Portela Serra de Castro,Julio Cesar Sampaio do Prado Leite
+a132,a240,Undirected,1,2007,2007,2007,Carlos Eduardo Portela Serra de Castro,Edson Andrade de Moraes
+a598,a827,Undirected,1,2007,2007,2007,Marcos Danilo Martins,Sandra Fabbri
+a64,a827,Undirected,1,2007,2007,2007,André Di Thommazo,Sandra Fabbri
+a64,a598,Undirected,1,2007,2007,2007,André Di Thommazo,Marcos Danilo Martins
+a532,a838,Undirected,1,2007,2007,2007,Liam Peyton,Sepideh Ghanavati
+a186,a838,Undirected,1,2007,2007,2007,Daniel Amyot,Sepideh Ghanavati
+a186,a532,Undirected,1,2007,2007,2007,Daniel Amyot,Liam Peyton
+a1,a897,Undirected,1,2007,2007,2007,A. Y. Kano,Vera Maria Benjamim Werneck
+a158,a485,Undirected,1,2007,2007,2007,Claudia Cappelli,Julio Cesar Sampaio do Prado Leite
+a1,a566,Undirected,1,2007,2007,2007,A. Y. Kano,Luiz Marcio Cysneiros
+a798,a848,Undirected,1,2007,2007,2007,Rodolfo V. C. L. de Andrade,Silvia Pereira
+a467,a848,Undirected,1,2007,2007,2007,João Pimentel,Silvia Pereira
+a467,a798,Undirected,1,2007,2007,2007,João Pimentel,Rodolfo V. C. L. de Andrade
+a339,a848,Undirected,1,2007,2007,2007,George Valença,Silvia Pereira
+a339,a798,Undirected,1,2007,2007,2007,George Valença,Rodolfo V. C. L. de Andrade
+a339,a467,Undirected,1,2007,2007,2007,George Valença,João Pimentel
+a125,a798,Undirected,1,2007,2007,2007,Carina Alves,Rodolfo V. C. L. de Andrade
+a125,a467,Undirected,1,2007,2007,2007,Carina Alves,João Pimentel
+a125,a339,Undirected,1,2007,2007,2007,Carina Alves,George Valença
+a692,a884,Undirected,1,2007,2007,2007,Nina D. Fogelström,Tony Gorschek
+a370,a897,Undirected,1,2007,2007,2007,Herbet de Souza Cunha,Vera Maria Benjamim Werneck
+a158,a897,Undirected,1,2007,2007,2007,Claudia Cappelli,Vera Maria Benjamim Werneck
+a198,a658,Undirected,1,2008,2008,2008,Danielle Loyola,Milene Serrano
+a247,a313,Undirected,1,2008,2008,2008,Eduardo Kinder Almentero,Fillipe Napolitano
+a247,a625,Undirected,1,2008,2008,2008,Eduardo Kinder Almentero,Mark Douglas
+a404,a517,Undirected,1,2010,2010,2010,Jaelson Castro,Laís Xavier
+a279,a640,Undirected,1,2010,2010,2010,Ewelton Y. C. Yoshidome,Mauricio Ronny
+a279,a551,Undirected,1,2010,2010,2010,Ewelton Y. C. Yoshidome,Luciana Neves Bentes
+a27,a829,Undirected,1,2010,2010,2010,Alexandre Brito Cardias Junior,Sandro R. B. Oliveira
+a27,a640,Undirected,1,2010,2010,2010,Alexandre Brito Cardias Junior,Mauricio Ronny
+a27,a551,Undirected,1,2010,2010,2010,Alexandre Brito Cardias Junior,Luciana Neves Bentes
+a27,a279,Undirected,1,2010,2010,2010,Alexandre Brito Cardias Junior,Ewelton Y. C. Yoshidome
+a521,a803,Undirected,1,2010,2010,2010,Leo Ordinez,Rodrigo Santos (arg)
+a412,a803,Undirected,1,2010,2010,2010,Javier Orozco,Rodrigo Santos (arg)
+a412,a521,Undirected,1,2010,2010,2010,Javier Orozco,Leo Ordinez
+a207,a803,Undirected,1,2010,2010,2010,David Donari,Rodrigo Santos (arg)
+a207,a521,Undirected,1,2010,2010,2010,David Donari,Leo Ordinez
+a207,a412,Undirected,1,2010,2010,2010,David Donari,Javier Orozco
+a467,a517,Undirected,1,2010,2010,2010,João Pimentel,Laís Xavier
+a302,a517,Undirected,1,2010,2010,2010,Fernanda Alencar,Laís Xavier
+a551,a829,Undirected,1,2010,2010,2010,Luciana Neves Bentes,Sandro R. B. Oliveira
+a263,a702,Undirected,1,2010,2010,2010,Emanuel Santos,Oscar Pastor
+a263,a475,Undirected,1,2010,2010,2010,Emanuel Santos,Juan Sánchez Díaz
+a755,a875,Undirected,1,2009,2009,2009,Rafael Prikladnicki,Thais Ebling
+a431,a875,Undirected,1,2009,2009,2009,Jorge Luis N. Audy,Thais Ebling
+a431,a755,Undirected,1,2009,2009,2009,Jorge Luis N. Audy,Rafael Prikladnicki
+a587,a829,Undirected,1,2009,2009,2009,Marcelio D’oliveira Leal,Sandro R. B. Oliveira
+a168,a829,Undirected,1,2009,2009,2009,Cleidson R. B. de Souza,Sandro R. B. Oliveira
+a678,a731,Undirected,1,2009,2009,2009,Nancy Hitschfeld-Kahler,Pedro O. Rossel
+a631,a731,Undirected,1,2009,2009,2009,María Cecilia Bastarrica,Pedro O. Rossel
+a631,a678,Undirected,1,2009,2009,2009,María Cecilia Bastarrica,Nancy Hitschfeld-Kahler
+a156,a662,Undirected,1,2009,2009,2009,Claiton Luís Grings,Miriam Sayão
+a702,a806,Undirected,1,2009,2009,2009,Oscar Pastor,Roel Wieringa
+a701,a806,Undirected,1,2009,2009,2009,Oscar Dieste,Roel Wieringa
+a551,a640,Undirected,1,2010,2010,2010,Luciana Neves Bentes,Mauricio Ronny
+a640,a829,Undirected,1,2010,2010,2010,Mauricio Ronny,Sandro R. B. Oliveira
+a247,a644,Undirected,1,2008,2008,2008,Eduardo Kinder Almentero,Maurício Serrano
+a150,a796,Undirected,1,2010,2010,2010,Cecilia Sosa Arias Peixoto,Roberto de Souza Júnior
+a453,a538,Undirected,1,2011,2011,2011,José Luis Braga,Liziane S. Soares
+a98,a904,Undirected,1,2011,2011,2011,Bernardo G. Ambrósio,Victor O. Hermsdorf
+a98,a538,Undirected,1,2011,2011,2011,Bernardo G. Ambrósio,Liziane S. Soares
+a98,a524,Undirected,1,2011,2011,2011,Bernardo G. Ambrósio,Leonardo Fonseca de Carvalho
+a98,a453,Undirected,1,2011,2011,2011,Bernardo G. Ambrósio,José Luis Braga
+a627,a679,Undirected,1,2011,2011,2011,Marta Lopez,Natalia Juristo
+a201,a627,Undirected,1,2011,2011,2011,Dante Carrizo,Marta Lopez
+a176,a903,Undirected,1,2011,2011,2011,Cristiano Ferreira de Souza,Victor Francisco Araya Santander
+a254,a540,Undirected,1,2011,2011,2011,Elisa Yumi Nakagawa,Lucas Bueno Ruas Oliveira
+a285,a799,Undirected,1,2011,2011,2011,Fabiane Barreto Vavassori Benitti,Rodrigo Cezario da Silva
+a563,a796,Undirected,1,2010,2010,2010,Luiz Eduardo Galvão Martins,Roberto de Souza Júnior
+a372,a796,Undirected,1,2010,2010,2010,Hermano Peixoto de Oliveira Jr,Roberto de Souza Júnior
+a372,a563,Undirected,1,2010,2010,2010,Hermano Peixoto de Oliveira Jr,Luiz Eduardo Galvão Martins
+a150,a563,Undirected,1,2010,2010,2010,Cecilia Sosa Arias Peixoto,Luiz Eduardo Galvão Martins
+a466,a707,Undirected,1,2010,2010,2010,João Pablo Silva da Silva,Pablo Dall Oglio
+a150,a372,Undirected,1,2010,2010,2010,Cecilia Sosa Arias Peixoto,Hermano Peixoto de Oliveira Jr
+a379,a556,Undirected,1,2010,2010,2010,Hugo Estrada,Luis A. Gama
+a253,a556,Undirected,1,2010,2010,2010,Eliel Morales,Luis A. Gama
+a253,a379,Undirected,1,2010,2010,2010,Eliel Morales,Hugo Estrada
+a142,a556,Undirected,1,2010,2010,2010,Carmen Velasco,Luis A. Gama
+a142,a379,Undirected,1,2010,2010,2010,Carmen Velasco,Hugo Estrada
+a142,a253,Undirected,1,2010,2010,2010,Carmen Velasco,Eliel Morales
+a35,a556,Undirected,1,2010,2010,2010,Alicia Martínez,Luis A. Gama
+a35,a253,Undirected,1,2010,2010,2010,Alicia Martínez,Eliel Morales
+a35,a142,Undirected,1,2010,2010,2010,Alicia Martínez,Carmen Velasco
+a291,a784,Undirected,1,2010,2010,2010,Fadil Alturki,Ridha Khedri
+a707,a865,Undirected,1,2010,2010,2010,Pablo Dall Oglio,Sérgio Crespo Coelho da Silva Pinto
+a466,a865,Undirected,1,2010,2010,2010,João Pablo Silva da Silva,Sérgio Crespo Coelho da Silva Pinto
+a701,a702,Undirected,1,2009,2009,2009,Oscar Dieste,Oscar Pastor
+a686,a806,Undirected,1,2009,2009,2009,Nelly Condori-Fernández,Roel Wieringa
+a686,a701,Undirected,1,2009,2009,2009,Nelly Condori-Fernández,Oscar Dieste
+a404,a673,Undirected,1,2008,2008,2008,Jaelson Castro,Márcia Seabra Cabral
+a485,a850,Undirected,1,2008,2008,2008,Julio Cesar Sampaio do Prado Leite,Simone Diniz Junqueira Barbosa
+a115,a850,Undirected,1,2008,2008,2008,Bruno Santana da Silva,Simone Diniz Junqueira Barbosa
+a115,a485,Undirected,1,2008,2008,2008,Bruno Santana da Silva,Julio Cesar Sampaio do Prado Leite
+a228,a827,Undirected,1,2008,2008,2008,Dênis Zaniro,Sandra Fabbri
+a563,a919,Undirected,1,2008,2008,2008,Luiz Eduardo Galvão Martins,Wilson Carlos da Silva
+a698,a841,Undirected,1,2008,2008,2008,Olga Ormandjieva,Shadi Moradi Seresht
+a296,a701,Undirected,1,2008,2008,2008,Felicidad Ramos,Oscar Dieste
+a296,a627,Undirected,1,2008,2008,2008,Felicidad Ramos,Marta Lopez
+a41,a168,Undirected,1,2008,2008,2008,Alline de Melo Lemos,Cleidson R. B. de Souza
+a622,a655,Undirected,1,2008,2008,2008,Mario Piattini,Miguel Romero
+a89,a655,Undirected,1,2008,2008,2008,Aurora Vizcaíno,Miguel Romero
+a673,a702,Undirected,1,2008,2008,2008,Márcia Seabra Cabral,Oscar Pastor
+a475,a673,Undirected,1,2008,2008,2008,Juan Sánchez Díaz,Márcia Seabra Cabral
+a302,a702,Undirected,1,2008,2008,2008,Fernanda Alencar,Oscar Pastor
+a646,a701,Undirected,1,2009,2009,2009,Maya Daneva,Oscar Dieste
+a302,a673,Undirected,1,2008,2008,2008,Fernanda Alencar,Márcia Seabra Cabral
+a302,a475,Undirected,1,2008,2008,2008,Fernanda Alencar,Juan Sánchez Díaz
+a644,a658,Undirected,1,2008,2008,2008,Maurício Serrano,Milene Serrano
+a625,a658,Undirected,1,2008,2008,2008,Mark Douglas,Milene Serrano
+a625,a644,Undirected,1,2008,2008,2008,Mark Douglas,Maurício Serrano
+a485,a658,Undirected,1,2008,2008,2008,Julio Cesar Sampaio do Prado Leite,Milene Serrano
+a485,a644,Undirected,1,2008,2008,2008,Julio Cesar Sampaio do Prado Leite,Maurício Serrano
+a485,a625,Undirected,1,2008,2008,2008,Julio Cesar Sampaio do Prado Leite,Mark Douglas
+a313,a658,Undirected,1,2008,2008,2008,Fillipe Napolitano,Milene Serrano
+a313,a644,Undirected,1,2008,2008,2008,Fillipe Napolitano,Maurício Serrano
+a313,a625,Undirected,1,2008,2008,2008,Fillipe Napolitano,Mark Douglas
+a313,a485,Undirected,1,2008,2008,2008,Fillipe Napolitano,Julio Cesar Sampaio do Prado Leite
+a247,a658,Undirected,1,2008,2008,2008,Eduardo Kinder Almentero,Milene Serrano
+a168,a647,Undirected,1,2008,2008,2008,Cleidson R. B. de Souza,Mayara Figueiredo
+a587,a647,Undirected,1,2008,2008,2008,Marcelio D’oliveira Leal,Mayara Figueiredo
+a9,a404,Undirected,1,2008,2008,2008,Alain Abran,Jaelson Castro
+a9,a646,Undirected,1,2008,2008,2008,Alain Abran,Maya Daneva
+a502,a806,Undirected,1,2009,2009,2009,Klaas Sikkel,Roel Wieringa
+a502,a702,Undirected,1,2009,2009,2009,Klaas Sikkel,Oscar Pastor
+a502,a701,Undirected,1,2009,2009,2009,Klaas Sikkel,Oscar Dieste
+a502,a686,Undirected,1,2009,2009,2009,Klaas Sikkel,Nelly Condori-Fernández
+a502,a646,Undirected,1,2009,2009,2009,Klaas Sikkel,Maya Daneva
+a447,a899,Undirected,1,2009,2009,2009,José Gallardo Arancibia,Vianca Vega Zepeda
+a166,a899,Undirected,1,2009,2009,2009,Claudio Meneses Villegas,Vianca Vega Zepeda
+a166,a447,Undirected,1,2009,2009,2009,Claudio Meneses Villegas,José Gallardo Arancibia
+a16,a899,Undirected,1,2009,2009,2009,Aldo Quelopana Retamal,Vianca Vega Zepeda
+a16,a447,Undirected,1,2009,2009,2009,Aldo Quelopana Retamal,José Gallardo Arancibia
+a16,a166,Undirected,1,2009,2009,2009,Aldo Quelopana Retamal,Claudio Meneses Villegas
+a352,a585,Undirected,1,2009,2009,2009,Gladys N. Kaplan,Marcela Ridao
+a73,a563,Undirected,1,2009,2009,2009,Anselmo de Araujo Couto,Luiz Eduardo Galvão Martins
+a404,a591,Undirected,1,2009,2009,2009,Jaelson Castro,Marcia Lucena
+a263,a591,Undirected,1,2009,2009,2009,Emanuel Santos,Marcia Lucena
+a127,a591,Undirected,1,2009,2009,2009,Carla Silva,Marcia Lucena
+a320,a727,Undirected,1,2008,2008,2008,Francisco Milton Mendes Neto,Pedro Fernandes Ribeiro Neto
+a885,a886,Undirected,1,2008,2008,2008,Tracy Hall,Trevor Barker
+a677,a886,Undirected,1,2008,2008,2008,Nan Ma,Trevor Barker
+a677,a885,Undirected,1,2008,2008,2008,Nan Ma,Tracy Hall
+a659,a886,Undirected,1,2008,2008,2008,Ming Zhang,Trevor Barker
+a659,a885,Undirected,1,2008,2008,2008,Ming Zhang,Tracy Hall
+a659,a677,Undirected,1,2008,2008,2008,Ming Zhang,Nan Ma
+a404,a686,Undirected,1,2008,2008,2008,Jaelson Castro,Nelly Condori-Fernández
+a404,a646,Undirected,1,2008,2008,2008,Jaelson Castro,Maya Daneva
+a9,a702,Undirected,1,2008,2008,2008,Alain Abran,Oscar Pastor
+a9,a686,Undirected,1,2008,2008,2008,Alain Abran,Nelly Condori-Fernández
+a231,a298,Undirected,1,2006,2006,2006,Eber Schmitz,Felipe Dias
+a213,a741,Undirected,1,2006,2006,2006,Denis Silveira,Priscila Lima
+a213,a732,Undirected,1,2006,2006,2006,Denis Silveira,Pedro Oscar
+a95,a746,Undirected,1,2001,2001,2001,Beatriz Bernárdez,Rafael Corchuelo
+a260,a404,Undirected,1,2002,2002,2002,Elton Mello,Jaelson Castro
+a379,a475,Undirected,1,2002,2002,2002,Hugo Estrada,Juan Sánchez Díaz
+a35,a475,Undirected,1,2002,2002,2002,Alicia Martínez,Juan Sánchez Díaz
+a208,a706,Undirected,1,2002,2002,2002,Davide Bolchini,P. Paolini
+a326,a505,Undirected,1,2002,2002,2002,G.S. Rangel,L.A. Martins
+a181,a505,Undirected,1,2002,2002,2002,D.J. Nunes,L.A. Martins
+a181,a326,Undirected,1,2002,2002,2002,D.J. Nunes,G.S. Rangel
+a493,a924,Undirected,1,2001,2001,2001,Karla Donato Fook,Zair Abdelouahab
+a404,a559,Undirected,1,2001,2001,2001,Jaelson Castro,Luis Iribarne
+a125,a559,Undirected,1,2001,2001,2001,Carina Alves,Luis Iribarne
+a77,a559,Undirected,1,2001,2001,2001,Antonio Vallecillo,Luis Iribarne
+a77,a404,Undirected,1,2001,2001,2001,Antonio Vallecillo,Jaelson Castro
+a77,a125,Undirected,1,2001,2001,2001,Antonio Vallecillo,Carina Alves
+a475,a605,Undirected,1,2001,2001,2001,Juan Sánchez Díaz,Maria Carmen Penadés
+a404,a594,Undirected,1,2002,2002,2002,Jaelson Castro,Marco Toranzo
+a449,a605,Undirected,1,2001,2001,2001,José H. Canós,Maria Carmen Penadés
+a449,a475,Undirected,1,2001,2001,2001,José H. Canós,Juan Sánchez Díaz
+a49,a563,Undirected,1,2001,2001,2001,Ana Estela Antunes da Silva,Luiz Eduardo Galvão Martins
+a475,a852,Undirected,1,2001,2001,2001,Juan Sánchez Díaz,Soeli T. Fiorini
+a475,a485,Undirected,1,2001,2001,2001,Juan Sánchez Díaz,Julio Cesar Sampaio do Prado Leite
+a268,a852,Undirected,1,2001,2001,2001,Emílio Insfrán Pelozo,Soeli T. Fiorini
+a268,a485,Undirected,1,2001,2001,2001,Emílio Insfrán Pelozo,Julio Cesar Sampaio do Prado Leite
+a268,a475,Undirected,1,2001,2001,2001,Emílio Insfrán Pelozo,Juan Sánchez Díaz
+a95,a852,Undirected,1,2001,2001,2001,Beatriz Bernárdez,Soeli T. Fiorini
+a95,a485,Undirected,1,2001,2001,2001,Beatriz Bernárdez,Julio Cesar Sampaio do Prado Leite
+a95,a475,Undirected,1,2001,2001,2001,Beatriz Bernárdez,Juan Sánchez Díaz
+a95,a268,Undirected,1,2001,2001,2001,Beatriz Bernárdez,Emílio Insfrán Pelozo
+a43,a852,Undirected,1,2001,2001,2001,Amador Durán,Soeli T. Fiorini
+a260,a594,Undirected,1,2002,2002,2002,Elton Mello,Marco Toranzo
+a705,a890,Undirected,1,2002,2002,2002,P. Letelier,V. Anaya
+a25,a715,Undirected,1,2003,2003,2003,Alex Sandro Gomes,Patrícia Tedesco
+a401,a704,Undirected,1,2002,2002,2002,J. Belenguer,P. Belenguer
+a92,a520,Undirected,1,2003,2003,2003,Azriel Majdenbaum,Leandro T. Lopes
+a92,a431,Undirected,1,2003,2003,2003,Azriel Majdenbaum,Jorge Luis N. Audy
+a319,a568,Undirected,1,2003,2003,2003,Francisco A. C. Pinheiro,Luzardo P. Silva
+a572,a822,Undirected,1,2002,2002,2002,M. Burbano,S. Martí
+a230,a822,Undirected,1,2002,2002,2002,E. Tejadillos,S. Martí
+a230,a572,Undirected,1,2002,2002,2002,E. Tejadillos,M. Burbano
+a229,a822,Undirected,1,2002,2002,2002,E. Insfrán,S. Martí
+a229,a572,Undirected,1,2002,2002,2002,E. Insfrán,M. Burbano
+a229,a230,Undirected,1,2002,2002,2002,E. Insfrán,E. Tejadillos
+a654,a696,Undirected,1,2002,2002,2002,Miguel A. Laguna,O. López
+a283,a696,Undirected,1,2002,2002,2002,F.J. Garcia,O. López
+a283,a654,Undirected,1,2002,2002,2002,F.J. Garcia,Miguel A. Laguna
+a475,a704,Undirected,1,2002,2002,2002,Juan Sánchez Díaz,P. Belenguer
+a401,a475,Undirected,1,2002,2002,2002,J. Belenguer,Juan Sánchez Díaz
+a402,a577,Undirected,1,2002,2002,2002,J.M. Murillo,M. Sánchez-Alonso
+a180,a704,Undirected,1,2002,2002,2002,D. Pascual,P. Belenguer
+a180,a475,Undirected,1,2002,2002,2002,D. Pascual,Juan Sánchez Díaz
+a180,a401,Undirected,1,2002,2002,2002,D. Pascual,J. Belenguer
+a284,a404,Undirected,1,2002,2002,2002,F.R.S. Paim,Jaelson Castro
+a319,a382,Undirected,1,2002,2002,2002,Francisco A. C. Pinheiro,I.D. López
+a366,a404,Undirected,1,2002,2002,2002,H.C.A.B. Tavares,Jaelson Castro
+a48,a366,Undirected,1,2002,2002,2002,Ana Elizabete Souza de Carvalho,H.C.A.B. Tavares
+a737,a921,Undirected,1,2002,2002,2002,Pere Botella,Xavier Burgués
+a473,a737,Undirected,1,2002,2002,2002,Juan Pablo Carvallo,Pere Botella
+a141,a737,Undirected,1,2002,2002,2002,Carme Quer,Pere Botella
+a215,a783,Undirected,1,2002,2002,2002,Denise Franzotti Togneri,Ricardo de Almeida Falbo
+a173,a783,Undirected,1,2002,2002,2002,Crediné Silva de Menezes,Ricardo de Almeida Falbo
+a173,a215,Undirected,1,2002,2002,2002,Crediné Silva de Menezes,Denise Franzotti Togneri
+a43,a485,Undirected,1,2001,2001,2001,Amador Durán,Julio Cesar Sampaio do Prado Leite
+a43,a475,Undirected,1,2001,2001,2001,Amador Durán,Juan Sánchez Díaz
+a43,a268,Undirected,1,2001,2001,2001,Amador Durán,Emílio Insfrán Pelozo
+a585,a630,Undirected,1,1998,1998,1998,Marcela Ridao,María Carmen Leonardi
+a472,a702,Undirected,1,2000,2000,2000,Juan Jose Fons,Oscar Pastor
+a472,a475,Undirected,1,2000,2000,2000,Juan Jose Fons,Juan Sánchez Díaz
+a12,a702,Undirected,1,2000,2000,2000,Alberto Aparicio Vila,Oscar Pastor
+a12,a475,Undirected,1,2000,2000,2000,Alberto Aparicio Vila,Juan Sánchez Díaz
+a12,a472,Undirected,1,2000,2000,2000,Alberto Aparicio Vila,Juan Jose Fons
+a406,a566,Undirected,1,2000,2000,2000,Jaime de Melo Sabát Neto,Luiz Marcio Cysneiros
+a406,a485,Undirected,1,2000,2000,2000,Jaime de Melo Sabát Neto,Julio Cesar Sampaio do Prado Leite
+a290,a404,Undirected,1,1999,1999,1999,Fabrízia M. de Sousa,Jaelson Castro
+a290,a302,Undirected,1,1999,1999,1999,Fabrízia M. de Sousa,Fernanda Alencar
+a170,a675,Undirected,1,1999,1999,1999,Cláudia Maria Lima Werner,Mônica Zopelari Roseti
+a485,a695,Undirected,1,1999,1999,1999,Julio Cesar Sampaio do Prado Leite,Néstor Adolfo Mamani Macedo
+a345,a448,Undirected,1,1999,1999,1999,Giancarlo Guizzardi,José Gonçalves Pereira Filho
+a617,a630,Undirected,1,1998,1998,1998,Mariana del Fresno,María Carmen Leonardi
+a513,a630,Undirected,1,1998,1998,1998,Laura Rivero,María Carmen Leonardi
+a177,a404,Undirected,1,2001,2001,2001,Cristina Tavares,Jaelson Castro
+a462,a717,Undirected,1,1998,1998,1998,João Caldas Júnior,Paulo Cesar Masiero
+a489,a856,Undirected,1,1998,1998,1998,Júlio Hartmann,Stanley Loh
+a454,a856,Undirected,1,1998,1998,1998,José Mauro V. de Castilho,Stanley Loh
+a454,a489,Undirected,1,1998,1998,1998,José Mauro V. de Castilho,Júlio Hartmann
+a144,a856,Undirected,1,1998,1998,1998,Carolina Sturm Trindade,Stanley Loh
+a144,a489,Undirected,1,1998,1998,1998,Carolina Sturm Trindade,Júlio Hartmann
+a144,a454,Undirected,1,1998,1998,1998,Carolina Sturm Trindade,José Mauro V. de Castilho
+a411,a449,Undirected,1,1998,1998,1998,Javier Jaén,José H. Canós
+a396,a449,Undirected,1,1998,1998,1998,Isidro Ramos,José H. Canós
+a396,a411,Undirected,1,1998,1998,1998,Isidro Ramos,Javier Jaén
+a769,a893,Undirected,1,1998,1998,1998,Renata Pontin de M. Fortes,Valéria Delisandra Feltrim
+a317,a874,Undirected,1,1998,1998,1998,Flávio Ricardo Carpena,Tereza Gonçalves Kirner
+a364,a630,Undirected,1,1998,1998,1998,Gustavo Rossi,María Carmen Leonardi
+a125,a302,Undirected,1,2000,2000,2000,Carina Alves,Fernanda Alencar
+a226,a404,Undirected,1,2000,2000,2000,Décio Fonseca,Jaelson Castro
+a226,a610,Undirected,1,2000,2000,2000,Décio Fonseca,Maria Lencastre
+a226,a672,Undirected,1,2000,2000,2000,Décio Fonseca,Márcia Santos
+a48,a177,Undirected,1,2001,2001,2001,Ana Elizabete Souza de Carvalho,Cristina Tavares
+a404,a461,Undirected,1,2001,2001,2001,Jaelson Castro,João Bosco Pinto Filho
+a125,a461,Undirected,1,2001,2001,2001,Carina Alves,João Bosco Pinto Filho
+a697,a702,Undirected,1,2001,2001,2001,Octavio A. Ríos,Oscar Pastor
+a413,a702,Undirected,1,2001,2001,2001,Javier Ortiz,Oscar Pastor
+a413,a697,Undirected,1,2001,2001,2001,Javier Ortiz,Octavio A. Ríos
+a379,a697,Undirected,1,2001,2001,2001,Hugo Estrada,Octavio A. Ríos
+a379,a413,Undirected,1,2001,2001,2001,Hugo Estrada,Javier Ortiz
+a35,a697,Undirected,1,2001,2001,2001,Alicia Martínez,Octavio A. Ríos
+a35,a413,Undirected,1,2001,2001,2001,Alicia Martínez,Javier Ortiz
+a574,a847,Undirected,1,2001,2001,2001,M. Griselda Báez,Silvia I. Barba Brunner
+a590,a924,Undirected,1,2001,2001,2001,Marcia C. F. Carvalho,Zair Abdelouahab
+a626,a889,Undirected,1,2001,2001,2001,Markus Mannio,Uolevi Nikula
+a404,a421,Undirected,1,2000,2000,2000,Jaelson Castro,John Mylopoulos
+a346,a421,Undirected,1,2000,2000,2000,Gilberto Amado de Azevedo Cysneiros Filho,John Mylopoulos
+a302,a421,Undirected,1,2000,2000,2000,Fernanda Alencar,John Mylopoulos
+a187,a362,Undirected,1,2000,2000,2000,Daniel Arias Figueroa,Gustavo D. Gila
+a19,a362,Undirected,1,2000,2000,2000,Alejandro Oliveros,Gustavo D. Gila
+a19,a187,Undirected,1,2000,2000,2000,Alejandro Oliveros,Daniel Arias Figueroa
+a630,a859,Undirected,1,2000,2000,2000,María Carmen Leonardi,Stella Tornabene
+a512,a859,Undirected,1,2000,2000,2000,Laura Petersen,Stella Tornabene
+a512,a630,Undirected,1,2000,2000,2000,Laura Petersen,María Carmen Leonardi
+a427,a859,Undirected,1,2000,2000,2000,Jorge Doorn,Stella Tornabene
+a427,a512,Undirected,1,2000,2000,2000,Jorge Doorn,Laura Petersen
+a55,a536,Undirected,1,2000,2000,2000,Ana Maria de Alencar Price,Lis Ângela De Bortoli
+a610,a672,Undirected,1,2000,2000,2000,Maria Lencastre,Márcia Santos
+a404,a672,Undirected,1,2000,2000,2000,Jaelson Castro,Márcia Santos
+a81,a234,Undirected,1,2003,2003,2003,Ariadne M. B. R. Carvalho,Edinelson Aparecido Batista
+a337,a715,Undirected,1,2003,2003,2003,Genésio Gomes da Cruz Neto,Patrícia Tedesco
+a213,a350,Undirected,1,2006,2006,2006,Denis Silveira,Gisele Morgado
+a432,a520,Undirected,1,2005,2005,2005,Jorge Luiz Nicolas Audy,Leandro T. Lopes
+a393,a702,Undirected,1,2005,2005,2005,Isabel Villanueva,Oscar Pastor
+a393,a475,Undirected,1,2005,2005,2005,Isabel Villanueva,Juan Sánchez Díaz
+a444,a827,Undirected,1,2005,2005,2005,José Carlos Maldonado,Sandra Fabbri
+a58,a444,Undirected,1,2005,2005,2005,Anderson Belgamo,José Carlos Maldonado
+a28,a716,Undirected,1,2005,2005,2005,Alexandre Lazaretti Zanatta,Patrícia Vilain
+a190,a485,Undirected,1,2005,2005,2005,Daniel M. Berry,Julio Cesar Sampaio do Prado Leite
+a159,a190,Undirected,1,2005,2005,2005,Claudia Hazan,Daniel M. Berry
+a566,a896,Undirected,1,2005,2005,2005,Luiz Marcio Cysneiros,Vera Ivanova
+a386,a896,Undirected,1,2005,2005,2005,Ilca Webster,Vera Ivanova
+a755,a804,Undirected,1,2005,2005,2005,Rafael Prikladnicki,Rodrigo Santos de Espindola
+a520,a804,Undirected,1,2005,2005,2005,Leandro T. Lopes,Rodrigo Santos de Espindola
+a520,a755,Undirected,1,2005,2005,2005,Leandro T. Lopes,Rafael Prikladnicki
+a432,a755,Undirected,1,2005,2005,2005,Jorge Luiz Nicolas Audy,Rafael Prikladnicki
+a806,a926,Undirected,1,2005,2005,2005,Roel Wieringa,Zlatko Zlatev
+a245,a849,Undirected,1,2005,2005,2005,Eduardo Freire,Simara Rocha
+a646,a926,Undirected,1,2005,2005,2005,Maya Daneva,Zlatko Zlatev
+a738,a821,Undirected,1,2005,2005,2005,Peter Sawyer,Ruzanna Chitchyan
+a90,a821,Undirected,1,2005,2005,2005,Awais Rashid,Ruzanna Chitchyan
+a90,a738,Undirected,1,2005,2005,2005,Awais Rashid,Peter Sawyer
+a603,a653,Undirected,1,2005,2005,2005,Marcos R. S. Borges,Michel Heluey Fortuna
+a735,a900,Undirected,1,2005,2005,2005,Pedro Valderas,Vicente Pelechano
+a416,a900,Undirected,1,2005,2005,2005,Joan Fons,Vicente Pelechano
+a416,a735,Undirected,1,2005,2005,2005,Joan Fons,Pedro Valderas
+a21,a267,Undirected,1,2005,2005,2005,Alessandro Fantechi,Emilio Spinicci
+a390,a702,Undirected,1,2005,2005,2005,Isabel Díaz,Oscar Pastor
+a390,a475,Undirected,1,2005,2005,2005,Isabel Díaz,Juan Sánchez Díaz
+a386,a477,Undirected,1,2005,2005,2005,Ilca Webster,Juliana Amaral
+a485,a662,Undirected,1,2005,2005,2005,Julio Cesar Sampaio do Prado Leite,Miriam Sayão
+a19,a709,Undirected,1,2005,2005,2005,Alejandro Oliveros,Pablo Thomas
+a245,a924,Undirected,1,2005,2005,2005,Eduardo Freire,Zair Abdelouahab
+a302,a779,Undirected,1,2003,2003,2003,Fernanda Alencar,Ricardo C. O. Amorim
+a458,a518,Undirected,1,2006,2006,2006,João Araújo,Leandro Antonelli
+a213,a298,Undirected,1,2006,2006,2006,Denis Silveira,Felipe Dias
+a213,a231,Undirected,1,2006,2006,2006,Denis Silveira,Eber Schmitz
+a75,a741,Undirected,1,2006,2006,2006,Antonio Juarez,Priscila Lima
+a75,a732,Undirected,1,2006,2006,2006,Antonio Juarez,Pedro Oscar
+a75,a350,Undirected,1,2006,2006,2006,Antonio Juarez,Gisele Morgado
+a75,a298,Undirected,1,2006,2006,2006,Antonio Juarez,Felipe Dias
+a75,a231,Undirected,1,2006,2006,2006,Antonio Juarez,Eber Schmitz
+a75,a213,Undirected,1,2006,2006,2006,Antonio Juarez,Denis Silveira
+a40,a812,Undirected,1,2006,2006,2006,Alisson Neres Lindoso,Rosario Girardi
+a302,a768,Undirected,1,2006,2006,2006,Fernanda Alencar,Renata Melo
+a302,a498,Undirected,1,2006,2006,2006,Fernanda Alencar,Keldjan Alves
+a518,a846,Undirected,1,2006,2006,2006,Leandro Antonelli,Silvia Gordillo
+a458,a846,Undirected,1,2006,2006,2006,João Araújo,Silvia Gordillo
+a364,a846,Undirected,1,2006,2006,2006,Gustavo Rossi,Silvia Gordillo
+a849,a924,Undirected,1,2005,2005,2005,Simara Rocha,Zair Abdelouahab
+a364,a458,Undirected,1,2006,2006,2006,Gustavo Rossi,João Araújo
+a56,a846,Undirected,1,2006,2006,2006,Ana Moreira,Silvia Gordillo
+a56,a518,Undirected,1,2006,2006,2006,Ana Moreira,Leandro Antonelli
+a56,a364,Undirected,1,2006,2006,2006,Ana Moreira,Gustavo Rossi
+a145,a794,Undirected,1,2006,2006,2006,Caroline Carbonell Cintra,Roberto Tom Price
+a255,a300,Undirected,1,2006,2006,2006,Elizabeth Furtado,Felipe Távora Pereira
+a182,a861,Undirected,1,2006,2006,2006,Dalessandro S. Vianna,Susana Brunoro C. Oliveira
+a86,a861,Undirected,1,2006,2006,2006,Astério K. Tanaka,Susana Brunoro C. Oliveira
+a86,a182,Undirected,1,2006,2006,2006,Astério K. Tanaka,Dalessandro S. Vianna
+a134,a460,Undirected,1,2006,2006,2006,Carlos Henrique Netto Lahoz,João Batista Camargo Jr.
+a599,a876,Undirected,1,2006,2006,2006,Marcos Drach,Thelma Chiossi
+a81,a876,Undirected,1,2006,2006,2006,Ariadne M. B. R. Carvalho,Thelma Chiossi
+a81,a599,Undirected,1,2006,2006,2006,Ariadne M. B. R. Carvalho,Marcos Drach
+a477,a897,Undirected,1,2005,2005,2005,Juliana Amaral,Vera Maria Benjamim Werneck
+a272,a477,Undirected,1,2005,2005,2005,Eric Yu,Juliana Amaral
+a619,a922,Undirected,1,2004,2004,2004,Mariela Haya,Xavier Franch
+a310,a814,Undirected,1,2003,2003,2003,Fernão Stella R. Germano,Rosângela De
+a67,a163,Undirected,1,2003,2003,2003,André Villas-Boas,Claudia de Andrade Tambascia
+a455,a929,Undirected,1,2003,2003,2003,José Vasconcelos,Álvaro Rocha
+a335,a921,Undirected,1,2003,2003,2003,Gemma Grau,Xavier Burgués
+a335,a473,Undirected,1,2003,2003,2003,Gemma Grau,Juan Pablo Carvallo
+a490,a570,Undirected,1,2003,2003,2003,Karin Koogan Breitman,Lyrene Fernandes da Silva
+a143,a570,Undirected,1,2003,2003,2003,Carolina Howard Felicíssimo,Lyrene Fernandes da Silva
+a143,a485,Undirected,1,2003,2003,2003,Carolina Howard Felicíssimo,Julio Cesar Sampaio do Prado Leite
+a717,a814,Undirected,1,2003,2003,2003,Paulo Cesar Masiero,Rosângela De
+a608,a814,Undirected,1,2003,2003,2003,Maria Istela Cagnin,Rosângela De
+a608,a717,Undirected,1,2003,2003,2003,Maria Istela Cagnin,Paulo Cesar Masiero
+a444,a814,Undirected,1,2003,2003,2003,José Carlos Maldonado,Rosângela De
+a444,a717,Undirected,1,2003,2003,2003,José Carlos Maldonado,Paulo Cesar Masiero
+a444,a608,Undirected,1,2003,2003,2003,José Carlos Maldonado,Maria Istela Cagnin
+a310,a717,Undirected,1,2003,2003,2003,Fernão Stella R. Germano,Paulo Cesar Masiero
+a269,a922,Undirected,1,2004,2004,2004,Enric Mayol,Xavier Franch
+a310,a608,Undirected,1,2003,2003,2003,Fernão Stella R. Germano,Maria Istela Cagnin
+a310,a444,Undirected,1,2003,2003,2003,Fernão Stella R. Germano,José Carlos Maldonado
+a20,a814,Undirected,1,2003,2003,2003,Alessandra Chan,Rosângela De
+a20,a717,Undirected,1,2003,2003,2003,Alessandra Chan,Paulo Cesar Masiero
+a20,a608,Undirected,1,2003,2003,2003,Alessandra Chan,Maria Istela Cagnin
+a20,a444,Undirected,1,2003,2003,2003,Alessandra Chan,José Carlos Maldonado
+a20,a310,Undirected,1,2003,2003,2003,Alessandra Chan,Fernão Stella R. Germano
+a344,a404,Undirected,1,2003,2003,2003,Geórgia Maria C. de Sousa,Jaelson Castro
+a490,a566,Undirected,1,2003,2003,2003,Karin Koogan Breitman,Luiz Marcio Cysneiros
+a143,a566,Undirected,1,2003,2003,2003,Carolina Howard Felicíssimo,Luiz Marcio Cysneiros
+a216,a242,Undirected,1,2003,2003,2003,Denise Lazzeri Gastaldo,Edson Toshimi Midorikawa
+a404,a779,Undirected,1,2003,2003,2003,Jaelson Castro,Ricardo C. O. Amorim
+a316,a779,Undirected,1,2003,2003,2003,Flávio Pereira Pedroza,Ricardo C. O. Amorim
+a67,a660,Undirected,1,2003,2003,2003,André Villas-Boas,Miriam Ellen de Freitas
+a67,a743,Undirected,1,2003,2003,2003,André Villas-Boas,Priscilla B. B. Pagliuso
+a163,a660,Undirected,1,2003,2003,2003,Claudia de Andrade Tambascia,Miriam Ellen de Freitas
+a163,a743,Undirected,1,2003,2003,2003,Claudia de Andrade Tambascia,Priscilla B. B. Pagliuso
+a269,a619,Undirected,1,2004,2004,2004,Enric Mayol,Mariela Haya
+a337,a404,Undirected,1,2004,2004,2004,Genésio Gomes da Cruz Neto,Jaelson Castro
+a25,a404,Undirected,1,2004,2004,2004,Alex Sandro Gomes,Jaelson Castro
+a92,a804,Undirected,1,2004,2004,2004,Azriel Majdenbaum,Rodrigo Santos de Espindola
+a92,a432,Undirected,1,2004,2004,2004,Azriel Majdenbaum,Jorge Luiz Nicolas Audy
+a161,a922,Undirected,1,2004,2004,2004,Claudia P. Ayala,Xavier Franch
+a161,a737,Undirected,1,2004,2004,2004,Claudia P. Ayala,Pere Botella
+a555,a903,Undirected,1,2004,2004,2004,Luciana de Paiva Silva,Victor Francisco Araya Santander
+a0,a809,Undirected,1,2004,2004,2004,A. Castor,Rosa Candida Pinto
+a0,a404,Undirected,1,2004,2004,2004,A. Castor,Jaelson Castro
+a0,a127,Undirected,1,2004,2004,2004,A. Castor,Carla Silva
+a19,a573,Undirected,1,2004,2004,2004,Alejandro Oliveros,M. Elena Centeno
+a433,a550,Undirected,1,2004,2004,2004,Jorge M. Montagna,Luciana Ballejos
+a316,a903,Undirected,1,2004,2004,2004,Flávio Pereira Pedroza,Victor Francisco Araya Santander
+a307,a903,Undirected,1,2004,2004,2004,Fernando R. C. Silva,Victor Francisco Araya Santander
+a307,a404,Undirected,1,2004,2004,2004,Fernando R. C. Silva,Jaelson Castro
+a307,a316,Undirected,1,2004,2004,2004,Fernando R. C. Silva,Flávio Pereira Pedroza
+a302,a903,Undirected,1,2004,2004,2004,Fernanda Alencar,Victor Francisco Araya Santander
+a302,a307,Undirected,1,2004,2004,2004,Fernanda Alencar,Fernando R. C. Silva
+a601,a621,Undirected,1,2004,2004,2004,Marcos Lordello Chaim,Mario Jino
+a4,a621,Undirected,1,2004,2004,2004,Adriana Carniello,Mario Jino
+a4,a601,Undirected,1,2004,2004,2004,Adriana Carniello,Marcos Lordello Chaim
+a874,a894,Undirected,1,2004,2004,2004,Tereza Gonçalves Kirner,Valéria Farinazzo Martins Salvador
+a208,a910,Undirected,1,2004,2004,2004,Davide Bolchini,Vito Perrone
+a404,a715,Undirected,1,2003,2003,2003,Jaelson Castro,Patrícia Tedesco
+a127,a715,Undirected,1,2003,2003,2003,Carla Silva,Patrícia Tedesco
+a660,a743,Undirected,1,2003,2003,2003,Miriam Ellen de Freitas,Priscilla B. B. Pagliuso
+a453,a904,Undirected,1,2011,2011,2011,José Luis Braga,Victor O. Hermsdorf
+a524,a538,Undirected,1,2011,2011,2011,Leonardo Fonseca de Carvalho,Liziane S. Soares
+a524,a904,Undirected,1,2011,2011,2011,Leonardo Fonseca de Carvalho,Victor O. Hermsdorf
+a210,a404,Undirected,1,2017,2017,2017,Deivson Albuquerque,Jaelson Castro
+a217,a354,Undirected,1,2017,2017,2017,Denize Pimenta,Gleison Santos
+a217,a303,Undirected,1,2017,2017,2017,Denize Pimenta,Fernanda Baião
+a783,a914,Undirected,1,2017,2017,2017,Ricardo de Almeida Falbo,Vítor E. Silva Souza
+a733,a914,Undirected,1,2017,2017,2017,Pedro Pignaton Negri,Vítor E. Silva Souza
+a733,a783,Undirected,1,2017,2017,2017,Pedro Pignaton Negri,Ricardo de Almeida Falbo
+a345,a914,Undirected,1,2017,2017,2017,Giancarlo Guizzardi,Vítor E. Silva Souza
+a345,a783,Undirected,1,2017,2017,2017,Giancarlo Guizzardi,Ricardo de Almeida Falbo
+a345,a733,Undirected,1,2017,2017,2017,Giancarlo Guizzardi,Pedro Pignaton Negri
+a66,a914,Undirected,1,2017,2017,2017,André Luiz de Castro Leal,Vítor E. Silva Souza
+a66,a783,Undirected,1,2017,2017,2017,André Luiz de Castro Leal,Ricardo de Almeida Falbo
+a66,a733,Undirected,1,2017,2017,2017,André Luiz de Castro Leal,Pedro Pignaton Negri
+a66,a345,Undirected,1,2017,2017,2017,André Luiz de Castro Leal,Giancarlo Guizzardi
+a210,a870,Undirected,1,2017,2017,2017,Deivson Albuquerque,Tarcísio Pereira
+a210,a302,Undirected,1,2017,2017,2017,Deivson Albuquerque,Fernanda Alencar
+a14,a282,Undirected,1,2017,2017,2017,Alberto Sebastián,Ezequiel Robledo
+a93,a870,Undirected,1,2017,2017,2017,Aêda Sousa,Tarcísio Pereira
+a93,a210,Undirected,1,2017,2017,2017,Aêda Sousa,Deivson Albuquerque
+a651,a857,Undirected,1,2017,2017,2017,Michael Felderer,Stefan Wagner
+a600,a857,Undirected,1,2017,2017,2017,Marcos Kalinowski,Stefan Wagner
+a600,a651,Undirected,1,2017,2017,2017,Marcos Kalinowski,Michael Felderer
+a193,a857,Undirected,1,2017,2017,2017,Daniel Méndez Fernández,Stefan Wagner
+a193,a651,Undirected,1,2017,2017,2017,Daniel Méndez Fernández,Michael Felderer
+a193,a600,Undirected,1,2017,2017,2017,Daniel Méndez Fernández,Marcos Kalinowski
+a681,a791,Undirected,1,2017,2017,2017,Nathácia Indayara Pereira,Roberto Avila Paldês
+a500,a681,Undirected,1,2017,2017,2017,Kiane Mabel Rezende,Nathácia Indayara Pereira
+a264,a791,Undirected,1,2017,2017,2017,Emeli Braosi,Roberto Avila Paldês
+a264,a681,Undirected,1,2017,2017,2017,Emeli Braosi,Nathácia Indayara Pereira
+a264,a500,Undirected,1,2017,2017,2017,Emeli Braosi,Kiane Mabel Rezende
+a303,a354,Undirected,1,2017,2017,2017,Fernanda Baião,Gleison Santos
+a282,a355,Undirected,1,2017,2017,2017,Ezequiel Robledo,Graciela D.S. Hadad
+a810,a897,Undirected,1,2018,2018,2018,Rosa Maria E. M. da Costa,Vera Maria Benjamim Werneck
+a104,a895,Undirected,1,2018,2018,2018,Bruna Costa Cons,Vanessa M. da Silva
+a541,a897,Undirected,1,2018,2018,2018,Lucas D’amaral Pires,Vera Maria Benjamim Werneck
+a541,a895,Undirected,1,2018,2018,2018,Lucas D’amaral Pires,Vanessa M. da Silva
+a541,a810,Undirected,1,2018,2018,2018,Lucas D’amaral Pires,Rosa Maria E. M. da Costa
+a304,a897,Undirected,1,2018,2018,2018,Fernanda T. Novo,Vera Maria Benjamim Werneck
+a304,a895,Undirected,1,2018,2018,2018,Fernanda T. Novo,Vanessa M. da Silva
+a304,a810,Undirected,1,2018,2018,2018,Fernanda T. Novo,Rosa Maria E. M. da Costa
+a304,a541,Undirected,1,2018,2018,2018,Fernanda T. Novo,Lucas D’amaral Pires
+a108,a897,Undirected,1,2018,2018,2018,Bruno G. Ochotorena,Vera Maria Benjamim Werneck
+a108,a895,Undirected,1,2018,2018,2018,Bruno G. Ochotorena,Vanessa M. da Silva
+a108,a810,Undirected,1,2018,2018,2018,Bruno G. Ochotorena,Rosa Maria E. M. da Costa
+a108,a541,Undirected,1,2018,2018,2018,Bruno G. Ochotorena,Lucas D’amaral Pires
+a108,a304,Undirected,1,2018,2018,2018,Bruno G. Ochotorena,Fernanda T. Novo
+a104,a897,Undirected,1,2018,2018,2018,Bruna Costa Cons,Vera Maria Benjamim Werneck
+a104,a810,Undirected,1,2018,2018,2018,Bruna Costa Cons,Rosa Maria E. M. da Costa
+a151,a287,Undirected,1,2017,2017,2017,Celso Agra,Fabio Penha
+a104,a541,Undirected,1,2018,2018,2018,Bruna Costa Cons,Lucas D’amaral Pires
+a104,a304,Undirected,1,2018,2018,2018,Bruna Costa Cons,Fernanda T. Novo
+a104,a108,Undirected,1,2018,2018,2018,Bruna Costa Cons,Bruno G. Ochotorena
+a359,a931,Undirected,1,2017,2017,2017,Guillermo Rodriguez,Álvaro Soria
+a103,a931,Undirected,1,2017,2017,2017,Brian Caimmi,Álvaro Soria
+a103,a359,Undirected,1,2017,2017,2017,Brian Caimmi,Guillermo Rodriguez
+a525,a591,Undirected,1,2017,2017,2017,Leonardo Lucena,Marcia Lucena
+a302,a525,Undirected,1,2017,2017,2017,Fernanda Alencar,Leonardo Lucena
+a287,a591,Undirected,1,2017,2017,2017,Fabio Penha,Marcia Lucena
+a287,a525,Undirected,1,2017,2017,2017,Fabio Penha,Leonardo Lucena
+a287,a302,Undirected,1,2017,2017,2017,Fabio Penha,Fernanda Alencar
+a151,a591,Undirected,1,2017,2017,2017,Celso Agra,Marcia Lucena
+a151,a525,Undirected,1,2017,2017,2017,Celso Agra,Leonardo Lucena
+a71,a681,Undirected,1,2017,2017,2017,Angelica Toffano Seidel Calazans,Nathácia Indayara Pereira
+a71,a264,Undirected,1,2017,2017,2017,Angelica Toffano Seidel Calazans,Emeli Braosi
+a791,a906,Undirected,1,2017,2017,2017,Roberto Avila Paldês,Vinícius Dias Paldês
+a22,a819,Undirected,1,2016,2016,2016,Alex Armijos Roblero,Ruben H. Ullón
+a529,a661,Undirected,1,2016,2016,2016,Letícia Fonseca,Miriam Pinto
+a529,a595,Undirected,1,2016,2016,2016,Letícia Fonseca,Marcos Accioly
+a355,a474,Undirected,1,2016,2016,2016,Graciela D.S. Hadad,Juan Pablo Mighetti
+a435,a763,Undirected,1,2016,2016,2016,Jose Augusto Fabri,Rebeca Teodoro Da Silva
+a435,a565,Undirected,1,2016,2016,2016,Jose Augusto Fabri,Luiz Gustavo Ferreira Aguiar
+a29,a763,Undirected,1,2016,2016,2016,Alexandre Lerário,Rebeca Teodoro Da Silva
+a29,a565,Undirected,1,2016,2016,2016,Alexandre Lerário,Luiz Gustavo Ferreira Aguiar
+a781,a819,Undirected,1,2016,2016,2016,Ricardo D. Maya,Ruben H. Ullón
+a442,a819,Undirected,1,2016,2016,2016,José A. Romero,Ruben H. Ullón
+a442,a781,Undirected,1,2016,2016,2016,José A. Romero,Ricardo D. Maya
+a136,a819,Undirected,1,2016,2016,2016,Carlos Monsalve,Ruben H. Ullón
+a136,a781,Undirected,1,2016,2016,2016,Carlos Monsalve,Ricardo D. Maya
+a136,a442,Undirected,1,2016,2016,2016,Carlos Monsalve,José A. Romero
+a22,a781,Undirected,1,2016,2016,2016,Alex Armijos Roblero,Ricardo D. Maya
+a407,a906,Undirected,1,2017,2017,2017,Janaína dos Reis Lopes,Vinícius Dias Paldês
+a22,a442,Undirected,1,2016,2016,2016,Alex Armijos Roblero,José A. Romero
+a22,a136,Undirected,1,2016,2016,2016,Alex Armijos Roblero,Carlos Monsalve
+a458,a686,Undirected,1,2016,2016,2016,João Araújo,Nelly Condori-Fernández
+a437,a686,Undirected,1,2016,2016,2016,Jose Luis De la Vara González,Nelly Condori-Fernández
+a437,a458,Undirected,1,2016,2016,2016,Jose Luis De la Vara González,João Araújo
+a392,a686,Undirected,1,2016,2016,2016,Isabel Sofia Brito,Nelly Condori-Fernández
+a392,a458,Undirected,1,2016,2016,2016,Isabel Sofia Brito,João Araújo
+a782,a792,Undirected,1,2016,2016,2016,Ricardo Ramos,Roberto Azevedo
+a302,a792,Undirected,1,2016,2016,2016,Fernanda Alencar,Roberto Azevedo
+a93,a792,Undirected,1,2016,2016,2016,Aêda Sousa,Roberto Azevedo
+a93,a782,Undirected,1,2016,2016,2016,Aêda Sousa,Ricardo Ramos
+a314,a435,Undirected,1,2016,2016,2016,Flavia Belintani Blum Haddad,Jose Augusto Fabri
+a252,a314,Undirected,1,2016,2016,2016,Elias Canhadas Genvigir,Flavia Belintani Blum Haddad
+a529,a767,Undirected,1,2016,2016,2016,Letícia Fonseca,Renata Guizzardi
+a529,a790,Undirected,1,2016,2016,2016,Letícia Fonseca,Roberta Gomes
+a595,a661,Undirected,1,2016,2016,2016,Marcos Accioly,Miriam Pinto
+a595,a767,Undirected,1,2016,2016,2016,Marcos Accioly,Renata Guizzardi
+a407,a791,Undirected,1,2017,2017,2017,Janaína dos Reis Lopes,Roberto Avila Paldês
+a71,a906,Undirected,1,2017,2017,2017,Angelica Toffano Seidel Calazans,Vinícius Dias Paldês
+a71,a407,Undirected,1,2017,2017,2017,Angelica Toffano Seidel Calazans,Janaína dos Reis Lopes
+a65,a906,Undirected,1,2017,2017,2017,André Luiz Coelho da Silva,Vinícius Dias Paldês
+a65,a791,Undirected,1,2017,2017,2017,André Luiz Coelho da Silva,Roberto Avila Paldês
+a65,a407,Undirected,1,2017,2017,2017,André Luiz Coelho da Silva,Janaína dos Reis Lopes
+a65,a71,Undirected,1,2017,2017,2017,André Luiz Coelho da Silva,Angelica Toffano Seidel Calazans
+a833,a881,Undirected,1,2017,2017,2017,Sarah Ribeiro,Tiago Heineck
+a404,a833,Undirected,1,2017,2017,2017,Jaelson Castro,Sarah Ribeiro
+a202,a881,Undirected,1,2017,2017,2017,Danyllo Albuquerque,Tiago Heineck
+a202,a833,Undirected,1,2017,2017,2017,Danyllo Albuquerque,Sarah Ribeiro
+a274,a387,Undirected,1,2017,2017,2017,Erica Miranda,Ilueny Santos
+a558,a685,Undirected,1,2017,2017,2017,Luis H. Garcia Paucar,Nelly Bencomo
+a246,a791,Undirected,1,2016,2016,2016,Eduardo José Ribeiro Castro,Roberto Avila Paldês
+a107,a791,Undirected,1,2016,2016,2016,Bruno De Souza Silva,Roberto Avila Paldês
+a107,a246,Undirected,1,2016,2016,2016,Bruno De Souza Silva,Eduardo José Ribeiro Castro
+a80,a791,Undirected,1,2016,2016,2016,Ari Melo Mariano,Roberto Avila Paldês
+a80,a246,Undirected,1,2016,2016,2016,Ari Melo Mariano,Eduardo José Ribeiro Castro
+a80,a107,Undirected,1,2016,2016,2016,Ari Melo Mariano,Bruno De Souza Silva
+a71,a246,Undirected,1,2016,2016,2016,Angelica Toffano Seidel Calazans,Eduardo José Ribeiro Castro
+a71,a107,Undirected,1,2016,2016,2016,Angelica Toffano Seidel Calazans,Bruno De Souza Silva
+a71,a80,Undirected,1,2016,2016,2016,Angelica Toffano Seidel Calazans,Ari Melo Mariano
+a522,a811,Undirected,1,2016,2016,2016,Leonardo Barcelos,Rosangela Penteado
+a767,a790,Undirected,1,2016,2016,2016,Renata Guizzardi,Roberta Gomes
+a661,a790,Undirected,1,2016,2016,2016,Miriam Pinto,Roberta Gomes
+a661,a767,Undirected,1,2016,2016,2016,Miriam Pinto,Renata Guizzardi
+a595,a790,Undirected,1,2016,2016,2016,Marcos Accioly,Roberta Gomes
+a810,a895,Undirected,1,2018,2018,2018,Rosa Maria E. M. da Costa,Vanessa M. da Silva
+a895,a897,Undirected,1,2018,2018,2018,Vanessa M. da Silva,Vera Maria Benjamim Werneck
+a375,a772,Undirected,1,2016,2016,2016,Heyde Francielle do Carmo França,Renato F. Bulcão-Neto
+a274,a539,Undirected,1,2019,2019,2019,Erica Miranda,Luana Souza
+a122,a903,Undirected,1,2019,2019,2019,Camila Tiemi Outa,Victor Francisco Araya Santander
+a32,a302,Undirected,1,2019,2019,2019,Alexandre Mendonça,Fernanda Alencar
+a487,a666,Undirected,1,2019,2019,2019,Jéssyka Vilela,Moniky Ribeiro
+a467,a666,Undirected,1,2019,2019,2019,João Pimentel,Moniky Ribeiro
+a196,a355,Undirected,1,2019,2019,2019,Daniela Raffo,Graciela D.S. Hadad
+a14,a196,Undirected,1,2019,2019,2019,Alberto Sebastián,Daniela Raffo
+a632,a928,Undirected,1,2019,2019,2019,María Celia Elizalde,y Lucas O. Carnero
+a427,a928,Undirected,1,2019,2019,2019,Jorge Doorn,y Lucas O. Carnero
+a355,a928,Undirected,1,2019,2019,2019,Graciela D.S. Hadad,y Lucas O. Carnero
+a11,a928,Undirected,1,2019,2019,2019,Alan R.G. García,y Lucas O. Carnero
+a11,a632,Undirected,1,2019,2019,2019,Alan R.G. García,María Celia Elizalde
+a11,a427,Undirected,1,2019,2019,2019,Alan R.G. García,Jorge Doorn
+a11,a355,Undirected,1,2019,2019,2019,Alan R.G. García,Graciela D.S. Hadad
+a79,a274,Undirected,1,2019,2019,2019,Apuena Gomes,Erica Miranda
+a123,a404,Undirected,1,2019,2019,2019,Camilo Almendra,Jaelson Castro
+a807,a816,Undirected,1,2018,2018,2018,Romeu Ferreira de Oliveira,Roxana Portugal
+a54,a816,Undirected,1,2018,2018,2018,Ana Maria da Mota Moura,Roxana Portugal
+a54,a807,Undirected,1,2018,2018,2018,Ana Maria da Mota Moura,Romeu Ferreira de Oliveira
+a680,a753,Undirected,1,2018,2018,2018,Natalya Goelzer,Rafael Parizi
+a369,a753,Undirected,1,2018,2018,2018,Herberth Reinstein,Rafael Parizi
+a369,a680,Undirected,1,2018,2018,2018,Herberth Reinstein,Natalya Goelzer
+a776,a791,Undirected,1,2018,2018,2018,Ricardo Ajax. D. Kosloski,Roberto Avila Paldês
+a500,a776,Undirected,1,2018,2018,2018,Kiane Mabel Rezende,Ricardo Ajax. D. Kosloski
+a309,a791,Undirected,1,2018,2018,2018,Fernando de A. Guimarães,Roberto Avila Paldês
+a309,a776,Undirected,1,2018,2018,2018,Fernando de A. Guimarães,Ricardo Ajax. D. Kosloski
+a309,a500,Undirected,1,2018,2018,2018,Fernando de A. Guimarães,Kiane Mabel Rezende
+a259,a791,Undirected,1,2018,2018,2018,Eloisa Toffano S. Masson,Roberto Avila Paldês
+a259,a776,Undirected,1,2018,2018,2018,Eloisa Toffano S. Masson,Ricardo Ajax. D. Kosloski
+a225,a615,Undirected,1,2019,2019,2019,Dorgival Netto,Mariana Peixoto
+a123,a487,Undirected,1,2019,2019,2019,Camilo Almendra,Jéssyka Vilela
+a503,a829,Undirected,1,2018,2018,2018,Kleoson B. C. Santos,Sandro R. B. Oliveira
+a610,a777,Undirected,1,2019,2019,2019,Maria Lencastre,Ricardo Almeida
+a486,a742,Undirected,1,2020,2020,2020,Jullia Saad,Priscila Portela Costa
+a486,a549,Undirected,1,2020,2020,2020,Jullia Saad,Luciana A. M. Zaina
+a47,a485,Undirected,1,2020,2020,2020,Ana Clara Correa da Silva,Julio Cesar Sampaio do Prado Leite
+a47,a368,Undirected,1,2020,2020,2020,Ana Clara Correa da Silva,Henrique Prado de Sá Sousa
+a47,a247,Undirected,1,2020,2020,2020,Ana Clara Correa da Silva,Eduardo Kinder Almentero
+a62,a438,Undirected,1,2019,2019,2019,Andres Paul Moya Flores,Jose Vinicius Vieira Lima
+a62,a302,Undirected,1,2019,2019,2019,Andres Paul Moya Flores,Fernanda Alencar
+a121,a610,Undirected,1,2019,2019,2019,Camila Luísa F. de Lima,Maria Lencastre
+a120,a121,Undirected,1,2019,2019,2019,Camila B. de Andrade,Camila Luísa F. de Lima
+a36,a121,Undirected,1,2019,2019,2019,Aline Barbosa,Camila Luísa F. de Lima
+a711,a777,Undirected,1,2019,2019,2019,Patricia Mergulhão,Ricardo Almeida
+a649,a777,Undirected,1,2019,2019,2019,Melina Soares,Ricardo Almeida
+a649,a711,Undirected,1,2019,2019,2019,Melina Soares,Patricia Mergulhão
+a610,a649,Undirected,1,2019,2019,2019,Maria Lencastre,Melina Soares
+a123,a563,Undirected,1,2019,2019,2019,Camilo Almendra,Luiz Eduardo Galvão Martins
+a36,a777,Undirected,1,2019,2019,2019,Aline Barbosa,Ricardo Almeida
+a36,a649,Undirected,1,2019,2019,2019,Aline Barbosa,Melina Soares
+a367,a891,Undirected,1,2019,2019,2019,Hamilton G. P. Hitzschky,Vagner L. Gava
+a554,a881,Undirected,1,2019,2019,2019,Luciana de Oliveira,Tiago Heineck
+a458,a554,Undirected,1,2019,2019,2019,João Araújo,Luciana de Oliveira
+a404,a554,Undirected,1,2019,2019,2019,Jaelson Castro,Luciana de Oliveira
+a270,a554,Undirected,1,2019,2019,2019,Enyo Gonçalves,Luciana de Oliveira
+a563,a884,Undirected,1,2019,2019,2019,Luiz Eduardo Galvão Martins,Tony Gorschek
+a487,a884,Undirected,1,2019,2019,2019,Jéssyka Vilela,Tony Gorschek
+a487,a563,Undirected,1,2019,2019,2019,Jéssyka Vilela,Luiz Eduardo Galvão Martins
+a404,a884,Undirected,1,2019,2019,2019,Jaelson Castro,Tony Gorschek
+a404,a563,Undirected,1,2019,2019,2019,Jaelson Castro,Luiz Eduardo Galvão Martins
+a123,a884,Undirected,1,2019,2019,2019,Camilo Almendra,Tony Gorschek
+a259,a500,Undirected,1,2018,2018,2018,Eloisa Toffano S. Masson,Kiane Mabel Rezende
+a259,a309,Undirected,1,2018,2018,2018,Eloisa Toffano S. Masson,Fernando de A. Guimarães
+a71,a776,Undirected,1,2018,2018,2018,Angelica Toffano Seidel Calazans,Ricardo Ajax. D. Kosloski
+a179,a914,Undirected,1,2018,2018,2018,Cássio Capucho Peçanha,Vítor E. Silva Souza
+a516,a823,Undirected,1,2018,2018,2018,Lauriane Correa,Sabrina Marczak
+a415,a872,Undirected,1,2018,2018,2018,Jean Carlos Bellio,Tayana Conte
+a415,a823,Undirected,1,2018,2018,2018,Jean Carlos Bellio,Sabrina Marczak
+a415,a516,Undirected,1,2018,2018,2018,Jean Carlos Bellio,Lauriane Correa
+a191,a872,Undirected,1,2018,2018,2018,Daniel Maria,Tayana Conte
+a191,a823,Undirected,1,2018,2018,2018,Daniel Maria,Sabrina Marczak
+a191,a516,Undirected,1,2018,2018,2018,Daniel Maria,Lauriane Correa
+a191,a415,Undirected,1,2018,2018,2018,Daniel Maria,Jean Carlos Bellio
+a348,a414,Undirected,1,2018,2018,2018,Gilton J. F. Silva,Jean C. S. Rosa
+a311,a414,Undirected,1,2018,2018,2018,Fiama S. Santos,Jean C. S. Rosa
+a311,a348,Undirected,1,2018,2018,2018,Fiama S. Santos,Gilton J. F. Silva
+a232,a348,Undirected,1,2018,2018,2018,Ecivaldo Matos,Gilton J. F. Silva
+a232,a311,Undirected,1,2018,2018,2018,Ecivaldo Matos,Fiama S. Santos
+a106,a914,Undirected,1,2018,2018,2018,Bruno Borlini Duarte,Vítor E. Silva Souza
+a71,a309,Undirected,1,2018,2018,2018,Angelica Toffano Seidel Calazans,Fernando de A. Guimarães
+a106,a179,Undirected,1,2018,2018,2018,Bruno Borlini Duarte,Cássio Capucho Peçanha
+a93,a202,Undirected,1,2018,2018,2018,Aêda Sousa,Danyllo Albuquerque
+a302,a504,Undirected,1,2018,2018,2018,Fernanda Alencar,Kádna Camboim
+a690,a912,Undirected,1,2018,2018,2018,Nicolás A. Bedetti,Viviana A. Ledesma
+a427,a912,Undirected,1,2018,2018,2018,Jorge Doorn,Viviana A. Ledesma
+a427,a690,Undirected,1,2018,2018,2018,Jorge Doorn,Nicolás A. Bedetti
+a355,a912,Undirected,1,2018,2018,2018,Graciela D.S. Hadad,Viviana A. Ledesma
+a355,a690,Undirected,1,2018,2018,2018,Graciela D.S. Hadad,Nicolás A. Bedetti
+a377,a870,Undirected,1,2018,2018,2018,Higor Monteiro,Tarcísio Pereira
+a302,a377,Undirected,1,2018,2018,2018,Fernanda Alencar,Higor Monteiro
+a45,a870,Undirected,1,2018,2018,2018,Amora Sukar,Tarcísio Pereira
+a45,a377,Undirected,1,2018,2018,2018,Amora Sukar,Higor Monteiro
+a45,a302,Undirected,1,2018,2018,2018,Amora Sukar,Fernanda Alencar
+a516,a872,Undirected,1,2018,2018,2018,Lauriane Correa,Tayana Conte
+a243,a591,Undirected,1,2018,2018,2018,Eduardo Aranha,Marcia Lucena
+a243,a752,Undirected,1,2018,2018,2018,Eduardo Aranha,Rafael Nascimento
+a243,a887,Undirected,1,2018,2018,2018,Eduardo Aranha,Uirá Kulesza
+a71,a259,Undirected,1,2018,2018,2018,Angelica Toffano Seidel Calazans,Eloisa Toffano S. Masson
+a610,a920,Undirected,1,2018,2018,2018,Maria Lencastre,Wylliams Barbosa Santos
+a365,a920,Undirected,1,2018,2018,2018,Gustavo Silva,Wylliams Barbosa Santos
+a365,a610,Undirected,1,2018,2018,2018,Gustavo Silva,Maria Lencastre
+a788,a868,Undirected,1,2018,2018,2018,Roberta Andrade de A. Fagundes,Taina Santos
+a610,a868,Undirected,1,2018,2018,2018,Maria Lencastre,Taina Santos
+a610,a788,Undirected,1,2018,2018,2018,Maria Lencastre,Roberta Andrade de A. Fagundes
+a189,a868,Undirected,1,2018,2018,2018,Daniel Ferreira,Taina Santos
+a189,a788,Undirected,1,2018,2018,2018,Daniel Ferreira,Roberta Andrade de A. Fagundes
+a189,a610,Undirected,1,2018,2018,2018,Daniel Ferreira,Maria Lencastre
+a155,a868,Undirected,1,2018,2018,2018,Cinthya Cavalcanti,Taina Santos
+a155,a788,Undirected,1,2018,2018,2018,Cinthya Cavalcanti,Roberta Andrade de A. Fagundes
+a155,a610,Undirected,1,2018,2018,2018,Cinthya Cavalcanti,Maria Lencastre
+a155,a189,Undirected,1,2018,2018,2018,Cinthya Cavalcanti,Daniel Ferreira
+a830,a851,Undirected,1,2018,2018,2018,Sandro Santos Andrade,Simone da Silva Amorim
+a420,a851,Undirected,1,2018,2018,2018,John D. Mcgregor,Simone da Silva Amorim
+a420,a830,Undirected,1,2018,2018,2018,John D. Mcgregor,Sandro Santos Andrade
+a248,a851,Undirected,1,2018,2018,2018,Eduardo Santana de Almeida,Simone da Silva Amorim
+a248,a830,Undirected,1,2018,2018,2018,Eduardo Santana de Almeida,Sandro Santos Andrade
+a248,a420,Undirected,1,2018,2018,2018,Eduardo Santana de Almeida,John D. Mcgregor
+a153,a851,Undirected,1,2018,2018,2018,Christina von Flach G. Chavez,Simone da Silva Amorim
+a153,a830,Undirected,1,2018,2018,2018,Christina von Flach G. Chavez,Sandro Santos Andrade
+a153,a420,Undirected,1,2018,2018,2018,Christina von Flach G. Chavez,John D. Mcgregor
+a153,a248,Undirected,1,2018,2018,2018,Christina von Flach G. Chavez,Eduardo Santana de Almeida
+a135,a852,Undirected,1,1998,1998,1998,Carlos José Pereira de Lucena,Soeli T. Fiorini
+a752,a887,Undirected,1,2018,2018,2018,Rafael Nascimento,Uirá Kulesza
+a591,a887,Undirected,1,2018,2018,2018,Marcia Lucena,Uirá Kulesza
+a29,a314,Undirected,1,2016,2016,2016,Alexandre Lerário,Flavia Belintani Blum Haddad
+a591,a873,Undirected,1,2016,2016,2016,Marcia Lucena,Teresa Maciel
+a538,a904,Undirected,1,2011,2011,2011,Liziane S. Soares,Victor O. Hermsdorf
+a457,a524,Undirected,1,2012,2012,2012,Joás Weslei Baía,Leonardo Fonseca de Carvalho
+a219,a467,Undirected,1,2013,2013,2013,Diego Dermeval,João Pimentel
+a219,a404,Undirected,1,2013,2013,2013,Diego Dermeval,Jaelson Castro
+a219,a329,Undirected,1,2013,2013,2013,Diego Dermeval,Gabriela Guedes
+a219,a302,Undirected,1,2013,2013,2013,Diego Dermeval,Fernanda Alencar
+a219,a263,Undirected,1,2013,2013,2013,Diego Dermeval,Emanuel Santos
+a167,a495,Undirected,1,2013,2013,2013,Cleice Souza,Karolyne Oliveira
+a167,a467,Undirected,1,2013,2013,2013,Cleice Souza,João Pimentel
+a167,a263,Undirected,1,2013,2013,2013,Cleice Souza,Emanuel Santos
+a167,a219,Undirected,1,2013,2013,2013,Cleice Souza,Diego Dermeval
+a127,a495,Undirected,1,2013,2013,2013,Carla Silva,Karolyne Oliveira
+a127,a467,Undirected,1,2013,2013,2013,Carla Silva,João Pimentel
+a127,a219,Undirected,1,2013,2013,2013,Carla Silva,Diego Dermeval
+a127,a167,Undirected,1,2013,2013,2013,Carla Silva,Cleice Souza
+a829,a915,Undirected,1,2012,2012,2012,Sandro R. B. Oliveira,Wallace M. P. Lira
+a219,a667,Undirected,1,2013,2013,2013,Diego Dermeval,Monique Soares
+a643,a915,Undirected,1,2012,2012,2012,Maurício R. de A. Souza,Wallace M. P. Lira
+a643,a829,Undirected,1,2012,2012,2012,Maurício R. de A. Souza,Sandro R. B. Oliveira
+a279,a915,Undirected,1,2012,2012,2012,Ewelton Y. C. Yoshidome,Wallace M. P. Lira
+a279,a643,Undirected,1,2012,2012,2012,Ewelton Y. C. Yoshidome,Maurício R. de A. Souza
+a31,a915,Undirected,1,2012,2012,2012,Alexandre Marcos Lins de Vasconcelos,Wallace M. P. Lira
+a31,a829,Undirected,1,2012,2012,2012,Alexandre Marcos Lins de Vasconcelos,Sandro R. B. Oliveira
+a31,a643,Undirected,1,2012,2012,2012,Alexandre Marcos Lins de Vasconcelos,Maurício R. de A. Souza
+a31,a279,Undirected,1,2012,2012,2012,Alexandre Marcos Lins de Vasconcelos,Ewelton Y. C. Yoshidome
+a302,a450,Undirected,1,2012,2012,2012,Fernanda Alencar,José Henrique de Melo Cardoso
+a3,a450,Undirected,1,2012,2012,2012,Adicinéia Aparecida de Oliveira,José Henrique de Melo Cardoso
+a3,a302,Undirected,1,2012,2012,2012,Adicinéia Aparecida de Oliveira,Fernanda Alencar
+a581,a835,Undirected,1,2012,2012,2012,Maikel Yelandi Leyva Vásquez,Sasha Valdes Jimenez
+a492,a835,Undirected,1,2012,2012,2012,Karina Pérez Teruel,Sasha Valdes Jimenez
+a219,a495,Undirected,1,2013,2013,2013,Diego Dermeval,Karolyne Oliveira
+a263,a329,Undirected,1,2013,2013,2013,Emanuel Santos,Gabriela Guedes
+a251,a537,Undirected,1,2013,2013,2013,Eliane Siegert,Lisane de Brisolara
+a511,a570,Undirected,1,2013,2013,2013,Larissa de Alencar Sobral,Lyrene Fernandes da Silva
+a439,a916,Undirected,1,2013,2013,2013,Joselaine Valaski,Wilian Stancke
+a439,a842,Undirected,1,2013,2013,2013,Joselaine Valaski,Sheila Reinehr
+a61,a916,Undirected,1,2013,2013,2013,Andreia Malucelli,Wilian Stancke
+a61,a842,Undirected,1,2013,2013,2013,Andreia Malucelli,Sheila Reinehr
+a61,a439,Undirected,1,2013,2013,2013,Andreia Malucelli,Joselaine Valaski
+a618,a817,Undirected,1,2013,2013,2013,Mariel Ale,Roxana Saavedra
+a550,a817,Undirected,1,2013,2013,2013,Luciana Ballejos,Roxana Saavedra
+a557,a922,Undirected,1,2013,2013,2013,Luis Delgado,Xavier Franch
+a224,a922,Undirected,1,2013,2013,2013,Dolors Costal,Xavier Franch
+a224,a557,Undirected,1,2013,2013,2013,Dolors Costal,Luis Delgado
+a140,a922,Undirected,1,2013,2013,2013,Carme Jiménez,Xavier Franch
+a140,a557,Undirected,1,2013,2013,2013,Carme Jiménez,Luis Delgado
+a140,a224,Undirected,1,2013,2013,2013,Carme Jiménez,Dolors Costal
+a162,a427,Undirected,1,2013,2013,2013,Claudia Silvia Litvak,Jorge Doorn
+a263,a467,Undirected,1,2013,2013,2013,Emanuel Santos,João Pimentel
+a162,a355,Undirected,1,2013,2013,2013,Claudia Silvia Litvak,Graciela D.S. Hadad
+a570,a648,Undirected,1,2013,2013,2013,Lyrene Fernandes da Silva,Maíra Medeiros
+a51,a648,Undirected,1,2013,2013,2013,Ana Luisa Medeiros,Maíra Medeiros
+a51,a570,Undirected,1,2013,2013,2013,Ana Luisa Medeiros,Lyrene Fernandes da Silva
+a495,a667,Undirected,1,2013,2013,2013,Karolyne Oliveira,Monique Soares
+a467,a667,Undirected,1,2013,2013,2013,João Pimentel,Monique Soares
+a467,a495,Undirected,1,2013,2013,2013,João Pimentel,Karolyne Oliveira
+a404,a495,Undirected,1,2013,2013,2013,Jaelson Castro,Karolyne Oliveira
+a329,a495,Undirected,1,2013,2013,2013,Gabriela Guedes,Karolyne Oliveira
+a329,a467,Undirected,1,2013,2013,2013,Gabriela Guedes,João Pimentel
+a302,a495,Undirected,1,2013,2013,2013,Fernanda Alencar,Karolyne Oliveira
+a263,a667,Undirected,1,2013,2013,2013,Emanuel Santos,Monique Soares
+a263,a495,Undirected,1,2013,2013,2013,Emanuel Santos,Karolyne Oliveira
+a492,a581,Undirected,1,2012,2012,2012,Karina Pérez Teruel,Maikel Yelandi Leyva Vásquez
+a389,a835,Undirected,1,2012,2012,2012,Ing. Karel Fernandez Cedeño,Sasha Valdes Jimenez
+a389,a581,Undirected,1,2012,2012,2012,Ing. Karel Fernandez Cedeño,Maikel Yelandi Leyva Vásquez
+a533,a922,Undirected,1,2011,2011,2011,Lidia López,Xavier Franch
+a667,a782,Undirected,1,2012,2012,2012,Monique Soares,Ricardo Ramos
+a329,a782,Undirected,1,2012,2012,2012,Gabriela Guedes,Ricardo Ramos
+a171,a782,Undirected,1,2012,2012,2012,Cláudia Souza,Ricardo Ramos
+a171,a667,Undirected,1,2012,2012,2012,Cláudia Souza,Monique Soares
+a171,a404,Undirected,1,2012,2012,2012,Cláudia Souza,Jaelson Castro
+a171,a329,Undirected,1,2012,2012,2012,Cláudia Souza,Gabriela Guedes
+a171,a302,Undirected,1,2012,2012,2012,Cláudia Souza,Fernanda Alencar
+a167,a782,Undirected,1,2012,2012,2012,Cleice Souza,Ricardo Ramos
+a167,a171,Undirected,1,2012,2012,2012,Cleice Souza,Cláudia Souza
+a548,a925,Undirected,1,2011,2011,2011,Lucia Rapanotti,Zhi Li
+a424,a925,Undirected,1,2011,2011,2011,Jon G. Hall,Zhi Li
+a424,a548,Undirected,1,2011,2011,2011,Jon G. Hall,Lucia Rapanotti
+a6,a276,Undirected,1,2011,2011,2011,Adriana Pereira de Medeiros,Ernani Gaspar Santos
+a188,a922,Undirected,1,2011,2011,2011,Daniel Colomer,Xavier Franch
+a389,a492,Undirected,1,2012,2012,2012,Ing. Karel Fernandez Cedeño,Karina Pérez Teruel
+a188,a533,Undirected,1,2011,2011,2011,Daniel Colomer,Lidia López
+a129,a533,Undirected,1,2011,2011,2011,Carlos Cares,Lidia López
+a129,a188,Undirected,1,2011,2011,2011,Carlos Cares,Daniel Colomer
+a458,a725,Undirected,1,2011,2011,2011,João Araújo,Pedro Dias
+a127,a725,Undirected,1,2011,2011,2011,Carla Silva,Pedro Dias
+a127,a458,Undirected,1,2011,2011,2011,Carla Silva,João Araújo
+a56,a725,Undirected,1,2011,2011,2011,Ana Moreira,Pedro Dias
+a56,a127,Undirected,1,2011,2011,2011,Ana Moreira,Carla Silva
+a467,a922,Undirected,1,2011,2011,2011,João Pimentel,Xavier Franch
+a404,a922,Undirected,1,2011,2011,2011,Jaelson Castro,Xavier Franch
+a453,a485,Undirected,1,2011,2011,2011,José Luis Braga,Julio Cesar Sampaio do Prado Leite
+a368,a453,Undirected,1,2011,2011,2011,Henrique Prado de Sá Sousa,José Luis Braga
+a66,a453,Undirected,1,2011,2011,2011,André Luiz de Castro Leal,José Luis Braga
+a66,a247,Undirected,1,2012,2012,2012,André Luiz de Castro Leal,Eduardo Kinder Almentero
+a66,a370,Undirected,1,2012,2012,2012,André Luiz de Castro Leal,Herbet de Souza Cunha
+a247,a370,Undirected,1,2012,2012,2012,Eduardo Kinder Almentero,Herbet de Souza Cunha
+a368,a370,Undirected,1,2012,2012,2012,Henrique Prado de Sá Sousa,Herbet de Souza Cunha
+a388,a835,Undirected,1,2012,2012,2012,Ing. Daimara Mustelier Sanchidrian,Sasha Valdes Jimenez
+a388,a581,Undirected,1,2012,2012,2012,Ing. Daimara Mustelier Sanchidrian,Maikel Yelandi Leyva Vásquez
+a388,a492,Undirected,1,2012,2012,2012,Ing. Daimara Mustelier Sanchidrian,Karina Pérez Teruel
+a388,a389,Undirected,1,2012,2012,2012,Ing. Daimara Mustelier Sanchidrian,Ing. Karel Fernandez Cedeño
+a682,a897,Undirected,1,2012,2012,2012,Nathálea Salem,Vera Maria Benjamim Werneck
+a403,a897,Undirected,1,2012,2012,2012,Jacqueline Abreu do N. T. Rodrigues,Vera Maria Benjamim Werneck
+a403,a682,Undirected,1,2012,2012,2012,Jacqueline Abreu do N. T. Rodrigues,Nathálea Salem
+a641,a903,Undirected,1,2012,2012,2012,Mauro Brischke,Victor Francisco Araya Santander
+a400,a641,Undirected,1,2012,2012,2012,Ivonei Freitas da Silva,Mauro Brischke
+a579,a898,Undirected,1,2012,2012,2012,Ma. Laura Caliusco,Verónica Castañeda
+a550,a898,Undirected,1,2012,2012,2012,Luciana Ballejos,Verónica Castañeda
+a550,a579,Undirected,1,2012,2012,2012,Luciana Ballejos,Ma. Laura Caliusco
+a116,a563,Undirected,1,2012,2012,2012,Bárbara Stefani Ranieri,Luiz Eduardo Galvão Martins
+a116,a405,Undirected,1,2012,2012,2012,Bárbara Stefani Ranieri,Jaime Cazuhiro Ossada
+a58,a563,Undirected,1,2012,2012,2012,Anderson Belgamo,Luiz Eduardo Galvão Martins
+a58,a405,Undirected,1,2012,2012,2012,Anderson Belgamo,Jaime Cazuhiro Ossada
+a58,a116,Undirected,1,2012,2012,2012,Anderson Belgamo,Bárbara Stefani Ranieri
+a623,a699,Undirected,1,2012,2012,2012,Marisa Gomez,Omar Alimenti
+a521,a699,Undirected,1,2012,2012,2012,Leo Ordinez,Omar Alimenti
+a521,a623,Undirected,1,2012,2012,2012,Leo Ordinez,Marisa Gomez
+a434,a699,Undirected,1,2012,2012,2012,Jorge Marchetti,Omar Alimenti
+a434,a623,Undirected,1,2012,2012,2012,Jorge Marchetti,Marisa Gomez
+a434,a521,Undirected,1,2012,2012,2012,Jorge Marchetti,Leo Ordinez
+a265,a699,Undirected,1,2012,2012,2012,Emilia Rinland,Omar Alimenti
+a265,a623,Undirected,1,2012,2012,2012,Emilia Rinland,Marisa Gomez
+a265,a521,Undirected,1,2012,2012,2012,Emilia Rinland,Leo Ordinez
+a265,a434,Undirected,1,2012,2012,2012,Emilia Rinland,Jorge Marchetti
+a842,a916,Undirected,1,2013,2013,2013,Sheila Reinehr,Wilian Stancke
+a251,a657,Undirected,1,2013,2013,2013,Eliane Siegert,Milena Rota Sena Marques
+a302,a873,Undirected,1,2016,2016,2016,Fernanda Alencar,Teresa Maciel
+a346,a778,Undirected,1,2015,2015,2015,Gilberto Amado de Azevedo Cysneiros Filho,Ricardo André Cavalcante de Souza
+a730,a740,Undirected,1,2015,2015,2015,Pedro Nuno,Priscila Engiel
+a485,a740,Undirected,1,2015,2015,2015,Julio Cesar Sampaio do Prado Leite,Priscila Engiel
+a485,a730,Undirected,1,2015,2015,2015,Julio Cesar Sampaio do Prado Leite,Pedro Nuno
+a417,a816,Undirected,1,2015,2015,2015,Joanna Pivatelli,Roxana Portugal
+a417,a740,Undirected,1,2015,2015,2015,Joanna Pivatelli,Priscila Engiel
+a417,a730,Undirected,1,2015,2015,2015,Joanna Pivatelli,Pedro Nuno
+a417,a485,Undirected,1,2015,2015,2015,Joanna Pivatelli,Julio Cesar Sampaio do Prado Leite
+a719,a870,Undirected,1,2015,2015,2015,Paulo Lima,Tarcísio Pereira
+a239,a870,Undirected,1,2015,2015,2015,Edson Alves,Tarcísio Pereira
+a239,a719,Undirected,1,2015,2015,2015,Edson Alves,Paulo Lima
+a239,a404,Undirected,1,2015,2015,2015,Edson Alves,Jaelson Castro
+a239,a302,Undirected,1,2015,2015,2015,Edson Alves,Fernanda Alencar
+a353,a778,Undirected,1,2015,2015,2015,Glauber Henrique Camelo Batista,Ricardo André Cavalcante de Souza
+a346,a353,Undirected,1,2015,2015,2015,Gilberto Amado de Azevedo Cysneiros Filho,Glauber Henrique Camelo Batista
+a740,a816,Undirected,1,2015,2015,2015,Priscila Engiel,Roxana Portugal
+a127,a700,Undirected,1,2015,2015,2015,Carla Silva,Orlando Oliveira
+a527,a903,Undirected,1,2015,2015,2015,Leonardo Pereira Merlin,Victor Francisco Araya Santander
+a404,a527,Undirected,1,2015,2015,2015,Jaelson Castro,Leonardo Pereira Merlin
+a400,a527,Undirected,1,2015,2015,2015,Ivonei Freitas da Silva,Leonardo Pereira Merlin
+a400,a404,Undirected,1,2015,2015,2015,Ivonei Freitas da Silva,Jaelson Castro
+a30,a527,Undirected,1,2015,2015,2015,Alexandre Luiz de Borba Silva,Leonardo Pereira Merlin
+a30,a404,Undirected,1,2015,2015,2015,Alexandre Luiz de Borba Silva,Jaelson Castro
+a302,a440,Undirected,1,2015,2015,2015,Fernanda Alencar,Josenildo Melo
+a151,a440,Undirected,1,2015,2015,2015,Celso Agra,Josenildo Melo
+a93,a440,Undirected,1,2015,2015,2015,Aêda Sousa,Josenildo Melo
+a93,a151,Undirected,1,2015,2015,2015,Aêda Sousa,Celso Agra
+a341,a701,Undirected,1,2015,2015,2015,Geovanny Raura,Oscar Dieste
+a249,a701,Undirected,1,2015,2015,2015,Efrain R. Fonseca C,Oscar Dieste
+a730,a816,Undirected,1,2015,2015,2015,Pedro Nuno,Roxana Portugal
+a50,a270,Undirected,1,2016,2016,2016,Ana Holanda,Enyo Gonçalves
+a537,a657,Undirected,1,2013,2013,2013,Lisane de Brisolara,Milena Rota Sena Marques
+a37,a302,Undirected,1,2016,2016,2016,Aline Jaqueira,Fernanda Alencar
+a214,a873,Undirected,1,2016,2016,2016,Denise Assis,Teresa Maciel
+a214,a591,Undirected,1,2016,2016,2016,Denise Assis,Marcia Lucena
+a214,a302,Undirected,1,2016,2016,2016,Denise Assis,Fernanda Alencar
+a152,a873,Undirected,1,2016,2016,2016,Celso Sá Filho,Teresa Maciel
+a152,a591,Undirected,1,2016,2016,2016,Celso Sá Filho,Marcia Lucena
+a152,a302,Undirected,1,2016,2016,2016,Celso Sá Filho,Fernanda Alencar
+a152,a214,Undirected,1,2016,2016,2016,Celso Sá Filho,Denise Assis
+a93,a873,Undirected,1,2016,2016,2016,Aêda Sousa,Teresa Maciel
+a93,a591,Undirected,1,2016,2016,2016,Aêda Sousa,Marcia Lucena
+a93,a214,Undirected,1,2016,2016,2016,Aêda Sousa,Denise Assis
+a93,a152,Undirected,1,2016,2016,2016,Aêda Sousa,Celso Sá Filho
+a37,a873,Undirected,1,2016,2016,2016,Aline Jaqueira,Teresa Maciel
+a37,a591,Undirected,1,2016,2016,2016,Aline Jaqueira,Marcia Lucena
+a37,a214,Undirected,1,2016,2016,2016,Aline Jaqueira,Denise Assis
+a50,a302,Undirected,1,2016,2016,2016,Ana Holanda,Fernanda Alencar
+a37,a152,Undirected,1,2016,2016,2016,Aline Jaqueira,Celso Sá Filho
+a37,a93,Undirected,1,2016,2016,2016,Aline Jaqueira,Aêda Sousa
+a610,a719,Undirected,1,2016,2016,2016,Maria Lencastre,Paulo Lima
+a487,a610,Undirected,1,2016,2016,2016,Jéssyka Vilela,Maria Lencastre
+a302,a487,Undirected,1,2016,2016,2016,Fernanda Alencar,Jéssyka Vilela
+a270,a719,Undirected,1,2016,2016,2016,Enyo Gonçalves,Paulo Lima
+a270,a610,Undirected,1,2016,2016,2016,Enyo Gonçalves,Maria Lencastre
+a270,a302,Undirected,1,2016,2016,2016,Enyo Gonçalves,Fernanda Alencar
+a50,a719,Undirected,1,2016,2016,2016,Ana Holanda,Paulo Lima
+a50,a610,Undirected,1,2016,2016,2016,Ana Holanda,Maria Lencastre
+a50,a487,Undirected,1,2016,2016,2016,Ana Holanda,Jéssyka Vilela
+a50,a467,Undirected,1,2016,2016,2016,Ana Holanda,João Pimentel
+a50,a404,Undirected,1,2016,2016,2016,Ana Holanda,Jaelson Castro
+a249,a341,Undirected,1,2015,2015,2015,Efrain R. Fonseca C,Geovanny Raura
+a149,a701,Undirected,1,2015,2015,2015,Cecilia Hinojosa,Oscar Dieste
+a149,a341,Undirected,1,2015,2015,2015,Cecilia Hinojosa,Geovanny Raura
+a227,a756,Undirected,1,2014,2014,2014,Dércio Vieira,Rafael Soares
+a127,a376,Undirected,1,2014,2014,2014,Carla Silva,Hidelberg Albuquerque
+a24,a897,Undirected,1,2014,2014,2014,Alex Lins de Araújo,Vera Maria Benjamim Werneck
+a24,a566,Undirected,1,2014,2014,2014,Alex Lins de Araújo,Luiz Marcio Cysneiros
+a82,a485,Undirected,1,2014,2014,2014,Arndt von Staa,Julio Cesar Sampaio do Prado Leite
+a82,a368,Undirected,1,2014,2014,2014,Arndt von Staa,Henrique Prado de Sá Sousa
+a66,a82,Undirected,1,2014,2014,2014,André Luiz de Castro Leal,Arndt von Staa
+a756,a877,Undirected,1,2014,2014,2014,Rafael Soares,Thiago Cabral
+a749,a877,Undirected,1,2014,2014,2014,Rafael Ferreira,Thiago Cabral
+a749,a756,Undirected,1,2014,2014,2014,Rafael Ferreira,Rafael Soares
+a610,a877,Undirected,1,2014,2014,2014,Maria Lencastre,Thiago Cabral
+a610,a756,Undirected,1,2014,2014,2014,Maria Lencastre,Rafael Soares
+a610,a749,Undirected,1,2014,2014,2014,Maria Lencastre,Rafael Ferreira
+a227,a877,Undirected,1,2014,2014,2014,Dércio Vieira,Thiago Cabral
+a227,a749,Undirected,1,2014,2014,2014,Dércio Vieira,Rafael Ferreira
+a149,a249,Undirected,1,2015,2015,2015,Cecilia Hinojosa,Efrain R. Fonseca C
+a227,a610,Undirected,1,2014,2014,2014,Dércio Vieira,Maria Lencastre
+a203,a877,Undirected,1,2014,2014,2014,Darlan Arruda,Thiago Cabral
+a203,a756,Undirected,1,2014,2014,2014,Darlan Arruda,Rafael Soares
+a203,a749,Undirected,1,2014,2014,2014,Darlan Arruda,Rafael Ferreira
+a203,a610,Undirected,1,2014,2014,2014,Darlan Arruda,Maria Lencastre
+a203,a227,Undirected,1,2014,2014,2014,Darlan Arruda,Dércio Vieira
+a441,a693,Undirected,1,2014,2014,2014,Joseph Yoder,Nobukazu Yoshioka
+a378,a693,Undirected,1,2014,2014,2014,Hironori Washizaki,Nobukazu Yoshioka
+a378,a441,Undirected,1,2014,2014,2014,Hironori Washizaki,Joseph Yoder
+a244,a693,Undirected,1,2014,2014,2014,Eduardo B. Fernandez,Nobukazu Yoshioka
+a244,a441,Undirected,1,2014,2014,2014,Eduardo B. Fernandez,Joseph Yoder
+a244,a378,Undirected,1,2014,2014,2014,Eduardo B. Fernandez,Hironori Washizaki
+a630,a815,Undirected,1,2013,2013,2013,María Carmen Leonardi,Roxana Giandini
+a199,a376,Undirected,1,2014,2014,2014,Danielle Rousy,Hidelberg Albuquerque
+a19,a305,Undirected,1,2014,2014,2014,Alejandro Oliveros,Fernando J. Danyans
+a19,a637,Undirected,1,2014,2014,2014,Alejandro Oliveros,Matías L. Mastropietro
+a305,a637,Undirected,1,2014,2014,2014,Fernando J. Danyans,Matías L. Mastropietro
+a591,a754,Undirected,1,2015,2015,2015,Marcia Lucena,Rafael Pinto
+a570,a754,Undirected,1,2015,2015,2015,Lyrene Fernandes da Silva,Rafael Pinto
+a570,a591,Undirected,1,2015,2015,2015,Lyrene Fernandes da Silva,Marcia Lucena
+a387,a754,Undirected,1,2015,2015,2015,Ilueny Santos,Rafael Pinto
+a387,a570,Undirected,1,2015,2015,2015,Ilueny Santos,Lyrene Fernandes da Silva
+a453,a543,Undirected,1,2015,2015,2015,José Luis Braga,Lucas Gonçalves Cunha
+a175,a543,Undirected,1,2015,2015,2015,Cristiane Aparecida Lana,Lucas Gonçalves Cunha
+a175,a453,Undirected,1,2015,2015,2015,Cristiane Aparecida Lana,José Luis Braga
+a78,a543,Undirected,1,2015,2015,2015,Antonio de Padua Albuquerque Oliveira,Lucas Gonçalves Cunha
+a78,a453,Undirected,1,2015,2015,2015,Antonio de Padua Albuquerque Oliveira,José Luis Braga
+a78,a175,Undirected,1,2015,2015,2015,Antonio de Padua Albuquerque Oliveira,Cristiane Aparecida Lana
+a127,a178,Undirected,1,2014,2014,2014,Carla Silva,Cynara Lira de Carvalho Souza
+a748,a818,Undirected,1,2014,2014,2014,Rafael Duarte,Ruben Araújo
+a610,a818,Undirected,1,2014,2014,2014,Maria Lencastre,Ruben Araújo
+a610,a748,Undirected,1,2014,2014,2014,Maria Lencastre,Rafael Duarte
+a452,a818,Undirected,1,2014,2014,2014,José Júnior,Ruben Araújo
+a452,a748,Undirected,1,2014,2014,2014,José Júnior,Rafael Duarte
+a452,a610,Undirected,1,2014,2014,2014,José Júnior,Maria Lencastre
+a308,a818,Undirected,1,2014,2014,2014,Fernando Wanderley,Ruben Araújo
+a308,a748,Undirected,1,2014,2014,2014,Fernando Wanderley,Rafael Duarte
+a308,a610,Undirected,1,2014,2014,2014,Fernando Wanderley,Maria Lencastre
+a308,a452,Undirected,1,2014,2014,2014,Fernando Wanderley,José Júnior
+a199,a200,Undirected,1,2014,2014,2014,Danielle Rousy,Danilo Tavares
+a127,a200,Undirected,1,2014,2014,2014,Carla Silva,Danilo Tavares
+a130,a783,Undirected,1,2014,2014,2014,Carlos Eduardo C. Braga,Ricardo de Almeida Falbo
+a111,a783,Undirected,1,2014,2014,2014,Bruno Nandolpho Machado,Ricardo de Almeida Falbo
+a111,a130,Undirected,1,2014,2014,2014,Bruno Nandolpho Machado,Carlos Eduardo C. Braga
+a418,a518,Undirected,1,2026,2026,2026,Joaquina Nogueira,Leandro Antonelli
