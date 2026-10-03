@@ -476,12 +476,16 @@
           tooltip: { formatter: (x) => `<b>${x.data.leg.from.year} → ${x.data.leg.to.year}</b><br>${esc(x.data.leg.from.city)} → ${esc(x.data.leg.to.city)}` },
         },
         {
-          id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true,
-          effect: { show: true, period: 1.6, trailLength: 0.35, symbol: "arrow", symbolSize: 10, color: t.series[1], loop: true },
-          lineStyle: { color: t.series[1], width: 3, curveness: 0.28, opacity: 0.9 },
-          label: { show: true, position: "insideEndTop", formatter: (x) => x.data.year, distance: 6,
+          id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true, polyline: true,
+          lineStyle: { color: t.series[1], width: 3, opacity: 0.95, cap: "round" },
+          data: [],
+        },
+        {
+          id: "head", type: "scatter", coordinateSystem: "geo", zlevel: 4, silent: true,
+          symbol: "arrow", symbolSize: [12, 14], itemStyle: { color: t.series[1], borderColor: t.surface, borderWidth: 1 },
+          label: { show: false, position: "top", distance: 8, formatter: (x) => x.data.year,
             color: t.text, fontSize: 14, fontWeight: 700, textBorderColor: t.surface, textBorderWidth: 4 },
-          data: current.map((l) => ({ coords: [l.from.coord, l.to.coord], year: l.to.year })),
+          data: [],
         },
         {
           id: "cities", type: "scatter", coordinateSystem: "geo", zlevel: 3,
@@ -584,19 +588,56 @@
             lineStyle: { color: mix(rs, re, x.t), width: 2, curveness: 0.28,
               type: x.from.virtual || x.to.virtual ? "dashed" : "solid", opacity: 0.25 } })) },
         { id: "flight", data: [] },  // some enquanto a câmera se move
+        { id: "head", data: [] },
       ],
     });
     setFlag(l.to);
     const v = frameLeg(l);
     const step = mapAnim.step;
-    // a linha laranja e a seta só entram quando o mapa parou: ficam sincronizadas com a geografia
+    // o traçado só começa quando o mapa parou: fica sincronizado com a geografia
     flyTo(v.center, v.zoom, 1100, () => {
       if (mapAnim.step !== step || !mapAnim.timer) return;
-      chart("chMap").setOption({ series: [{ id: "flight",
-        effect: { show: true, period: Math.max(1.2, (stepDuration() - 1100) / 1000 * 0.6), trailLength: 0.35,
-          symbol: "arrow", symbolSize: 11, color: t.series[1], loop: true },
-        data: [{ coords: [l.from.coord, l.to.coord], year: l.to.year }] }] });
+      drawFlight(l, Math.max(1200, (stepDuration() - 1100) * 0.7));
     });
+  }
+
+
+  // desenha o voo: a linha laranja cresce atrás da ponta da seta, pela mesma curva das rotas
+  let flightRaf = null;
+  function drawFlight(l, ms) {
+    const c = chart("chMap");
+    const p1 = c.convertToPixel("geo", l.from.coord), p2 = c.convertToPixel("geo", l.to.coord);
+    if (!p1 || !p2 || !c.getWidth()) return;  // mapa ainda sem tamanho (seção oculta)
+    const cv = 0.28;  // mesma curvatura da série "legs" (curva quadrática em pixels, como no ECharts)
+    const cp = [(p1[0] + p2[0]) / 2 - (p1[1] - p2[1]) * cv, (p1[1] + p2[1]) / 2 - (p2[0] - p1[0]) * cv];
+    const at = (u) => [
+      (1 - u) * (1 - u) * p1[0] + 2 * (1 - u) * u * cp[0] + u * u * p2[0],
+      (1 - u) * (1 - u) * p1[1] + 2 * (1 - u) * u * cp[1] + u * u * p2[1]];
+    const tangent = (u) => [2 * (1 - u) * (cp[0] - p1[0]) + 2 * u * (p2[0] - cp[0]),
+                            2 * (1 - u) * (cp[1] - p1[1]) + 2 * u * (p2[1] - cp[1])];
+    const N = 80;
+    const geoPts = Array.from({ length: N + 1 }, (_, i) => c.convertFromPixel("geo", at(i / N)));
+    const step = mapAnim.step;
+    const t0 = performance.now();
+    const ease = (x) => 1 - Math.pow(1 - x, 2);  // desacelera na chegada
+    cancelAnimationFrame(flightRaf);
+    const frame = (now) => {
+      if (mapAnim.step !== step || !mapAnim.timer) return;
+      const k = ease(Math.min(1, (now - t0) / ms));
+      const n = Math.floor(k * N);
+      const head = c.convertFromPixel("geo", at(k));
+      const path = geoPts.slice(0, n + 1).concat([head]);
+      const [dx, dy] = tangent(Math.max(k, 0.001));
+      const rot = (Math.atan2(-dy, dx) * 180) / Math.PI - 90;  // o símbolo "arrow" aponta para cima
+      const done = k >= 1;
+      c.setOption({ series: [
+        { id: "flight", data: [{ coords: path }] },
+        { id: "head", data: [{ value: head, year: l.to.year, symbolRotate: rot,
+          label: { show: done } }] },
+      ] });
+      if (!done) flightRaf = requestAnimationFrame(frame);
+    };
+    flightRaf = requestAnimationFrame(frame);
   }
 
   function stopMap(keepCaption) {
@@ -607,6 +648,7 @@
     $("mapPlay").setAttribute("aria-pressed", "false");
     if (!keepCaption) $("mapCaption").textContent = "";
     cancelAnimationFrame(tween);
+    cancelAnimationFrame(flightRaf);
     renderMap();
   }
 
