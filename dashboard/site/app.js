@@ -298,16 +298,22 @@
     const box = $("authorDetail");
     box.hidden = false;
     const co = new Map();
-    for (const p of s.papers) for (const a of p.authors) if (a !== s.name) co.set(a, (co.get(a) || 0) + 1);
-    const topCo = [...co.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 5);
+    for (const p of s.papers) for (const a of new Set(p.authors)) if (a !== s.name) co.set(a, (co.get(a) || 0) + 1);
+    const collaborators = [...co.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     const active = new Set(s.papers.map((p) => p.year)).size;
     box.innerHTML = `<h4>${esc(s.name)} <span class="tag">${s.n} artigo${s.n > 1 ? "s" : ""}</span></h4>` +
-      `<p class="meta">${s.first === s.last ? s.first : `${s.first}–${s.last}`} · ${active} ano${active > 1 ? "s" : ""} com artigo · ${s.coauthors} coautores` +
-      (topCo.length ? `<br>Principais coautores: ${topCo.map(([a, n]) => `${esc(a)} (${n})`).join(", ")}` : "") + `</p>` +
-      `<div class="chart author-chart" id="chAuthorYears"></div><ol>` +
+      `<p class="meta">${s.first === s.last ? s.first : `${s.first}–${s.last}`} · ${active} ano${active > 1 ? "s" : ""} com artigo · ${s.coauthors} coautores</p>` +
+      `<div class="chart author-chart" id="chAuthorYears"></div>` +
+      `<div class="author-collaboration"><div class="author-papers"><h4>Artigos</h4><ol>` +
       [...s.papers].sort((a, b) => a.year - b.year).map((p) =>
         `<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a>` +
-        `<div class="meta">${p.year} · ${esc(p.authors.join("; "))}${p.doi ? ` · DOI ${esc(p.doi)}` : ""}</div></li>`).join("") + "</ol>";
+        `<div class="meta">${p.year} · ${esc(p.authors.join("; "))}${p.doi ? ` · DOI ${esc(p.doi)}` : ""}</div></li>`).join("") + `</ol></div>` +
+      `<aside class="coauthor-panel" aria-label="Colaborações de ${esc(s.name)}"><h4>Coautores</h4>` +
+      `<p class="meta">Artigos juntos no período ${state.from}–${state.to}. Clique em um nome para explorar suas colaborações.</p>` +
+      (collaborators.length ? `<ul class="coauthor-list">` + collaborators.map(([a, n]) =>
+        `<li><button type="button" class="coauthor-link" data-coauthor="${esc(a)}"><span>${esc(a)}</span>` +
+        `<span class="coauthor-badge" aria-label="${n} artigo${n === 1 ? "" : "s"} juntos">${n}</span></button></li>`).join("") + `</ul>`
+        : `<p class="note">Sem coautores neste período.</p>`) + `</aside></div>`;
 
     // produção do autor por ano (anos sem artigo = 0), no período filtrado
     if (charts.chAuthorYears) { charts.chAuthorYears.dispose(); delete charts.chAuthorYears; }
@@ -332,6 +338,11 @@
   $("authorTable").addEventListener("click", (e) => {
     const tr = e.target.closest("tr[data-name]");
     if (tr) showAuthor(tr.dataset.name);
+  });
+
+  $("authorDetail").addEventListener("click", (e) => {
+    const button = e.target.closest("button[data-coauthor]");
+    if (button) showAuthor(button.dataset.coauthor);
   });
 
   // ------------------------------------------------------------ edições e trilhas
@@ -453,6 +464,9 @@
     const current = mapAnim.step >= 0 && mapAnim.step < legs.length ? [legs[mapAnim.step]] : [];
     chart("chMap").setOption({
       ...base(t),
+      // A câmera e o voo já são animados por requestAnimationFrame. Interpolar
+      // cada atualização de novo faz a ponta atrasar e cortar a curva da rota.
+      animation: false,
       tooltip: { ...base(t).tooltip, trigger: "item" },
       geo: {
         map: "world", roam: true, center: HOME.center, zoom: HOME.zoom, scaleLimit: { min: 1, max: 12 },
@@ -476,12 +490,12 @@
           tooltip: { formatter: (x) => `<b>${x.data.leg.from.year} → ${x.data.leg.to.year}</b><br>${esc(x.data.leg.from.city)} → ${esc(x.data.leg.to.city)}` },
         },
         {
-          id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true, polyline: true,
+          id: "flight", type: "lines", coordinateSystem: "geo", zlevel: 2, silent: true, polyline: true, animation: false,
           lineStyle: { color: t.series[1], width: 3, opacity: 0.95, cap: "round" },
           data: [],
         },
         {
-          id: "head", type: "scatter", coordinateSystem: "geo", zlevel: 4, silent: true,
+          id: "head", type: "scatter", coordinateSystem: "geo", zlevel: 4, silent: true, animation: false,
           symbol: "arrow", symbolSize: [12, 14], itemStyle: { color: t.series[1], borderColor: t.surface, borderWidth: 1 },
           label: { show: false, position: "top", distance: 8, formatter: (x) => x.data.year,
             color: t.text, fontSize: 14, fontWeight: 700, textBorderColor: t.surface, textBorderWidth: 4 },
@@ -539,6 +553,14 @@
   // move a "câmera" do mapa suavemente até center/zoom
   function flyTo(center, zoom, ms = 1100, onDone) {
     const c = chart("chMap");
+    // Nenhum traçado do enquadramento anterior pode aparecer durante o zoom,
+    // inclusive na volta à visão geral ao terminar a reprodução.
+    cancelAnimationFrame(flightRaf);
+    flightRaf = null;
+    c.setOption({ series: [
+      { id: "flight", data: [] },
+      { id: "head", data: [] },
+    ] });
     const g = c.getOption().geo[0];
     const c0 = g.center || HOME.center, z0 = g.zoom || HOME.zoom;
     cancelAnimationFrame(tween);
@@ -578,7 +600,7 @@
 
   // destaca o trecho atual sem redesenhar o mapa (mantém a transição de zoom)
   function focusLeg(l) {
-    const t = theme();
+    cancelAnimationFrame(flightRaf);
     const rs = css("--ramp-start"), re = css("--ramp-end");
     const legs = periodLegs();
     chart("chMap").setOption({
