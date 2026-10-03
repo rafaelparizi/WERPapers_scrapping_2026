@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WER Bibliometria</title>
   <meta name="description" content="Indicadores bibliométricos do WER - Workshop on Requirements Engineering (1998-2026)">
-  <link rel="stylesheet" href="style.css?v=20261003-collaboration-1">
+  <link rel="stylesheet" href="style.css?v=20261003-ranking-1">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 </head>
@@ -52,24 +52,24 @@
         <div class="kpis" id="kpis"></div>
         <div class="grid">
           <figure class="card">
-            <figcaption><h3>Artigos por ano</h3></figcaption>
+            <figcaption><div class="cap-row"><h3>Artigos por ano</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Artigos por ano" aria-describedby="tipPapers" aria-expanded="false">?</button><span class="tip" id="tipPapers" role="tooltip" hidden><strong>Como é calculado</strong>Conta os artigos publicados em cada edição no período selecionado. Prefácios são excluídos; cada artigo conta uma vez.</span></span></div></figcaption>
             <div class="chart" id="chPapers"></div>
           </figure>
           <figure class="card">
-            <figcaption><h3>Autores distintos por ano</h3></figcaption>
+            <figcaption><div class="cap-row"><h3>Autores distintos por ano</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Autores distintos por ano" aria-describedby="tipAuthorsYear" aria-expanded="false">?</button><span class="tip" id="tipAuthorsYear" role="tooltip" hidden><strong>Como é calculado</strong>Conta os autores com pelo menos um artigo em cada ano, usando nomes normalizados. Um autor conta uma vez por ano, mesmo que publique vários artigos.</span></span></div></figcaption>
             <div class="chart" id="chAuthorsYear"></div>
           </figure>
           <figure class="card">
-            <figcaption><h3>Média de autores por artigo</h3></figcaption>
+            <figcaption><div class="cap-row"><h3>Média de autores por artigo</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Média de autores por artigo" aria-describedby="tipAvgAuthors" aria-expanded="false">?</button><span class="tip" id="tipAvgAuthors" role="tooltip" hidden><strong>Como é calculado</strong>Soma o número de autores de todos os artigos do ano e divide pelo número de artigos. Uma pessoa que participa de vários artigos entra na contagem de cada artigo.</span></span></div></figcaption>
             <div class="chart" id="chAvgAuthors"></div>
           </figure>
           <figure class="card">
-            <figcaption><h3>Número de autores por artigo</h3></figcaption>
+            <figcaption><div class="cap-row"><h3>Número de autores por artigo</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Número de autores por artigo" aria-describedby="tipTeamSize" aria-expanded="false">?</button><span class="tip" id="tipTeamSize" role="tooltip" hidden><strong>Como é calculado</strong>Agrupa os artigos pela quantidade de autores: autoria individual, duplas, trios e assim por diante. A altura da barra indica quantos artigos têm aquele tamanho de equipe no período.</span></span></div></figcaption>
             <div class="chart" id="chTeamSize"></div>
           </figure>
-          <figure class="card wide">
+          <figure class="card wide decade-card">
             <figcaption>
-              <h3>Produção por década</h3>
+              <div class="cap-row"><h3>Produção por década</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Produção por década" aria-describedby="tipDecades" aria-expanded="false">?</button><span class="tip" id="tipDecades" role="tooltip" hidden><strong>Como é calculado</strong>Agrupa os artigos por década dentro do período selecionado. A barra mostra artigos divididos pelo número de edições com artigos naquela década; o rótulo também apresenta o total de artigos. Autores são pessoas distintas na década; estreantes fizeram sua primeira publicação no WER naquela década, considerando toda a série.</span></span></div>
               <p class="note">As décadas têm números diferentes de edições (1990: só 1998–1999; 2020: 2020–2026), por isso o gráfico compara a média de artigos por edição. O total está no rótulo de cada barra.</p>
             </figcaption>
             <div class="decades">
@@ -103,8 +103,8 @@
             <div class="chart" id="chNewAuthors"></div>
           </figure>
           <figure class="card wide">
-            <figcaption><h3>Autores mais produtivos</h3><p class="note">Top 20 por número de artigos no período. Veja todos em <a href="#autores">Autores</a>.</p></figcaption>
-            <div class="chart" id="chTopAuthors"></div>
+            <figcaption><div class="cap-row"><h3>Autores mais produtivos</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Autores mais produtivos" aria-describedby="tipTopAuthors" aria-expanded="false">?</button><span class="tip" id="tipTopAuthors" role="tooltip" hidden><strong>Como é calculado</strong>Exibe a quantidade escolhida de autores com mais artigos no período selecionado, usando nomes normalizados. Cada artigo conta uma vez para cada autor, sem dividir a contagem entre coautores. Empates são ordenados por nome; clique em uma barra para abrir o autor.</span></span></div><label class="ranking-control" for="topAuthorsCount">Quantidade de autores <input id="topAuthorsCount" type="number" min="1" step="1" value="20" inputmode="numeric"></label><p class="note" id="topAuthorsNote"></p><p class="note">Veja todos em <a href="#autores">Autores</a>.</p></figcaption>
+            <div class="ranking-chart-wrap"><div class="chart" id="chTopAuthors"></div></div>
           </figure>
         </div>
       </section>
@@ -113,7 +113,7 @@
       <section class="view" data-view="autores" aria-label="Autores" hidden>
         <div class="card table-card">
           <div class="table-head">
-            <h3>Todos os autores</h3>
+            <div class="cap-row"><h3>Todos os autores</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Todos os autores" aria-describedby="tipAuthors" aria-expanded="false">?</button><span class="tip" id="tipAuthors" role="tooltip" hidden><strong>Como é calculado</strong>Mostra autores que publicaram no período selecionado. Primeiro e último ano, artigos e coautores são calculados nesse período. Coautores são pessoas distintas que assinaram artigos juntos. Clique no autor para ver artigos e colaboradores; os badges contam artigos em conjunto.</span></span></div>
             <input id="authorSearch" type="search" placeholder="Buscar autor..." aria-label="Buscar autor">
           </div>
           <div class="table-wrap">
@@ -136,7 +136,7 @@
         <figure class="card map-card">
           <figcaption class="map-head">
             <div>
-              <h3>A trajetória do WER pelas cidades-sede</h3>
+              <div class="cap-row"><h3>A trajetória do WER pelas cidades-sede</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: A trajetória do WER pelas cidades-sede" aria-describedby="tipMap" aria-expanded="false">?</button><span class="tip" id="tipMap" role="tooltip" hidden><strong>Como é calculado</strong>Os pontos representam cidades-sede; o tamanho indica quantas edições ocorreram ali no período. As setas ligam sedes de edições consecutivas, omitindo deslocamentos dentro da mesma cidade. Trechos tracejados envolvem edições virtuais. A cor indica o ano; a reprodução percorre os trechos em ordem.</span></span></div>
               <p class="note">Cada seta liga a sede de um ano à do ano seguinte; o número junto à ponta é o ano da edição de chegada. Pontos maiores = mais edições. Trechos tracejados envolvem edições virtuais.</p>
             </div>
             <div class="map-controls">
@@ -164,11 +164,11 @@
         </figure>
         <div class="grid">
           <figure class="card">
-            <figcaption><h3>Edições por país-sede</h3></figcaption>
+            <figcaption><div class="cap-row"><h3>Edições por país-sede</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Edições por país-sede" aria-describedby="tipCountries" aria-expanded="false">?</button><span class="tip" id="tipCountries" role="tooltip" hidden><strong>Como é calculado</strong>Conta as edições por país-sede no período selecionado, conforme os metadados do evento. Edições virtuais usam o país da sede informada. Este indicador não representa o país dos autores.</span></span></div></figcaption>
             <div class="chart" id="chCountries"></div>
           </figure>
           <div class="card table-card flush">
-            <h3>Edições</h3>
+            <div class="cap-row"><h3>Edições</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Edições" aria-describedby="tipEditions" aria-expanded="false">?</button><span class="tip" id="tipEditions" role="tooltip" hidden><strong>Como é calculado</strong>Lista ano, edição, sede e total de artigos no período selecionado, sem prefácios. Local e modalidade virtual seguem os dados das páginas das edições.</span></span></div>
             <div class="table-wrap">
               <table id="editionTable">
                 <thead><tr><th class="num">Ano</th><th>Edição</th><th>Sede</th><th>País</th><th class="num">Artigos</th></tr></thead>
@@ -183,12 +183,12 @@
       <!-- ============================================================ Trilhas -->
       <section class="view" data-view="trilhas" aria-label="Trilhas" hidden>
         <figure class="card">
-          <figcaption><h3>Artigos por trilha (2018 em diante)</h3>
+          <figcaption><div class="cap-row"><h3>Artigos por trilha (2018 em diante)</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Artigos por trilha (2018 em diante)" aria-describedby="tipTracks" aria-expanded="false">?</button><span class="tip" id="tipTracks" role="tooltip" hidden><strong>Como é calculado</strong>Conta artigos por ano e grupo de trilha a partir de 2018. As barras empilhadas mostram a contribuição de cada grupo para o total anual. As trilhas são agrupadas em Research, Masters & Doctoral, Industry, Tools e Video papers.</span></span></div>
             <p class="note">A partir de 2018 os artigos são organizados por tipo de submissão. Até 2017 eram organizados em sessões temáticas (lista abaixo).</p></figcaption>
           <div class="chart" id="chTracks"></div>
         </figure>
         <div class="card table-card">
-          <h3>Sessões temáticas (1998–2017)</h3>
+          <div class="cap-row"><h3>Sessões temáticas (1998–2017)</h3><span class="info"><button class="info-btn" type="button" aria-label="Como é calculado: Sessões temáticas (1998–2017)" aria-describedby="tipSessions" aria-expanded="false">?</button><span class="tip" id="tipSessions" role="tooltip" hidden><strong>Como é calculado</strong>Lista as seções originais de cada edição até 2017 e o número de artigos em cada uma, respeitando o período selecionado. Os nomes das sessões variam entre edições e não são diretamente equivalentes às trilhas mais recentes.</span></span></div>
           <div id="sessions" class="sessions"></div>
         </div>
       </section>
@@ -224,6 +224,6 @@
     <footer class="site-footer">Desenvolvido por Rafael Parizi</footer>
   </div>
 
-  <script src="app.js?v=20261003-collaboration-1"></script>
+  <script src="app.js?v=20261003-ranking-1"></script>
 </body>
 </html>

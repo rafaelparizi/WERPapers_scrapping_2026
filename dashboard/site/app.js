@@ -16,7 +16,7 @@
   }
 
   const TRACKS = ["Research", "Masters & Doctoral", "Industry", "Tools", "Video papers"];
-  const state = { from: minYear, to: maxYear, sort: "n", asc: false, search: "" };
+  const state = { from: minYear, to: maxYear, sort: "n", asc: false, search: "", topAuthors: 20 };
   const charts = {};
 
   // ------------------------------------------------------------ utilidades
@@ -135,8 +135,18 @@
       ["Autores por artigo", fmt(avg, 2), "média"],
       ["Autores com 1 artigo", nAuth ? `${fmt((100 * single) / nAuth, 0)}%` : "–", `${fmt(single)} de ${fmt(nAuth)}`],
     ];
-    $("kpis").innerHTML = items.map(([l, v, h]) =>
-      `<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="hint">${h}</div></div>`).join("");
+    const explanations = [
+      "Total de artigos no período selecionado, excluindo prefácios. Cada artigo conta uma vez.",
+      "Pessoas distintas com pelo menos um artigo no período, usando nomes normalizados. Cada pessoa conta uma vez.",
+      "Número de anos com artigos no período selecionado; cada ano corresponde a uma edição do WER.",
+      "Soma das quantidades de autores de cada artigo, dividida pelo total de artigos do período.",
+      "Percentual dos autores do período que assinam exatamente um artigo nesse período. O histórico fora do filtro não entra no cálculo.",
+    ];
+    $("kpis").innerHTML = items.map(([l, v, h], i) =>
+      `<div class="kpi"><div class="cap-row"><div class="label">${l}</div><span class="info">` +
+      `<button class="info-btn" type="button" aria-label="Como é calculado: ${l}" aria-describedby="tipKpi${i}" aria-expanded="false">?</button>` +
+      `<span class="tip" id="tipKpi${i}" role="tooltip" hidden><strong>Como é calculado</strong>${explanations[i]}</span>` +
+      `</span></div><div class="value">${v}</div><div class="hint">${h}</div></div>`).join("");
   }
 
   // ------------------------------------------------------------ gráficos: produção e autoria
@@ -210,7 +220,11 @@
       series: [{ type: "bar", data: hist, itemStyle: barStyle(t.series[0]), barMaxWidth: 36 }],
     }, true);
 
-    const top = [...authorStats].sort((a, b) => b.n - a.n || a.name.localeCompare(b.name)).slice(0, 20).reverse();
+    const top = [...authorStats].sort((a, b) => b.n - a.n || a.name.localeCompare(b.name)).slice(0, state.topAuthors).reverse();
+    $("topAuthorsCount").max = Math.max(1, firstYear.size);
+    $("topAuthorsNote").textContent = `Exibindo ${top.length} de ${authorStats.length} autores por número de artigos no período.`;
+    $("chTopAuthors").style.height = `${Math.max(320, top.length * 26 + 60)}px`;
+    chart("chTopAuthors").resize();
     if (!top.length) return empty("chTopAuthors", "Sem artigos no período");
     chart("chTopAuthors").setOption({
       ...base(t),
@@ -228,6 +242,13 @@
     chart("chTopAuthors").on("click", (x) => openAuthor(x.name));
   }
 
+  $("topAuthorsCount").addEventListener("change", (e) => {
+    const value = Number(e.target.value);
+    state.topAuthors = Number.isFinite(value) && value >= 1
+      ? Math.min(Math.max(1, firstYear.size), Math.floor(value)) : 20;
+    e.target.value = state.topAuthors;
+    renderProduction();
+  });
 
   // ------------------------------------------------------------ produção por década
   function renderDecades() {
@@ -731,6 +752,7 @@
 
 
   // ------------------------------------------------------------ botões "?" (explicações)
+  let infoTipsBound = false;
   function setupInfoTips() {
     const close = (except) => document.querySelectorAll(".info").forEach((w) => {
       if (w === except) return;
@@ -738,6 +760,8 @@
       w.querySelector(".info-btn").setAttribute("aria-expanded", "false");
     });
     document.querySelectorAll(".info").forEach((w) => {
+      if (w.dataset.tipBound) return;
+      w.dataset.tipBound = "true";
       const btn = w.querySelector(".info-btn"), tip = w.querySelector(".tip");
       const show = () => {
         close(w);
@@ -755,6 +779,8 @@
       btn.addEventListener("focus", show);
       btn.addEventListener("blur", () => setTimeout(() => { if (!w.matches(":hover")) close(); }, 0));
     });
+    if (infoTipsBound) return;
+    infoTipsBound = true;
     document.addEventListener("click", (e) => { if (!e.target.closest(".info")) close(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
   }
@@ -763,6 +789,7 @@
   function render() {
     aggregate();
     renderKpis();
+    setupInfoTips();
     renderProduction();
     renderDecades();
     renderAuthorTable();
